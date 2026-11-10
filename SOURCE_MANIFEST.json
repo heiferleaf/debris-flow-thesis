@@ -50,10 +50,10 @@
   },
   {
     "path": "README.md",
-    "bytes": 14110,
-    "source_sha256": "61b6fb6e808be26feb46a524552991480d517f5f71da784e88df066ac011035f",
-    "export_sha256": "61b6fb6e808be26feb46a524552991480d517f5f71da784e88df066ac011035f",
-    "scope": "EXP-008-only"
+    "bytes": 13819,
+    "source_sha256": "f85d7a276101850dd06e475a9d572d3081070eb0a96dbe3b91fa9f1ca9461c6e",
+    "export_sha256": "f85d7a276101850dd06e475a9d572d3081070eb0a96dbe3b91fa9f1ca9461c6e",
+    "scope": "EXP-008-only; preserves remote README edit with two factual wording corrections"
   },
   {
     "path": "catalog.json",
@@ -176,10 +176,10 @@
   },
   {
     "path": "docs/process/experiments/EXP-008-跨场景MIL复现实验报告.md",
-    "bytes": 14110,
-    "source_sha256": "61b6fb6e808be26feb46a524552991480d517f5f71da784e88df066ac011035f",
-    "export_sha256": "61b6fb6e808be26feb46a524552991480d517f5f71da784e88df066ac011035f",
-    "scope": "EXP-008-only"
+    "bytes": 13819,
+    "source_sha256": "f85d7a276101850dd06e475a9d572d3081070eb0a96dbe3b91fa9f1ca9461c6e",
+    "export_sha256": "f85d7a276101850dd06e475a9d572d3081070eb0a96dbe3b91fa9f1ca9461c6e",
+    "scope": "EXP-008-only; preserves remote README edit with two factual wording corrections"
   },
   {
     "path": "docs/process/experiments/EXP-008-输入与时间轴核查.md",
