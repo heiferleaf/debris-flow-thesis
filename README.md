@@ -1,44 +1,106 @@
-# 泥石流识别：实验代码与结果归档
+# EXP-008：视频级弱监督MIL方法重实现
 
-每个登记实验对应一个分支；仅收最终有效运行。没有训练结果的设计明确标记。原始数据不公开，部分历史材料缺失，不能据此宣称所有实验均已端到端复现。
+本报告只对应最终有效运行 **`mil-v2-150-full`**，使用论文的三项MIL损失，不使用片段BCE。其余监督或筛选对照不属于本报告的实验配置。
 
-共享代码保持原相对路径；输入为元信息说明及冻结小清单。已回放通过的小头权重随分支保存；其余权重尚未完成本轮验证，未上传。
+## 研究目的与论文关系
 
-## 实验入口
+参考Wu等2025年的《Deep learning-based debris flow hazard detection and recognition system: a case study》（Scientific Reports 15:6789，DOI：10.1038/s41598-025-86471-4），检验只有整条视频正负标签时，视频片段特征与三项MIL损失能否完成泥石流识别。
 
-- [EXP-003：单帧迁移试点](https://github.com/heiferleaf/debris-flow-thesis/tree/codex/EXP-003) — 历史试点；原始指标文件缺失
-- [EXP-004：外部负图片及本地冒烟](https://github.com/heiferleaf/debris-flow-thesis/tree/codex/EXP-004) — 准备与冒烟；无独立正式成绩
-- [EXP-005：单帧正式基线](https://github.com/heiferleaf/debris-flow-thesis/tree/codex/EXP-005) — 已运行；原始指标文件缺失
-- [EXP-006：二维CNN与时序头](https://github.com/heiferleaf/debris-flow-thesis/tree/codex/EXP-006) — 最终修订运行已完成
-- [EXP-008：论文三项MIL损失重实现](https://github.com/heiferleaf/debris-flow-thesis/tree/codex/EXP-008) — 最终150条重跑及头权重回放通过
-- [EXP-009：强标签全参数微调](https://github.com/heiferleaf/debris-flow-thesis/tree/codex/EXP-009) — 最终无增强运行已完成
-- [EXP-010：图像复核级联](https://github.com/heiferleaf/debris-flow-thesis/tree/codex/EXP-010) — 未训练草案
-- [EXP-011：弱标签负包超阈惩罚](https://github.com/heiferleaf/debris-flow-thesis/tree/codex/EXP-011) — 有效阴性实验；头权重回放通过
-- [EXP-012：强标签整视频上下文](https://github.com/heiferleaf/debris-flow-thesis/tree/codex/EXP-012) — 有效中性实验；头权重回放通过
-- [EXP-013：历史全量训练设想](https://github.com/heiferleaf/debris-flow-thesis/tree/codex/EXP-013) — 未执行草案
-- [EXP-014：增大帧间隔](https://github.com/heiferleaf/debris-flow-thesis/tree/codex/EXP-014) — 最终对照已完成
-- [EXP-015：原间隔重采样草案](https://github.com/heiferleaf/debris-flow-thesis/tree/codex/EXP-015) — 未执行草案
-- [EXP-016：RGB与帧差](https://github.com/heiferleaf/debris-flow-thesis/tree/codex/EXP-016) — 双种子开发实验完成
-- [EXP-017：RGB场次分组五折参照](https://github.com/heiferleaf/debris-flow-thesis/tree/codex/EXP-017) — 成功续跑后的五折完成
-- [EXP-018：正负配对排序约束](https://github.com/heiferleaf/debris-flow-thesis/tree/codex/EXP-018) — 三组匹配开发实验完成
-- [EXP-019：真实顺序与固定置换](https://github.com/heiferleaf/debris-flow-thesis/tree/codex/EXP-019) — 匹配开发实验完成
-- [EXP-020：简化分类头小试](https://github.com/heiferleaf/debris-flow-thesis/tree/codex/EXP-020) — 配对开发实验完成
-- [EXP-021：局部时空能量](https://github.com/heiferleaf/debris-flow-thesis/tree/codex/EXP-021) — 有效阴性开发实验完成
-- [EXP-022：线性头完整开发五折](https://github.com/heiferleaf/debris-flow-thesis/tree/codex/EXP-022) — 完整五折及结果复核完成
-- [EXP-023：时间跨度受控对照](https://github.com/heiferleaf/debris-flow-thesis/tree/codex/EXP-023) — 未执行草案
-- [EXP-024：连续两窗确认](https://github.com/heiferleaf/debris-flow-thesis/tree/codex/EXP-024) — 已有预测上的有限开发比较完成
-- [EXP-025：完整开发连续确认方案](https://github.com/heiferleaf/debris-flow-thesis/tree/codex/EXP-025) — 元数据覆盖检查；未完成全量评价
-- [EXP-026：三状态与跨界软目标](https://github.com/heiferleaf/debris-flow-thesis/tree/codex/EXP-026) — 历史设计；未训练
-- [EXP-027：时间组成三锚点](https://github.com/heiferleaf/debris-flow-thesis/tree/codex/EXP-027) — 未采用设计；未训练
-- [EXP-028：逐片段参照草案](https://github.com/heiferleaf/debris-flow-thesis/tree/codex/EXP-028) — 已暂停设计；未训练
-- [EXP-029：局部三类头与跨片段上下文](https://github.com/heiferleaf/debris-flow-thesis/tree/codex/EXP-029) — 当前设计；未训练
+本实验是论文**方法重实现**，与原论文有以下明确差异：
 
-## 复算与环境
+- 原论文先微调C3D，取FC6的4096维片段特征；本实验使用Kinetics400预训练的R(2+1)D-18，冻结骨干，取512维特征。
+- 原论文检测头为4096→1024→512→32→1；本实验按输入维度调整为512→128→64→32→1。
+- 原论文完整系统另有图像复核阶段；本实验只实现视频特征提取和检测评分，没有该复核级联。
+- 原论文先提取连续片段特征，再重组为48个特征；本实验直接选取48个片段提取特征，两者不能称为完全一致的采样实现。
 
-EXP-008/011/012冻结头回放命令：`python -B experiments/tools/verify_frozen_head_archive.py --out <新的核对记录.json>`。需先在本地恢复原特征缓存和NPZ标签；它们的指纹在`data/metadata/experiment-archive/frozen-head-replay-20261110.json`。回放不重新训练、不生成原视频。
+因此，不把本实验的成绩称为原论文在原数据上的结果复现，也不与原论文公布的AUC直接横比。
 
-历史环境常见本地torch 2.4.1+cpu，云端运行环境以各原run保存文件为准；未提供一个未经验证的统一requirements冒充所有实验环境。
+## 数据如何使用
 
-源代码迁移后的当前快照与历史执行源码分开；已有原始代码快照才作历史代码证据。结果没有独立测试时明确称开发结果。
+使用当时冻结的150条开发视频，其中113条视频级正样本、37条视频级负样本。视频来自东川FTP及v4/v5来源；成员、来源、场次和标签以历史`unit-manifest.csv`为准，不用后来修订的N/P/T标签覆盖历史运行。
 
-总机器索引：`catalog.json`；共享源指纹：`SOURCE_MANIFEST.json`。
+每条视频是一条训练样本，也称一个“包”。从视频合法区域按时间覆盖选取48个位置，每个位置取原生时间轴上连续16帧，得到48个片段。不是将整条长视频的全部帧一次放入网络。原生帧率不同，16帧对应的物理时长也不同，不是后来实验的固定3秒输入。
+
+本运行使用全部48个已生成片段，**不读取`clip-labels.npz`，不启用strict/loose掩码，不以片段正负标签计算损失**。视频级正样本只说明视频中含目标，不表示每个片段都是正类。原有cut、解码质量和合法区域限制在生成输入时处理；这与训练时使用片段正负监督不同。
+
+关键元信息：
+
+- 成员、标签、取片段位置：`data/process/EXP-008-units-v2/unit-manifest.csv`。
+- 场次分组五折：`data/metadata/splits/EXP-008-units-folds.json`。同一机位×日期场次同侧；不同日期可跨折，不是严格未见物理场景评价。
+- 骨干特征缓存：`data/results/exp008/unitfeats-v2-150/unit-features.npz`，形状为150×48×512。缓存不上传，其SHA256与回放证明保留。
+- 五个验证折规模为29、31、32、28、30条，每条视频仅出现在一个验证折。
+
+### 相邻同标签区间是否合并
+
+已沿实际入口核查：历史审计台的保存校验保留相邻区间；`build_units.py:load_events`读取区间时不合并；`build_clip_labels_v2.py:load_spans_by_key`也逐条读取，strict没有先合并相邻同类的步骤。该文件中的`merge`合并的是所有已标覆盖范围，用来计算未标空隙，不是同标签区间的归一化。
+
+项目后来新增的`window_composition.py:normalize_intervals`确实会合并首尾严格相接且同标签的区间，但不是本次历史运行调用的路径，不能据此解释旧结果。
+
+进一步对账了`build_video_index`实际读取的历史段清单：本训练池150条视频对应176行段记录，没有首尾相接的同标签段对；按“含任意正段即视频正类，否则负类”重建的视频标签与最终150条清单全部一致。该清单是视频标签来源，不能冒称原始`events.csv`的逐字节备份；原始事件CSV未在Git中找到冻结副本。
+
+这项差异不改变本报告主运行的输入：full本来就不读取strict标签，也不要求片段落在单个N/P区间内。它可以跨N/P转换取材，但不能跨cut或质量禁区。正视频中的负片段仍留在正包中，由视频级MIL目标学习。核对详情见`data/metadata/experiment-archive/exp008-interval-pipeline-audit-20261110.json`。
+
+## 模型架构
+
+```text
+一条视频
+  → 48个片段，每个片段16帧RGB，缩放至112×112
+  → 冻结的R(2+1)D-18，逐片段提取512维特征
+  → 同一个四层MLP：512 → 128 → 64 → 32 → 1
+  → 隐藏层ReLU和50% Dropout；末层Sigmoid
+  → 48个片段分数
+  → 取最高分作为视频分数
+  → 视频分数≥0.5判正，否则判负
+```
+
+特征提取代码：`experiments/common/video/extract_feats.py`。检测头、损失及训练代码：`experiments/common/video/train_mil.py`，重点为`MilHead`、`mil_loss`和`run_fold`。
+
+## 三项损失与学习策略
+
+设一对正、负视频的48个片段分数分别为p和n，并定义Rp=max(p)−min(p)、Rn=max(n)−min(n)。
+
+1. **峰谷差约束：** L1=mean(max(0,1−Rp+Rn))。它比较正负视频内部的分数变化范围，不能解释成简单的正负最高分之差。
+2. **平滑约束：** L2=mean(Σ(p[k+1]−p[k])²)，使正视频相邻片段的分数平滑。
+3. **稀疏约束：** L3=mean(Σp[k])，约束正视频中高分片段的总体响应。
+
+总损失为 **L=L1+8×10⁻⁵L2+8×10⁻⁵L3**。后两项只作用于正视频。没有增加负包惩罚，也没有BCE。
+
+骨干冻结，只有MLP更新；Adam、学习率0.001、随机种子7，每折20轮。每轮遍历正视频，负视频循环补齐配对批次；每侧批大小最多8。每轮在本折验证视频上计算AUC，保存验证AUC最好的一轮。推理时关闭Dropout。
+
+## 最终结果
+
+逐折验证AUC：
+
+- 第1折：1.0000。
+- 第2折：0.8333。
+- 第3折：0.9545。
+- 第4折：0.9242。
+- 第5折：0.9938。
+
+**五折AUC均值为0.9412。** 原metrics记录的折间总体标准差为0.0606，其计算先使用四位小数折AUC；用完整精度重算约为0.06054，末位差异来自舍入。
+
+将各折留出视频的0.5阈值判决合并计数：
+
+- TP=96、FP=23、FN=17、TN=14。
+- Precision=0.8067、Recall=0.8496、F1=0.8276、Accuracy=0.7333。
+- 37条负视频中23条误报，FPR=0.6216。
+
+AUC是逐折分别计算后的均值；以上混淆计数和Precision/Recall/F1是五折判决合并统计，不把两者混称为同一个聚合方式。
+
+## 核验与复算
+
+结果目录为`data/results/exp008/mil-v2-150-full/`，其中包含`metrics.json`、`predictions.csv`及五个`mil_f*.pt`权重。
+
+本轮已独立执行：读取原150×48×512特征，加载五个保存权重，按各折成员重新前向预测、对48片段取max，再计算指标。原预测分数与本轮结果的最大差约为**6.02×10⁻⁷**；各折AUC及F1与保存记录在四位小数精度上一致，成员和标签也通过对账。因此，有实际模型权重和可复算预测支持这些数字，没有发现编造该组结果的证据。
+
+回放脚本：`experiments/tools/verify_frozen_head_archive.py`。完整证明及输入、代码和权重SHA256见`data/metadata/experiment-archive/frozen-head-replay-20261110.json`，其中本运行记录为`mil-v2-150-full`。脚本同时覆盖其他有效冻结头；不意味着这些对照属于本报告配置。
+
+公有分支提供该组五个已核验的小头权重及元信息；原视频、像素和特征缓存不上传。复算者须在本地准备与证明中SHA256一致的特征缓存。训练复跑需使用新run_id，不能覆盖历史目录。
+
+本次核验范围是**保存特征→权重→预测→指标**，未从原视频重新生成特征，也未从初始化完整重训。历史逐轮stdout没有完整留存，不以今天的源码冒充历史执行源码的字节级快照。
+
+## 实验结论
+
+这套视频级三项损失模型能够在该开发池上形成有用排序，但默认0.5工作点仍有较多误报和漏报，尚不是可交付模型。高AUC不能抵消23条误报和17条漏报。
+
+成绩来自每折使用其验证AUC选最好轮次，具有选轮偏乐观的风险；没有独立测试。因此，可以报告“本数据与设定下的方法重实现开发结果”，不能写成独立测试效果、严格跨物理场景泛化能力或原论文成绩的复现。
