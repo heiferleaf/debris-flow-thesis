@@ -3487,11 +3487,11 @@
   },
   {
     "path": "AGENTS.md",
-    "bytes": 3358,
-    "source_sha256": "f229a8b39674e602664d72b3be727c7ed95818e79c9725db7352781cac5c390b",
-    "export_sha256": "f229a8b39674e602664d72b3be727c7ed95818e79c9725db7352781cac5c390b",
-    "credential_redactions": 0,
-    "scope": "project-rules"
+    "source_path": "AGENTS.md",
+    "source_sha256": "938af81062be24da7c5cae6ca2660e77a54a2488c699e10cf49ff4444cb67612",
+    "export_sha256": "c758970bfd23e916f9a1765ccf7b1b18a8a21c3220afe09b817c04d345d77ea5",
+    "bytes": 3306,
+    "scope": "documentation and reproduction dependency specification; LF line endings"
   },
   {
     "path": ".codex/docs/workspace-layout.md",
@@ -3503,10 +3503,11 @@
   },
   {
     "path": ".codex/docs/experiment-git-archive.md",
-    "source_sha256": "3214f3f17a7e136147692029181197d6cbdff55e9e99597dbcaa430a509e14bd",
-    "export_sha256": "3214f3f17a7e136147692029181197d6cbdff55e9e99597dbcaa430a509e14bd",
-    "bytes": 3466,
-    "scope": "final MIL report and interval audit"
+    "source_path": ".codex/docs/experiment-git-archive.md",
+    "source_sha256": "5dbfbd6694d743716a0ab82c0bbe4c35d4d40c4fef387eda5eecf6b9ac3fb8d3",
+    "export_sha256": "5dbfbd6694d743716a0ab82c0bbe4c35d4d40c4fef387eda5eecf6b9ac3fb8d3",
+    "bytes": 3730,
+    "scope": "documentation and reproduction dependency specification; LF line endings"
   },
   {
     "path": "data/数据清单.md",
@@ -21910,10 +21911,11 @@
   },
   {
     "path": "docs/process/experiments/EXP-008-MIL复现实验报告.md",
-    "source_sha256": "9bd615ec8bf024d270b1cff206a94fe798842918d846bd6dd9d70e2408372eba",
-    "export_sha256": "9bd615ec8bf024d270b1cff206a94fe798842918d846bd6dd9d70e2408372eba",
-    "bytes": 8262,
-    "scope": "final MIL report and interval audit"
+    "source_path": "docs/process/experiments/EXP-008-MIL复现实验报告.md",
+    "source_sha256": "a84445482dd06724a927d179af84e4e4f703dbfe4673cedf8795910f5e06dfc7",
+    "export_sha256": "a84445482dd06724a927d179af84e4e4f703dbfe4673cedf8795910f5e06dfc7",
+    "bytes": 13067,
+    "scope": "documentation and reproduction dependency specification; LF line endings"
   },
   {
     "path": "data/metadata/experiment-archive/exp008-interval-pipeline-audit-20261110.json",
@@ -21921,5 +21923,21 @@
     "export_sha256": "f8eac8d23ccdc3b28594a6150f15f0f5e79e23089bf72454147e4db31c37c121",
     "bytes": 787,
     "scope": "final MIL report and interval audit"
+  },
+  {
+    "path": ".codex/docs/experiment-readme-standard.md",
+    "source_path": ".codex/docs/experiment-readme-standard.md",
+    "source_sha256": "816b05a2bfa60286edc7fe364cc014533af1a5e8f9f8c611da8165fd303fd02e",
+    "export_sha256": "816b05a2bfa60286edc7fe364cc014533af1a5e8f9f8c611da8165fd303fd02e",
+    "bytes": 3230,
+    "scope": "documentation and reproduction dependency specification; LF line endings"
+  },
+  {
+    "path": "experiments/runspecs/EXP-008/requirements-reproduction.txt",
+    "source_path": "experiments/runspecs/EXP-008/requirements-reproduction.txt",
+    "source_sha256": "dfbd81418b73c5d4d2e207a8df6438bab17b8aec7553329e854e07b4e0ce7eba",
+    "export_sha256": "dfbd81418b73c5d4d2e207a8df6438bab17b8aec7553329e854e07b4e0ce7eba",
+    "bytes": 232,
+    "scope": "documentation and reproduction dependency specification; LF line endings"
   }
 ]
