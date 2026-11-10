@@ -2,16 +2,28 @@
   {
     "experiment_id": "EXP-008",
     "branch": "codex/EXP-008",
-    "title": "论文视频级三项MIL损失主版本",
-    "status": "最终150条重跑及头权重回放通过",
-    "data_and_method": "150条视频113P/37N；48个原生连续16帧片段；冻结R(2+1)D-18，512→128→64→32→1检测头和三项MIL损失。",
-    "conclusion": "full主运行五折均值AUC0.9412；TP96/FP23/FN17/TN14。保存特征到权重预测、指标回放通过；验证折选轮，非独立测试。",
+    "title": "泥石流视频识别：跨场景三项MIL实验",
+    "status": "Completed historical development experiment; checkpoint replay verified",
+    "primary_run": "mil-v2-150-strict-scene",
+    "protocol": "scene-held-out five-fold; frozen historical scene mapping",
+    "data_and_method": "150 videos, 113 positive / 37 negative; 6979 strict clips; frozen R(2+1)D-18 and three-term MIL",
+    "mean_fold_auc": 0.9097,
+    "confusion_at_0_5": {
+      "TP": 55,
+      "FP": 15,
+      "FN": 58,
+      "TN": 22
+    },
     "final_run_directories": [
-      "data/results/exp008/mil-v2-150-full"
+      "data/results/exp008/mil-v2-150-strict-scene"
     ],
-    "code_identity": "Current migrated/fixed source snapshot; historical executed sources are only those actually preserved inside final runs.",
     "checkpoint_replay_verified_runs": [
-      "mil-v2-150-full"
+      "mil-v2-150-strict-scene"
+    ],
+    "limits": [
+      "validation fold selects epoch and supplies reported score",
+      "one strict-retained clip has an internal PTS gap; historical input left unchanged",
+      "same-scene multi-view remapping deferred at user request"
     ]
   }
 ]

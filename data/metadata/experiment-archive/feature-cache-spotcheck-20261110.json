@@ -1,0 +1,122 @@
+{
+  "scope": "One uniformly randomly selected clip; one frozen-backbone forward; no training or label input",
+  "random_seed": 20261110,
+  "flat_draw": 2450,
+  "population_clips": 7200,
+  "unit_id": "v1_35",
+  "cache_unit_index": 51,
+  "clip_index_zero_based": 2,
+  "frame_count": 16,
+  "middleware_frame_range_inclusive": [
+    1120,
+    1135
+  ],
+  "pts_first_last": [
+    112.1,
+    113.6
+  ],
+  "input_shape": [
+    1,
+    3,
+    16,
+    112,
+    112
+  ],
+  "feature_shape": [
+    512
+  ],
+  "bitwise_equal": true,
+  "maximum_absolute_error": 0.0,
+  "mean_absolute_error": 0.0,
+  "cosine_similarity": 1.0,
+  "allclose_atol_1e_6_rtol_1e_5": true,
+  "cached_feature_sha256": "35c62a618810775233f61efbe0875f564b07685f746fa64e4f168a99011b245f",
+  "recomputed_feature_sha256": "35c62a618810775233f61efbe0875f564b07685f746fa64e4f168a99011b245f",
+  "pretrained_checkpoint_sha256": "91a641e6c2ab531d1aca5f4321b4d802ec5c3babc15df855cdb6e39c6a1107c8",
+  "inference_seconds": 0.24806920000000066,
+  "environment": {
+    "python": "3.8.0",
+    "torch": "2.4.1+cpu",
+    "torchvision": "0.19.1",
+    "opencv": "5.0.0",
+    "numpy": "1.24.3",
+    "cpu_threads": 12
+  },
+  "frames": [
+    {
+      "path": "data/process/EXP-008-units-v2/frames/v1_35/clip02_f00.jpg",
+      "sha256": "4a18e85e3328c92e5672377e44f8ed0c3a7bbe9d5c8c489454a00abb7b311841"
+    },
+    {
+      "path": "data/process/EXP-008-units-v2/frames/v1_35/clip02_f01.jpg",
+      "sha256": "3d30d46a632221b49f94675893dd66193276eb547d9b4d09557d461c65bec4e5"
+    },
+    {
+      "path": "data/process/EXP-008-units-v2/frames/v1_35/clip02_f02.jpg",
+      "sha256": "61acd18458e26bf4bbf372f6103d5e17446fc05a5088a534b583321984322e87"
+    },
+    {
+      "path": "data/process/EXP-008-units-v2/frames/v1_35/clip02_f03.jpg",
+      "sha256": "57a465a200c84491c42e25e777dfc91a3dced31cf5b39691a935af9e07120289"
+    },
+    {
+      "path": "data/process/EXP-008-units-v2/frames/v1_35/clip02_f04.jpg",
+      "sha256": "40cde572b140395f4420410fd56e3fa23347dc7cc35eea396665e0303c75c1b9"
+    },
+    {
+      "path": "data/process/EXP-008-units-v2/frames/v1_35/clip02_f05.jpg",
+      "sha256": "f128208107746a0a2f057fae71f46fed5965307023fe2487d6d147e5ef777a92"
+    },
+    {
+      "path": "data/process/EXP-008-units-v2/frames/v1_35/clip02_f06.jpg",
+      "sha256": "1130f6b4d00100e77b74981600c9f2c059d7f5bcc15a5ccd03b45e67e3059c4e"
+    },
+    {
+      "path": "data/process/EXP-008-units-v2/frames/v1_35/clip02_f07.jpg",
+      "sha256": "79120d990a10bb4a4bb12c17e00d541d17ebb4fc7a9cbbc80700550ee4b53eae"
+    },
+    {
+      "path": "data/process/EXP-008-units-v2/frames/v1_35/clip02_f08.jpg",
+      "sha256": "66f042b8787db31365f3baff00d9ebc4c64a73705c599dd602882d430ce1f17a"
+    },
+    {
+      "path": "data/process/EXP-008-units-v2/frames/v1_35/clip02_f09.jpg",
+      "sha256": "439948af21a06e54355d71d0059154559c9b2bd3b138c971b274473d1a36d780"
+    },
+    {
+      "path": "data/process/EXP-008-units-v2/frames/v1_35/clip02_f10.jpg",
+      "sha256": "5de0a779a551a6f84264240bb685658f4af68c48678f47fe5b0fff9e45cb0d58"
+    },
+    {
+      "path": "data/process/EXP-008-units-v2/frames/v1_35/clip02_f11.jpg",
+      "sha256": "b4150ccc1533424f7e9589e3ada030a43ac30b9fe246a9f8e5fbf4ea535581cf"
+    },
+    {
+      "path": "data/process/EXP-008-units-v2/frames/v1_35/clip02_f12.jpg",
+      "sha256": "b35726df9117f5bc5e0e4d3aa41bd8f49635f23fb5ab8ad22e0ec700f4c8cf5c"
+    },
+    {
+      "path": "data/process/EXP-008-units-v2/frames/v1_35/clip02_f13.jpg",
+      "sha256": "29409b407356af42c819a1b6b889aa89c5ed79cd988709d4759c630e614947fc"
+    },
+    {
+      "path": "data/process/EXP-008-units-v2/frames/v1_35/clip02_f14.jpg",
+      "sha256": "3a5a1d77fe54277d85acf4378ddb4fb3f7af2d576048fdd9c418429422d937b8"
+    },
+    {
+      "path": "data/process/EXP-008-units-v2/frames/v1_35/clip02_f15.jpg",
+      "sha256": "826cd2488a84d5cdae794a9a94f92025205486b9dfc6b4cde5da3a60c4674922"
+    }
+  ],
+  "historical_quality_check": {
+    "recorded_qc_rows": 16,
+    "gray_std_min": 30.4,
+    "gray_std_max": 30.5,
+    "historical_low_std_threshold": 20.0,
+    "frames_below_historical_threshold": 0,
+    "pts_strictly_increasing": true,
+    "min_frame_spacing_seconds": 0.09999999999999432,
+    "max_frame_spacing_seconds": 0.10000000000000853,
+    "scope": "Same single sampled clip; read historical QC, no additional model forward or video decoding"
+  }
+}

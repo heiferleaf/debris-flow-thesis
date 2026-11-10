@@ -1,6 +1,9 @@
 # EXP-008 复现入口
 
-历史实验；按卡片与报告解释结果。
+公开分支当前采用已完成的跨场景三项MIL版本`mil-v2-150-strict-scene`。
+
+- 完整报告：[跨场景MIL复现实验](../../../docs/process/experiments/EXP-008-跨场景MIL复现实验报告.md)。
+- 输入证据：[输入与时间轴核查](../../../docs/process/experiments/EXP-008-输入与时间轴核查.md)。
 
 - 实验卡：[EXP-008](../../../docs/process/experiments/EXP-008.md)
 - 配置索引：navigation.json；实际超参数以签署卡片和原运行metrics为准。
