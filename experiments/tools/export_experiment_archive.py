@@ -214,10 +214,10 @@ def finalize(out):
                  '008':'experiments/common/video/train_mil.py', '009':'experiments/common/video/train_ft.py',
                  '011':'experiments/common/video/train_mil.py', '012':'experiments/common/video/train_strong.py',
                  '014':'experiments/common/video/train_ft.py', '016':'experiments/runspecs/EXP-016/train.py',
-                 '017':'experiments/runspecs/EXP-017/pipeline.py', '018':'experiments/runspecs/EXP-018/pipeline.py',
+                 '017':'experiments/runspecs/EXP-017/pipeline.py', '018':'experiments/runspecs/EXP-018/run.py',
                  '019':'experiments/runspecs/EXP-019/pipeline.py', '020':'experiments/runspecs/EXP-020/pipeline.py',
                  '021':'experiments/runspecs/EXP-021/pipeline.py', '022':'experiments/runspecs/EXP-022/pipeline.py',
-                 '024':'experiments/runspecs/EXP-024/compare.py'}.get(num)
+                 '024':'experiments/runspecs/EXP-024/replay.py'}.get(num)
         code = '# 代码与工具\n\n'
         if entry:
             code += '主要入口：`' + entry + '`。\n\n'
@@ -329,6 +329,11 @@ def build(root, out, repo_url):
     (base / 'experiments/tools/restore_archived_metadata.py').write_text(restore, encoding='utf-8')
     verified = {r['run_id']: r for r in proof['runs']}
     specs = dict(SPECS)
+    # User-selected report scope: one final MIL/full run, no BCE comparisons.
+    old = specs['008']
+    specs['008'] = (old[0], old[1], old[2],
+        'MIL full逐折均值AUC=0.9412；TP96/FP23/FN17/TN14。保存特征到权重预测及指标回放通过；验证折选轮，属于开发成绩。',
+        ['exp008/mil-v2-150-full'])
     specs['011'] = specs['011'][:-1] + ([f'exp008/mil-v2-150-strict{s}' for s in ['-s7','-s8','-s9','-hnp1-s7','-hnp1-s8','-hnp1-s9']],)
     strong = ['strong-v2-150-strict-gate-s7', 'strong-v2-150-strict-s8', 'strong-v2-150-strict-s9']
     strong += [f'strong-v2-150-strict{suffix}-s{seed}' for suffix in ['-pen','-ctx-gated','-ctx-gated-pen','-ctx-selfattn','-ctx-selfattn-pen'] for seed in [7,8,9]]
@@ -400,6 +405,9 @@ def main():
     if not args.finalize_existing:
         build(args.root.resolve(), args.out.resolve(), args.repo_url)
     finalize(args.out.resolve())
+    report = args.root.resolve() / 'docs/process/experiments/EXP-008-MIL复现实验报告.md'
+    if report.exists():
+        (args.out.resolve() / 'overlays/EXP-008/README.md').write_bytes(report.read_bytes())
 
 
 if __name__ == '__main__':

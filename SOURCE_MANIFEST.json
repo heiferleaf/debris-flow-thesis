@@ -121,11 +121,10 @@
   },
   {
     "path": "experiments/common/video/build_units.py",
-    "bytes": 24345,
-    "source_sha256": "9422a833391549a22741055e840c07c6a527b6b870f9d4092fd6882acaefa0bb",
-    "export_sha256": "9422a833391549a22741055e840c07c6a527b6b870f9d4092fd6882acaefa0bb",
-    "credential_redactions": 0,
-    "scope": "current-source-snapshot"
+    "source_sha256": "49592c1c70ec944c6273922850a9347d09a154c400475b561606ba8ad154ef09",
+    "export_sha256": "49592c1c70ec944c6273922850a9347d09a154c400475b561606ba8ad154ef09",
+    "bytes": 24290,
+    "scope": "final MIL report and interval audit"
   },
   {
     "path": "experiments/common/video/build_units_stride.py",
@@ -2577,11 +2576,10 @@
   },
   {
     "path": "experiments/tools/export_experiment_archive.py",
-    "bytes": 34722,
-    "source_sha256": "656a0801cee883a95324c79bacb9aa074f9bbf72771e031cd136083e835a4831",
-    "export_sha256": "656a0801cee883a95324c79bacb9aa074f9bbf72771e031cd136083e835a4831",
-    "credential_redactions": 0,
-    "scope": "current-source-snapshot"
+    "source_sha256": "0669fe4761815232401051497f5ccdf9001232a4b0c65c635bbe645786169607",
+    "export_sha256": "0669fe4761815232401051497f5ccdf9001232a4b0c65c635bbe645786169607",
+    "bytes": 35266,
+    "scope": "final MIL report and interval audit"
   },
   {
     "path": "experiments/tools/extract_frames.py",
@@ -3505,11 +3503,10 @@
   },
   {
     "path": ".codex/docs/experiment-git-archive.md",
-    "bytes": 2831,
-    "source_sha256": "6220f657fbb65d9ee22a393706719fced8c6960797b530499470ba7855374b00",
-    "export_sha256": "6220f657fbb65d9ee22a393706719fced8c6960797b530499470ba7855374b00",
-    "credential_redactions": 0,
-    "scope": "project-rules"
+    "source_sha256": "e084a38cfa4165a1879ce2efee6c155f829cd2688edbd3902b042ed7acf61024",
+    "export_sha256": "e084a38cfa4165a1879ce2efee6c155f829cd2688edbd3902b042ed7acf61024",
+    "bytes": 3173,
+    "scope": "final MIL report and interval audit"
   },
   {
     "path": "data/数据清单.md",
@@ -21910,5 +21907,19 @@
     "bytes": 20265,
     "scope": "required EXP-022 result-collection operator dependency",
     "credential_redactions": 0
+  },
+  {
+    "path": "docs/process/experiments/EXP-008-MIL复现实验报告.md",
+    "source_sha256": "9bd615ec8bf024d270b1cff206a94fe798842918d846bd6dd9d70e2408372eba",
+    "export_sha256": "9bd615ec8bf024d270b1cff206a94fe798842918d846bd6dd9d70e2408372eba",
+    "bytes": 8262,
+    "scope": "final MIL report and interval audit"
+  },
+  {
+    "path": "data/metadata/experiment-archive/exp008-interval-pipeline-audit-20261110.json",
+    "source_sha256": "f8eac8d23ccdc3b28594a6150f15f0f5e79e23089bf72454147e4db31c37c121",
+    "export_sha256": "f8eac8d23ccdc3b28594a6150f15f0f5e79e23089bf72454147e4db31c37c121",
+    "bytes": 787,
+    "scope": "final MIL report and interval audit"
   }
 ]

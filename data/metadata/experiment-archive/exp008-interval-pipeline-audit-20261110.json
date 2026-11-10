@@ -1,0 +1,14 @@
+{
+  "scope": "Historical segment manifest actually read by build_video_index; not a claimed byte-exact copy of original events.csv.",
+  "units": 150,
+  "segment_rows": 176,
+  "video_label_mismatches": [],
+  "touching_equal_label_pairs": [],
+  "manifest_sha256": "a4f44ce9f61a7d3c3da915878d4ab5e2a1827736111c0883ff6c6fe33aa925ca",
+  "segment_manifest_sha256": "8c3edb98194a76cffd6d0dbb735decbb78558c027d5c9314db1183b47b37ed58",
+  "full_run_reads_clip_labels": false,
+  "strict_loader_merges_equal_labels": false,
+  "annotator_history_auto_merges": false,
+  "later_module_with_merge": "experiments/common/video/window_composition.py:normalize_intervals",
+  "historical_events_csv_frozen_snapshot": "not found in Git; later NPT revisions cannot prove original events bytes"
+}
