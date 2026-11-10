@@ -1,7 +1,7 @@
 {
   "branch": "codex/EXP-008",
   "experiment_id": "EXP-008",
-  "scope": "Complete experiment dependency closure",
+  "scope": "Complete experiment dependencies, including raw-video preprocessing tools; exact historical cut snapshot remains external/unavailable.",
   "allowed_paths": [
     ".codex/docs/experiment-git-archive.md",
     ".codex/docs/experiment-readme-standard.md",
@@ -32,15 +32,18 @@
     "docs/process/experiments/EXP-008-跨场景MIL复现实验报告.md",
     "docs/process/experiments/EXP-008-输入与时间轴核查.md",
     "experiments/__init__.py",
+    "experiments/common/video/build_units.py",
+    "experiments/common/video/build_units_v2.py",
     "experiments/common/video/extract_feats.py",
     "experiments/common/video/train_mil.py",
     "experiments/paths.py",
     "experiments/runspecs/EXP-008/README.md",
     "experiments/runspecs/EXP-008/audit_frozen_inputs.py",
     "experiments/runspecs/EXP-008/prepare_clip_mask.py",
+    "experiments/runspecs/EXP-008/requirements-media.txt",
     "experiments/runspecs/EXP-008/requirements-reproduction.txt",
+    "experiments/tools/build_units_src256.py",
     "experiments/tools/publish_archive_objects.py"
   ],
-  "tree_construction": "empty Git index + complete file allowlist",
-  "local_media_or_results_modified": false
+  "tree_construction": "empty Git index + complete file allowlist"
 }

@@ -23,6 +23,10 @@
 4. 最终保留 **6,979 / 7,200个片段**；每条视频实际使用19～48个。正视频中的合法负片段也保留，片段标签不直接作为分类损失的目标。
 5. 每组16帧转换为RGB并缩放到112 × 112，经冻结骨干提取512维特征。所有特征只计算一次，分类网络训练时复用。
 
+“冻结片段”指固定本实验的取样结果：每个片段对应哪16张图、帧号及顺序不随训练重新抽取。“冻结骨干”则指不更新特征网络权重，两者是不同的含义。
+
+strict掩码是一张与150 × 48个片段对应的布尔表。合法片段为True，其余为False。False片段不参与峰谷差、平滑和稀疏三项损失，也不参与视频最高分计算；损失对其输出的梯度为0。当前代码仍可对48个片段都执行前向计算，但被排除者的分数不直接贡献参数更新；共享分类头仍由合法片段学习。
+
 这里的16帧按解码帧号相邻，**并不保证跨视频具有相同秒数，也不是固定3秒输入实验**。已知时间连续性限制及核查证据见第8节。
 
 ## 2. 跨场景五折
@@ -161,6 +165,20 @@ $$
 
 还发现一项实际限制：连续取16帧的规则未充分排除向前时间跳跃（即相邻解码帧的实际时间间隔可能突然变大，时间顺序仍然递增），涉及到6个片段。6个片段中，video 1-32的5个已经被strict的要求筛除；video 1-109的第46个片段仍参与本实验，其相邻帧时间跳跃4.05秒。经过查验，在该视频的留出模型中，移除这一片段不改变视频最高分；但是对其他折训练的影响大小尚未量化。
 
+### 输入核查脚本具体检查什么
+
+`audit_frozen_inputs.py`读取已有图片、QC与坐标表，不训练、不重新提取特征。
+
+| 检查对象 | 内容 |
+| --- | --- |
+| 取样形态 | 每视频48个唯一、有序、不重叠的16帧槽；帧号不越界；`slots.txt`与清单一致 |
+| 图片完整性 | 逐张读取JPEG，核对768张/视频和256 × 256尺寸 |
+| 灰帧筛查 | 图片与历史QC的灰度标准差；所选帧是否触及低方差帧的16帧外扩禁区 |
+| 时间记录 | 片段内时间倒退、较大前跳、重复的秒数；两份坐标记录的行数和时间差异 |
+| 缓存对齐 | 特征形状150 × 48 × 512、数值有限；视频ID、标签、场次组和原折字段与清单一致 |
+
+该脚本检查全部7,200个候选；哪些被strict排除，需再与冻结掩码对照。它不能代替泥石流内容与标签审计，灰度阈值也不能识别所有花屏/条纹。重复的时间字符串只记录为线索，不直接宣判图片重复。
+
 ## 9. 与参考论文的关系
 
 参考：[Wu等，2025，Deep learning-based debris flow hazard detection and recognition system: a case study](https://doi.org/10.1038/s41598-025-86471-4)。本实验保留视频级MIL及三项损失，做了以下调整：
@@ -274,6 +292,50 @@ print("All 150 video predictions match at the stated precision.")
 环境或数值计算差异可能造成微小变化；不匹配时保留新结果并检查输入和依赖，不能修改参考成绩来通过核对。
 
 ## 11. 证据与入口
+
+代码的主要数据流是：**原视频 → 转码中间件 → 片段JPEG → 512维特征 → 分类头训练/验证**。
+
+| 文件 | 主要函数 | 责任 |
+| --- | --- | --- |
+| `experiments/common/video/train_mil.py` | `MilHead` | 定义512 → 128 → 64 → 32 → 1的分类头 |
+| 同上 | `mil_loss`、`masked_max_min`、`run_fold`、`main` | 三项MIL、strict掩码、单折训练/选轮、五折组织 |
+| `experiments/common/video/extract_feats.py` | `make_backbone`、`load_clip`、`extract_unit_features` | 建立冻结R(2+1)D-18，读取已抽好的16张图并生成特征；不解码原视频 |
+| `experiments/tools/build_units_src256.py` | `run_ffmpeg`、`probe_frames` | 原视频转为256 × 256中间件，保存转码日志和时间坐标 |
+| `experiments/common/video/build_units_v2.py` | `scan_middleware`、`extract_unit_mw` | 全片质量扫描、合法槽选择、顺序解码及片段JPEG落盘 |
+| `experiments/common/video/build_units.py` | 视频索引、区间合并、`pick_slots`等 | 上述两个取材脚本的共用依赖；公开版只提取所需辅助函数，不保留旧取材main |
+| `experiments/runspecs/EXP-008/prepare_clip_mask.py` | `load_clip_arrays` | 把冻结片段CSV转成strict掩码 |
+| `experiments/runspecs/EXP-008/audit_frozen_inputs.py` | `audit_unit` | 第8节的输入核查，不执行训练 |
+
+原视频取材代码已随分支提供，但原片重建与第10节的固定数据复现是两种输入条件。取材脚本还需要原视频以及对应的三源`events.csv`区间表。本实验执行时的完整区间快照尚未找回，不用当前修改后的标注冒充。
+
+公开版的辅助索引直接读取本分支的150条`unit-manifest.csv`，提供同一批视频ID、视频标签和场次字段；这些字段已与原索引按成员核对。不再要求把其他实验数据目录复制进来。输入索引的旧场次折字段不代替本页训练命令中显式指定的跨场景JSON。
+
+<details>
+<summary>如需要从原视频重新制作数据</summary>
+
+另行安装`experiments/runspecs/EXP-008/requirements-media.txt`中的媒体依赖。这份文件记录本地版本，不表示本次已重新安装或完成原片重建验证。
+
+准备原视频于`data/raw/`，并提供对应标注文件：
+
+```text
+data/process/video_frames/
+  video1_segment/events.csv
+  video4_segment/events.csv
+  video5_segment/events.csv
+```
+
+取材脚本根据索引中的`video_id`匹配原视频文件名；区间表须含`video_id, video_key, kind, start_sec, end_sec`字段。重建使用新输出目录，保留旧输入：
+
+```powershell
+$env:DF_SRC256_ROOT = Join-Path (Get-Location) data/process/EXP-008-rebuilt-src256
+$env:DF_UNITS_ROOT = Join-Path (Get-Location) data/process/EXP-008-rebuilt-units
+.\.venv\Scripts\python.exe experiments/tools/build_units_src256.py
+.\.venv\Scripts\python.exe experiments/common/video/build_units_v2.py
+```
+
+公开版对中间件根目录增加了显式环境变量入口，辅助索引路径按本分支归属映射；变换记录在`SOURCE_MANIFEST.json`。当前取材代码已含后加的时间前跳检查，对应源文件、解码器和区间版本也会影响重建结果。所以这些命令是重新制作数据的入口，不保证逐字节还原旧帧或原AUC。若取样结果变了，原片段掩码也不能直接套用，需根据新帧位置重建。复现本报告成绩仍按第10节使用冻结数据。
+
+</details>
 
 | 文件 | 用途 |
 | --- | --- |

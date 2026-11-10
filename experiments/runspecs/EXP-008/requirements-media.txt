@@ -1,0 +1,8 @@
+# Optional environment for decoding, fixed-frame feature extraction and QC.
+# Versions observed locally; adding this file does not assert a clean reinstall
+# or byte-identical raw-video regeneration has been verified.
+-r requirements-reproduction.txt
+torchvision==0.19.1
+opencv-python-headless==5.0.0.93
+imageio-ffmpeg==0.5.1
+Pillow==10.4.0
