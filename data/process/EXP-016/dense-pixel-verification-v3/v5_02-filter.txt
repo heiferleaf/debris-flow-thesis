@@ -1,1 +1,0 @@
-showinfo,select='(between(n,0,14)*eq(mod(n-0,2),0)+(between(n,15,22126)+between(n,22128,22150)*eq(mod(n-22128,2),0)))',format=bgr24

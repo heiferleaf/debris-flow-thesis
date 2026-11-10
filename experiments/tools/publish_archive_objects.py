@@ -38,7 +38,8 @@ def main():
         parent = git(repository, ["rev-parse", ref]).decode().strip()
         if parent != spec["expected_parent"]:
             raise RuntimeError("Publication branch moved: " + branch)
-        git(repository, ["read-tree", parent], env=env)
+        replace_tree = bool(spec.get("replace_tree", False))
+        git(repository, ["read-tree", "--empty"] if replace_tree else ["read-tree", parent], env=env)
         existing = git(repository, ["ls-tree", "-r", "-z", parent]).split(b"\0")
         paths = {}
         for record in existing:
@@ -48,7 +49,7 @@ def main():
             mode, kind, oid = meta.decode().split()
             paths[path.decode("utf-8")] = (mode, oid)
         changes = []
-        for prefix in spec.get("remove_prefixes", []):
+        for prefix in ([] if replace_tree else spec.get("remove_prefixes", [])):
             for path in paths:
                 if path == prefix or path.startswith(prefix.rstrip("/") + "/"):
                     changes.append("0 " + "0" * 40 + "\t" + path + "\0")
@@ -69,6 +70,11 @@ def main():
                           "sha256": hashlib.sha256(data).hexdigest()})
         git(repository, ["update-index", "-z", "--index-info"], "".join(changes).encode("utf-8"), env)
         tree = git(repository, ["write-tree"], env=env).decode().strip()
+        if replace_tree:
+            actual = set(git(repository, ["ls-tree", "-r", "--name-only", "-z", tree]).decode("utf-8").rstrip("\0").split("\0"))
+            expected = {item["path"] for item in spec["files"]}
+            if actual != expected:
+                raise RuntimeError("Archive tree differs from the complete allowlist: " + branch)
         commit = git(repository, ["commit-tree", tree, "-p", parent, "-m", spec["message"]]).decode().strip()
         git(repository, ["update-ref", ref, commit, parent])
         commits[branch] = commit

@@ -1,1 +1,0 @@
-showinfo,select='((between(n,740,768)*eq(mod(n-740,4),0)+between(n,770,12362)*eq(mod(n-770,2),0))+(between(n,12365,28373)*eq(mod(n-12365,2),0)+between(n,28377,28389)*eq(mod(n-28377,4),0)))',format=bgr24

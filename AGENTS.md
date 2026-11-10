@@ -1,33 +1,7 @@
-# 项目工作约定
+# Experiment archive conventions
 
-研究定点监控画面中已经出现的泥石流，形成可复现、能支撑本科论文的成果。
+Read README.md first. Each experiment branch contains only that experiment and its required dependencies. The main branch is an index. Do not copy the whole research workspace into a branch.
 
-## 先读什么
+Publish from a complete file allowlist using Git objects; do not create duplicate local experiment trees. Preserve original input/result identities, disclose evaluation limits, and never treat document editing as training authorization.
 
-- 当前任务唯一入口：[当前研究状态](.codex/docs/当前研究状态.md)。研究事实以代码、配置、原始结果和用户确认交叉核实，不盲信旧说明。
-- 文件归属、工具边界、历史迁移和清理规则：[工作区组织规范](.codex/docs/workspace-layout.md)。新文件先定归属，不在根目录放临时件，不新增重复助手配置。
-- 数据事实：[数据清单](data/数据清单.md)；划分与训练前读[跨场景规范](docs/data/跨场景数据使用规范.md)及对应实验卡。
-- 论文证据与旧结果从[实验索引](docs/process/experiments/README.md)和[研究记录](.codex/logs/研究记录.md)进入。
-
-## 做事原则
-
-- 先核任务和标签语义，再核数学与实现。变更任务含义须说明；不以容易量化的替代任务冒称解决原问题。
-- 当前标签为N/P/T，沿用用户已有cut；不擅增U/A、不覆盖用户修改，不把旧备注当真值，不靠大面积关闭监督完成审计。
-- 优先复用已有数据、代码和验收。只检查新增、会改变决策的风险；一次定点复核通过即推进，避免无目的重训和堆模块。
-- 主动完成已授权工作；仅为缺少用户独有信息、不可逆/对外操作、付费或明确约定的事项询问。训练须对应实验卡授权，租赁费用另行确认，不得代签。
-- 防止数据泄漏。跨场景按实际物理河段，同景多视角与派生谱系同侧；不把视角名或日期当独立场景，不用外评调选轮和阈值。
-- 保存关键运行的代码/输入指纹、命令、环境、日志、预测和指标。历史run不改写；迁移保留映射，不能伪造复现。
-- 实验按用户选定的分支发布；README须让新读者独立理解数据、模型和结果，并按步骤复现。完善说明不自动授权训练。范围、内容和证据要求见[实验Git归档规范](.codex/docs/experiment-git-archive.md)及其README规范。
-- 操作电脑界面前说明应用与目的。网页检索用Terra xhigh，研究规划用Astra high，编码与关键审查用Sol xhigh；具体角色在`.codex/agents/`。对话另有限制时优先遵守。
-- 主会话负责全部交付闭环；用户看决定、证据、结果和必要输入，不承担常规分工排错。摘要不得缩减原验收范围。
-
-## 表达与资料
-
-- 用清楚完整的中文先讲结论、证据及缺口；术语首次解释，指标保留标准写法，避免流水账和助手口号。
-- 外交或论文文档的作者、修订者和导出元信息不含Codex信息，不虚构作者。
-- 学习手册仅在用户明确要求时更新；目录维护不修改其源文、PDF或配图。
-- 重要决定记`.codex/logs/`，只保留对研究有用的结论和证据入口；无效叙述简要总结，不重复保存长篇过程。
-
-## 按需流程
-
-技能正本只在`.agents/skills/`：研究用`research-methodology`、`ml-experiment-sop`，数据用`data-usage-protocol`；写作用`academic-writing`、`cs-capstone-thesis`、`whu-cs-thesis`，排版用`latex-academic`；检索用`research-discovery`，组会用`research-progress-report`。
+Detailed rules: [.codex/docs/experiment-git-archive.md](.codex/docs/experiment-git-archive.md). README standard: [.codex/docs/experiment-readme-standard.md](.codex/docs/experiment-readme-standard.md).

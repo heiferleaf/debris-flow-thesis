@@ -1,0 +1,20 @@
+{
+  "branch": "main",
+  "experiment_id": null,
+  "scope": "Index and publishing conventions; no data tree",
+  "allowed_paths": [
+    ".codex/docs/experiment-git-archive.md",
+    ".codex/docs/experiment-readme-standard.md",
+    ".codex/docs/workspace-layout.md",
+    ".gitattributes",
+    ".gitignore",
+    "AGENTS.md",
+    "ARCHIVE_SCOPE.json",
+    "README.md",
+    "SOURCE_MANIFEST.json",
+    "catalog.json",
+    "experiments/tools/publish_archive_objects.py"
+  ],
+  "tree_construction": "empty Git index + complete file allowlist",
+  "local_media_or_results_modified": false
+}

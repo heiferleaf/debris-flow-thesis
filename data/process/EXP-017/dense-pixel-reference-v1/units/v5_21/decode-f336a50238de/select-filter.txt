@@ -1,1 +1,0 @@
-showinfo,select='(between(n,0,14)*eq(mod(n-0,2),0)+(between(n,15,26998)+eq(n,27000)))',format=bgr24
