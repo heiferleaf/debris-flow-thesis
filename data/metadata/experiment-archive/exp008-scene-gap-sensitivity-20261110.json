@@ -1,0 +1,10 @@
+{
+  "unit_id": "v1_109",
+  "fold": 4,
+  "suspect_clip_index_zero_based": 45,
+  "clip_score": 0.4839383065700531,
+  "strict_max_before": 0.48938506841659546,
+  "strict_max_after_removing_clip": 0.48938506841659546,
+  "max_clip_index_before": 39,
+  "scope": "Saved-head inference only; no retraining. Does not measure effects of the clip on fitting in other folds."
+}

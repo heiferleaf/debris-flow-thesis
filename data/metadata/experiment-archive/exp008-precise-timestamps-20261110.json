@@ -1,0 +1,425 @@
+{
+  "scope": "Targeted sequential decoding of three existing 256x256 middleware clips; no raw-video reprocessing, no model forward. Integer PTS retained to test rounded text timestamps.",
+  "checks": [
+    {
+      "unit_id": "v1_27",
+      "start_frame": 2976,
+      "time_base": [
+        1,
+        10240
+      ],
+      "records": [
+        {
+          "n": 0,
+          "pts_integer": 2575360,
+          "printed_seconds": "251.5",
+          "decoded_checksum": "0D234732",
+          "precise_seconds": 251.5
+        },
+        {
+          "n": 1,
+          "pts_integer": 2575361,
+          "printed_seconds": "251.5",
+          "decoded_checksum": "90425EB7",
+          "precise_seconds": 251.50009765625
+        },
+        {
+          "n": 2,
+          "pts_integer": 2576384,
+          "printed_seconds": "251.6",
+          "decoded_checksum": "8211E20C",
+          "precise_seconds": 251.6
+        },
+        {
+          "n": 3,
+          "pts_integer": 2576385,
+          "printed_seconds": "251.6",
+          "decoded_checksum": "0D00DD9D",
+          "precise_seconds": 251.60009765625
+        },
+        {
+          "n": 4,
+          "pts_integer": 2577408,
+          "printed_seconds": "251.7",
+          "decoded_checksum": "2520DF27",
+          "precise_seconds": 251.7
+        },
+        {
+          "n": 5,
+          "pts_integer": 2577409,
+          "printed_seconds": "251.7",
+          "decoded_checksum": "7CDBEB89",
+          "precise_seconds": 251.70009765625
+        },
+        {
+          "n": 6,
+          "pts_integer": 2578432,
+          "printed_seconds": "251.8",
+          "decoded_checksum": "DC1EF592",
+          "precise_seconds": 251.8
+        },
+        {
+          "n": 7,
+          "pts_integer": 2578433,
+          "printed_seconds": "251.8",
+          "decoded_checksum": "3DB2E058",
+          "precise_seconds": 251.80009765625
+        },
+        {
+          "n": 8,
+          "pts_integer": 2579456,
+          "printed_seconds": "251.9",
+          "decoded_checksum": "327ADD9F",
+          "precise_seconds": 251.9
+        },
+        {
+          "n": 9,
+          "pts_integer": 2579457,
+          "printed_seconds": "251.9",
+          "decoded_checksum": "1C9BADF8",
+          "precise_seconds": 251.90009765625
+        },
+        {
+          "n": 10,
+          "pts_integer": 2580480,
+          "printed_seconds": "252",
+          "decoded_checksum": "3415C103",
+          "precise_seconds": 252.0
+        },
+        {
+          "n": 11,
+          "pts_integer": 2580481,
+          "printed_seconds": "252",
+          "decoded_checksum": "7CC0D0C9",
+          "precise_seconds": 252.00009765625
+        },
+        {
+          "n": 12,
+          "pts_integer": 2581504,
+          "printed_seconds": "252.1",
+          "decoded_checksum": "8A09DC15",
+          "precise_seconds": 252.1
+        },
+        {
+          "n": 13,
+          "pts_integer": 2581505,
+          "printed_seconds": "252.1",
+          "decoded_checksum": "0147D79B",
+          "precise_seconds": 252.10009765625
+        },
+        {
+          "n": 14,
+          "pts_integer": 2582528,
+          "printed_seconds": "252.2",
+          "decoded_checksum": "6605DCC6",
+          "precise_seconds": 252.2
+        },
+        {
+          "n": 15,
+          "pts_integer": 2582529,
+          "printed_seconds": "252.2",
+          "decoded_checksum": "12763484",
+          "precise_seconds": 252.20009765625
+        }
+      ],
+      "command": [
+        "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\.venv\\lib\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win64-v4.2.2.exe",
+        "-hide_banner",
+        "-v",
+        "info",
+        "-i",
+        "data\\process\\EXP-008-units-src256\\v1_27.mp4",
+        "-vf",
+        "select=between(n\\,2976\\,2991),showinfo",
+        "-frames:v",
+        "16",
+        "-vsync",
+        "0",
+        "-f",
+        "null",
+        "-"
+      ],
+      "returncode": 0
+    },
+    {
+      "unit_id": "v1_32",
+      "start_frame": 12512,
+      "time_base": [
+        1,
+        12800
+      ],
+      "records": [
+        {
+          "n": 0,
+          "pts_integer": 13668352,
+          "printed_seconds": "1067.84",
+          "decoded_checksum": "0B0E6B40",
+          "precise_seconds": 1067.84
+        },
+        {
+          "n": 1,
+          "pts_integer": 13669376,
+          "printed_seconds": "1067.92",
+          "decoded_checksum": "9AA46D51",
+          "precise_seconds": 1067.92
+        },
+        {
+          "n": 2,
+          "pts_integer": 13670400,
+          "printed_seconds": "1068",
+          "decoded_checksum": "DB006AC3",
+          "precise_seconds": 1068.0
+        },
+        {
+          "n": 3,
+          "pts_integer": 13671424,
+          "printed_seconds": "1068.08",
+          "decoded_checksum": "614F7182",
+          "precise_seconds": 1068.08
+        },
+        {
+          "n": 4,
+          "pts_integer": 13672448,
+          "printed_seconds": "1068.16",
+          "decoded_checksum": "92EA6A70",
+          "precise_seconds": 1068.16
+        },
+        {
+          "n": 5,
+          "pts_integer": 13673472,
+          "printed_seconds": "1068.24",
+          "decoded_checksum": "E36B691A",
+          "precise_seconds": 1068.24
+        },
+        {
+          "n": 6,
+          "pts_integer": 13674496,
+          "printed_seconds": "1068.32",
+          "decoded_checksum": "491E6CE4",
+          "precise_seconds": 1068.32
+        },
+        {
+          "n": 7,
+          "pts_integer": 13699072,
+          "printed_seconds": "1070.24",
+          "decoded_checksum": "4BB36E3C",
+          "precise_seconds": 1070.24
+        },
+        {
+          "n": 8,
+          "pts_integer": 13700096,
+          "printed_seconds": "1070.32",
+          "decoded_checksum": "2B1D6EAD",
+          "precise_seconds": 1070.32
+        },
+        {
+          "n": 9,
+          "pts_integer": 13701120,
+          "printed_seconds": "1070.4",
+          "decoded_checksum": "497266E7",
+          "precise_seconds": 1070.4
+        },
+        {
+          "n": 10,
+          "pts_integer": 13702144,
+          "printed_seconds": "1070.48",
+          "decoded_checksum": "4CC96570",
+          "precise_seconds": 1070.48
+        },
+        {
+          "n": 11,
+          "pts_integer": 13703168,
+          "printed_seconds": "1070.56",
+          "decoded_checksum": "3DE668D7",
+          "precise_seconds": 1070.56
+        },
+        {
+          "n": 12,
+          "pts_integer": 13704192,
+          "printed_seconds": "1070.64",
+          "decoded_checksum": "A1436766",
+          "precise_seconds": 1070.64
+        },
+        {
+          "n": 13,
+          "pts_integer": 13705216,
+          "printed_seconds": "1070.72",
+          "decoded_checksum": "52F46BB4",
+          "precise_seconds": 1070.72
+        },
+        {
+          "n": 14,
+          "pts_integer": 13706240,
+          "printed_seconds": "1070.8",
+          "decoded_checksum": "329E6A66",
+          "precise_seconds": 1070.8
+        },
+        {
+          "n": 15,
+          "pts_integer": 13707264,
+          "printed_seconds": "1070.88",
+          "decoded_checksum": "4E086F0D",
+          "precise_seconds": 1070.88
+        }
+      ],
+      "command": [
+        "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\.venv\\lib\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win64-v4.2.2.exe",
+        "-hide_banner",
+        "-v",
+        "info",
+        "-i",
+        "data\\process\\EXP-008-units-src256\\v1_32.mp4",
+        "-vf",
+        "select=between(n\\,12512\\,12527),showinfo",
+        "-frames:v",
+        "16",
+        "-vsync",
+        "0",
+        "-f",
+        "null",
+        "-"
+      ],
+      "returncode": 0
+    },
+    {
+      "unit_id": "v1_109",
+      "start_frame": 24160,
+      "time_base": [
+        1,
+        10240
+      ],
+      "records": [
+        {
+          "n": 0,
+          "pts_integer": 13773312,
+          "printed_seconds": "1345.05",
+          "decoded_checksum": "3F40E3C1",
+          "precise_seconds": 1345.05
+        },
+        {
+          "n": 1,
+          "pts_integer": 13814784,
+          "printed_seconds": "1349.1",
+          "decoded_checksum": "6845EEA0",
+          "precise_seconds": 1349.1
+        },
+        {
+          "n": 2,
+          "pts_integer": 13816320,
+          "printed_seconds": "1349.25",
+          "decoded_checksum": "89DF0971",
+          "precise_seconds": 1349.25
+        },
+        {
+          "n": 3,
+          "pts_integer": 13817856,
+          "printed_seconds": "1349.4",
+          "decoded_checksum": "BBFCFBCA",
+          "precise_seconds": 1349.4
+        },
+        {
+          "n": 4,
+          "pts_integer": 13819392,
+          "printed_seconds": "1349.55",
+          "decoded_checksum": "A705ECFE",
+          "precise_seconds": 1349.55
+        },
+        {
+          "n": 5,
+          "pts_integer": 13820928,
+          "printed_seconds": "1349.7",
+          "decoded_checksum": "6F1FE569",
+          "precise_seconds": 1349.7
+        },
+        {
+          "n": 6,
+          "pts_integer": 13822464,
+          "printed_seconds": "1349.85",
+          "decoded_checksum": "8E1BF7FC",
+          "precise_seconds": 1349.85
+        },
+        {
+          "n": 7,
+          "pts_integer": 13824000,
+          "printed_seconds": "1350",
+          "decoded_checksum": "5ABE01DE",
+          "precise_seconds": 1350.0
+        },
+        {
+          "n": 8,
+          "pts_integer": 13825536,
+          "printed_seconds": "1350.15",
+          "decoded_checksum": "05C7FD35",
+          "precise_seconds": 1350.15
+        },
+        {
+          "n": 9,
+          "pts_integer": 13827072,
+          "printed_seconds": "1350.3",
+          "decoded_checksum": "426BF914",
+          "precise_seconds": 1350.3
+        },
+        {
+          "n": 10,
+          "pts_integer": 13828608,
+          "printed_seconds": "1350.45",
+          "decoded_checksum": "FAB3FA3E",
+          "precise_seconds": 1350.45
+        },
+        {
+          "n": 11,
+          "pts_integer": 13830144,
+          "printed_seconds": "1350.6",
+          "decoded_checksum": "0053135F",
+          "precise_seconds": 1350.6
+        },
+        {
+          "n": 12,
+          "pts_integer": 13831680,
+          "printed_seconds": "1350.75",
+          "decoded_checksum": "DDC3154A",
+          "precise_seconds": 1350.75
+        },
+        {
+          "n": 13,
+          "pts_integer": 13833216,
+          "printed_seconds": "1350.9",
+          "decoded_checksum": "858D4520",
+          "precise_seconds": 1350.9
+        },
+        {
+          "n": 14,
+          "pts_integer": 13834752,
+          "printed_seconds": "1351.05",
+          "decoded_checksum": "E26B3C07",
+          "precise_seconds": 1351.05
+        },
+        {
+          "n": 15,
+          "pts_integer": 13836288,
+          "printed_seconds": "1351.2",
+          "decoded_checksum": "71D631B1",
+          "precise_seconds": 1351.2
+        }
+      ],
+      "command": [
+        "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\.venv\\lib\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win64-v4.2.2.exe",
+        "-hide_banner",
+        "-v",
+        "info",
+        "-i",
+        "data\\process\\EXP-008-units-src256\\v1_109.mp4",
+        "-vf",
+        "select=between(n\\,24160\\,24175),showinfo",
+        "-frames:v",
+        "16",
+        "-vsync",
+        "0",
+        "-f",
+        "null",
+        "-"
+      ],
+      "returncode": 0
+    }
+  ]
+}
