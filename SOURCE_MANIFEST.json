@@ -1,234 +1,254 @@
 [
   {
     "path": ".codex/docs/experiment-git-archive.md",
-    "bytes": 4430,
-    "source_sha256": "8ab68ef05c11c9240cde692c1f6f02b2d0f9db4de36de15356584dc36c6a0dd7",
-    "export_sha256": "8ab68ef05c11c9240cde692c1f6f02b2d0f9db4de36de15356584dc36c6a0dd7",
-    "scope": "selected-scene-MIL-update",
-    "credential_redactions": 0
+    "bytes": 4886,
+    "source_sha256": "3297534d98ee1fd9e55852d2a3f683292e1a36905e7fdab446d4024515533064",
+    "export_sha256": "3297534d98ee1fd9e55852d2a3f683292e1a36905e7fdab446d4024515533064",
+    "scope": "EXP-008-only"
   },
   {
     "path": ".codex/docs/experiment-readme-standard.md",
-    "source_path": ".codex/docs/experiment-readme-standard.md",
+    "bytes": 3230,
     "source_sha256": "816b05a2bfa60286edc7fe364cc014533af1a5e8f9f8c611da8165fd303fd02e",
     "export_sha256": "816b05a2bfa60286edc7fe364cc014533af1a5e8f9f8c611da8165fd303fd02e",
-    "bytes": 3230,
-    "scope": "documentation and reproduction dependency specification; LF line endings"
+    "scope": "EXP-008-only"
   },
   {
     "path": ".codex/docs/workspace-layout.md",
     "bytes": 4259,
     "source_sha256": "fb0f436f080223c535b7d076e9b7664e099eb7db9015ee53d994bbf9ff6fa0b5",
     "export_sha256": "921b1f61168b6b9ed2b95d00f99cac44a20e41b5143310219d5667a0cf2c2483",
-    "scope": "selected-scene-MIL-update",
-    "credential_redactions": 0
+    "scope": "EXP-008-only"
+  },
+  {
+    "path": ".gitattributes",
+    "bytes": 9,
+    "source_sha256": null,
+    "export_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
+    "scope": "EXP-008-only"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 99,
+    "source_sha256": null,
+    "export_sha256": "bf206872718f84a5a59df974a034c18d534ffd93bf9f8c4a191101a8473f1376",
+    "scope": "EXP-008-only"
   },
   {
     "path": "AGENTS.md",
-    "source_path": "AGENTS.md",
-    "source_sha256": "938af81062be24da7c5cae6ca2660e77a54a2488c699e10cf49ff4444cb67612",
-    "export_sha256": "c758970bfd23e916f9a1765ccf7b1b18a8a21c3220afe09b817c04d345d77ea5",
-    "bytes": 3306,
-    "scope": "documentation and reproduction dependency specification; LF line endings"
+    "bytes": 665,
+    "source_sha256": null,
+    "export_sha256": "7674561dcd7116d8b188eccae08c58b3a491dbe599edd94ea6d731feabc584d5",
+    "scope": "EXP-008-only"
+  },
+  {
+    "path": "ARCHIVE_SCOPE.json",
+    "bytes": 2185,
+    "source_sha256": null,
+    "export_sha256": "b3a6797c9bb33b666225483f11ae3d6005282bf2bbac579aa9a95c4b75ccaca9",
+    "scope": "EXP-008-only"
   },
   {
     "path": "README.md",
     "bytes": 14110,
     "source_sha256": "61b6fb6e808be26feb46a524552991480d517f5f71da784e88df066ac011035f",
     "export_sha256": "61b6fb6e808be26feb46a524552991480d517f5f71da784e88df066ac011035f",
-    "scope": "selected-scene-MIL-update",
-    "credential_redactions": 0
+    "scope": "EXP-008-only"
   },
   {
     "path": "catalog.json",
     "bytes": 1014,
     "source_sha256": null,
     "export_sha256": "ac731f69d337916bb879391250f0585c0a365bc2086111e9a39ed1ae211a1b92",
-    "scope": "selected-scene-MIL-update",
-    "credential_redactions": 0
+    "scope": "EXP-008-only"
   },
   {
     "path": "data/metadata/experiment-archive/exp008-input-quality-20261110.json",
     "bytes": 271980,
     "source_sha256": "37db735d9d5dd1b8c181ef4069f3c5134642e517f5aea4366f53fbdc48e295e5",
     "export_sha256": "af8d4b73a6079fa76effd6161549b27682b3ec342eeaffe671853ef5fa590567",
-    "scope": "selected-scene-MIL-update",
-    "credential_redactions": 0
+    "scope": "EXP-008-only"
   },
   {
     "path": "data/metadata/experiment-archive/exp008-precise-timestamps-20261110.json",
     "bytes": 11423,
     "source_sha256": "9724d654f29dfc85784c805f2b598f861dec3e8e12477d5d8e1bf41cc894ff04",
     "export_sha256": "860457e79d305d9452c8760e6510f9e421ad6bb701640331fdeb391a4c8a7878",
-    "scope": "selected-scene-MIL-update",
-    "credential_redactions": 0
+    "scope": "EXP-008-only"
   },
   {
     "path": "data/metadata/experiment-archive/exp008-scene-gap-sensitivity-20261110.json",
     "bytes": 366,
     "source_sha256": "5d797030456d3e8ca571ed0e09fdfc9a33fed446dd22b8c018e1a31164b6e363",
     "export_sha256": "a928d59f61cfd7ce09242fb7b545322a89d57faa8e15052cf6a846e44d6f2272",
-    "scope": "selected-scene-MIL-update",
-    "credential_redactions": 0
+    "scope": "EXP-008-only"
   },
   {
     "path": "data/metadata/experiment-archive/exp008-scene-head-replay-20261110.json",
     "bytes": 2315,
     "source_sha256": "aa4c7f1abb47baf2fed80cc0636c87aa2a7a809e22c146e8b7008704da6f3165",
     "export_sha256": "8d4768d5523dac2028e59f7090d4432cc7ff42a1e180c7474e3e7b91c2237247",
-    "scope": "selected-scene-MIL-update",
-    "credential_redactions": 0
+    "scope": "EXP-008-only"
   },
   {
     "path": "data/metadata/experiment-archive/exp008-timing-code-audit-20261110.json",
     "bytes": 929,
     "source_sha256": "dcf2f8c2bb31ee8ca26c82c8a43a4e86e0f348e24195acc81dd59f037f913684",
     "export_sha256": "3ccca23e79abed3b0a4ad4ace1bf047b808246e0c85fc7294059d10a97bc3321",
-    "scope": "selected-scene-MIL-update",
-    "credential_redactions": 0
+    "scope": "EXP-008-only"
   },
   {
     "path": "data/metadata/experiment-archive/feature-cache-spotcheck-20261110.json",
     "bytes": 4370,
     "source_sha256": "7674b85c0bde3dd488bf475b4fa3257dac254cc3249fc23a241affa886422063",
     "export_sha256": "7674b85c0bde3dd488bf475b4fa3257dac254cc3249fc23a241affa886422063",
-    "scope": "selected-scene-MIL-update",
-    "credential_redactions": 0
+    "scope": "EXP-008-only"
   },
   {
     "path": "data/metadata/splits/EXP-008-units-scene-folds.json",
     "bytes": 5046,
     "source_sha256": "673a84b672ca2e593b370adbb6640779810a7130874b1f32fb85bc5f26115b42",
     "export_sha256": "6d5cd8fac854b5ceb2233977f3f15b1acf6f3fafe1e33943dd005ce2bb01b4e0",
-    "scope": "selected-scene-MIL-update",
-    "credential_redactions": 0
+    "scope": "EXP-008-only"
   },
   {
     "path": "data/process/EXP-008-units-v2/clip-labels.csv",
     "bytes": 132442,
     "source_sha256": "718fe033715257b2d777c1b21c82e4770d06fd7cb9151dfb73095a0d2faafda9",
     "export_sha256": "b7f719dc4f5753d495bd01f0bb0db3607103823bcdde55bece50a63b746c3881",
-    "scope": "selected-scene-MIL-update",
-    "credential_redactions": 0
+    "scope": "EXP-008-only"
+  },
+  {
+    "path": "data/process/EXP-008-units-v2/unit-manifest.csv",
+    "bytes": 57324,
+    "source_sha256": "a4f44ce9f61a7d3c3da915878d4ab5e2a1827736111c0883ff6c6fe33aa925ca",
+    "export_sha256": "d2b140f2a74515e41a40e04ba068aaf6de98d544dabe0dceda98bc83d8e828a1",
+    "scope": "EXP-008-only"
   },
   {
     "path": "data/results/exp008/mil-v2-150-strict-scene/metrics.json",
     "bytes": 1574,
     "source_sha256": "814cdd4d4dd0c00e6c4198713999aef70b7a494d75a635abc6a8fd59f6d21989",
     "export_sha256": "e1f8f019c913ea779734a810c329fbcf3a5357841ab63ab1daab8aaec3e8104b",
-    "scope": "selected-scene-MIL-update",
-    "credential_redactions": 0
+    "scope": "EXP-008-only"
   },
   {
     "path": "data/results/exp008/mil-v2-150-strict-scene/mil_f1.pt",
     "bytes": 306676,
     "source_sha256": "5204808062a022f90eeef2e2e7ec2604043d3db44644b72827c38d931f3e68e5",
     "export_sha256": "5204808062a022f90eeef2e2e7ec2604043d3db44644b72827c38d931f3e68e5",
-    "scope": "selected-scene-MIL-update",
-    "credential_redactions": 0
+    "scope": "EXP-008-only"
   },
   {
     "path": "data/results/exp008/mil-v2-150-strict-scene/mil_f2.pt",
     "bytes": 306676,
     "source_sha256": "02844e67344a0578f0cdee3b6f561617915c9e1a3ffee7fa566951d15f698902",
     "export_sha256": "02844e67344a0578f0cdee3b6f561617915c9e1a3ffee7fa566951d15f698902",
-    "scope": "selected-scene-MIL-update",
-    "credential_redactions": 0
+    "scope": "EXP-008-only"
   },
   {
     "path": "data/results/exp008/mil-v2-150-strict-scene/mil_f3.pt",
     "bytes": 306676,
     "source_sha256": "b7b024ccb0cb248e1a20188cd808017e92a16071627bad0228506e2c43b4a351",
     "export_sha256": "b7b024ccb0cb248e1a20188cd808017e92a16071627bad0228506e2c43b4a351",
-    "scope": "selected-scene-MIL-update",
-    "credential_redactions": 0
+    "scope": "EXP-008-only"
   },
   {
     "path": "data/results/exp008/mil-v2-150-strict-scene/mil_f4.pt",
     "bytes": 306676,
     "source_sha256": "9fa586b25935304e0d67e8ec26446b8daa90f0221a34878575d5b53665f35436",
     "export_sha256": "9fa586b25935304e0d67e8ec26446b8daa90f0221a34878575d5b53665f35436",
-    "scope": "selected-scene-MIL-update",
-    "credential_redactions": 0
+    "scope": "EXP-008-only"
   },
   {
     "path": "data/results/exp008/mil-v2-150-strict-scene/mil_f5.pt",
     "bytes": 306676,
     "source_sha256": "badd7787bd85c1b5d5c1694453ec8935ec790e50dc174f3df11c9b1405dc2077",
     "export_sha256": "badd7787bd85c1b5d5c1694453ec8935ec790e50dc174f3df11c9b1405dc2077",
-    "scope": "selected-scene-MIL-update",
-    "credential_redactions": 0
+    "scope": "EXP-008-only"
   },
   {
     "path": "data/results/exp008/mil-v2-150-strict-scene/predictions.csv",
     "bytes": 4415,
     "source_sha256": "6e5a60078f9281acb141184c11fff8582f7d0274537d1ab56ee8f724f75d0d69",
     "export_sha256": "9dd4a85724129038401bc49c9a5d5057d62037c4381aa31d21059c3299a0348f",
-    "scope": "selected-scene-MIL-update",
-    "credential_redactions": 0
+    "scope": "EXP-008-only"
   },
   {
     "path": "docs/process/experiments/EXP-008-跨场景MIL复现实验报告.md",
     "bytes": 14110,
     "source_sha256": "61b6fb6e808be26feb46a524552991480d517f5f71da784e88df066ac011035f",
     "export_sha256": "61b6fb6e808be26feb46a524552991480d517f5f71da784e88df066ac011035f",
-    "scope": "selected-scene-MIL-update",
-    "credential_redactions": 0
+    "scope": "EXP-008-only"
   },
   {
     "path": "docs/process/experiments/EXP-008-输入与时间轴核查.md",
     "bytes": 5435,
     "source_sha256": "6aafbc68f9989323410dfcf237c44e45d1db37e785c3ed1f0a316d40ad73e659",
     "export_sha256": "6aafbc68f9989323410dfcf237c44e45d1db37e785c3ed1f0a316d40ad73e659",
-    "scope": "selected-scene-MIL-update",
-    "credential_redactions": 0
+    "scope": "EXP-008-only"
   },
   {
-    "path": "docs/process/experiments/README.md",
-    "bytes": 13276,
-    "source_sha256": "fce28977703670a33fff6c30382d2f29fd47db69e53d354d489830cd5aba5a16",
-    "export_sha256": "13ec34de7f46a23e0e8fe71ea1e40d0ef058c7f7a4229f6561c258fa566471c2",
-    "scope": "selected-scene-MIL-update",
-    "credential_redactions": 0
+    "path": "experiments/__init__.py",
+    "bytes": 34,
+    "source_sha256": "3243a4578cf6e323db3407a893344364167a4066bc3e67e601e9114e8c59e7bf",
+    "export_sha256": "b37ea1f0d9c673d885c610aceec71f8e5e97f93dc3c6198223a773a9605ace59",
+    "scope": "EXP-008-only"
+  },
+  {
+    "path": "experiments/common/video/extract_feats.py",
+    "bytes": 4688,
+    "source_sha256": "573bc8e3d7af9ba9304a48edb5c5383e4d5fa09bc60f42757552b3efbd6f9fb5",
+    "export_sha256": "573bc8e3d7af9ba9304a48edb5c5383e4d5fa09bc60f42757552b3efbd6f9fb5",
+    "scope": "EXP-008-only"
+  },
+  {
+    "path": "experiments/common/video/train_mil.py",
+    "bytes": 21264,
+    "source_sha256": "0f84eeb25a51b7e4d811a073760d159a46d7effa26d7dd33524becdb468c5a12",
+    "export_sha256": "a81baac226a7ca732bce3544ef60da7d9c0825bcc49a0ba8a0d4bdfcfe3f54e3",
+    "scope": "EXP-008-only"
+  },
+  {
+    "path": "experiments/paths.py",
+    "bytes": 4919,
+    "source_sha256": "6af9d11c3249c4c283277d9f1dc69374ea60555c2bc992e7d4e01afdce095de4",
+    "export_sha256": "6af9d11c3249c4c283277d9f1dc69374ea60555c2bc992e7d4e01afdce095de4",
+    "scope": "EXP-008-only"
   },
   {
     "path": "experiments/runspecs/EXP-008/README.md",
-    "bytes": 892,
-    "source_sha256": "f1eb451f0faef709fbf16ecbca36c016c36ef9e2e726ac26b4c52eb765c12a0d",
-    "export_sha256": "f1eb451f0faef709fbf16ecbca36c016c36ef9e2e726ac26b4c52eb765c12a0d",
-    "scope": "selected-scene-MIL-update",
-    "credential_redactions": 0
+    "bytes": 224,
+    "source_sha256": null,
+    "export_sha256": "b1b1c76a0393a16ec5e2e97cce08ebef392f5221f1fa3ecc0c359d57f52866ab",
+    "scope": "EXP-008-only"
   },
   {
     "path": "experiments/runspecs/EXP-008/audit_frozen_inputs.py",
     "bytes": 9737,
     "source_sha256": "925a34d3fd3e63d2df8266d4fb9d43ba7d087ea66dca1cde0c484b157815d4ef",
     "export_sha256": "925a34d3fd3e63d2df8266d4fb9d43ba7d087ea66dca1cde0c484b157815d4ef",
-    "scope": "selected-scene-MIL-update",
-    "credential_redactions": 0
+    "scope": "EXP-008-only"
   },
   {
     "path": "experiments/runspecs/EXP-008/prepare_clip_mask.py",
     "bytes": 1841,
     "source_sha256": "3a7f8fbc03528c5d17606167f64086047b0553ea1bd84284f2d080053f20de7b",
     "export_sha256": "3a7f8fbc03528c5d17606167f64086047b0553ea1bd84284f2d080053f20de7b",
-    "scope": "selected-scene-MIL-update",
-    "credential_redactions": 0
+    "scope": "EXP-008-only"
   },
   {
     "path": "experiments/runspecs/EXP-008/requirements-reproduction.txt",
-    "source_path": "experiments/runspecs/EXP-008/requirements-reproduction.txt",
+    "bytes": 232,
     "source_sha256": "dfbd81418b73c5d4d2e207a8df6438bab17b8aec7553329e854e07b4e0ce7eba",
     "export_sha256": "dfbd81418b73c5d4d2e207a8df6438bab17b8aec7553329e854e07b4e0ce7eba",
-    "bytes": 232,
-    "scope": "documentation and reproduction dependency specification; LF line endings"
+    "scope": "EXP-008-only"
   },
   {
     "path": "experiments/tools/publish_archive_objects.py",
-    "bytes": 4431,
-    "source_sha256": "9bf4b5555b766079e131705c9cb2ca1f2a514fbd3b495b6e80172a16752aedca",
-    "export_sha256": "9bf4b5555b766079e131705c9cb2ca1f2a514fbd3b495b6e80172a16752aedca",
-    "scope": "selected-scene-MIL-update",
-    "credential_redactions": 0
+    "bytes": 4915,
+    "source_sha256": "565005c1c728260539439773dfe85f677301a1a02f1c89672b052f44cee3bc35",
+    "export_sha256": "565005c1c728260539439773dfe85f677301a1a02f1c89672b052f44cee3bc35",
+    "scope": "EXP-008-only"
   }
 ]
