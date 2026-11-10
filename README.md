@@ -347,5 +347,10 @@ $env:DF_UNITS_ROOT = Join-Path (Get-Location) data/process/EXP-001-rebuilt-units
 | [场景划分](data/metadata/splits/EXP-001-units-scene-folds.json) | 五折留出成员 |
 | [原指标](data/results/exp001/mil-v2-150-strict-scene/metrics.json) | 原运行记录 |
 | [逐视频预测](data/results/exp001/mil-v2-150-strict-scene/predictions.csv) | 指标和混淆矩阵依据 |
+| [输入质量核查](data/metadata/experiment-archive/exp001-input-quality-20261110.json) | 冻结输入图像、取样与时间记录检查 |
+| [精确时间戳核查](data/metadata/experiment-archive/exp001-precise-timestamps-20261110.json) | 片段真实时间支持及已知间断 |
+| [时间缺口敏感性](data/metadata/experiment-archive/exp001-scene-gap-sensitivity-20261110.json) | 已知缺口片段对原视频评分的影响 |
+| [五折权重复算](data/metadata/experiment-archive/exp001-scene-head-replay-20261110.json) | 分类头到原预测与指标的复核 |
+| [取样时间代码核查](data/metadata/experiment-archive/exp001-timing-code-audit-20261110.json) | 当前实现与历史时间处理限制 |
 
 权重推理复算、单组特征重算、原视频重建和完整重新训练是不同核查范围。本次完成前两项及全部固定输入图像的技术检查，没有重新训练或改写历史输入。

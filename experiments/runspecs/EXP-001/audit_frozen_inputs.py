@@ -134,7 +134,7 @@ def audit_unit(row):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--workers", type=int, default=4)
-    parser.add_argument("--output", type=Path, default=recorded_path(ROOT / "data/metadata/experiment-archive/exp008-input-quality-20261110.json", repo=ROOT))
+    parser.add_argument("--output", type=Path, default=recorded_path(ROOT / "data/metadata/experiment-archive/exp001-input-quality-20261110.json", repo=ROOT))
     args = parser.parse_args()
     cv2.setNumThreads(1)
     started = time.monotonic()

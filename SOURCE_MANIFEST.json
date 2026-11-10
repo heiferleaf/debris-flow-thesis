@@ -56,7 +56,7 @@
   {
     "path": "ARCHIVE_SCOPE.json",
     "bytes": 2526,
-    "export_sha256": "0239318449dfe5f0427e8283932bc290d5b1a6aa828e29a3809b585c94a50d2f",
+    "export_sha256": "73b224aae30fa39e7a2db526bc1878f604e4a9d7abdefaca7cd19a264f8e7e8e",
     "scope": "EXP-001-only",
     "adaptation": null,
     "source_path": null,
@@ -64,12 +64,12 @@
   },
   {
     "path": "README.md",
-    "bytes": 19803,
-    "export_sha256": "9b528d260be11a0f0ef126d58b653789b59b4077e729c874cbb5a5621eb762a2",
+    "bytes": 20536,
+    "export_sha256": "6d80dd950a7f37ce1843969e0b79f00bab1c676605acc607c3ec5b15fa5af4bc",
     "scope": "EXP-001-only",
     "adaptation": null,
     "source_path": "docs/process/experiments/EXP-001-跨场景MIL复现实验报告.md",
-    "source_sha256": "9b528d260be11a0f0ef126d58b653789b59b4077e729c874cbb5a5621eb762a2"
+    "source_sha256": "6d80dd950a7f37ce1843969e0b79f00bab1c676605acc607c3ec5b15fa5af4bc"
   },
   {
     "path": "catalog.json",
@@ -81,48 +81,48 @@
     "source_sha256": null
   },
   {
-    "path": "data/metadata/experiment-archive/exp008-input-quality-20261110.json",
+    "path": "data/metadata/experiment-archive/exp001-input-quality-20261110.json",
     "bytes": 283059,
     "export_sha256": "37db735d9d5dd1b8c181ef4069f3c5134642e517f5aea4366f53fbdc48e295e5",
     "scope": "EXP-001-only",
     "adaptation": null,
-    "source_path": "data/metadata/experiment-archive/exp008-input-quality-20261110.json",
+    "source_path": "data/metadata/experiment-archive/exp001-input-quality-20261110.json",
     "source_sha256": "37db735d9d5dd1b8c181ef4069f3c5134642e517f5aea4366f53fbdc48e295e5"
   },
   {
-    "path": "data/metadata/experiment-archive/exp008-precise-timestamps-20261110.json",
+    "path": "data/metadata/experiment-archive/exp001-precise-timestamps-20261110.json",
     "bytes": 11848,
     "export_sha256": "9724d654f29dfc85784c805f2b598f861dec3e8e12477d5d8e1bf41cc894ff04",
     "scope": "EXP-001-only",
     "adaptation": null,
-    "source_path": "data/metadata/experiment-archive/exp008-precise-timestamps-20261110.json",
+    "source_path": "data/metadata/experiment-archive/exp001-precise-timestamps-20261110.json",
     "source_sha256": "9724d654f29dfc85784c805f2b598f861dec3e8e12477d5d8e1bf41cc894ff04"
   },
   {
-    "path": "data/metadata/experiment-archive/exp008-scene-gap-sensitivity-20261110.json",
+    "path": "data/metadata/experiment-archive/exp001-scene-gap-sensitivity-20261110.json",
     "bytes": 376,
     "export_sha256": "5d797030456d3e8ca571ed0e09fdfc9a33fed446dd22b8c018e1a31164b6e363",
     "scope": "EXP-001-only",
     "adaptation": null,
-    "source_path": "data/metadata/experiment-archive/exp008-scene-gap-sensitivity-20261110.json",
+    "source_path": "data/metadata/experiment-archive/exp001-scene-gap-sensitivity-20261110.json",
     "source_sha256": "5d797030456d3e8ca571ed0e09fdfc9a33fed446dd22b8c018e1a31164b6e363"
   },
   {
-    "path": "data/metadata/experiment-archive/exp008-scene-head-replay-20261110.json",
+    "path": "data/metadata/experiment-archive/exp001-scene-head-replay-20261110.json",
     "bytes": 2373,
     "export_sha256": "aa4c7f1abb47baf2fed80cc0636c87aa2a7a809e22c146e8b7008704da6f3165",
     "scope": "EXP-001-only",
     "adaptation": null,
-    "source_path": "data/metadata/experiment-archive/exp008-scene-head-replay-20261110.json",
+    "source_path": "data/metadata/experiment-archive/exp001-scene-head-replay-20261110.json",
     "source_sha256": "aa4c7f1abb47baf2fed80cc0636c87aa2a7a809e22c146e8b7008704da6f3165"
   },
   {
-    "path": "data/metadata/experiment-archive/exp008-timing-code-audit-20261110.json",
+    "path": "data/metadata/experiment-archive/exp001-timing-code-audit-20261110.json",
     "bytes": 954,
     "export_sha256": "dcf2f8c2bb31ee8ca26c82c8a43a4e86e0f348e24195acc81dd59f037f913684",
     "scope": "EXP-001-only",
     "adaptation": null,
-    "source_path": "data/metadata/experiment-archive/exp008-timing-code-audit-20261110.json",
+    "source_path": "data/metadata/experiment-archive/exp001-timing-code-audit-20261110.json",
     "source_sha256": "dcf2f8c2bb31ee8ca26c82c8a43a4e86e0f348e24195acc81dd59f037f913684"
   },
   {
@@ -136,12 +136,12 @@
   },
   {
     "path": "data/metadata/experiment-archive/identity-map-20261110.json",
-    "bytes": 841,
-    "export_sha256": "efc3d62cef823e7c623c2df5d4def3063dd368a7bd12d8d6f2c197510823aaf4",
+    "bytes": 1721,
+    "export_sha256": "cef4ca95e5ccee75d88f9b1c5932e9b341f06371931d22402d2d76d905b47418",
     "scope": "EXP-001-only",
     "adaptation": null,
     "source_path": ".codex/logs/experiment-retention-20261110/public-EXP-001-identity-map.json",
-    "source_sha256": "efc3d62cef823e7c623c2df5d4def3063dd368a7bd12d8d6f2c197510823aaf4"
+    "source_sha256": "cef4ca95e5ccee75d88f9b1c5932e9b341f06371931d22402d2d76d905b47418"
   },
   {
     "path": "data/metadata/splits/EXP-001-units-scene-folds.json",
@@ -235,21 +235,21 @@
   },
   {
     "path": "docs/process/experiments/EXP-001-跨场景MIL复现实验报告.md",
-    "bytes": 19803,
-    "export_sha256": "9b528d260be11a0f0ef126d58b653789b59b4077e729c874cbb5a5621eb762a2",
+    "bytes": 20536,
+    "export_sha256": "6d80dd950a7f37ce1843969e0b79f00bab1c676605acc607c3ec5b15fa5af4bc",
     "scope": "EXP-001-only",
     "adaptation": null,
     "source_path": "docs/process/experiments/EXP-001-跨场景MIL复现实验报告.md",
-    "source_sha256": "9b528d260be11a0f0ef126d58b653789b59b4077e729c874cbb5a5621eb762a2"
+    "source_sha256": "6d80dd950a7f37ce1843969e0b79f00bab1c676605acc607c3ec5b15fa5af4bc"
   },
   {
     "path": "docs/process/experiments/EXP-001-输入与时间轴核查.md",
-    "bytes": 5435,
-    "export_sha256": "f5201348ea0269a1b3e3e2b9fdd4310868dc31ce1dc569ba9d2e1d64307db5ab",
+    "bytes": 5954,
+    "export_sha256": "ddc8aa4dbbf2fe69a0fac91473a4dfeebdc24df6748cb29cfbb71d2ed2131be5",
     "scope": "EXP-001-only",
     "adaptation": null,
     "source_path": "docs/process/experiments/EXP-001-输入与时间轴核查.md",
-    "source_sha256": "f5201348ea0269a1b3e3e2b9fdd4310868dc31ce1dc569ba9d2e1d64307db5ab"
+    "source_sha256": "ddc8aa4dbbf2fe69a0fac91473a4dfeebdc24df6748cb29cfbb71d2ed2131be5"
   },
   {
     "path": "experiments/__init__.py",
@@ -326,11 +326,11 @@
   {
     "path": "experiments/runspecs/EXP-001/audit_frozen_inputs.py",
     "bytes": 10028,
-    "export_sha256": "bbd93be53cd09b6919bea9f95bd8c3cf7431926d6b7bcd44e7ac2e2dd397870f",
+    "export_sha256": "a2ad9b48507d429c7f92d0993a452e7ef0e617db5a3f453b9617cfdcd8527cb0",
     "scope": "EXP-001-only",
     "adaptation": "add repository root before artifact_paths direct-script import",
     "source_path": "experiments/runspecs/EXP-001/audit_frozen_inputs.py",
-    "source_sha256": "c7df9a76567651642705e8ce1e51eb7707f06e37e6bf9ac24b1279c6789906bc"
+    "source_sha256": "ad48d39dbfb664e21323a16763e7e29848032c883a0fadb60b55a8fe6039daf9"
   },
   {
     "path": "experiments/runspecs/EXP-001/prepare_clip_mask.py",
