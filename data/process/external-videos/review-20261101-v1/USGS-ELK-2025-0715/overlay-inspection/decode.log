@@ -1,0 +1,54 @@
+[in#0 @ 0000014a7ede26c0] UDTA parsing failed retrying raw
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'data/raw/web-research-20261030/positive/USGS_Elk_2025-07-15.mp4':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 512
+    compatible_brands: mp42iso2avc1mp41
+    creation_time   : 2025-08-27T13:58:48.000000Z
+    encoder         : HandBrake 1.9.0 2024120100
+  Duration: 00:02:16.28, start: 0.000000, bitrate: 6422 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 6291 kb/s, 29.97 fps, 29.97 tbr, 90k tbn (default)
+    Metadata:
+      creation_time   : 2025-08-27T13:58:48.000000Z
+      handler_name    : VideoHandler
+  Stream #0:1[0x2](eng): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 122 kb/s (default)
+    Metadata:
+      creation_time   : 2025-08-27T13:58:48.000000Z
+      handler_name    : Stereo
+      name            : Stereo
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> png (native))
+Output #0, image2, to 'data\process\external-videos\review-20261101-v1\USGS-ELK-2025-0715\overlay-inspection\source-%03d.png':
+  Metadata:
+    major_brand     : mp42
+    minor_version   : 512
+    compatible_brands: mp42iso2avc1mp41
+    encoder         : Lavf63.1.102
+  Stream #0:0(und): Video: png, rgb24(pc, gbr/bt709/bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 29.97 fps, 29.97 tbn (default)
+    Metadata:
+      encoder         : Lavc63.1.102 png
+      creation_time   : 2025-08-27T13:58:48.000000Z
+      handler_name    : VideoHandler
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:01.03    
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:01.55    
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:02.06    
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:02.58    
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:03.09    
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:03.61    
+frame=    0 fps=0.0 q=0.0 size=       0KiB time=N/A bitrate=N/A speed=N/A elapsed=0:00:04.13    
+frame=    1 fps=0.2 q=-0.0 size=N/A time=00:00:25.02 bitrate=N/A speed=5.38x elapsed=0:00:04.64    
+frame=    1 fps=0.2 q=-0.0 size=N/A time=00:00:25.02 bitrate=N/A speed=4.85x elapsed=0:00:05.15    
+frame=    1 fps=0.2 q=-0.0 size=N/A time=00:00:25.02 bitrate=N/A speed=4.41x elapsed=0:00:05.67    
+frame=    1 fps=0.2 q=-0.0 size=N/A time=00:00:25.02 bitrate=N/A speed=4.04x elapsed=0:00:06.19    
+frame=    2 fps=0.3 q=-0.0 size=N/A time=00:01:08.10 bitrate=N/A speed=10.1x elapsed=0:00:06.71    
+frame=    2 fps=0.3 q=-0.0 size=N/A time=00:01:08.10 bitrate=N/A speed=9.44x elapsed=0:00:07.21    
+frame=    2 fps=0.3 q=-0.0 size=N/A time=00:01:08.10 bitrate=N/A speed=8.79x elapsed=0:00:07.74    
+frame=    2 fps=0.2 q=-0.0 size=N/A time=00:01:08.10 bitrate=N/A speed=8.26x elapsed=0:00:08.24    
+frame=    2 fps=0.2 q=-0.0 size=N/A time=00:01:08.10 bitrate=N/A speed=7.77x elapsed=0:00:08.76    
+frame=    2 fps=0.2 q=-0.0 size=N/A time=00:01:08.10 bitrate=N/A speed=7.33x elapsed=0:00:09.28    
+frame=    2 fps=0.2 q=-0.0 size=N/A time=00:01:08.10 bitrate=N/A speed=6.95x elapsed=0:00:09.79    
+frame=    2 fps=0.2 q=-0.0 size=N/A time=00:01:08.10 bitrate=N/A speed= 6.6x elapsed=0:00:10.31    
+frame=    3 fps=0.3 q=-0.0 size=N/A time=00:01:23.45 bitrate=N/A speed=7.71x elapsed=0:00:10.82    
+frame=    3 fps=0.3 q=-0.0 size=N/A time=00:01:23.45 bitrate=N/A speed=7.36x elapsed=0:00:11.34    
+[out#0/image2 @ 0000014a7ee01a80] video:10154KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    4 fps=0.3 q=-0.0 Lsize=N/A time=00:01:56.81 bitrate=N/A speed=10.1x elapsed=0:00:11.61    

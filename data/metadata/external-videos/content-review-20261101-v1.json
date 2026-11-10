@@ -1,0 +1,962 @@
+{
+  "schema_version": 1,
+  "review_id": "content-review-20261101-v1",
+  "created_utc": "2026-11-01T07:46:31.118568+00:00",
+  "scope": "Two-source local free content/temporal review only",
+  "cost_cny": 0,
+  "raw_modified": false,
+  "catalog_modified": false,
+  "training_started": false,
+  "cloud_started": false,
+  "model_scores_used": false,
+  "final_test_ready": false,
+  "temporal_rule": "3.0-second target with 16 points at 0.2-second spacing, nearest real PTS; 16 distinct strictly increasing frames; each error <=0.100001 seconds; actual span 2.9..3.1 seconds. Label-independent 1.5-second grid plus end window, tuple deduplicated.",
+  "quality_limit": "Full sequential decode/PTS/native luma diagnostics verify media integrity. They do not certify semantic truth or replace the model RGB112/source-QC pipeline.",
+  "sources": [
+    {
+      "source_id": "USGS-ELK-2025-0715",
+      "machine_review": {
+        "source_id": "USGS-ELK-2025-0715",
+        "local_path": "data/raw/web-research-20261030/positive/USGS_Elk_2025-07-15.mp4",
+        "original_sha256": "5446df8026310086bce9d4fb71d0c9608e459f733e6ad23846fae808d1da8afd",
+        "source_sha256_after": "5446df8026310086bce9d4fb71d0c9608e459f733e6ad23846fae808d1da8afd",
+        "size_bytes": 109401438,
+        "source_url": "https://www.usgs.gov/media/videos/postfire-debris-flow-2024-elk-fire-burn-area",
+        "license_catalog": "Public Domain",
+        "container": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "h264",
+              "width": 1920,
+              "height": 1080,
+              "pix_fmt": "yuv420p",
+              "r_frame_rate": "30000/1001",
+              "avg_frame_rate": "30000/1001",
+              "time_base": "1/90000",
+              "start_time": "0.000000",
+              "duration": "136.269467",
+              "nb_frames": "4084"
+            }
+          ],
+          "format": {
+            "duration": "136.277000",
+            "size": "109401438"
+          }
+        },
+        "full_decoded_frames": 4084,
+        "sequential_decode_seconds": 20.8135301,
+        "pts_strictly_increasing": true,
+        "min_pts_delta": 0.03336666599997784,
+        "max_pts_delta": 0.03336666700002411,
+        "maximum_scene_score": 0.701506,
+        "scene_scores_above_point1": [
+          149,
+          3786,
+          3935
+        ],
+        "native_luma_std_min": 0.0,
+        "native_luma_std_max": 49.4,
+        "sparse_source_frames": [
+          0,
+          15,
+          30,
+          60,
+          90,
+          120,
+          135,
+          150,
+          165,
+          180,
+          240,
+          300,
+          450,
+          749,
+          1049,
+          1349,
+          1648,
+          1948,
+          2248,
+          2547,
+          2847,
+          3147,
+          3447,
+          3746,
+          3933,
+          3963,
+          3993,
+          4023,
+          4046,
+          4053,
+          4083
+        ],
+        "quality_measurement": "native decoded YUV luma mean/std from FFmpeg showinfo; diagnostic only, not model RGB/256 QC and not labels",
+        "decoder_errors": [],
+        "status": "candidate_content_review_completed_not_test_frozen",
+        "source_frames_quality_csv": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/frame-pts-quality.csv",
+        "contact_sheet": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/uniform-contact-sheet.jpg",
+        "source_sha256_final_review": "5446df8026310086bce9d4fb71d0c9608e459f733e6ad23846fae808d1da8afd"
+      },
+      "temporal_compatibility": {
+        "source_id": "USGS-ELK-2025-0715",
+        "candidate_interval_start_frame": 700,
+        "candidate_interval_end_frame_exclusive": 3750,
+        "start_pts_seconds": 23.356666667,
+        "last_included_pts_seconds": 125.091633333,
+        "end_exclusive_pts_seconds": 125.125,
+        "dense_three_second_1p5second_grid_unique_tuples": 67,
+        "max_point_error_seconds": 0.016666667000002633,
+        "actual_span_min_seconds": 2.96963333299999,
+        "actual_span_max_seconds": 3.003000000000007,
+        "strict16distinct_pass": true,
+        "skipped": [],
+        "body_native_luma_std_min": 39.5,
+        "body_native_luma_std_max": 49.4,
+        "quality_notes": "native Y luma diagnostic is not the current model BGR/256 QC threshold and does not assign truth labels"
+      },
+      "label_status": "candidate_truth_not_final",
+      "folder_name_used_as_truth": false,
+      "manual_scope": "Actual contact-sheet and selected full-resolution image inspection; not exhaustive manual semantic annotation of every frame",
+      "reviewed_images": [
+        "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/uniform-contact-sheet.jpg",
+        "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/head-contact-sheet.jpg",
+        "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/tail-contact-sheet.jpg",
+        "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/overlay-inspection/source-001.png",
+        "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/overlay-inspection/source-002.png"
+      ],
+      "current_model_pixel_pipeline_verified": false,
+      "native_luma_diagnostic_only": true,
+      "derived_video_created": false,
+      "official_source": {
+        "url": "https://www.usgs.gov/media/videos/postfire-debris-flow-2024-elk-fire-burn-area",
+        "accessed_date": "2026-11-01",
+        "description": "USGS describes a monitored postfire debris-flow event on July 15, 2025 in the 2024 Elk Fire burn area, Wyoming. Its chronology distinguishes initial flow from the later debris surge; this does not assign every retained frame a positive label."
+      },
+      "view_observation": "One stationary forest-channel view in the recommended body; no split-screen, digital zoom or second camera observed in inspected images. Full scene-score trace supports checking edits but is not proof of their absence.",
+      "editorial_observation": "Opening USGS identity, green explanatory card, crossfade into field view; field fades to black under retained overlays, then green endcard and final logo.",
+      "exact_hard_cut_source_frames": [
+        149,
+        3786,
+        3935
+      ],
+      "fade_boundary_evidence": {
+        "fade_in_visible_at_frame": 663,
+        "fade_out_neighborhood_frames": [
+          3750,
+          3772
+        ],
+        "precision": "Sparse nearby frames actually inspected. Exact maximal pixel-pure fade boundaries remain unfrozen; recommended bounds below are conservative guards."
+      },
+      "recommended_continuous_interval": {
+        "start_frame": 700,
+        "end_frame_exclusive": 3750,
+        "start_pts_seconds": 23.356666667,
+        "end_exclusive_pts_seconds": 125.125,
+        "frame_count": 3050,
+        "duration_seconds": 101.768333333,
+        "view_id": "elk_fixed_cam01",
+        "boundary_status": "conservative_reviewed_guards_not_maximal_edit_boundary"
+      },
+      "overlays": {
+        "top_left": "Location/date and POSTFIRE DEBRIS FLOW, JULY 15, 2025",
+        "bottom_right": "USGS logo",
+        "red_caption_confirmed_frame": 2040,
+        "red_caption_text": "DEBRIS FLOW VISIBLE IN CHANNEL",
+        "risk": "Semantic event-class text is visible inside the retained body. Overlay treatment and label intervals must be frozen separately before using this as an independent-test input."
+      },
+      "next_required": [
+        "Freeze overlay policy without using model scores",
+        "Review semantic start/end labels independently of folder and captions",
+        "If maximal trim is needed, inspect remaining fade-boundary frames at native resolution",
+        "Run the final common pixel/QC conversion after the input policy is approved"
+      ]
+    },
+    {
+      "source_id": "EIDC-SHEAF-202408-27K30W",
+      "machine_review": {
+        "source_id": "EIDC-SHEAF-202408-27K30W",
+        "local_path": "data/raw/web-research-20261030/negative/Sheaf_27k_30fps_wide.mp4",
+        "original_sha256": "2d90a0ddca896d1b6ae6f43c6e94471719e0a2baf65a9bab418aae24574d5031",
+        "source_sha256_after": "2d90a0ddca896d1b6ae6f43c6e94471719e0a2baf65a9bab418aae24574d5031",
+        "size_bytes": 987190326,
+        "source_url": "https://doi.org/10.5285/478db67e-bd58-48d9-a540-9e8e7e3ae68a",
+        "license_catalog": "Open Government Licence v3.0",
+        "container": {
+          "programs": [],
+          "stream_groups": [],
+          "streams": [
+            {
+              "codec_name": "h264",
+              "width": 2704,
+              "height": 1520,
+              "pix_fmt": "yuv420p",
+              "r_frame_rate": "30000/1001",
+              "avg_frame_rate": "30000/1001",
+              "time_base": "1/30000",
+              "start_time": "0.000000",
+              "duration": "180.046533",
+              "nb_frames": "5396"
+            }
+          ],
+          "format": {
+            "duration": "180.053000",
+            "size": "987190326"
+          }
+        },
+        "full_decoded_frames": 5396,
+        "sequential_decode_seconds": 73.8906179,
+        "pts_strictly_increasing": true,
+        "min_pts_delta": 0.03336666599997784,
+        "max_pts_delta": 0.03336666700002411,
+        "maximum_scene_score": 0.056417,
+        "scene_scores_above_point1": [],
+        "native_luma_std_min": 36.5,
+        "native_luma_std_max": 40.2,
+        "sparse_source_frames": [
+          0,
+          15,
+          30,
+          60,
+          90,
+          120,
+          135,
+          150,
+          165,
+          180,
+          240,
+          300,
+          450,
+          749,
+          1049,
+          1349,
+          1648,
+          1948,
+          2248,
+          2547,
+          2847,
+          3147,
+          3447,
+          3746,
+          4046,
+          4346,
+          4645,
+          4945,
+          5245,
+          5275,
+          5305,
+          5335,
+          5365,
+          5395
+        ],
+        "quality_measurement": "native decoded YUV luma mean/std from FFmpeg showinfo; diagnostic only, not model RGB/256 QC and not labels",
+        "decoder_errors": [],
+        "status": "candidate_content_review_completed_not_test_frozen",
+        "source_frames_quality_csv": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/frame-pts-quality.csv",
+        "contact_sheet": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/uniform-contact-sheet.jpg",
+        "source_sha256_final_review": "2d90a0ddca896d1b6ae6f43c6e94471719e0a2baf65a9bab418aae24574d5031"
+      },
+      "temporal_compatibility": {
+        "source_id": "EIDC-SHEAF-202408-27K30W",
+        "candidate_interval_start_frame": 0,
+        "candidate_interval_end_frame_exclusive": 5396,
+        "start_pts_seconds": 0.0,
+        "last_included_pts_seconds": 180.013166667,
+        "end_exclusive_pts_seconds": 180.046533334,
+        "dense_three_second_1p5second_grid_unique_tuples": 119,
+        "max_point_error_seconds": 0.01666666699999908,
+        "actual_span_min_seconds": 2.96963333299999,
+        "actual_span_max_seconds": 3.0030000000000143,
+        "strict16distinct_pass": true,
+        "skipped": [],
+        "body_native_luma_std_min": 36.5,
+        "body_native_luma_std_max": 40.2,
+        "quality_notes": "native Y luma diagnostic is not the current model BGR/256 QC threshold and does not assign truth labels"
+      },
+      "label_status": "candidate_truth_not_final",
+      "folder_name_used_as_truth": false,
+      "manual_scope": "Actual contact-sheet and selected full-resolution image inspection; not exhaustive manual semantic annotation of every frame",
+      "reviewed_images": [
+        "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/uniform-contact-sheet.jpg"
+      ],
+      "current_model_pixel_pipeline_verified": false,
+      "native_luma_diagnostic_only": true,
+      "derived_video_created": false,
+      "official_source": {
+        "url": "https://catalogue.ceh.ac.uk/documents/478db67e-bd58-48d9-a540-9e8e7e3ae68a",
+        "doi": "https://doi.org/10.5285/478db67e-bd58-48d9-a540-9e8e7e3ae68a",
+        "accessed_date": "2026-11-01",
+        "description": "The EIDC record describes five three-minute River Sheaf water-surface videos from August 2024, made for image velocimetry with different camera settings over about an hour. This file is one setting; related recordings should not be counted as unrelated events."
+      },
+      "view_observation": "The first, last and uniformly sampled intervening images show the same stationary rocky river reach and banks. No title/endcard, logo, split-screen, zoom or camera change observed. The full scene trace has no score above 0.1; this remains supporting evidence, not a semantic guarantee.",
+      "editorial_observation": "No editorial head/tail exclusion found in reviewed images; whole source is a continuous-view candidate.",
+      "exact_hard_cut_source_frames": [],
+      "recommended_continuous_interval": {
+        "start_frame": 0,
+        "end_frame_exclusive": 5396,
+        "start_pts_seconds": 0.0,
+        "end_exclusive_pts_seconds": 180.046533333,
+        "frame_count": 5396,
+        "duration_seconds": 180.046533333,
+        "view_id": "sheaf_27k30_wide_fixed",
+        "boundary_status": "whole_source_candidate"
+      },
+      "overlays": {
+        "observed": false,
+        "scope": "Inspected first/last/uniform images"
+      },
+      "next_required": [
+        "Independent content/negative-truth review; river-source purpose is not final truth",
+        "Preserve same-reach/event linkage to other source-setting videos",
+        "Run the final common pixel/QC conversion after the input policy is approved"
+      ]
+    }
+  ],
+  "evidence_files": [
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/container-probe.json",
+      "bytes": 568,
+      "sha256": "5d2063b2af42a30d703f789bea06b02cc39a5cab07b214fbdf5dce860abcce80"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/decode-command.json",
+      "bytes": 987,
+      "sha256": "20212a4d1add4c9429b11babe432c988d33d0213e41a533eb278e0efb21826d5"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/frame-pts-quality.csv",
+      "bytes": 303095,
+      "sha256": "cbf355cb402b345e6810526a62ed8b937a0d0533b19a33bf2470855083dca0be"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/full-sequential-decode.log",
+      "bytes": 2926242,
+      "sha256": "2852d3315bb7d982e5e01ce97b5c74a6b78f1ebdce5a5b34b2928a061022edfa"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/machine-summary.json",
+      "bytes": 2200,
+      "sha256": "1d76f83ebb6470c974176dc955d4633c6cff10e594d27e073198e9af2c29df08"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-001.jpg",
+      "bytes": 136425,
+      "sha256": "0fcc0b6e501970215650ca6c37e7945befe1d7c8624f7030a66a39ba278c6d85"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-002.jpg",
+      "bytes": 135629,
+      "sha256": "65723615397f8c7d7f3b3a1145ff3de344ad6123c204551a4a79b7caaf6a8ae9"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-003.jpg",
+      "bytes": 136630,
+      "sha256": "d2a11f0a426d33d1f7514a0ec9dd04e34fd6249c5216fef2bd6335ad79442e8e"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-004.jpg",
+      "bytes": 136291,
+      "sha256": "440b364af05238e70fa1606b20d4dadb0135d170315d0cd7243622368dcf885c"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-005.jpg",
+      "bytes": 136231,
+      "sha256": "82fefdcd84a63dd4a8eb671f7a93781223a42a6f8ff647b5a7a99aa9316c34a6"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-006.jpg",
+      "bytes": 136727,
+      "sha256": "26c4f7f08faef2a8f08dae45479ebd82d78c388a80d0778b34b4ec09d40a32c5"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-007.jpg",
+      "bytes": 135773,
+      "sha256": "23dba47e4889992f0be54477dfdcd3494287f177daa0534bf03d098d1fa6d1e7"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-008.jpg",
+      "bytes": 136935,
+      "sha256": "bc05dadac53f9ed58d23d8eb3c2c0fdb9807df26cb66a8155fbcbeed1bb5d144"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-009.jpg",
+      "bytes": 135789,
+      "sha256": "493b05acebd1400d04d4fe476354d3f25fdcbe257f707d9581e1f6963a02b6ed"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-010.jpg",
+      "bytes": 135734,
+      "sha256": "ab0c6f79916e0c1e4ca31e461d5699f780c0dab55b3a9c4f08358f0e8f56e5a1"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-011.jpg",
+      "bytes": 135366,
+      "sha256": "31553f47c91600b5709636d2ba8ce4e1c518abc8b360be25e183d15577b271a4"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-012.jpg",
+      "bytes": 136964,
+      "sha256": "db4f17011d3400d277ecd20a6eb7f9ed3df4fae583e4c933c6acd9c192c23326"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-013.jpg",
+      "bytes": 135629,
+      "sha256": "55723a7ebc5f3d6b6fa607293c9867aec92b7cf8171a8c926b1dc7272c911817"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-014.jpg",
+      "bytes": 136028,
+      "sha256": "3a22a7e244c00ff9a91580e042c8aca0948f5787ae83fb0be5698cb8ae7c28b6"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-015.jpg",
+      "bytes": 135823,
+      "sha256": "48cea5cdf3c72aa1f98207ae96fb8063683dd9e6441cfeb22ed3e8e93be89119"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-016.jpg",
+      "bytes": 136695,
+      "sha256": "79455a7710b3cf495e20765a801d781ecc15ebb6cfad896c5011ad38d0496e34"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-017.jpg",
+      "bytes": 135835,
+      "sha256": "079b26815853f54ffd49a69bd0ad35c02e5af3557f523a802d16a9fe3edebca1"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-018.jpg",
+      "bytes": 136053,
+      "sha256": "5fbe8060bc2951ea35d6d5ef2da396119a6a6ee77a190de46efd6f9f66f53c57"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-019.jpg",
+      "bytes": 135611,
+      "sha256": "14680ae2f479585f5380f5e5e89eb1c24278100e967d1f3dfe467ef826dc59a6"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-020.jpg",
+      "bytes": 136489,
+      "sha256": "2cb0783139332b7fd6bdcc0b03e2da2f989ef7e6f7812c7c4faf9aa6b4b8525b"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-021.jpg",
+      "bytes": 137390,
+      "sha256": "e29b6a7a5148c53dfe1b2e98efc42b79364e8fa90d631b1cf8482b8f9b6b7013"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-022.jpg",
+      "bytes": 136358,
+      "sha256": "a2ccea3b2c8d1b242ee18d70904145d5fb6f8ab55ece85ff78b6e08065473cdd"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-023.jpg",
+      "bytes": 136534,
+      "sha256": "ab5c13c7f1ae4581066ae0a8be128eaf8a651e2c04a047a470d2d7f2af44460b"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-024.jpg",
+      "bytes": 135508,
+      "sha256": "d039243736b63ea7e7b02ee61ee1dc35432f75f6c7608d8faedaefef97ac1284"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-025.jpg",
+      "bytes": 136404,
+      "sha256": "20d523e3d812143837031de91d5da37263e8b2a1e0e508d7ab683ceb039cb210"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-026.jpg",
+      "bytes": 135804,
+      "sha256": "5919ac14104006127a721c18048c608f5e02ae0eb51c9ac5f5d3a72f9d4dd061"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-027.jpg",
+      "bytes": 135483,
+      "sha256": "995e75dbc7ff978c20c119153092fa3703de98db04c1b4ffd6a5f3f553c5c8d4"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-028.jpg",
+      "bytes": 135702,
+      "sha256": "1e785dcfd0d1f95e40be16ce1663e8a4c4e671672b5721581972928b17d60982"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-029.jpg",
+      "bytes": 135883,
+      "sha256": "ae416e3e3e07c111b25441b24a8a6972b027188bbdb946a61f29a74642bcc997"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-030.jpg",
+      "bytes": 135526,
+      "sha256": "880305e136ee68a406fc5b16a0717b92dee71d7f539b27c09368fe643422f19c"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-031.jpg",
+      "bytes": 135467,
+      "sha256": "eceb8bc4bc577f2c76585eddda9e13749beed6e9a7a6aae16697fbe734d62b58"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-032.jpg",
+      "bytes": 135674,
+      "sha256": "e7d4c73bdc3328ca08f4e825a761a0f61f4fd452b029f9a5d81e8d949aaf76a7"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-033.jpg",
+      "bytes": 135430,
+      "sha256": "9f5b6c04403dbab839c5dbc6c5a925e10ff83af3a9e3a4e879b9bc77615f539b"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/preview-034.jpg",
+      "bytes": 135938,
+      "sha256": "0e8261a1338fe19ee8eb2a80b720a7c8b0dea54d955f69ad3388d83f72f9a90c"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/temporal-compatibility-summary.json",
+      "bytes": 722,
+      "sha256": "4fdad4305541e6331e6abcd6395adbbffa49de25de7c5eae63e0152e1da6888e"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/three-second-temporal-compatibility.csv",
+      "bytes": 39800,
+      "sha256": "bb61c7b9a1fa218e3f777d5d4fad14a111da88f5a31da6e2adea95bb7b7ece05"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/uniform-contact-sheet.jpg",
+      "bytes": 1728161,
+      "sha256": "cfb13cca458ea3a576c6659567bb702e685f62493cb69b542cc9337a35de40e8"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/machine-review.json",
+      "bytes": 4720,
+      "sha256": "e2c61a6dc9f1d3a8436bf15e1ff21a14041aaa33b5ce088fec548b37301a650b"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/command.json",
+      "bytes": 820,
+      "sha256": "fb6aff61c491c6a0d49bdf45d4ecadaf8e17d34b3ee51d389b1ef2067df5d9b7"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/decode.log",
+      "bytes": 4146,
+      "sha256": "ce3a34fb4516f303337a27a4b36a668389c063c66273f31f93e3f272298c34c3"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-001.jpg",
+      "bytes": 47360,
+      "sha256": "7717c8699687481251ad2d53352044659feb506dcc70a3ce26994e58790a8cbb"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-002.jpg",
+      "bytes": 47360,
+      "sha256": "7717c8699687481251ad2d53352044659feb506dcc70a3ce26994e58790a8cbb"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-003.jpg",
+      "bytes": 47352,
+      "sha256": "5e3e4d7b09e6a6263d21a59557bbde405e276257bc07a6db9760ade262d07f98"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-004.jpg",
+      "bytes": 52338,
+      "sha256": "3edac43eb3e285d65ffb1bb093d86ecafc0e08aae094baa196ba255df597a709"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-005.jpg",
+      "bytes": 58265,
+      "sha256": "7d3ace7ade0fc282150c32daeeafce0b9b54bbf5b2f26f46492b3bf7ed7d6926"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-006.jpg",
+      "bytes": 82474,
+      "sha256": "eb8e6af6a96bef6e65810979ecbff5c49817e2f05cc0d237cad63c086ccb6786"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-007.jpg",
+      "bytes": 103402,
+      "sha256": "093a2d0b1046ef9bcc44ce339ead41ea47f5391a6eb5858587e6d9fd9d919be7"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-008.jpg",
+      "bytes": 118283,
+      "sha256": "82330fb583b3ffbec6fdae496263f771c5e4968ee3261474be807a84e190aed4"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-009.jpg",
+      "bytes": 134919,
+      "sha256": "a90ec62dd45301e5d76414c8a80d45a29ca63f2de40f6fc1c6c3e55996f85c8e"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-010.jpg",
+      "bytes": 145189,
+      "sha256": "3afb78eefd5150bbee4cf47c5cc628cdb669a747fa1418ee3115adad4e589bb4"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-011.jpg",
+      "bytes": 152337,
+      "sha256": "586aed401e011937cf088f74893d1188e6730a27c11d34fa064970011997e4c5"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-012.jpg",
+      "bytes": 159811,
+      "sha256": "9343588c4f49a4c761fd5e8ffde83220655e5227eef59977a9537f49e21bfc7f"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-013.jpg",
+      "bytes": 163177,
+      "sha256": "45dc8e332bf7b891286c076aa156721e029df7935517b2ce136b1c13402842d0"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-014.jpg",
+      "bytes": 164217,
+      "sha256": "48df2c747f60d22b72a33436176f2faee2a01f6c6afebafa2e7a2259f4e7e29d"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-015.jpg",
+      "bytes": 164972,
+      "sha256": "1319411fb767e68046a65ee59513ea390c11817aa165748a225135b79bfe8aa5"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-016.jpg",
+      "bytes": 165301,
+      "sha256": "23af225a6ecf8db7c9942174a3e6a563afe73219357b017d780a778e9c4ecae0"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-017.jpg",
+      "bytes": 167065,
+      "sha256": "5cb0a9cc2b8cc08ff709e040f8da2bbe5e3841ca762975df1ba71bfab3afe113"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-018.jpg",
+      "bytes": 167407,
+      "sha256": "f802fb517e95375ebc5eefab2e708619ca958f72ef3f016b26fd59dc33bcc720"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-019.jpg",
+      "bytes": 168366,
+      "sha256": "fb32c1e64e5cd1a05b3c2e395129af1e0cf2936123822681dd93c48508e1dedc"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-020.jpg",
+      "bytes": 167843,
+      "sha256": "35453a7c05a3f2c37b7c5564d0d9bc974a015de3a3248325c8fc731a40a1be54"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-021.jpg",
+      "bytes": 114517,
+      "sha256": "3df3ba3bb6d1b0d05b36639ebdda95a9074cc3cb23b663d9fba42576388a1dee"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-022.jpg",
+      "bytes": 116143,
+      "sha256": "babee807290a14f256c0c80ace6dd35cea1d264f2a4fa0aac068daa1d12b7c94"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-023.jpg",
+      "bytes": 116059,
+      "sha256": "cf4213a860debc86914cc96ff3ad0c333f946089343987099c850b291a785e86"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-024.jpg",
+      "bytes": 115140,
+      "sha256": "c16c729e11783747c8987fa10bb5aec17387b5d896bf0e6fcda940cb66f3ae49"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-025.jpg",
+      "bytes": 114783,
+      "sha256": "8cad06d5a599496b90e0f2743adc712055790099b4a5859ab38d2e4bdfc4ef3b"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-026.jpg",
+      "bytes": 114499,
+      "sha256": "cf2f04a41f68a8399b38e713dd2265e27017967dbedfa4ac5551fcc9ca7b5bb1"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-027.jpg",
+      "bytes": 106121,
+      "sha256": "9b6d609173285e823e8fd2ed63ca4d145952565f6fa7c2dde3a545905cc7e62e"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-028.jpg",
+      "bytes": 97322,
+      "sha256": "c77b10204dff2e38cef68b970dbb3eb2db6017f268426d894349974d4dee914b"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-029.jpg",
+      "bytes": 86842,
+      "sha256": "81527c1493ae43665c9f3b5776adccc29192ebeacd653c577354a6fe72aa3fdd"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-030.jpg",
+      "bytes": 74485,
+      "sha256": "8abaa043944987af06e43b61b45c95e56e0a854f7de4831b0f380f61dc383d62"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-031.jpg",
+      "bytes": 37401,
+      "sha256": "cb99bc457614dd935e9fb431b1d774ba91040684f1ba29d75d16b22590f0e779"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-032.jpg",
+      "bytes": 11770,
+      "sha256": "efeec3ac05efafc0f21071b9b8508b50242faccaf2894b40cc0db9442e19c3a8"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-033.jpg",
+      "bytes": 11763,
+      "sha256": "c6f595ad4b144de5c504e8f61d0a2e079295f9c6e2e18bd4af2a129184861cc6"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-034.jpg",
+      "bytes": 11763,
+      "sha256": "f1e2d1af74a4b7ca04664cd605b488ede4696c7985afe56829c1cc707a4f259d"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-035.jpg",
+      "bytes": 11759,
+      "sha256": "9e7eaf10ea89940550b775b7b071c984998ed8df5eaa5ad4453f3c313c070291"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-036.jpg",
+      "bytes": 11759,
+      "sha256": "9e7eaf10ea89940550b775b7b071c984998ed8df5eaa5ad4453f3c313c070291"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/frame-037.jpg",
+      "bytes": 34874,
+      "sha256": "306e642d71a4b6dfe2f0405e13a81806efc3bef4ac5476fe768f568fe3781e88"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/head-contact-sheet.jpg",
+      "bytes": 1062412,
+      "sha256": "d50df76188885ae928e1200a63877a8c38006bf7b95b1949838e179b2f6dfb88"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/boundary-inspection/tail-contact-sheet.jpg",
+      "bytes": 593336,
+      "sha256": "73e812f2ea236eee6138966b2240aaed670f01e68b2c0020561f35b89b9f1bb7"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/container-probe.json",
+      "bytes": 568,
+      "sha256": "3db4f4b18c78c92bb4435b91bb720e64d4449023907c1caf57a2657309e6fd5e"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/decode-command.json",
+      "bytes": 947,
+      "sha256": "cfb0505e0f028b91020282631340ada02c99d0214e88353530db3d1472d1dc2f"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/frame-pts-quality.csv",
+      "bytes": 224846,
+      "sha256": "273b858e78b4e7202364bce7b2abf0ede8d35d502969a7c4f063b137022a0f71"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/full-sequential-decode.log",
+      "bytes": 2208739,
+      "sha256": "c959dcab77609b1101d5cc5573cc59b0dee5f3f6bec05af8e6bf3029c45b3912"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/machine-summary.json",
+      "bytes": 2185,
+      "sha256": "84c806d60088bf08eb96554630b978ae86c1b0fed14a1c95cb0c7ea520d8844b"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/overlay-inspection/command.json",
+      "bytes": 443,
+      "sha256": "9845ce15393974168ac4c967b140fc2e40ac23de8ee35d1b5a74a3e104bd9206"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/overlay-inspection/decode.log",
+      "bytes": 3951,
+      "sha256": "4bf1fd6af4e447b4dfd8d2e356230aa38f9809d2f826d6dd547aa08838845ac7"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/overlay-inspection/source-001.png",
+      "bytes": 2935892,
+      "sha256": "ed1ce5d91144630cc34146aa2436247e3fd19a14ee2c75163d98039dfca25c98"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/overlay-inspection/source-002.png",
+      "bytes": 2931287,
+      "sha256": "c87dfd1c4f0f06a5a16f2a1435e76534a9b2d84e8e2fea26ad70c4f2e8464443"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/overlay-inspection/source-003.png",
+      "bytes": 2347863,
+      "sha256": "c277e32064cb6138d3db54411c9616fd23cdb185eae7ff83235bacba664ac407"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/overlay-inspection/source-004.png",
+      "bytes": 2182797,
+      "sha256": "a8ea45dc10dcd4d8bbddf9b5d22b5b57434836c2668b542253c70f2953c3c3ba"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-001.jpg",
+      "bytes": 2164,
+      "sha256": "03ebc8562cfb3e60509f1dd3240c1f1706aa7f0f7ea1818ac28b5fbed9e00b2a"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-002.jpg",
+      "bytes": 2164,
+      "sha256": "03ebc8562cfb3e60509f1dd3240c1f1706aa7f0f7ea1818ac28b5fbed9e00b2a"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-003.jpg",
+      "bytes": 2164,
+      "sha256": "03ebc8562cfb3e60509f1dd3240c1f1706aa7f0f7ea1818ac28b5fbed9e00b2a"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-004.jpg",
+      "bytes": 15950,
+      "sha256": "c9615ceabe4136c78c7c603a7ca2b3e3f6d38ef015d3e600c1998840e98f432f"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-005.jpg",
+      "bytes": 16000,
+      "sha256": "d2abf553c41752e8a9e815efd951f4b5a5b71f1f6ca786e05abdc64120ab1f09"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-006.jpg",
+      "bytes": 16013,
+      "sha256": "04d5fb135b6745983f18173d235887159ea749314a74180b4713a1ffefb7e895"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-007.jpg",
+      "bytes": 13103,
+      "sha256": "5f50cf4b898fb86f68076a613905229aa98b1602ce617ad49bb188938347995f"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-008.jpg",
+      "bytes": 47348,
+      "sha256": "c9ff4928bc52a14d3f2cda24c0e7abf06e7681c1a26a472d04ca655d0f2a6222"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-009.jpg",
+      "bytes": 47360,
+      "sha256": "1d9ba46f51893bc19d16970b7dfd88f25dc493e973c00716d4f93859f77af34f"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-010.jpg",
+      "bytes": 47360,
+      "sha256": "1d9ba46f51893bc19d16970b7dfd88f25dc493e973c00716d4f93859f77af34f"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-011.jpg",
+      "bytes": 47360,
+      "sha256": "1d9ba46f51893bc19d16970b7dfd88f25dc493e973c00716d4f93859f77af34f"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-012.jpg",
+      "bytes": 47360,
+      "sha256": "1d9ba46f51893bc19d16970b7dfd88f25dc493e973c00716d4f93859f77af34f"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-013.jpg",
+      "bytes": 47363,
+      "sha256": "1384cc6030c5013394c83cb1c4bcd1cf63d5d732b4df920e30319fa197c4a697"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-014.jpg",
+      "bytes": 168366,
+      "sha256": "fb32c1e64e5cd1a05b3c2e395129af1e0cf2936123822681dd93c48508e1dedc"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-015.jpg",
+      "bytes": 167266,
+      "sha256": "f50cba0ebd3e27b409904df1c55455432229c7a7aff64c390a4dbaca328f8e35"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-016.jpg",
+      "bytes": 166915,
+      "sha256": "de6fe63e9d25610cb64484cc2146e10a58f17a3ad6e6b410be3f4e73b1d2c9bf"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-017.jpg",
+      "bytes": 163632,
+      "sha256": "a6dc2955243ec74e05dfbeb95df7442d3ab8616ef59254e47be763d50d0564cd"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-018.jpg",
+      "bytes": 160617,
+      "sha256": "e9208f436767a264d30ae4e2fde66a22ad752a2fa0613d481ff533ae16ffd961"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-019.jpg",
+      "bytes": 140150,
+      "sha256": "136f9c5e346a4384eaecdc2f360fc9896cf5a8db228884660be1e5a849620039"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-020.jpg",
+      "bytes": 114839,
+      "sha256": "9378e2e6839ee9097fbbe232c0619c6c5eadc9342aa91ca3ba924b490647e595"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-021.jpg",
+      "bytes": 112465,
+      "sha256": "6620c0dc606330782be3daca014ce45ac10630c671b3f4debef858aadd6c5b6d"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-022.jpg",
+      "bytes": 120641,
+      "sha256": "8b4e3153c49cbd030213bd9953bdceceef0113daa534e448ff3137d9add0faef"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-023.jpg",
+      "bytes": 109576,
+      "sha256": "0f9760a54c8f791421cff53dc5652477aef7a0ab4d43e491a47002a5ad1fbaeb"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-024.jpg",
+      "bytes": 115067,
+      "sha256": "a933c4615ee83fbbcf5aff76733992621653f2ebaa8ca94be4dbb968ddcf65cd"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-025.jpg",
+      "bytes": 34876,
+      "sha256": "93b0379584ce966f3080f9cb282b61c3c6e9e68c3edd0c2a01f070280c791ed6"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-026.jpg",
+      "bytes": 2165,
+      "sha256": "1d3c5679928166267340cd1c48164229dc900c745b900fcc6acbf1b0826a7e1c"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-027.jpg",
+      "bytes": 15393,
+      "sha256": "2915857ccb3c4c1959d0c87eb8183e9c3aa8774b45a01971767249e4ccc8a245"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-028.jpg",
+      "bytes": 16019,
+      "sha256": "0abdc46ec7a36f0099cbfdea2f5f9adeb76dc206440cb712bf1c8318ef0c3baf"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-029.jpg",
+      "bytes": 15996,
+      "sha256": "e9193358bb762b50c7b54d315dc45c8b11307ddae45f61c8c0d919ec34a0cfde"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-030.jpg",
+      "bytes": 16022,
+      "sha256": "d49cbdad55f093cfe78d60ae0c08a22a296548be39261e65e7121571970795ee"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/preview-031.jpg",
+      "bytes": 16015,
+      "sha256": "ef7571e3450d73b99f200021836ffb190ed4c7710dc905c6f2c91ed3a67f65bf"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/temporal-compatibility-summary.json",
+      "bytes": 720,
+      "sha256": "2733633b13da621b808f28134585303cef7c07128d0d54754aef13f8fa8a4ce0"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/three-second-temporal-compatibility.csv",
+      "bytes": 21875,
+      "sha256": "25548ee9dcc688ad3d42bc7c8011e56fa8063bde8e783aa2b2179dbf991e551c"
+    },
+    {
+      "path": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/uniform-contact-sheet.jpg",
+      "bytes": 879721,
+      "sha256": "31a36ce7dee31e4d6a67c1f8b732db041a2d6f5346abe48f6859561b11878c63"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "status": "cloud_static_preflight_passed",
+  "decoded_frames": 0,
+  "plan_sha256": "bb3af415133e1fe40a7a891bc80e2b22b0e3d44b97f2dec43ac0d6ca5750bb3f",
+  "pixel_reference_sha256": "573d86e059545acac13b5d7ab198df0d307e4b2c00cd256db7324a0d54c03231",
+  "code_sha256": {
+    "experiments/common/video/supervised_plan.py": "1f29f36e360b7163c45bec3012240b1afb1fa16fa8523a2598c91ffc51db45ff",
+    "experiments/common/video/supervised_runtime.py": "3b2b4119a0d8c7846b36d355c356d7730a17aa6c4c0a2324ec7bbddbe4fd3d9a",
+    "experiments/common/video/supervised_training.py": "4f7ee39df6e33bca2db531b3d49ad465b62c362f30b88d2a1ff8e1fd256ce7c8",
+    "experiments/common/video/r2plus1d_classifier.py": "f44734301e3040c3d0c18342ec4d9c3396693d9f9a4fbab21aeae8b3c7cc2f47",
+    "experiments/common/video/dense_evaluation.py": "8c6cf136744cdaf926698f64db56afb9c01f9ef965dcf126b2fe631f169b595d",
+    "experiments/common/video/pts_clip_sampling.py": "931f67394c82949d81570cb1607d7fb1b3a811d549841d8d46050188b1232178",
+    "experiments/runspecs/EXP-016/run.py": "3d93e3ca102275081846ecef0e67ad7acf569a48f7a734f4cb5b46216cf9bcd9",
+    "experiments/runspecs/EXP-016/train.py": "250aeaeff78933786372383fe90d2940b65e474dad1d2612a0338a9fc73389a9",
+    "experiments/runspecs/EXP-016/evaluate.py": "4278e6b02d6de3b0b604b680bcf9afc31445ad3cd82895f2204956b4c52cca66",
+    "experiments/runspecs/EXP-016/run_cloud.sh": "14b425e9a75848e6faf10658b100dfd62ec0bdc65379517cb79b2d73fcea7cdf",
+    "experiments/runspecs/EXP-016/check_cloud.sh": "0c1df5725ec9b79e51b4af57b71b1f000251b617e551de22ae7056aa01109fc7",
+    "docs/process/experiments/EXP-016.md": "ace9b493a068e11a6bc76ce31caaf604ceebb3723ac32a730d79741d4bef50ce",
+    "docs/process/experiments/EXP-006-数据使用方案.md": "3ddccf1032e494092a797c54d1f4bb26b9c2503b2f13a0c3e6ece2f79c08a7cb"
+  },
+  "environment": {
+    "torch": "2.5.1+cu124",
+    "torchvision": "0.20.1+cu124",
+    "opencv": "5.0.0",
+    "python": [
+      3,
+      12,
+      3
+    ],
+    "ffmpeg_sha256": "e7e7fb30477f717e6f55f9180a70386c62677ef8a4d4d1a5d948f4098aa3eb99",
+    "ffmpeg_version": "ffmpeg version 7.0.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2024 the FFmpeg developers"
+  },
+  "source_plan_sha256": "b597a3f784ae10701400f4c5c0c3bd1191d7adfa91471bf0e75de7d22643563b",
+  "transfer_manifest_sha256": "da89880e07377e102306c5df9d9140656964cd50475c29db46c6695df8d0dffe",
+  "static_result_sha256": "4cbcd7aa50e91d6438e154328aac269ffa33a2fa299c44c5ec5c3abfe666a916",
+  "next_gate": "Short GPU training runtime probe, paired training, then complete video evaluation with local pixel digest checks"
+}

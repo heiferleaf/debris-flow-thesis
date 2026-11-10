@@ -1,0 +1,1170 @@
+{
+  "reviewer": "D",
+  "review_type": "bounded_independent_visual_extent_check",
+  "unit_id": "v1_15",
+  "status": "completed",
+  "normative_source": "docs/data/NPT标签定义与量化核查.md",
+  "preparation": "data/metadata/annotation-review/full-temporal-20261108-v1/reviews/root-v115-full-preparation.json",
+  "primary_full_existing_frame_review": "data/metadata/annotation-review/full-temporal-20261108-v1/reviews/root-v115-full-fine.json",
+  "secondary_independent_subinterval_review": "data/metadata/annotation-review/full-temporal-20261108-v1/reviews/reviewer-b-fine-v115-1000-1140.json",
+  "source_time_basis": "Existing audit CSV t_sec, original CSV source-index order. No new original-video alignment, decode, or media hash.",
+  "personally_opened_pages": [
+    1,
+    3,
+    6,
+    7,
+    8,
+    15,
+    25,
+    37,
+    45
+  ],
+  "all_710_personally_viewed_by_this_reviewer": false,
+  "decision": "通过定点复核：清晰段原P与长期固定床面/沉积形态相矛盾，支持改N；前段上游被雾遮，保守保留U并另记雾遮QC，不造T。D独立查看指定9页，整段延伸建议同时依赖root已经完成的710张现存图全覆盖，而不冒称D独立重看710张。",
+  "recommended_publishable_observed_extent": [
+    {
+      "start_sec": 0,
+      "end_sec": 210.44,
+      "interval_convention": "[start,end)",
+      "semantic_status": "U",
+      "three_class_supervision_eligible": false,
+      "qc_state": "fog_observability_limited",
+      "reason": "近中景可辨固定床面，但早段远端主沟/上游入口被雾间歇遮蔽，不能把局部静止观察外推为整幅明确N。该段也没有当前目标存在的肯定依据，不能T。"
+    },
+    {
+      "start_sec": 210.44,
+      "end_sec": 1420.94,
+      "interval_convention": "[start,end] at observed final timestamp; release interval endpoint convention is producer-owned",
+      "semantic_status": "N",
+      "reason": "保守从上游入口、起重机附近床面与近中景均能稳定分辨的已看时刻起，明显散石、沟纹和堆积边缘跨2秒图与长时跨度保持同位；无可辨成团物料输运、颗粒整体推进、阵头通过或冲淤变化。"
+    }
+  ],
+  "original_explicit_extent_sec": [
+    0,
+    1421
+  ],
+  "unobserved_tail": {
+    "start_sec": 1420.94,
+    "end_sec": 1421,
+    "duration_sec": 0.06,
+    "tail_extent_unverified": true,
+    "semantic_recommendation": "N inherited to existing explicit endpoint1421; no claim of a separately viewed tail frame",
+    "reason": "1423 was preparation request upper bound, not original released P endpoint. Existing v2 P ends1421; last indexed image1420.94 leaves only0.06s inherited endpoint precision."
+  },
+  "visibility_boundary": {
+    "recommended_conservative_N_start_sec": 210.44,
+    "conservative_transition_bracket_sec": [
+      190.39,
+      210.44
+    ],
+    "boundary_kind": "observability qualification, not target cessation",
+    "reason": "160.34–190.39s近中景散石已可辨且固定，但远端入口仍雾遮。192.39s后起重机/上游逐渐显露，清楚程度连续改善而非一帧事件切换。210.44s起在本轮已看局部序列中上游入口与近中景床面稳定可分；选择较晚界限以避免把雾中未知区域硬归N。190.39–210.44不声称为物理变化时段，192.39并非错误时间，只是较积极的可见性起点。"
+  },
+  "positive_or_T_evidence_found": false,
+  "new_T_confirmed": false,
+  "label_changes": 0,
+  "shared_ledger_changes": 0,
+  "producer_changes": 0,
+  "video_decode_count": 0,
+  "training_runs": 0,
+  "paid_calls": 0,
+  "training_ready": false,
+  "counterexamples_checked": [
+    "浅灰/浅黄颜色及粗糙颗粒外观不能单独证明活动泥石流。",
+    "多个散石和分汊沟纹相对固定岸边长期同位，不能把静止沉积外观当成输运。",
+    "局部人物移动只证明该局部图像在更新，人本身不是N的证据。",
+    "雾散造成上游显露不能被命名为泥石流消失或P到N的物理过渡。",
+    "未排除普通细水流；N本来允许普通细流或浑水。"
+  ],
+  "research_implication": "支持原正样本来源包含静止沉积/灾后外观，整段P会奖励静态外观而偏离当前活动流任务。这是可追溯的具体标签语义问题，不能称为旧训练失败的唯一原因，也不凭本视频确定沉积成因或物质组成。",
+  "limits": [
+    "这是指定9页/134张现存JPEG的独立抽查，未重看其余576张。",
+    "root全710图和B的1000–1140s70图是引用证据，分别保留其审查范围。",
+    "约2秒图不等于原始全帧连续视频；不声称排除图间短暂变化或雾中隐藏事件。",
+    "不认证地学成分，也不把灾后沉积的因果来源仅凭画面定死。"
+  ],
+  "page_observations": [
+    {
+      "page": 1,
+      "observation": "近中景浅色床面、散石和左侧黑色堆积体边缘固定；上游及右上区域被浓雾显著遮蔽，雾形变化而床面特征不随之推进。未见料团/前缘输运，但全幅不能明确N。",
+      "quality": "near/middle bed observable; distal channel fog-limited",
+      "recommendation": "U/QC",
+      "panel": ".codex/docs/.temp/full-temporal-20261108-v1/fine-root-v115-full/sheet-01.jpg",
+      "prepared_panel_sha256_reused_without_rehash": "87316d7829b5b79e6d3c248ad0a100f093be1777573de8dd1490227d6c85b947",
+      "actual_time_range_sec": [
+        0.0,
+        30.05
+      ],
+      "actual_frames": [
+        {
+          "t_sec": 0.0,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000000_t0s.jpg",
+          "index_csv_record": 7908,
+          "index_in_video": 0,
+          "sequence_index": 1
+        },
+        {
+          "t_sec": 2.0,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000001_t2s.jpg",
+          "index_csv_record": 7909,
+          "index_in_video": 1,
+          "sequence_index": 2
+        },
+        {
+          "t_sec": 4.0,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000002_t4s.jpg",
+          "index_csv_record": 7910,
+          "index_in_video": 2,
+          "sequence_index": 3
+        },
+        {
+          "t_sec": 6.0,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000003_t6s.jpg",
+          "index_csv_record": 7911,
+          "index_in_video": 3,
+          "sequence_index": 4
+        },
+        {
+          "t_sec": 8.0,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000004_t8s.jpg",
+          "index_csv_record": 7912,
+          "index_in_video": 4,
+          "sequence_index": 5
+        },
+        {
+          "t_sec": 10.0,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000005_t10s.jpg",
+          "index_csv_record": 7913,
+          "index_in_video": 5,
+          "sequence_index": 6
+        },
+        {
+          "t_sec": 12.05,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000006_t12s.jpg",
+          "index_csv_record": 7914,
+          "index_in_video": 6,
+          "sequence_index": 7
+        },
+        {
+          "t_sec": 14.05,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000007_t14s.jpg",
+          "index_csv_record": 7915,
+          "index_in_video": 7,
+          "sequence_index": 8
+        },
+        {
+          "t_sec": 16.05,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000008_t16s.jpg",
+          "index_csv_record": 7916,
+          "index_in_video": 8,
+          "sequence_index": 9
+        },
+        {
+          "t_sec": 18.05,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000009_t18s.jpg",
+          "index_csv_record": 7917,
+          "index_in_video": 9,
+          "sequence_index": 10
+        },
+        {
+          "t_sec": 20.05,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000010_t20s.jpg",
+          "index_csv_record": 7918,
+          "index_in_video": 10,
+          "sequence_index": 11
+        },
+        {
+          "t_sec": 22.05,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000011_t22s.jpg",
+          "index_csv_record": 7919,
+          "index_in_video": 11,
+          "sequence_index": 12
+        },
+        {
+          "t_sec": 24.05,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000012_t24s.jpg",
+          "index_csv_record": 7920,
+          "index_in_video": 12,
+          "sequence_index": 13
+        },
+        {
+          "t_sec": 26.05,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000013_t26s.jpg",
+          "index_csv_record": 7921,
+          "index_in_video": 13,
+          "sequence_index": 14
+        },
+        {
+          "t_sec": 28.05,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000014_t28s.jpg",
+          "index_csv_record": 7922,
+          "index_in_video": 14,
+          "sequence_index": 15
+        },
+        {
+          "t_sec": 30.05,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000015_t30s.jpg",
+          "index_csv_record": 7923,
+          "index_in_video": 15,
+          "sequence_index": 16
+        }
+      ]
+    },
+    {
+      "page": 3,
+      "observation": "浓雾反复遮上游；近中景可见的散石、分支沟纹与堆积边缘仍同位，未见料团整体位移。只支持可见局部静止，不能认证整幅N。",
+      "quality": "distal fog, changing visibility",
+      "recommendation": "U/QC",
+      "panel": ".codex/docs/.temp/full-temporal-20261108-v1/fine-root-v115-full/sheet-03.jpg",
+      "prepared_panel_sha256_reused_without_rehash": "e99021d10312f847b23121b489652a0f0d53219f724cb15c2262c95be57083e5",
+      "actual_time_range_sec": [
+        64.15,
+        94.2
+      ],
+      "actual_frames": [
+        {
+          "t_sec": 64.15,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000032_t64s.jpg",
+          "index_csv_record": 7940,
+          "index_in_video": 32,
+          "sequence_index": 33
+        },
+        {
+          "t_sec": 66.15,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000033_t66s.jpg",
+          "index_csv_record": 7941,
+          "index_in_video": 33,
+          "sequence_index": 34
+        },
+        {
+          "t_sec": 68.15,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000034_t68s.jpg",
+          "index_csv_record": 7942,
+          "index_in_video": 34,
+          "sequence_index": 35
+        },
+        {
+          "t_sec": 70.15,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000035_t70s.jpg",
+          "index_csv_record": 7943,
+          "index_in_video": 35,
+          "sequence_index": 36
+        },
+        {
+          "t_sec": 72.15,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000036_t72s.jpg",
+          "index_csv_record": 7944,
+          "index_in_video": 36,
+          "sequence_index": 37
+        },
+        {
+          "t_sec": 74.15,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000037_t74s.jpg",
+          "index_csv_record": 7945,
+          "index_in_video": 37,
+          "sequence_index": 38
+        },
+        {
+          "t_sec": 76.15,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000038_t76s.jpg",
+          "index_csv_record": 7946,
+          "index_in_video": 38,
+          "sequence_index": 39
+        },
+        {
+          "t_sec": 78.15,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000039_t78s.jpg",
+          "index_csv_record": 7947,
+          "index_in_video": 39,
+          "sequence_index": 40
+        },
+        {
+          "t_sec": 80.15,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000040_t80s.jpg",
+          "index_csv_record": 7948,
+          "index_in_video": 40,
+          "sequence_index": 41
+        },
+        {
+          "t_sec": 82.15,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000041_t82s.jpg",
+          "index_csv_record": 7949,
+          "index_in_video": 41,
+          "sequence_index": 42
+        },
+        {
+          "t_sec": 84.2,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000042_t84s.jpg",
+          "index_csv_record": 7950,
+          "index_in_video": 42,
+          "sequence_index": 43
+        },
+        {
+          "t_sec": 86.2,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000043_t86s.jpg",
+          "index_csv_record": 7951,
+          "index_in_video": 43,
+          "sequence_index": 44
+        },
+        {
+          "t_sec": 88.2,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000044_t88s.jpg",
+          "index_csv_record": 7952,
+          "index_in_video": 44,
+          "sequence_index": 45
+        },
+        {
+          "t_sec": 90.2,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000045_t90s.jpg",
+          "index_csv_record": 7953,
+          "index_in_video": 45,
+          "sequence_index": 46
+        },
+        {
+          "t_sec": 92.2,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000046_t92s.jpg",
+          "index_csv_record": 7954,
+          "index_in_video": 46,
+          "sequence_index": 47
+        },
+        {
+          "t_sec": 94.2,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000047_t94s.jpg",
+          "index_csv_record": 7955,
+          "index_in_video": 47,
+          "sequence_index": 48
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "observation": "160.34–190.39s雾渐减，近中景散石/沟纹可辨且固定，前景细沟不见物料推进；远端入口和起重机附近仍受雾影响。",
+      "quality": "near/middle clear, distal still limited",
+      "recommendation": "conservative U/QC",
+      "panel": ".codex/docs/.temp/full-temporal-20261108-v1/fine-root-v115-full/sheet-06.jpg",
+      "prepared_panel_sha256_reused_without_rehash": "16e1e7e28c3a37b819ea1353955098b8f1252361d302d8daab84c81f98828058",
+      "actual_time_range_sec": [
+        160.34,
+        190.39
+      ],
+      "actual_frames": [
+        {
+          "t_sec": 160.34,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000080_t160s.jpg",
+          "index_csv_record": 7988,
+          "index_in_video": 80,
+          "sequence_index": 81
+        },
+        {
+          "t_sec": 162.34,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000081_t162s.jpg",
+          "index_csv_record": 7989,
+          "index_in_video": 81,
+          "sequence_index": 82
+        },
+        {
+          "t_sec": 164.34,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000082_t164s.jpg",
+          "index_csv_record": 7990,
+          "index_in_video": 82,
+          "sequence_index": 83
+        },
+        {
+          "t_sec": 166.34,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000083_t166s.jpg",
+          "index_csv_record": 7991,
+          "index_in_video": 83,
+          "sequence_index": 84
+        },
+        {
+          "t_sec": 168.34,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000084_t168s.jpg",
+          "index_csv_record": 7992,
+          "index_in_video": 84,
+          "sequence_index": 85
+        },
+        {
+          "t_sec": 170.34,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000085_t170s.jpg",
+          "index_csv_record": 7993,
+          "index_in_video": 85,
+          "sequence_index": 86
+        },
+        {
+          "t_sec": 172.34,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000086_t172s.jpg",
+          "index_csv_record": 7994,
+          "index_in_video": 86,
+          "sequence_index": 87
+        },
+        {
+          "t_sec": 174.34,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000087_t174s.jpg",
+          "index_csv_record": 7995,
+          "index_in_video": 87,
+          "sequence_index": 88
+        },
+        {
+          "t_sec": 176.34,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000088_t176s.jpg",
+          "index_csv_record": 7996,
+          "index_in_video": 88,
+          "sequence_index": 89
+        },
+        {
+          "t_sec": 178.39,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000089_t178s.jpg",
+          "index_csv_record": 7997,
+          "index_in_video": 89,
+          "sequence_index": 90
+        },
+        {
+          "t_sec": 180.39,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000090_t180s.jpg",
+          "index_csv_record": 7998,
+          "index_in_video": 90,
+          "sequence_index": 91
+        },
+        {
+          "t_sec": 182.39,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000091_t182s.jpg",
+          "index_csv_record": 7999,
+          "index_in_video": 91,
+          "sequence_index": 92
+        },
+        {
+          "t_sec": 184.39,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000092_t184s.jpg",
+          "index_csv_record": 8000,
+          "index_in_video": 92,
+          "sequence_index": 93
+        },
+        {
+          "t_sec": 186.39,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000093_t186s.jpg",
+          "index_csv_record": 8001,
+          "index_in_video": 93,
+          "sequence_index": 94
+        },
+        {
+          "t_sec": 188.39,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000094_t188s.jpg",
+          "index_csv_record": 8002,
+          "index_in_video": 94,
+          "sequence_index": 95
+        },
+        {
+          "t_sec": 190.39,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000095_t190s.jpg",
+          "index_csv_record": 8003,
+          "index_in_video": 95,
+          "sequence_index": 96
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "observation": "192.39–222.44s逐步显露上游入口与起重机；固定散石/分汊沟纹贯穿此页，没有料团通过或前缘推进。210.44s后的局部序列稳定可分近中远床面，取作保守N起点；不是目标消失点。",
+      "quality": "fog thinning; usable bed visibility after conservative cutoff",
+      "recommendation": "U before210.44; N from210.44",
+      "panel": ".codex/docs/.temp/full-temporal-20261108-v1/fine-root-v115-full/sheet-07.jpg",
+      "prepared_panel_sha256_reused_without_rehash": "bc4731fe7d562a4aaaf74f7fd911ee3e2f3b5544e859d02e2b3bf4bd048fa934",
+      "actual_time_range_sec": [
+        192.39,
+        222.44
+      ],
+      "actual_frames": [
+        {
+          "t_sec": 192.39,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000096_t192s.jpg",
+          "index_csv_record": 8004,
+          "index_in_video": 96,
+          "sequence_index": 97
+        },
+        {
+          "t_sec": 194.39,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000097_t194s.jpg",
+          "index_csv_record": 8005,
+          "index_in_video": 97,
+          "sequence_index": 98
+        },
+        {
+          "t_sec": 196.39,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000098_t196s.jpg",
+          "index_csv_record": 8006,
+          "index_in_video": 98,
+          "sequence_index": 99
+        },
+        {
+          "t_sec": 198.39,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000099_t198s.jpg",
+          "index_csv_record": 8007,
+          "index_in_video": 99,
+          "sequence_index": 100
+        },
+        {
+          "t_sec": 200.39,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000100_t200s.jpg",
+          "index_csv_record": 8008,
+          "index_in_video": 100,
+          "sequence_index": 101
+        },
+        {
+          "t_sec": 202.44,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000101_t202s.jpg",
+          "index_csv_record": 8009,
+          "index_in_video": 101,
+          "sequence_index": 102
+        },
+        {
+          "t_sec": 204.44,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000102_t204s.jpg",
+          "index_csv_record": 8010,
+          "index_in_video": 102,
+          "sequence_index": 103
+        },
+        {
+          "t_sec": 206.44,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000103_t206s.jpg",
+          "index_csv_record": 8011,
+          "index_in_video": 103,
+          "sequence_index": 104
+        },
+        {
+          "t_sec": 208.44,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000104_t208s.jpg",
+          "index_csv_record": 8012,
+          "index_in_video": 104,
+          "sequence_index": 105
+        },
+        {
+          "t_sec": 210.44,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000105_t210s.jpg",
+          "index_csv_record": 8013,
+          "index_in_video": 105,
+          "sequence_index": 106
+        },
+        {
+          "t_sec": 212.44,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000106_t212s.jpg",
+          "index_csv_record": 8014,
+          "index_in_video": 106,
+          "sequence_index": 107
+        },
+        {
+          "t_sec": 214.44,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000107_t214s.jpg",
+          "index_csv_record": 8015,
+          "index_in_video": 107,
+          "sequence_index": 108
+        },
+        {
+          "t_sec": 216.44,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000108_t216s.jpg",
+          "index_csv_record": 8016,
+          "index_in_video": 108,
+          "sequence_index": 109
+        },
+        {
+          "t_sec": 218.44,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000109_t218s.jpg",
+          "index_csv_record": 8017,
+          "index_in_video": 109,
+          "sequence_index": 110
+        },
+        {
+          "t_sec": 220.44,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000110_t220s.jpg",
+          "index_csv_record": 8018,
+          "index_in_video": 110,
+          "sequence_index": 111
+        },
+        {
+          "t_sec": 222.44,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000111_t222s.jpg",
+          "index_csv_record": 8019,
+          "index_in_video": 111,
+          "sequence_index": 112
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "observation": "224.44–254.54s主沟与上游入口能分辨，散石、分汊深纹、左侧堆积边缘长期同位；薄雾经过远景不带来床面输运。",
+      "quality": "channel bed adequately observable",
+      "recommendation": "N",
+      "panel": ".codex/docs/.temp/full-temporal-20261108-v1/fine-root-v115-full/sheet-08.jpg",
+      "prepared_panel_sha256_reused_without_rehash": "c5e38646ae41ddb1b3be6eb986f6ebe5dc33e7d36133ca9323c4b7cd2ce3e0c6",
+      "actual_time_range_sec": [
+        224.44,
+        254.54
+      ],
+      "actual_frames": [
+        {
+          "t_sec": 224.44,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000112_t224s.jpg",
+          "index_csv_record": 8020,
+          "index_in_video": 112,
+          "sequence_index": 113
+        },
+        {
+          "t_sec": 226.49,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000113_t226s.jpg",
+          "index_csv_record": 8021,
+          "index_in_video": 113,
+          "sequence_index": 114
+        },
+        {
+          "t_sec": 228.49,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000114_t228s.jpg",
+          "index_csv_record": 8022,
+          "index_in_video": 114,
+          "sequence_index": 115
+        },
+        {
+          "t_sec": 230.49,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000115_t230s.jpg",
+          "index_csv_record": 8023,
+          "index_in_video": 115,
+          "sequence_index": 116
+        },
+        {
+          "t_sec": 232.49,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000116_t232s.jpg",
+          "index_csv_record": 8024,
+          "index_in_video": 116,
+          "sequence_index": 117
+        },
+        {
+          "t_sec": 234.49,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000117_t234s.jpg",
+          "index_csv_record": 8025,
+          "index_in_video": 117,
+          "sequence_index": 118
+        },
+        {
+          "t_sec": 236.49,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000118_t236s.jpg",
+          "index_csv_record": 8026,
+          "index_in_video": 118,
+          "sequence_index": 119
+        },
+        {
+          "t_sec": 238.49,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000119_t238s.jpg",
+          "index_csv_record": 8027,
+          "index_in_video": 119,
+          "sequence_index": 120
+        },
+        {
+          "t_sec": 240.49,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000120_t240s.jpg",
+          "index_csv_record": 8028,
+          "index_in_video": 120,
+          "sequence_index": 121
+        },
+        {
+          "t_sec": 242.49,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000121_t242s.jpg",
+          "index_csv_record": 8029,
+          "index_in_video": 121,
+          "sequence_index": 122
+        },
+        {
+          "t_sec": 244.49,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000122_t244s.jpg",
+          "index_csv_record": 8030,
+          "index_in_video": 122,
+          "sequence_index": 123
+        },
+        {
+          "t_sec": 246.49,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000123_t246s.jpg",
+          "index_csv_record": 8031,
+          "index_in_video": 123,
+          "sequence_index": 124
+        },
+        {
+          "t_sec": 248.49,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000124_t248s.jpg",
+          "index_csv_record": 8032,
+          "index_in_video": 124,
+          "sequence_index": 125
+        },
+        {
+          "t_sec": 250.54,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000125_t251s.jpg",
+          "index_csv_record": 8033,
+          "index_in_video": 125,
+          "sequence_index": 126
+        },
+        {
+          "t_sec": 252.54,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000126_t253s.jpg",
+          "index_csv_record": 8034,
+          "index_in_video": 126,
+          "sequence_index": 127
+        },
+        {
+          "t_sec": 254.54,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000127_t255s.jpg",
+          "index_csv_record": 8035,
+          "index_in_video": 127,
+          "sequence_index": 128
+        }
+      ]
+    },
+    {
+      "page": 15,
+      "observation": "448.93–478.98s床面纹理、散石位置和侵蚀/分汊沟形与前段一致且不推进；上游主沟可见，未见带物料前缘、团块或冲淤改变。",
+      "quality": "clear enough for stationary-bed judgment",
+      "recommendation": "N",
+      "panel": ".codex/docs/.temp/full-temporal-20261108-v1/fine-root-v115-full/sheet-15.jpg",
+      "prepared_panel_sha256_reused_without_rehash": "c6bac0ef98cfec96498a9f17aae5fdf345c4743f9f5a8a48d11e2be917b5788b",
+      "actual_time_range_sec": [
+        448.93,
+        478.98
+      ],
+      "actual_frames": [
+        {
+          "t_sec": 448.93,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000224_t449s.jpg",
+          "index_csv_record": 8132,
+          "index_in_video": 224,
+          "sequence_index": 225
+        },
+        {
+          "t_sec": 450.93,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000225_t451s.jpg",
+          "index_csv_record": 8133,
+          "index_in_video": 225,
+          "sequence_index": 226
+        },
+        {
+          "t_sec": 452.93,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000226_t453s.jpg",
+          "index_csv_record": 8134,
+          "index_in_video": 226,
+          "sequence_index": 227
+        },
+        {
+          "t_sec": 454.93,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000227_t455s.jpg",
+          "index_csv_record": 8135,
+          "index_in_video": 227,
+          "sequence_index": 228
+        },
+        {
+          "t_sec": 456.93,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000228_t457s.jpg",
+          "index_csv_record": 8136,
+          "index_in_video": 228,
+          "sequence_index": 229
+        },
+        {
+          "t_sec": 458.93,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000229_t459s.jpg",
+          "index_csv_record": 8137,
+          "index_in_video": 229,
+          "sequence_index": 230
+        },
+        {
+          "t_sec": 460.93,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000230_t461s.jpg",
+          "index_csv_record": 8138,
+          "index_in_video": 230,
+          "sequence_index": 231
+        },
+        {
+          "t_sec": 462.93,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000231_t463s.jpg",
+          "index_csv_record": 8139,
+          "index_in_video": 231,
+          "sequence_index": 232
+        },
+        {
+          "t_sec": 464.98,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000232_t465s.jpg",
+          "index_csv_record": 8140,
+          "index_in_video": 232,
+          "sequence_index": 233
+        },
+        {
+          "t_sec": 466.98,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000233_t467s.jpg",
+          "index_csv_record": 8141,
+          "index_in_video": 233,
+          "sequence_index": 234
+        },
+        {
+          "t_sec": 468.98,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000234_t469s.jpg",
+          "index_csv_record": 8142,
+          "index_in_video": 234,
+          "sequence_index": 235
+        },
+        {
+          "t_sec": 470.98,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000235_t471s.jpg",
+          "index_csv_record": 8143,
+          "index_in_video": 235,
+          "sequence_index": 236
+        },
+        {
+          "t_sec": 472.98,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000236_t473s.jpg",
+          "index_csv_record": 8144,
+          "index_in_video": 236,
+          "sequence_index": 237
+        },
+        {
+          "t_sec": 474.98,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000237_t475s.jpg",
+          "index_csv_record": 8145,
+          "index_in_video": 237,
+          "sequence_index": 238
+        },
+        {
+          "t_sec": 476.98,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000238_t477s.jpg",
+          "index_csv_record": 8146,
+          "index_in_video": 238,
+          "sequence_index": 239
+        },
+        {
+          "t_sec": 478.98,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000239_t479s.jpg",
+          "index_csv_record": 8147,
+          "index_in_video": 239,
+          "sequence_index": 240
+        }
+      ]
+    },
+    {
+      "page": 25,
+      "observation": "769.57–799.67s中央多个散石与浅/深沟纹保持位置和轮廓；固定左堆体和右岸植被参照清楚，未见物料输运。",
+      "quality": "clear",
+      "recommendation": "N",
+      "panel": ".codex/docs/.temp/full-temporal-20261108-v1/fine-root-v115-full/sheet-25.jpg",
+      "prepared_panel_sha256_reused_without_rehash": "7f1bd7a9c60e0cf5a6b9577ecd69605f827e87fb696677ff414486787bebe021",
+      "actual_time_range_sec": [
+        769.57,
+        799.67
+      ],
+      "actual_frames": [
+        {
+          "t_sec": 769.57,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000384_t770s.jpg",
+          "index_csv_record": 8292,
+          "index_in_video": 384,
+          "sequence_index": 385
+        },
+        {
+          "t_sec": 771.57,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000385_t772s.jpg",
+          "index_csv_record": 8293,
+          "index_in_video": 385,
+          "sequence_index": 386
+        },
+        {
+          "t_sec": 773.57,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000386_t774s.jpg",
+          "index_csv_record": 8294,
+          "index_in_video": 386,
+          "sequence_index": 387
+        },
+        {
+          "t_sec": 775.62,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000387_t776s.jpg",
+          "index_csv_record": 8295,
+          "index_in_video": 387,
+          "sequence_index": 388
+        },
+        {
+          "t_sec": 777.62,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000388_t778s.jpg",
+          "index_csv_record": 8296,
+          "index_in_video": 388,
+          "sequence_index": 389
+        },
+        {
+          "t_sec": 779.62,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000389_t780s.jpg",
+          "index_csv_record": 8297,
+          "index_in_video": 389,
+          "sequence_index": 390
+        },
+        {
+          "t_sec": 781.62,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000390_t782s.jpg",
+          "index_csv_record": 8298,
+          "index_in_video": 390,
+          "sequence_index": 391
+        },
+        {
+          "t_sec": 783.62,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000391_t784s.jpg",
+          "index_csv_record": 8299,
+          "index_in_video": 391,
+          "sequence_index": 392
+        },
+        {
+          "t_sec": 785.62,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000392_t786s.jpg",
+          "index_csv_record": 8300,
+          "index_in_video": 392,
+          "sequence_index": 393
+        },
+        {
+          "t_sec": 787.62,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000393_t788s.jpg",
+          "index_csv_record": 8301,
+          "index_in_video": 393,
+          "sequence_index": 394
+        },
+        {
+          "t_sec": 789.62,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000394_t790s.jpg",
+          "index_csv_record": 8302,
+          "index_in_video": 394,
+          "sequence_index": 395
+        },
+        {
+          "t_sec": 791.62,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000395_t792s.jpg",
+          "index_csv_record": 8303,
+          "index_in_video": 395,
+          "sequence_index": 396
+        },
+        {
+          "t_sec": 793.62,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000396_t794s.jpg",
+          "index_csv_record": 8304,
+          "index_in_video": 396,
+          "sequence_index": 397
+        },
+        {
+          "t_sec": 795.62,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000397_t796s.jpg",
+          "index_csv_record": 8305,
+          "index_in_video": 397,
+          "sequence_index": 398
+        },
+        {
+          "t_sec": 797.62,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000398_t798s.jpg",
+          "index_csv_record": 8306,
+          "index_in_video": 398,
+          "sequence_index": 399
+        },
+        {
+          "t_sec": 799.67,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000399_t800s.jpg",
+          "index_csv_record": 8307,
+          "index_in_video": 399,
+          "sequence_index": 400
+        }
+      ]
+    },
+    {
+      "page": 37,
+      "observation": "1154.35–1184.45s床面散石和沟纹固定，左侧黑色堆体上小型红色人物位置变化；人物不作为非目标依据，N依据仍是可辨固定床面与缺乏输运线索。",
+      "quality": "clear bed; local person movement",
+      "recommendation": "N",
+      "panel": ".codex/docs/.temp/full-temporal-20261108-v1/fine-root-v115-full/sheet-37.jpg",
+      "prepared_panel_sha256_reused_without_rehash": "f4dc5efffc7af176a0fd901cd0a221745f31cfa45446e4ef86ad20faa1aab911",
+      "actual_time_range_sec": [
+        1154.35,
+        1184.45
+      ],
+      "actual_frames": [
+        {
+          "t_sec": 1154.35,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000576_t1154s.jpg",
+          "index_csv_record": 8484,
+          "index_in_video": 576,
+          "sequence_index": 577
+        },
+        {
+          "t_sec": 1156.35,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000577_t1156s.jpg",
+          "index_csv_record": 8485,
+          "index_in_video": 577,
+          "sequence_index": 578
+        },
+        {
+          "t_sec": 1158.4,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000578_t1158s.jpg",
+          "index_csv_record": 8486,
+          "index_in_video": 578,
+          "sequence_index": 579
+        },
+        {
+          "t_sec": 1160.4,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000579_t1160s.jpg",
+          "index_csv_record": 8487,
+          "index_in_video": 579,
+          "sequence_index": 580
+        },
+        {
+          "t_sec": 1162.4,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000580_t1162s.jpg",
+          "index_csv_record": 8488,
+          "index_in_video": 580,
+          "sequence_index": 581
+        },
+        {
+          "t_sec": 1164.4,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000581_t1164s.jpg",
+          "index_csv_record": 8489,
+          "index_in_video": 581,
+          "sequence_index": 582
+        },
+        {
+          "t_sec": 1166.4,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000582_t1166s.jpg",
+          "index_csv_record": 8490,
+          "index_in_video": 582,
+          "sequence_index": 583
+        },
+        {
+          "t_sec": 1168.4,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000583_t1168s.jpg",
+          "index_csv_record": 8491,
+          "index_in_video": 583,
+          "sequence_index": 584
+        },
+        {
+          "t_sec": 1170.4,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000584_t1170s.jpg",
+          "index_csv_record": 8492,
+          "index_in_video": 584,
+          "sequence_index": 585
+        },
+        {
+          "t_sec": 1172.4,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000585_t1172s.jpg",
+          "index_csv_record": 8493,
+          "index_in_video": 585,
+          "sequence_index": 586
+        },
+        {
+          "t_sec": 1174.4,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000586_t1174s.jpg",
+          "index_csv_record": 8494,
+          "index_in_video": 586,
+          "sequence_index": 587
+        },
+        {
+          "t_sec": 1176.4,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000587_t1176s.jpg",
+          "index_csv_record": 8495,
+          "index_in_video": 587,
+          "sequence_index": 588
+        },
+        {
+          "t_sec": 1178.4,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000588_t1178s.jpg",
+          "index_csv_record": 8496,
+          "index_in_video": 588,
+          "sequence_index": 589
+        },
+        {
+          "t_sec": 1180.4,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000589_t1180s.jpg",
+          "index_csv_record": 8497,
+          "index_in_video": 589,
+          "sequence_index": 590
+        },
+        {
+          "t_sec": 1182.45,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000590_t1182s.jpg",
+          "index_csv_record": 8498,
+          "index_in_video": 590,
+          "sequence_index": 591
+        },
+        {
+          "t_sec": 1184.45,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000591_t1184s.jpg",
+          "index_csv_record": 8499,
+          "index_in_video": 591,
+          "sequence_index": 592
+        }
+      ]
+    },
+    {
+      "page": 45,
+      "observation": "1410.89–1420.94s最后6图仍为同一固定散石、分汊沟纹和堆积边缘；无物料前缘或料团推进。只支持最后已看PTS，不把未有图的小尾称已看。",
+      "quality": "clear; final existing indexed image1420.94",
+      "recommendation": "N through observed final timestamp",
+      "panel": ".codex/docs/.temp/full-temporal-20261108-v1/fine-root-v115-full/sheet-45.jpg",
+      "prepared_panel_sha256_reused_without_rehash": "74ac46e727198c834ecf4dfb1e6b818b4ae62a3904c8bcf7468f3d19b94b1d37",
+      "actual_time_range_sec": [
+        1410.89,
+        1420.94
+      ],
+      "actual_frames": [
+        {
+          "t_sec": 1410.89,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000704_t1411s.jpg",
+          "index_csv_record": 8612,
+          "index_in_video": 704,
+          "sequence_index": 705
+        },
+        {
+          "t_sec": 1412.89,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000705_t1413s.jpg",
+          "index_csv_record": 8613,
+          "index_in_video": 705,
+          "sequence_index": 706
+        },
+        {
+          "t_sec": 1414.89,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000706_t1415s.jpg",
+          "index_csv_record": 8614,
+          "index_in_video": 706,
+          "sequence_index": 707
+        },
+        {
+          "t_sec": 1416.89,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000707_t1417s.jpg",
+          "index_csv_record": 8615,
+          "index_in_video": 707,
+          "sequence_index": 708
+        },
+        {
+          "t_sec": 1418.89,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000708_t1419s.jpg",
+          "index_csv_record": 8616,
+          "index_in_video": 708,
+          "sequence_index": 709
+        },
+        {
+          "t_sec": 1420.94,
+          "path": "data/process/video_frames/video1_segment/frames/v1_15_frame_000709_t1421s.jpg",
+          "index_csv_record": 8617,
+          "index_in_video": 709,
+          "sequence_index": 710
+        }
+      ]
+    }
+  ],
+  "personally_viewed_existing_frames": 134,
+  "preparation_requested_upper_bound_sec": 1423,
+  "recommended_release_intervals": [
+    {
+      "start_sec": 0,
+      "end_sec": 210.44,
+      "kind": "U",
+      "qc": "fog_observability_limited"
+    },
+    {
+      "start_sec": 210.44,
+      "end_sec": 1421,
+      "kind": "N",
+      "last_observed_sec": 1420.94,
+      "inherited_explicit_endpoint_tail_sec": 0.06
+    }
+  ],
+  "extent_metadata_correction": "Original v2 P is[0,1421), confirmed by parent;1423 is only root preparation request upper bound. Actual observations unchanged. No new image review needed."
+}

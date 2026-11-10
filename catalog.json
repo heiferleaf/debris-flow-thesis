@@ -1,0 +1,402 @@
+[
+  {
+    "experiment_id": "EXP-003",
+    "branch": "codex/EXP-003",
+    "title": "单帧迁移试点",
+    "status": "历史试点；原始指标文件缺失",
+    "data_and_method": "独立图片；pHash簇分割；冻结ConvNeXt-T及线性头。",
+    "conclusion": "只保留代码与原卡片记录，不把缺失原始指标的叙述标为本轮已验证成绩。",
+    "final_run_directories": [
+      "data/results/convnext/EXP-003"
+    ],
+    "code_identity": "Current migrated/fixed source snapshot; historical executed sources are only those actually preserved inside final runs.",
+    "checkpoint_replay_verified_runs": []
+  },
+  {
+    "experiment_id": "EXP-004",
+    "branch": "codex/EXP-004",
+    "title": "外部负图片及本地冒烟",
+    "status": "准备与冒烟；无独立正式成绩",
+    "data_and_method": "独立图片及外部负图片；ConvNeXt冻结特征。",
+    "conclusion": "本卡未形成独立正式训练结果；不上传冒烟成绩充当成果。",
+    "final_run_directories": [],
+    "code_identity": "Current migrated/fixed source snapshot; historical executed sources are only those actually preserved inside final runs.",
+    "checkpoint_replay_verified_runs": []
+  },
+  {
+    "experiment_id": "EXP-005",
+    "branch": "codex/EXP-005",
+    "title": "单帧正式基线",
+    "status": "已运行；原始指标文件缺失",
+    "data_and_method": "正9347/负925为审计池；簇级70/15/15且每簇限额后实际1729张。冻结ConvNeXt-T+768→2线性头，类加权CE、AdamW、val F1选轮。",
+    "conclusion": "原卡记录test F1=0.9306；原始metrics/report未留存，本次不冒称已从原始预测验证该数字。",
+    "final_run_directories": [
+      "data/results/convnext/EXP-005-final"
+    ],
+    "code_identity": "Current migrated/fixed source snapshot; historical executed sources are only those actually preserved inside final runs.",
+    "checkpoint_replay_verified_runs": []
+  },
+  {
+    "experiment_id": "EXP-006",
+    "branch": "codex/EXP-006",
+    "title": "二维CNN与时序头",
+    "status": "最终修订运行已完成",
+    "data_and_method": "冻结ConvNeXt逐帧特征；LSTM/TCN/Attention、TSN、单帧投票及融合。按场次/旧场景名分组五折，另有留一组分析；16帧输入。",
+    "conclusion": "最终地址映射与尾窗修订版作为归档；换场景存在反向折。旧机位命名划分不能自动等同当前实际物理场景隔离。",
+    "final_run_directories": [
+      "data/results/temporal/EXP-006-20260924-addrmap-session-pred",
+      "data/results/temporal/EXP-006-20260924-addrmap-scene-pred",
+      "data/results/temporal/EXP-006-20260924-addrmap-scene-logo"
+    ],
+    "code_identity": "Current migrated/fixed source snapshot; historical executed sources are only those actually preserved inside final runs.",
+    "checkpoint_replay_verified_runs": []
+  },
+  {
+    "experiment_id": "EXP-008",
+    "branch": "codex/EXP-008",
+    "title": "论文三项MIL损失重实现",
+    "status": "最终150条重跑及头权重回放通过",
+    "data_and_method": "150条视频=113P/37N；每视频48片段×16帧。冻结K400 R(2+1)D-18→512维→四层MLP。弱标签MIL三项损失；另有片段BCE对照。场次五折及旧划分敏感性。",
+    "conclusion": "MIL full逐折均值AUC=0.9412；MIL strict=0.8699。权重与原预测复算一致。验证折选轮，属于开发成绩；并非原论文同架构、同数据的数值复现。",
+    "final_run_directories": [
+      "data/results/exp008/mil-v2-150-full",
+      "data/results/exp008/mil-v2-150-strict",
+      "data/results/exp008/mil-v2-150-full-iid",
+      "data/results/exp008/mil-v2-150-strict-iid",
+      "data/results/exp008/mil-v2-150-strict-scene",
+      "data/results/exp008/strong-v2-150-strict",
+      "data/results/exp008/strong-v2-150-loose",
+      "data/results/exp008/strong-v2-150-strict-iid",
+      "data/results/exp008/strong-v2-150-strict-scene"
+    ],
+    "code_identity": "Current migrated/fixed source snapshot; historical executed sources are only those actually preserved inside final runs.",
+    "checkpoint_replay_verified_runs": [
+      "mil-v2-150-full",
+      "mil-v2-150-strict",
+      "mil-v2-150-full-iid",
+      "mil-v2-150-strict-iid",
+      "mil-v2-150-strict-scene",
+      "strong-v2-150-strict",
+      "strong-v2-150-loose",
+      "strong-v2-150-strict-iid",
+      "strong-v2-150-strict-scene"
+    ]
+  },
+  {
+    "experiment_id": "EXP-009",
+    "branch": "codex/EXP-009",
+    "title": "强标签全参数微调",
+    "status": "最终无增强运行已完成",
+    "data_and_method": "同150条旧标签；原生连续16帧；R(2+1)D-18及深MLP全参数微调，片段BCE、场次五折。",
+    "conclusion": "最终开发AUC=0.9909；验证折选最好轮次。历史执行脚本原件缺失，当前源码不能称为历史字节级复现。只归档最终noaug运行。",
+    "final_run_directories": [
+      "data/results/exp008/EXP-009-strong-v2-150-strict-ft-noaug"
+    ],
+    "code_identity": "Current migrated/fixed source snapshot; historical executed sources are only those actually preserved inside final runs.",
+    "checkpoint_replay_verified_runs": []
+  },
+  {
+    "experiment_id": "EXP-010",
+    "branch": "codex/EXP-010",
+    "title": "图像复核级联",
+    "status": "未训练草案",
+    "data_and_method": "拟补论文的图像复核级联；未形成新模型。",
+    "conclusion": "无结果，不上传虚构成绩。",
+    "final_run_directories": [],
+    "code_identity": "Current migrated/fixed source snapshot; historical executed sources are only those actually preserved inside final runs.",
+    "checkpoint_replay_verified_runs": []
+  },
+  {
+    "experiment_id": "EXP-011",
+    "branch": "codex/EXP-011",
+    "title": "弱标签负包超阈惩罚",
+    "status": "有效阴性实验；头权重回放通过",
+    "data_and_method": "150条同冻结特征、strict掩码，seed7/8/9；三项MIL与增加负包惩罚对比。",
+    "conclusion": "减少误报同时显著增加漏报，未满足预定目标；阴性结果属于有效实验。",
+    "final_run_directories": [
+      "data/results/exp008/mil-v2-150-strict-s7",
+      "data/results/exp008/mil-v2-150-strict-s8",
+      "data/results/exp008/mil-v2-150-strict-s9",
+      "data/results/exp008/mil-v2-150-strict-hnp1-s7",
+      "data/results/exp008/mil-v2-150-strict-hnp1-s8",
+      "data/results/exp008/mil-v2-150-strict-hnp1-s9"
+    ],
+    "code_identity": "Current migrated/fixed source snapshot; historical executed sources are only those actually preserved inside final runs.",
+    "checkpoint_replay_verified_runs": [
+      "mil-v2-150-strict-s7",
+      "mil-v2-150-strict-s8",
+      "mil-v2-150-strict-s9",
+      "mil-v2-150-strict-hnp1-s7",
+      "mil-v2-150-strict-hnp1-s8",
+      "mil-v2-150-strict-hnp1-s9"
+    ]
+  },
+  {
+    "experiment_id": "EXP-012",
+    "branch": "codex/EXP-012",
+    "title": "强标签整视频上下文",
+    "status": "有效中性实验；头权重回放通过",
+    "data_and_method": "150条冻结特征；深MLP、gated/selfattn上下文与惩罚的析因对照；三种子五折。",
+    "conclusion": "没有稳定跨种子优势；上下文聚合不等于已证明学习了物理时序。",
+    "final_run_directories": [
+      "data/results/exp008/strong-v2-150-strict-gate-s7",
+      "data/results/exp008/strong-v2-150-strict-s8",
+      "data/results/exp008/strong-v2-150-strict-s9",
+      "data/results/exp008/strong-v2-150-strict-pen-s7",
+      "data/results/exp008/strong-v2-150-strict-pen-s8",
+      "data/results/exp008/strong-v2-150-strict-pen-s9",
+      "data/results/exp008/strong-v2-150-strict-ctx-gated-s7",
+      "data/results/exp008/strong-v2-150-strict-ctx-gated-s8",
+      "data/results/exp008/strong-v2-150-strict-ctx-gated-s9",
+      "data/results/exp008/strong-v2-150-strict-ctx-gated-pen-s7",
+      "data/results/exp008/strong-v2-150-strict-ctx-gated-pen-s8",
+      "data/results/exp008/strong-v2-150-strict-ctx-gated-pen-s9",
+      "data/results/exp008/strong-v2-150-strict-ctx-selfattn-s7",
+      "data/results/exp008/strong-v2-150-strict-ctx-selfattn-s8",
+      "data/results/exp008/strong-v2-150-strict-ctx-selfattn-s9",
+      "data/results/exp008/strong-v2-150-strict-ctx-selfattn-pen-s7",
+      "data/results/exp008/strong-v2-150-strict-ctx-selfattn-pen-s8",
+      "data/results/exp008/strong-v2-150-strict-ctx-selfattn-pen-s9"
+    ],
+    "code_identity": "Current migrated/fixed source snapshot; historical executed sources are only those actually preserved inside final runs.",
+    "checkpoint_replay_verified_runs": [
+      "strong-v2-150-strict-gate-s7",
+      "strong-v2-150-strict-s8",
+      "strong-v2-150-strict-s9",
+      "strong-v2-150-strict-pen-s7",
+      "strong-v2-150-strict-pen-s8",
+      "strong-v2-150-strict-pen-s9",
+      "strong-v2-150-strict-ctx-gated-s7",
+      "strong-v2-150-strict-ctx-gated-s8",
+      "strong-v2-150-strict-ctx-gated-s9",
+      "strong-v2-150-strict-ctx-gated-pen-s7",
+      "strong-v2-150-strict-ctx-gated-pen-s8",
+      "strong-v2-150-strict-ctx-gated-pen-s9",
+      "strong-v2-150-strict-ctx-selfattn-s7",
+      "strong-v2-150-strict-ctx-selfattn-s8",
+      "strong-v2-150-strict-ctx-selfattn-s9",
+      "strong-v2-150-strict-ctx-selfattn-pen-s7",
+      "strong-v2-150-strict-ctx-selfattn-pen-s8",
+      "strong-v2-150-strict-ctx-selfattn-pen-s9"
+    ]
+  },
+  {
+    "experiment_id": "EXP-013",
+    "branch": "codex/EXP-013",
+    "title": "历史全量训练设想",
+    "status": "未执行草案",
+    "data_and_method": "旧固定2轮最终训练设想。",
+    "conclusion": "没有该卡训练结果；不作为最终模型。",
+    "final_run_directories": [],
+    "code_identity": "Current migrated/fixed source snapshot; historical executed sources are only those actually preserved inside final runs.",
+    "checkpoint_replay_verified_runs": []
+  },
+  {
+    "experiment_id": "EXP-014",
+    "branch": "codex/EXP-014",
+    "title": "增大帧间隔",
+    "status": "最终对照已完成",
+    "data_and_method": "128条共同支持池；16帧0.5秒间隔、跨度7.5秒，与短输入配方比较；强标签全参数微调及五折。",
+    "conclusion": "两设定开发AUC均记0.9923；倒序敏感性增加不等于识别能力提高。采样落点和可用片段也改变，不能仅归因时间跨度。",
+    "final_run_directories": [
+      "data/results/exp008/EXP-014-strong-v2-128-strict-ft-noaug",
+      "data/results/exp008/EXP-014-strong-v3-128-strict-ft-noaug"
+    ],
+    "code_identity": "Current migrated/fixed source snapshot; historical executed sources are only those actually preserved inside final runs.",
+    "checkpoint_replay_verified_runs": []
+  },
+  {
+    "experiment_id": "EXP-015",
+    "branch": "codex/EXP-015",
+    "title": "原间隔重采样草案",
+    "status": "未执行草案",
+    "data_and_method": "旧150条重采样方案。",
+    "conclusion": "无训练结果。",
+    "final_run_directories": [],
+    "code_identity": "Current migrated/fixed source snapshot; historical executed sources are only those actually preserved inside final runs.",
+    "checkpoint_replay_verified_runs": []
+  },
+  {
+    "experiment_id": "EXP-016",
+    "branch": "codex/EXP-016",
+    "title": "RGB与帧差",
+    "status": "双种子开发实验完成",
+    "data_and_method": "150条开发池；单角色119训练/31开发评价；3秒16帧，六通道[R,0]与[R,D]，R(2+1)D及深头，Adam，最大20轮按验证BCE选轮。",
+    "conclusion": "帧差严格减少误报未跨种子复现；D置零诊断限选中权重的136片段。",
+    "final_run_directories": [
+      "data/results/exp016/paired-s7-20261030-v2",
+      "data/results/exp016/paired-s8-20261031-v1",
+      "data/results/exp016/seed7-seed8-comparison-v2",
+      "data/results/exp016/difference-dependency-s8-20261031-v2"
+    ],
+    "code_identity": "Current migrated/fixed source snapshot; historical executed sources are only those actually preserved inside final runs.",
+    "checkpoint_replay_verified_runs": []
+  },
+  {
+    "experiment_id": "EXP-017",
+    "branch": "codex/EXP-017",
+    "title": "RGB场次分组五折参照",
+    "status": "成功续跑后的五折完成",
+    "data_and_method": "150条、113P/37N；3秒16帧；R(2+1)D深头。训练侧inner选轮后fresh outer重训，外层留出各评价一次。",
+    "conclusion": "max/0.5下113TP/37FP/0FN/0TN；这不是可交付效果。保存成功父组件和续跑组件，不以失败父流水线充当完整成绩。",
+    "final_run_directories": [
+      "data/results/exp017/cv-s7-20261102-v1/fold-01",
+      "data/results/exp017/cv-s7-20261102-v2",
+      "data/results/exp017/report-cv-s7-20261102-v2-v1",
+      "data/results/exp017/audit-resume-cv-s7-20261102-v2-v2"
+    ],
+    "code_identity": "Current migrated/fixed source snapshot; historical executed sources are only those actually preserved inside final runs.",
+    "checkpoint_replay_verified_runs": []
+  },
+  {
+    "experiment_id": "EXP-018",
+    "branch": "codex/EXP-018",
+    "title": "正负配对排序约束",
+    "status": "三组匹配开发实验完成",
+    "data_and_method": "普通RGB、跨场次配对、同场次配对；相同骨干和深头，附加softplus(zN-zP)；两个已知开发角色。",
+    "conclusion": "未达到改善目标；不晋级为有效改进。",
+    "final_run_directories": [
+      "data/results/exp018/paired-s7-20261101-v1"
+    ],
+    "code_identity": "Current migrated/fixed source snapshot; historical executed sources are only those actually preserved inside final runs.",
+    "checkpoint_replay_verified_runs": []
+  },
+  {
+    "experiment_id": "EXP-019",
+    "branch": "codex/EXP-019",
+    "title": "真实顺序与固定置换",
+    "status": "匹配开发实验完成",
+    "data_and_method": "保持16帧集合，真实顺序与固定置换分别重训；其余训练配方匹配。",
+    "conclusion": "出现有限顺序依赖信号，不能直接证明理解物理运动；未据此选定3秒或7.5秒。",
+    "final_run_directories": [
+      "data/results/exp019/order-s7-20261101-v1",
+      "data/results/exp019/negative-alarm-analysis-s7-v1"
+    ],
+    "code_identity": "Current migrated/fixed source snapshot; historical executed sources are only those actually preserved inside final runs.",
+    "checkpoint_replay_verified_runs": []
+  },
+  {
+    "experiment_id": "EXP-020",
+    "branch": "codex/EXP-020",
+    "title": "简化分类头小试",
+    "status": "配对开发实验完成",
+    "data_and_method": "两个角色、seed7/8；深MLP与512→1线性头；RGB骨干及训练配方保持。",
+    "conclusion": "线性头片段门槛4/4通过，支持进入后续五折；不是独立泛化成绩。",
+    "final_run_directories": [
+      "data/results/exp020/head-s7s8-20261103-v2",
+      "data/results/exp020/recovered-comparison-head-s7s8-20261103-v2-v1",
+      "data/results/exp020/report-head-s7s8-20261103-v2-v1",
+      "data/results/exp020/selected-logit-review-head-s7s8-20261103-v2-v1"
+    ],
+    "code_identity": "Current migrated/fixed source snapshot; historical executed sources are only those actually preserved inside final runs.",
+    "checkpoint_replay_verified_runs": []
+  },
+  {
+    "experiment_id": "EXP-021",
+    "branch": "codex/EXP-021",
+    "title": "局部时空能量",
+    "status": "有效阴性开发实验完成",
+    "data_and_method": "同RGB线性参照；无跨时项/完整局部能量增加112维线性后融合；相同角色和预算。",
+    "conclusion": "片段门槛通过但视频错误未改善，原晋级条件失败；旧整条负标签与现有修订标签不混用。",
+    "final_run_directories": [
+      "data/results/exp021/energy-s7-20261103-v2",
+      "data/results/exp021/report-energy-s7-20261103-v2-v1",
+      "data/results/exp021/window-errors-energy-s7-20261103-v2-v1"
+    ],
+    "code_identity": "Current migrated/fixed source snapshot; historical executed sources are only those actually preserved inside final runs.",
+    "checkpoint_replay_verified_runs": []
+  },
+  {
+    "experiment_id": "EXP-022",
+    "branch": "codex/EXP-022",
+    "title": "线性头完整开发五折",
+    "status": "完整五折及结果复核完成",
+    "data_and_method": "150条113P/37N；与017同场次折、3秒16帧；512→1线性头，训练侧选轮后重训；视频max/0.5评价。",
+    "conclusion": "109TP/21FP/4FN/16TN。比深头少16误报、多4漏报，未满足不增加漏报的预定条件。",
+    "final_run_directories": [
+      "data/results/exp022/linear-cv-s7-20261104-v1",
+      "data/results/exp022/report-linear-cv-s7-20261104-v1-v1"
+    ],
+    "code_identity": "Current migrated/fixed source snapshot; historical executed sources are only those actually preserved inside final runs.",
+    "checkpoint_replay_verified_runs": []
+  },
+  {
+    "experiment_id": "EXP-023",
+    "branch": "codex/EXP-023",
+    "title": "时间跨度受控对照",
+    "status": "未执行草案",
+    "data_and_method": "计划共同输入支持下比较时间跨度。",
+    "conclusion": "没有本卡训练结果。",
+    "final_run_directories": [],
+    "code_identity": "Current migrated/fixed source snapshot; historical executed sources are only those actually preserved inside final runs.",
+    "checkpoint_replay_verified_runs": []
+  },
+  {
+    "experiment_id": "EXP-024",
+    "branch": "codex/EXP-024",
+    "title": "连续两窗确认",
+    "status": "已有预测上的有限开发比较完成",
+    "data_and_method": "读取两个已知角色、42条不同视频的同一Linear分数；不重训，比较max与连续两窗规则。",
+    "conclusion": "修复2条不同误报、未新增FN，宏FPR 0.75→0.5417；相对输出等待最大增加92.96秒，非真实检测延迟。",
+    "final_run_directories": [
+      "data/results/exp024/confirmation-s7-dev-v1"
+    ],
+    "code_identity": "Current migrated/fixed source snapshot; historical executed sources are only those actually preserved inside final runs.",
+    "checkpoint_replay_verified_runs": []
+  },
+  {
+    "experiment_id": "EXP-025",
+    "branch": "codex/EXP-025",
+    "title": "完整开发连续确认方案",
+    "status": "元数据覆盖检查；未完成全量评价",
+    "data_and_method": "拟复用022同一模型分数做完整五折判决比较，不另训模型。",
+    "conclusion": "147/150为旧两窗支持覆盖核查，不是模型正确率；没有新的完整验证成绩。",
+    "final_run_directories": [],
+    "code_identity": "Current migrated/fixed source snapshot; historical executed sources are only those actually preserved inside final runs.",
+    "checkpoint_replay_verified_runs": []
+  },
+  {
+    "experiment_id": "EXP-026",
+    "branch": "codex/EXP-026",
+    "title": "三状态与跨界软目标",
+    "status": "历史设计；未训练",
+    "data_and_method": "纯N/T/P窗与时间占比软目标的候选；语义不等同。",
+    "conclusion": "未训练，不声称三分类有效。",
+    "final_run_directories": [],
+    "code_identity": "Current migrated/fixed source snapshot; historical executed sources are only those actually preserved inside final runs.",
+    "checkpoint_replay_verified_runs": []
+  },
+  {
+    "experiment_id": "EXP-027",
+    "branch": "codex/EXP-027",
+    "title": "时间组成三锚点",
+    "status": "未采用设计；未训练",
+    "data_and_method": "三锚点T表示N/P时间组成，改变了视觉阶段T的意义。",
+    "conclusion": "无结果，不作为已解决标签问题的成果。",
+    "final_run_directories": [],
+    "code_identity": "Current migrated/fixed source snapshot; historical executed sources are only those actually preserved inside final runs.",
+    "checkpoint_replay_verified_runs": []
+  },
+  {
+    "experiment_id": "EXP-028",
+    "branch": "codex/EXP-028",
+    "title": "逐片段参照草案",
+    "status": "已暂停设计；未训练",
+    "data_and_method": "旧标签与旧机位角色安排已经暂停；同景多视角应同侧。",
+    "conclusion": "不把撤回的U/A或旧角色安排作为现行训练合同。",
+    "final_run_directories": [],
+    "code_identity": "Current migrated/fixed source snapshot; historical executed sources are only those actually preserved inside final runs.",
+    "checkpoint_replay_verified_runs": []
+  },
+  {
+    "experiment_id": "EXP-029",
+    "branch": "codex/EXP-029",
+    "title": "局部三类头与跨片段上下文",
+    "status": "当前设计；未训练",
+    "data_and_method": "150条新版N/P/T；共同冻结RGB特征，局部线性三类头对照双向GRU三类头；3秒网格中点监督，实际物理场景阻断；折数和成员未最终冻结。",
+    "conclusion": "仅设计与元数据盘点，不存在新训练成绩或最终模型。",
+    "final_run_directories": [],
+    "code_identity": "Current migrated/fixed source snapshot; historical executed sources are only those actually preserved inside final runs.",
+    "checkpoint_replay_verified_runs": []
+  }
+]

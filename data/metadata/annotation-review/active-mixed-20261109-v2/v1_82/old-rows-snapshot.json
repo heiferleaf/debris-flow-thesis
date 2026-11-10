@@ -1,0 +1,40 @@
+{
+  "video_key": "v1_82",
+  "base_csv": "data\\metadata\\annotation-revisions\\npt-20261109-full-review-working-v1\\video1_segment--64b3c72b2a7f\\events.csv",
+  "captured_utc": "2026-11-09T12:24:17.860516+00:00",
+  "base_sha256_at_capture": "b1da78100d61bd3298c9fb5b42cb500634a172f296bf8aa26101813a8b533b38",
+  "rows": [
+    {
+      "video_id": "鸡冠山下游 Downstream of Jiguanshan 9：01",
+      "video_key": "v1_82",
+      "start_sec": "0",
+      "end_sec": "253",
+      "confidence": "real",
+      "kind": "neg",
+      "note": ""
+    },
+    {
+      "video_id": "鸡冠山下游 Downstream of Jiguanshan 9：01",
+      "video_key": "v1_82",
+      "start_sec": "253",
+      "end_sec": "400.34",
+      "confidence": "real",
+      "kind": "transition",
+      "note": ""
+    },
+    {
+      "video_id": "鸡冠山下游 Downstream of Jiguanshan 9：01",
+      "video_key": "v1_82",
+      "start_sec": "400.34",
+      "end_sec": "1589",
+      "confidence": "real",
+      "kind": "pos",
+      "note": ""
+    }
+  ],
+  "matching_lines_verbatim": [
+    "鸡冠山下游 Downstream of Jiguanshan 9：01,v1_82,0,253,real,neg,",
+    "鸡冠山下游 Downstream of Jiguanshan 9：01,v1_82,253,400.34,real,transition,",
+    "鸡冠山下游 Downstream of Jiguanshan 9：01,v1_82,400.34,1589,real,pos,"
+  ]
+}

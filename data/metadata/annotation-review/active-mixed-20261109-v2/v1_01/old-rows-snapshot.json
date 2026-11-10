@@ -1,0 +1,40 @@
+{
+  "video_key": "v1_01",
+  "base_csv": "data\\metadata\\annotation-revisions\\npt-20261109-full-review-working-v1\\video1_segment--64b3c72b2a7f\\events.csv",
+  "captured_utc": "2026-11-09T12:56:15.271740+00:00",
+  "base_sha256_at_capture": "b9423d6fba3ad11b34a83738db21f5ada9d369c9c8a8ef8ae6183b542b948937",
+  "rows": [
+    {
+      "video_id": "Video of debris flow occurred on August 2, 2023（Jihguanshan upstream perspective） (1)",
+      "video_key": "v1_01",
+      "start_sec": "0",
+      "end_sec": "44",
+      "confidence": "real",
+      "kind": "neg",
+      "note": ""
+    },
+    {
+      "video_id": "Video of debris flow occurred on August 2, 2023（Jihguanshan upstream perspective） (1)",
+      "video_key": "v1_01",
+      "start_sec": "44",
+      "end_sec": "134",
+      "confidence": "real",
+      "kind": "transition",
+      "note": ""
+    },
+    {
+      "video_id": "Video of debris flow occurred on August 2, 2023（Jihguanshan upstream perspective） (1)",
+      "video_key": "v1_01",
+      "start_sec": "134",
+      "end_sec": "1068",
+      "confidence": "real",
+      "kind": "pos",
+      "note": ""
+    }
+  ],
+  "matching_lines_verbatim": [
+    "\"Video of debris flow occurred on August 2, 2023（Jihguanshan upstream perspective） (1)\",v1_01,0,44,real,neg,",
+    "\"Video of debris flow occurred on August 2, 2023（Jihguanshan upstream perspective） (1)\",v1_01,44,134,real,transition,",
+    "\"Video of debris flow occurred on August 2, 2023（Jihguanshan upstream perspective） (1)\",v1_01,134,1068,real,pos,"
+  ]
+}

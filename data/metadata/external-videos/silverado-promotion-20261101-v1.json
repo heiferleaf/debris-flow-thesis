@@ -1,0 +1,43 @@
+{
+  "not_independent_events_added": true,
+  "completed_utc": "2026-11-01T12:49:52.9815593+00:00",
+  "moves": [
+    {
+      "to": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\raw\\source-downloads-archive\\USGS-SILVERADO-20150719-CAM01-PUBCLIP\\USGS_Silverado_20150719.mp4",
+      "sha256": "45463fdc22bb5d1cca4b25017cc11554aea9b9c095c03e2c8806cba70da52042",
+      "from": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\raw\\web-research-20261101\\USGS_Silverado_20150719.mp4",
+      "role": "source_download_archive"
+    },
+    {
+      "to": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\raw\\web-research-20261101\\positive\\USGS_Silverado_20150719_cam01_part01.mp4",
+      "sha256": "fa86784e71a0a9117e66e4c39c10bc7caa0a03dc40cfcffba7f66016d1351fc9",
+      "from": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\.codex\\docs\\.temp\\silverado-segments-v1\\USGS_Silverado_20150719_cam01_part01.mp4",
+      "role": "current_candidate_part01"
+    },
+    {
+      "to": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\raw\\web-research-20261101\\positive\\USGS_Silverado_20150719_cam01_part02.mp4",
+      "sha256": "68c4b5765e2e372ea83b0da6b668c802de86c190127adc87c7165620a8bcb6d9",
+      "from": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\.codex\\docs\\.temp\\silverado-segments-v1\\USGS_Silverado_20150719_cam01_part02.mp4",
+      "role": "current_candidate_part02"
+    }
+  ],
+  "source_and_processed_content_unchanged": true,
+  "status": "raw_and_catalog_promotion_complete",
+  "formal_test_frozen": false,
+  "catalog_previous_sha256": "4e61c3aef1de614e6fd7f0886d3758b55320266bfe76e1852b5f6c7eca82ac50",
+  "catalog_sha256": "e2ea5c065de22691e675d4eb8c819f7e8f0b584c99f8bb3ce6949cbf12de9e8e",
+  "source_downloads_sha256": "f39b189f8ee9a01e27a30c7769cf151931a47da628c8878e7a381e49ff23afe6",
+  "catalog_media_count": 22,
+  "catalog_total_bytes": 2066616865,
+  "download_sources": 7,
+  "independent_event_increment": 0,
+  "formal_test_frozen_media": 0,
+  "old20_catalog_bytes_preserved_as_prefix": true,
+  "old6_source_bytes_preserved_as_prefix": true,
+  "source_archive_path": "data/raw/source-downloads-archive/USGS-SILVERADO-20150719-CAM01-PUBCLIP/USGS_Silverado_20150719.mp4",
+  "current_media": [
+    "data/raw/web-research-20261101/positive/USGS_Silverado_20150719_cam01_part01.mp4",
+    "data/raw/web-research-20261101/positive/USGS_Silverado_20150719_cam01_part02.mp4"
+  ],
+  "segment_provenance": "data/metadata/external-videos/silverado-segments-v1/summary.json"
+}

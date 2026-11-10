@@ -1,0 +1,308 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-08T16:04:04.924659+00:00",
+  "scene_id": "camera-9cf177b418b6",
+  "camera": "塔吊上游",
+  "kind": "ordinary-water",
+  "status": "assistant_reviewed_candidate_pending_user_acceptance",
+  "source_path": "data/process/synthetic-video/dry-scenes-20261108-v2/camera-9cf177b418b6/dry-reference.png",
+  "source_sha256": "d1b747dbc617a74eff887297478aa9fc6c345ae43f3d8abe0404319e29d7fce9",
+  "source_acceptance": "Root relayed user acceptance of all 11 dry references. This water derivative has not been user accepted.",
+  "output_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-9cf177b418b6/ordinary-water-reference.png",
+  "output_sha256": "3add0e0200f7aed678859801b6b437955e4a8e96cf6922c921ae8ea8b91ffaa3",
+  "mask_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-9cf177b418b6/ordinary-water-mask.png",
+  "mask_sha256": "df3746384c263b2deb84e34e568913ff1334dff0a1011ce97ca9c84575342f7f",
+  "alpha_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-9cf177b418b6/composition-alpha.png",
+  "alpha_sha256": "6ad092a791b7fa727708df6d0af0622b093d73af05f057015eadd98509c7ce8e",
+  "raw_generation_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-9cf177b418b6/raw-generation.png",
+  "raw_generation_sha256": "e5a12a3d64644d01917ec316e8eeb2139a0130b9d84df9b9d24c7dc5a2814057",
+  "built_in_artifact_path": "C:/Users/20443/.codex/generated_images/01a1bbdc-7788-7c72-bcc2-cca8a99ed1f0/exec-f5042904-b0d0-471a-be93-40815e6b4541.png",
+  "generation_tool": "built-in image_gen",
+  "prompt_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-9cf177b418b6/prompt.json",
+  "prompt_sha256": "d931319967fdb24b0369466d86255c711bb3818cc608b5166685484f766a93fc",
+  "prompt": "Use case: precise-object-edit. Asset: ordinary water first-frame candidate, fixed surveillance photograph. Image 1 is the EDIT TARGET crop from the user-accepted dry reference. Image 2 is a SUPPORTING LOCATION GUIDE: magenta identifies the only water footprint and is annotation, never a desired color. Image 3 is a STYLE REFERENCE ONLY: use the natural neutral grey fluid appearance of its channel water, with small irregular foam streaks and ripples. Do not copy its landscape, framing, pond, camera or flow width.\nPrimary request: locally add a clearly visible NORMAL STREAM of water in the guided low channel, like the style reference that the user judged suitable for ordinary water. This is a moderate visible watercourse with continuous grey or slightly grey-turbid LIQUID surface, fine coherent ripples, a few small irregular white foam streaks, realistic shallow flowing-water texture. Water must be readily visible, neither a thin blue line nor a powerful flood. Preserve exposed gravel bars and islands; keep water below channel banks. Fine suspended sediment is allowed, but no granular mud clumps or transported stones, no solid front, debris mass, huge waves, uniform yellow/brown slurry, tropical blue/green water, repeated white chevrons, or glossy featureless paint. Preserve exact camera geometry, terrain, vegetation, roads, structures, text, lighting, source compression and framing. Change only the magenta footprint. No changes outside it, no new objects. Unknown physical flow direction is not evidence; do not add arrows. This is a synthetic appearance hypothesis, not validated physical dynamics.\nScene-specific location and constraints: Oblique close view looking along a wide dry shale gully. Add only the guided central braided low-channel ribbon, leaving the broad original dry banks, right-hand terrace, road, left cliff and selected central gravel islands exposed. Do not fill every branch or use the entire old mud footprint. Preserve the bottom-right white camera label. No claimed real physical flow direction.",
+  "crop_xyxy": [
+    270,
+    0,
+    1040,
+    720
+  ],
+  "raw_content_crop_xyxy": [
+    0,
+    0,
+    1297,
+    1212
+  ],
+  "method": "Built-in image_gen local crop edit, same bounded inward-feathered mask compositing method as experiments/tools/compose_local_water_reference.py. All pixels outside explicit assistant-traced channel mask copied exactly from accepted dry reference.",
+  "mask_note": "Oblique close view looking along a wide dry shale gully. Add only the guided central braided low-channel ribbon, leaving the broad original dry banks, right-hand terrace, road, left cliff and selected central gravel islands exposed. Do not fill every branch or use the entire old mud footprint. Preserve the bottom-right white camera label. No claimed real physical flow direction.",
+  "pixel_checks": {
+    "mask_pixels": 74785,
+    "mask_fraction": 0.08114691840277778,
+    "outside_mask_changed_pixels": 0,
+    "outside_mask_max_difference": 0
+  },
+  "shoreline_refinement": "Only within the 2-pixel inward shoreline strip, preserve actual source stone/gravel highlights with local luminance residual above 9. No replacement-water pixels are procedurally painted.",
+  "physical_flow_verified": false,
+  "video_api_calls": 0,
+  "paid_video_api_calls": 0,
+  "user_accepted": false,
+  "training_ready": false,
+  "assistant_visual_review": "Full final image and local detail actually viewed after final shoreline refinement. Continuous grey liquid and foam in one selected low channel, with two exposed source gravel islands, road, banks and label preserved. Narrowing and island contours remain regular and synthetic-looking at close inspection; no claim of verified real watercourse geometry.",
+  "limitations": [
+    "Single synthetic still: does not establish temporal motion, real flow direction, discharge, or hydraulics.",
+    "Channel mask and water appearance require user review; grey color alone is not validation of ordinary-water semantics."
+  ],
+  "composition_script_path": ".codex/docs/.temp/water-v4-a/compose.py",
+  "composition_script_sha256": "a2a863bbecf1a4d72e8c6948383afd7cd281f5f9e5ebc0328555fc36b5b60038",
+  "all_source_and_input_images_actually_viewed": true,
+  "full_final_image_actually_viewed": true,
+  "local_final_detail_actually_viewed": true,
+  "needs_user_content_review": true,
+  "metadata_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-9cf177b418b6/composition.json",
+  "comparison_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-9cf177b418b6/comparison.png",
+  "detail_comparison_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-9cf177b418b6/water-detail-comparison.png",
+  "source_mask_config": {
+    "camera": "塔吊上游",
+    "crop": [
+      270,
+      0,
+      1040,
+      720
+    ],
+    "polygons": [
+      [
+        [
+          652,
+          0
+        ],
+        [
+          715,
+          0
+        ],
+        [
+          747,
+          28
+        ],
+        [
+          787,
+          52
+        ],
+        [
+          809,
+          75
+        ],
+        [
+          803,
+          97
+        ],
+        [
+          774,
+          124
+        ],
+        [
+          745,
+          148
+        ],
+        [
+          724,
+          176
+        ],
+        [
+          713,
+          209
+        ],
+        [
+          695,
+          242
+        ],
+        [
+          675,
+          276
+        ],
+        [
+          656,
+          311
+        ],
+        [
+          638,
+          351
+        ],
+        [
+          621,
+          392
+        ],
+        [
+          608,
+          435
+        ],
+        [
+          596,
+          481
+        ],
+        [
+          579,
+          528
+        ],
+        [
+          559,
+          569
+        ],
+        [
+          542,
+          615
+        ],
+        [
+          526,
+          664
+        ],
+        [
+          511,
+          720
+        ],
+        [
+          361,
+          720
+        ],
+        [
+          384,
+          661
+        ],
+        [
+          410,
+          610
+        ],
+        [
+          435,
+          559
+        ],
+        [
+          458,
+          512
+        ],
+        [
+          477,
+          469
+        ],
+        [
+          491,
+          428
+        ],
+        [
+          513,
+          386
+        ],
+        [
+          533,
+          345
+        ],
+        [
+          554,
+          305
+        ],
+        [
+          575,
+          269
+        ],
+        [
+          598,
+          235
+        ],
+        [
+          619,
+          203
+        ],
+        [
+          638,
+          172
+        ],
+        [
+          663,
+          139
+        ],
+        [
+          698,
+          110
+        ],
+        [
+          725,
+          87
+        ],
+        [
+          716,
+          69
+        ],
+        [
+          687,
+          47
+        ],
+        [
+          670,
+          27
+        ]
+      ]
+    ],
+    "holes": [
+      [
+        [
+          550,
+          454
+        ],
+        [
+          573,
+          418
+        ],
+        [
+          587,
+          374
+        ],
+        [
+          607,
+          343
+        ],
+        [
+          614,
+          367
+        ],
+        [
+          601,
+          403
+        ],
+        [
+          585,
+          441
+        ],
+        [
+          564,
+          471
+        ]
+      ],
+      [
+        [
+          449,
+          640
+        ],
+        [
+          463,
+          609
+        ],
+        [
+          485,
+          582
+        ],
+        [
+          494,
+          591
+        ],
+        [
+          482,
+          628
+        ],
+        [
+          461,
+          659
+        ]
+      ]
+    ],
+    "note": "Oblique close view looking along a wide dry shale gully. Add only the guided central braided low-channel ribbon, leaving the broad original dry banks, right-hand terrace, road, left cliff and selected central gravel islands exposed. Do not fill every branch or use the entire old mud footprint. Preserve the bottom-right white camera label. No claimed real physical flow direction."
+  }
+}

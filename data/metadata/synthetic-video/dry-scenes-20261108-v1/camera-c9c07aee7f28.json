@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "scene_id": "camera-c9c07aee7f28",
+  "camera": "鸡冠山下游",
+  "source_path": "data/process/video_frames/video1_segment/frames/v1_16_frame_000143_t300s.jpg",
+  "source_sha256": "1c10f9c32fee010a88f34b217c985680713b8a5724cea845c9d0e90be731ed86",
+  "generated_path": "data/process/synthetic-video/dry-scenes-20261108-v1/camera-c9c07aee7f28/dry-reference.png",
+  "generated_sha256": "8c090467aaf05d2ca9a92cca1e2c9372b2ace5f92f802ee323c601a4bf2fb7c4",
+  "builtin_saved_path": "C:/Users/20443/.codex/generated_images/01a1ba71-be0d-7be3-91a8-2fc00ee71ef4/exec-ead8ddbc-07a8-4c1f-b206-b5dd9b2a81de.png",
+  "prompt": "Use case: precise-object-edit. Edit target: the single supplied surveillance image, camera 鸡冠山下游. Create a synthetic dry-channel reference candidate. Remove ALL moving water from the broad diagonal channel running from upper right toward lower left, including every yellow/brown water patch, clear shallow stream, foam, reflective water surface and wet flowing slurry. Reconstruct a physically plausible continuous completely DRY rough gravel and rock channel floor with dull irregular angular stones and fine dry sediment matching the existing gray gravel bars, not a gray painted water surface. Preserve the exact same camera view and perspective, visible channel outline and banks, boulder and gravel-bar positions outside the replaced flowing surfaces, buildings and excavator, vegetation, hills, lighting, existing markings, and original top/bottom black letterbox. Keep the independent rectangular water reservoir at lower right intact with its stationary green water and concrete walls; the reservoir is NOT the channel. Do not drain or alter this reservoir. Do not add, edit or invent any lettering or watermark. Maintain original 16:9 framing, no crop or zoom. Photographic low-resolution CCTV appearance; no flowing water anywhere in the gully.",
+  "tool": "image_gen.imagegen (built-in; model identifier not exposed)",
+  "generated_at_date": "2026-11-08",
+  "status": "synthetic_candidate_visual_reviewed",
+  "training_ready": false,
+  "fluid_suspected_in_channel": false,
+  "observations": [
+    "Viewed original and generated file with view_image.",
+    "Former pale yellow branching stream replaced by continuous rough gray dry gravel and stones; no visible flowing water or foam remains in the channel.",
+    "Independent lined green reservoir at lower right retained.",
+    "Camera composition, hills, fields, road, buildings and reservoir remain recognizably aligned, but generative texture and landmark details differ; no pixel-level background identity claimed.",
+    "Existing timestamp and camera name retained in content, with regenerated glyph styling; no additional lettering observed."
+  ],
+  "limitations": [
+    "Synthetic reference candidate only; training approval not granted.",
+    "Output raster is approximately 16:9 and was copied without resampling; no black letterbox existed in source."
+  ],
+  "source_sha256_verified": true,
+  "generated_dimensions": {
+    "width": 1672,
+    "height": 941,
+    "requested_aspect_ratio": "16:9",
+    "actual_aspect_ratio": "1672:941",
+    "resampled": false
+  }
+}

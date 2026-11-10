@@ -1,0 +1,101 @@
+{
+  "schema_version": 3,
+  "unit_id": "v4_05",
+  "camera": "多照沟（门前多照汇口）",
+  "source_video_id": "D05_20260818183231",
+  "raw_paths": [
+    "data/raw/video_dataset_3/2026年8月18日 蒋家沟泥石流发生前水流（洪水）视频/D05_20260818183231.mp4"
+  ],
+  "decision_status": "recommendation_only_no_events_written",
+  "baseline": "data\\metadata\\annotation-revisions\\npt-20261108-review-v5",
+  "baseline_intervals": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 1835.0,
+      "state": "N"
+    }
+  ],
+  "old_working_intervals": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 1835.0,
+      "state": "N"
+    }
+  ],
+  "label_provenance_warning": "proposals-v3 is an old working proposal, not blanket user-confirmed truth; this item is not asserted to be user-confirmed.",
+  "summary": "本次抽样没有发现足够改标依据，保留当前工作分段，判读把握与继承范围另记。",
+  "recommended_intervals": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 1835.0,
+      "state": "N",
+      "reason": "保留当前工作N。沿右侧实际细分汊来流观察，早中晚窗口呈原有浅色水流，未见可跟随的新粗糙物料前部或团块输运。 不是因窄小或坡床静止判N；塔吊来源更正的空间定位不能不加区分套到侧沟。",
+      "confidence": "medium_to_high",
+      "decision_kind": "retain_working_label_with_local_observations_and_inherited_gaps"
+    }
+  ],
+  "evidence_actually_observed": [
+    {
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/remaining-b/v4_05-samples.jpg",
+      "frame_manifest": "data/process/annotation-review/recheck-20261108-v3/remaining-b/v4_05-samples.json",
+      "audit_times_actually_viewed": [
+        0.0,
+        2.0,
+        4.0,
+        6.0,
+        914.0,
+        916.0,
+        918.0,
+        920.0,
+        1827.0,
+        1829.0,
+        1831.0,
+        1833.0
+      ],
+      "time_basis": "frames_index.csv t_sec; not source seek or PTS",
+      "sampling": "short ordered early/middle/late windows for every existing non-cut interval"
+    }
+  ],
+  "all_audit_times_actually_viewed": [
+    0.0,
+    2.0,
+    4.0,
+    6.0,
+    914.0,
+    916.0,
+    918.0,
+    920.0,
+    1827.0,
+    1829.0,
+    1831.0,
+    1833.0
+  ],
+  "observed_fluid_evidence": "沿右侧实际细分汊来流观察，早中晚窗口呈原有浅色水流，未见可跟随的新粗糙物料前部或团块输运。",
+  "confidence": "medium_to_high",
+  "limitations": "不是因窄小或坡床静止判N；塔吊来源更正的空间定位不能不加区分套到侧沟。",
+  "unobserved_scope": "Only frames explicitly listed were viewed. All remaining times inherit current working labels; no claim of continuous whole-video certification.",
+  "inherited_not_continuously_reobserved": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 1835.0,
+      "state": "N",
+      "scope": "所有未列入实际观测时刻的部分均继承；cut本次不重新开放"
+    }
+  ],
+  "source_document_support": {
+    "verified_originals": "data/metadata/annotation-review/recheck-20261108-v3/batch-b/verified-source-evidence.json",
+    "scope": "较晚更正点名塔吊断面小型泥石流，本片多照沟侧沟不能直接套用。旧批次事件前目录也不能独立证明N。",
+    "decision_use": "当前N主要依靠工作版继承及实际细流形态，不宣称被较晚来源逐秒认证。"
+  },
+  "pending_evidence": [
+    "需要作纯视觉物理类型认证或精确选帧时，再定点看原片；本次采样不足不作为改T、改U或关闭监督的理由。"
+  ],
+  "cut_policy": "Current baseline cut union exactly preserved; no new cut for cache decoder defects.",
+  "rules": [
+    "N允许普通水流、细流及洪水；P允许小型/细颗粒泥石流，不要求必有大石块。",
+    "不以固定岸石、颜色、大小、阵流或有运动单因素裁决。",
+    "不把每个P波谷改T；本次无法独立物理认证时可保留工作版并记录把握。"
+  ],
+  "labels_modified": false,
+  "training_ready": false
+}

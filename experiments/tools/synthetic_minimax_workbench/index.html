@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>水流视频工作台</title><link rel="stylesheet" href="/assets/style.css"><script src="/assets/app.js" defer></script></head>
+<body>
+<header><div class="brand">水流视频工作台 <span>MiniMax 官方 · 低成本试片</span></div><span id="connection" role="status">连接中</span></header>
+<div class="layout">
+<aside><a class="page-link" href="/local">＋ 通用水流处理</a><h2>场景</h2><p class="muted">切换场景留在当前页面</p><nav id="scenes" aria-label="场景列表"></nav><div class="aside-note">先让一个场景通过，再推广到其余场景。</div></aside>
+<main>
+<div class="page-heading"><div><p class="eyebrow">工作流验证</p><h1 id="scene-name">读取场景…</h1></div><span class="pill" id="stage">准备试片</span></div>
+<p class="intro">目标是在真实场景的河道内生成肉眼可见、自然连续的普通水流。</p>
+<div class="notice" id="workflow-status">读取已有结果…</div>
+<nav class="steps" aria-label="本页流程"><a href="#scene">1 场景与河道</a><a href="#configuration">2 生成配置</a><a href="#progress">3 提交与进度</a><a href="#acceptance">4 播放验收</a></nav>
+<div id="error" role="alert" class="error" hidden></div>
+<section id="scene"><div class="section-heading"><h2><span>01</span> 场景与河道</h2><span class="muted">准备和保存不会产生生成费</span></div>
+<div class="media-grid"><figure><figcaption>原场景 <small>用于对照地形与岸线</small></figcaption><img id="source" alt="原始场景画面"></figure><figure><figcaption><span id="reference-title">本次参考图</span><small id="reference-note">读取输入方式</small></figcaption><img id="dry" alt="当前生成参考图"></figure></div>
+<div class="editor-heading"><h3>河道定位图</h3><div class="toolbar"><button id="polygon-tool" class="selected" type="button">圈河道</button><button id="flow-tool" type="button">设流向</button><button id="undo" type="button">撤销一点</button><button id="clear" type="button">清空标记</button></div></div>
+<p class="muted" id="drawing-help">沿希望生成水流的河道边界点击至少 3 个点。然后切换“设流向”，沿河道由上游向下游依次点出流动路线。</p>
+<div class="canvas-wrap"><canvas id="locator" aria-label="可点击标记河道与流向的场景图"></canvas></div>
+<p class="caption"><span id="locator-note">河道与流向用于本地核查。</span></p>
+<label class="check"><input id="reference-ok" type="checkbox">我已核对当前参考图、河道范围和期望流向</label>
+</section>
+<section id="configuration"><div class="section-heading"><h2><span>02</span> 生成配置</h2><span class="pill">下一条草稿</span></div>
+<div class="config-grid"><div><label for="prompt">实际提交的中文提示词</label><textarea id="prompt" rows="8" maxlength="7000"></textarea><button id="restore-prompt" class="subtle" type="button">恢复工作流提示词</button></div><div class="settings"><label for="quality-profile">试片规格</label><select id="quality-profile"><option value="lite">H3-Lite · 480P · 4秒 · ¥0.64</option><option value="standard-water-v2">标准版H3 · 768P · 4秒 · ¥2.00</option></select><label for="duration">试片长度</label><select id="duration"><option value="4">4 秒 · 预计 ¥0.64</option></select><label for="input-mode">输入方式</label><select id="input-mode"><option value="first_frame">有水首帧约束</option><option value="image_url+image_url">历史探索：干床图＋定位图</option></select><dl><div><dt>模型</dt><dd id="model-name">MiniMax-H3-Lite</dd></div><div><dt>接入</dt><dd>MiniMax 官方 API</dd></div><div><dt>输出</dt><dd id="output-setting">480P · 16:9</dd></div><div><dt>官方密钥</dt><dd id="credential-status">读取中</dd></div></dl><details id="credential-panel"><summary>在本机配置官方密钥</summary><p class="muted">在 MiniMax 官方开放平台创建“按量付费 API Key”，在此粘贴。只保存在本机的加密文件中，服务不会回显密钥。</p><label for="official-key">MiniMax 官方 API Key</label><input id="official-key" type="password" autocomplete="new-password" placeholder="请勿粘贴百炼密钥"><label class="check"><input id="replace-key" type="checkbox">替换已经保存的 MiniMax 官方密钥</label><button id="save-key" type="button">加密保存到本机</button><p id="key-message" class="muted" role="status"></p></details></div></div>
+<div class="actions"><button id="save-draft" type="button">保存草稿</button><span id="draft-message" role="status" class="muted">尚未保存本次修改</span></div>
+</section>
+<section id="progress"><div class="section-heading"><h2><span>03</span> 提交与进度</h2><span id="estimate" class="price">预计 ¥0.64 / 条</span></div>
+<p>每次生成前核对实际首帧、模型、画质与费用。标准版试片使用新标记河道的有水首帧，本阶段最多一条；不会自动重试或升档。图片输入在官方免费张数范围内，实际费用以账单为准。</p>
+<div class="actions"><button id="prepare" class="primary" type="button">核对本条上传内容与费用</button><span id="submission-note" class="muted">未提交新任务</span></div>
+<div id="active-job" class="job-status" hidden><strong id="job-status"></strong><p id="job-detail" class="muted"></p></div>
+</section>
+<section id="acceptance"><div class="section-heading"><h2><span>04</span> 播放验收</h2><span class="muted">生成成功 ≠ 内容通过</span></div>
+<div id="prompt-comparison" hidden><h3>本轮方案对照</h3><p id="comparison-description" class="muted"></p><button id="play-comparison" type="button">从头播放本轮视频</button><div id="comparison-cards" class="comparison-grid"></div></div>
+<label for="job-select">选择试片记录</label><select id="job-select"></select>
+<div id="no-result" class="empty">本场景还没有试片。保存草稿不会生成视频。</div>
+<div id="result-panel" hidden><div class="result-heading"><strong id="result-title"></strong><span id="quality-status" class="pill"></span></div><video id="result" controls playsinline preload="metadata"></video><p id="result-info" class="muted"></p><p id="motion-check" class="review-note" hidden></p><p id="previous-review" class="review-note" hidden></p>
+<details id="actual-input-panel" hidden><summary>查看本条实际上传的首帧</summary><img id="actual-input-image" alt="本条实际送入视频模型的首帧"><p id="actual-input-note" class="muted"></p></details>
+<details id="raw-video-panel" hidden><summary>查看模型生成的局部河道原片（未回贴）</summary><video id="raw-video" controls playsinline preload="metadata"></video><p class="muted">上方主视频为局部水面放回原场景后的版本；本原片用于检查模型实际生成了什么。</p></details>
+<details id="inspection16-panel" hidden><summary>查看前3秒的16帧检查图（未做模型裁剪）</summary><img id="inspection16-image" alt="本条试片的16个连续时间采样帧"></details><div class="review-grid"><label class="check"><input id="check-motion" type="checkbox">不依赖文字解释，也能看出水持续沿河道流动</label><label class="check"><input id="check-shape" type="checkbox">水面变化自然，不是闪烁、贴图滑动或整体变形</label><label class="check"><input id="check-background" type="checkbox">水在河道内，河岸、山体、道路等固定景物合理</label></div>
+<label for="review-note">效果备注</label><textarea id="review-note" rows="2" placeholder="例如：完全静止；河岸变形；水流自然但颜色不合适"></textarea><div class="actions"><button id="reject" type="button">记录未通过</button><button id="accept" class="primary" type="button">三项均符合，记录质量通过</button></div><p class="caption">质量通过只表示媒体试片可接受。合成素材的训练用途另行审核；不会自动当作真实负样本。</p>
+<details><summary>查看该次配置与运行记录</summary><pre id="job-record"></pre></details></div>
+</section>
+<footer>当前入口：本页。场景、草稿、生成进度和结果均在这里查看。</footer>
+</main></div>
+<dialog id="confirmation"><form id="confirm-form"><div class="section-heading"><h2>确认这一次生成</h2><button id="close-confirm" type="button" aria-label="关闭">×</button></div><p id="confirm-cost"></p><div class="media-grid"><figure><figcaption id="confirm-reference-title">本次实际上传参考图</figcaption><img id="confirm-dry" alt="本次上传的场景图"></figure><figure><figcaption>图二 · 河道定位</figcaption><img id="confirm-locator" alt="本次上传的河道定位图"></figure></div><p id="confirm-prompt"></p><label class="check"><input id="consent" type="checkbox" required><span id="consent-label">同意向 MiniMax 官方上传本次已展示的素材与提示词，并支付所示试片费用</span></label><p>只提交一次。结果不满意或失败时，不会自动再生成。</p><div class="actions"><button id="cancel-confirm" type="button">取消</button><button id="submit" class="primary" type="submit" disabled>确认上传并生成 · ¥0.64</button></div><p id="confirm-error" role="alert" class="error" hidden></p></form></dialog>
+</body></html>

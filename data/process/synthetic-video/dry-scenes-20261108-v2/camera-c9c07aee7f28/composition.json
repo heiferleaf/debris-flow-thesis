@@ -1,0 +1,68 @@
+{
+  "schema_version": 2,
+  "status": "assistant_reviewed_candidate_pending_user_acceptance",
+  "needs_revision": false,
+  "residual_fluid": false,
+  "root_review": {
+    "status": "assistant_reviewed_candidate",
+    "all_11_comparisons_viewed": true,
+    "user_acceptance": "pending",
+    "meaning": "Root compared all 11 source/output pairs. Two identified residual-flow issues (tower-upstream right branch and Menqian-middle transverse tributary) received targeted repair and root recheck. This does not certify real hidden geology or user approval."
+  },
+  "accepted": false,
+  "scene_id": "camera-c9c07aee7f28",
+  "camera": "鸡冠山下游",
+  "source_path": "data/process/video_frames/video1_segment/frames/v1_16_frame_000143_t300s.jpg",
+  "source_sha256": "1c10f9c32fee010a88f34b217c985680713b8a5724cea845c9d0e90be731ed86",
+  "mask_path": "data/process/synthetic-video/dry-scenes-20261108-v2/camera-c9c07aee7f28/fluid-mask.png",
+  "mask_sha256": "28b0d9c4691716b4cf055254f32ec1e75981d25fadca12745482fdd1c5106572",
+  "alpha_path": "data/process/synthetic-video/dry-scenes-20261108-v2/camera-c9c07aee7f28/composition-alpha.png",
+  "alpha_sha256": "28b0d9c4691716b4cf055254f32ec1e75981d25fadca12745482fdd1c5106572",
+  "raw_generation_path": "data/process/synthetic-video/dry-scenes-20261108-v2/camera-c9c07aee7f28/raw-generation.png",
+  "raw_generation_sha256": "92a09f9dc4274310b10547acaba69d8dae7315577e9b0b0d0379f1ac0cc1df95",
+  "output_path": "data/process/synthetic-video/dry-scenes-20261108-v2/camera-c9c07aee7f28/dry-reference.png",
+  "output_sha256": "06bd25188ddef4d94527815d3d9cadf66fe8fe53eca892f65eece2126b4aa41d",
+  "method": "Built-in image_gen local patch edit, then exact source retention outside an explicit fluid mask. Replacement bed is a synthetic hypothesis, not recovered ground truth.",
+  "mask_config_path": "data/metadata/synthetic-video/dry-scenes-20261108-v2/camera-c9c07aee7f28-mask.json",
+  "crop_xyxy": [
+    0,
+    200,
+    960,
+    540
+  ],
+  "tone_offset_rgb": [
+    0,
+    0,
+    0
+  ],
+  "generation_prompt": "Use case: precise-object-edit. Edit target: this LOCAL CROP of a real fixed surveillance camera photograph. Remove only all visible flowing yellow/grey muddy water, foam, reflective liquid and ripples from the gully floor. Fill its footprint with a plausible DRY grey angular shale/gravel bed matching the adjacent original exposed gravel and the same perspective, scale, haze, lighting and source compression. Keep already exposed real rocks, gravel islands, eroded shorelines, cliffs, grass, road and objects exactly in position. Do not redesign the terrain. Very irregular subdued fine sediment and scattered small stones, natural scale variation, not rows or repeated wave shapes. NO water, mud waves, puddles, wet shine, repeated patterns, oversharpened textures, new big boulders or invented plants. Preserve all camera labels. Exact same crop geometry, no camera change or zoom. The hidden bed fill is a synthetic hypothesis, not recovered real geology. The lined independent reservoir in the lower right MUST stay filled with the original green still water and retain its exact white liner. Only the braided stream to its LEFT is being dried. Do not dry the reservoir.",
+  "generation_tool": "built-in image_gen",
+  "built_in_artifact_path": "C:/Users/20443/.codex/generated_images/01a1bb2d-01ca-72e3-ba8d-a04104b63f53/exec-447caf95-545c-4577-8fdd-4aba734936bc.png",
+  "mask_note": null,
+  "tone_matching_method": null,
+  "temporal_review": null,
+  "limitations": [
+    "The generated hidden riverbed is an unverified synthetic hypothesis, not recovered original geology.",
+    "An explicit assistant-estimated fluid mask is used; preserving pixels outside it is a necessary constraint, not proof that the full mask is semantically correct.",
+    "Static video repeats one image and contains no observed physical time or flow."
+  ],
+  "revision_note": null,
+  "command": [
+    ".venv/Scripts/python.exe",
+    "experiments/tools/compose_local_dry_reference.py",
+    "data/metadata/synthetic-video/dry-scenes-20261108-v2/camera-c9c07aee7f28-mask.json",
+    "--generated",
+    "data/process/synthetic-video/dry-scenes-20261108-v2/camera-c9c07aee7f28/raw-generation.png"
+  ],
+  "pixel_checks": {
+    "mask_pixels": 39664,
+    "mask_fraction": 0.07651234567901234,
+    "outside_mask_changed_pixels": 0,
+    "outside_mask_max_difference": 0,
+    "inside_mask_mean_absolute_difference": 36.75979897808256
+  },
+  "assistant_visual_review": "Full-frame source/mask/composite comparison inspected. Original landscape retained outside the explicit mask. Candidate for user content review, not user acceptance.",
+  "user_acceptance": "pending",
+  "camera_role": null,
+  "training_ready": false
+}

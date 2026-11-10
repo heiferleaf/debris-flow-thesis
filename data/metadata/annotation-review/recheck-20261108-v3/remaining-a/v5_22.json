@@ -1,0 +1,262 @@
+{
+  "schema": "remaining-dongchuan-label-survey-v3",
+  "unit_id": "v5_22",
+  "status": "reviewed_sampled_windows_proposal_only",
+  "old_working_release": "data/metadata/annotation-revisions/npt-20261107-proposals-v3",
+  "old_working_events_csv": "data/metadata/annotation-revisions/npt-20261107-proposals-v3/video5_segment--c006864bd72d/events.csv",
+  "old_working_events_sha256": "5c79ab7ee1a040d4c3a100c8231c8216480849a10c879a1b931aad1847a0dde6",
+  "old_working_annotations_verbatim": [
+    {
+      "video_id": "D15_20260818122710_fixed",
+      "video_key": "v5_22",
+      "start_sec": "0",
+      "end_sec": "2676",
+      "confidence": "real",
+      "kind": "neg",
+      "note": "整段预填负样本",
+      "null": [
+        "依据=说明.docx(2026-08-18上游14:24泥石流",
+        "本批为其爆发前常规水流视频)",
+        "待叶海峰审计确认"
+      ]
+    }
+  ],
+  "raw_video_paths": [
+    "data/raw/video_dataset_4/D15_20260818122710_fixed.mp4"
+  ],
+  "camera": "1号塔下游",
+  "recommended_intervals": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 2676.0,
+      "state": "N",
+      "reason": "广角远景内分散浅流水线和局部水花，早中晚及末尾加密没有新连片粗糙物料主体；固定床岛与白色反光/水花分开判读。",
+      "confidence": "中高"
+    }
+  ],
+  "observations_zh": [
+    "广角远景内分散浅流水线和局部水花，早中晚及末尾加密没有新连片粗糙物料主体；固定床岛与白色反光/水花分开判读。"
+  ],
+  "confidence": "中高",
+  "remaining_evidence_needed": "只覆盖列出的实际缓存样本，未看间隔继承工作N；当前未发现需补窄窗的新目标征象，不据颜色/光影造T。",
+  "old_interval_sampling": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 2676.0,
+      "old_state": "N",
+      "actual_cache_points_seen_inside_interval_sec": [
+        0.0,
+        2.0,
+        4.0,
+        1338.0,
+        1340.0,
+        1342.0,
+        2670.0,
+        2672.0,
+        2674.0
+      ],
+      "nearest_context_points_outside_interval_sec": [],
+      "cache_availability_note": "Repeated nearest points do not count as multiple unique frames; actual sample spacing is preserved.",
+      "scope": "Early/middle/late navigation samples only. Cache gaps and sub-cadence intervals may not contain distinct samples for all phases."
+    }
+  ],
+  "observed_evidence": [
+    {
+      "unit_id": "v5_22",
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/remaining-a/v5_22/context-extra.jpg",
+      "contact_sha256": "acad4cb7714f4f02d34a32f27ff6436707cc1575d45a795347e7fd8eb7206cfc",
+      "crop_reference_xyxy": null,
+      "crop_reference_wh": [
+        1920,
+        1080
+      ],
+      "cache_points": [
+        {
+          "audit_sec": 2556.0,
+          "frame": "data/process/video_frames/video5_segment/frames/v5_22_frame_001278_t2556s.jpg",
+          "tag": "N-ending-weak-check"
+        },
+        {
+          "audit_sec": 2616.0,
+          "frame": "data/process/video_frames/video5_segment/frames/v5_22_frame_001308_t2616s.jpg",
+          "tag": "N-ending-weak-check"
+        },
+        {
+          "audit_sec": 2646.0,
+          "frame": "data/process/video_frames/video5_segment/frames/v5_22_frame_001323_t2646s.jpg",
+          "tag": "N-ending-weak-check"
+        },
+        {
+          "audit_sec": 2660.0,
+          "frame": "data/process/video_frames/video5_segment/frames/v5_22_frame_001330_t2660s.jpg",
+          "tag": "N-ending-weak-check"
+        },
+        {
+          "audit_sec": 2666.0,
+          "frame": "data/process/video_frames/video5_segment/frames/v5_22_frame_001333_t2666s.jpg",
+          "tag": "N-ending-weak-check"
+        },
+        {
+          "audit_sec": 2668.0,
+          "frame": "data/process/video_frames/video5_segment/frames/v5_22_frame_001334_t2668s.jpg",
+          "tag": "N-ending-weak-check"
+        },
+        {
+          "audit_sec": 2670.0,
+          "frame": "data/process/video_frames/video5_segment/frames/v5_22_frame_001335_t2670s.jpg",
+          "tag": "N-ending-weak-check"
+        },
+        {
+          "audit_sec": 2672.0,
+          "frame": "data/process/video_frames/video5_segment/frames/v5_22_frame_001336_t2672s.jpg",
+          "tag": "N-ending-weak-check"
+        },
+        {
+          "audit_sec": 2674.0,
+          "frame": "data/process/video_frames/video5_segment/frames/v5_22_frame_001337_t2674s.jpg",
+          "tag": "N-ending-weak-check"
+        },
+        {
+          "audit_sec": 2676.0,
+          "frame": "data/process/video_frames/video5_segment/frames/v5_22_frame_001338_t2676s.jpg",
+          "tag": "N-ending-weak-check"
+        },
+        {
+          "audit_sec": 0.0,
+          "frame": "data/process/video_frames/video5_segment/frames/v5_22_frame_000000_t0s.jpg",
+          "tag": "context-only"
+        },
+        {
+          "audit_sec": 382.0,
+          "frame": "data/process/video_frames/video5_segment/frames/v5_22_frame_000191_t382s.jpg",
+          "tag": "context-only"
+        },
+        {
+          "audit_sec": 764.0,
+          "frame": "data/process/video_frames/video5_segment/frames/v5_22_frame_000382_t764s.jpg",
+          "tag": "context-only"
+        },
+        {
+          "audit_sec": 1146.0,
+          "frame": "data/process/video_frames/video5_segment/frames/v5_22_frame_000573_t1146s.jpg",
+          "tag": "context-only"
+        },
+        {
+          "audit_sec": 1530.0,
+          "frame": "data/process/video_frames/video5_segment/frames/v5_22_frame_000765_t1530s.jpg",
+          "tag": "context-only"
+        },
+        {
+          "audit_sec": 1912.0,
+          "frame": "data/process/video_frames/video5_segment/frames/v5_22_frame_000956_t1912s.jpg",
+          "tag": "context-only"
+        },
+        {
+          "audit_sec": 2294.0,
+          "frame": "data/process/video_frames/video5_segment/frames/v5_22_frame_001147_t2294s.jpg",
+          "tag": "context-only"
+        },
+        {
+          "audit_sec": 2676.0,
+          "frame": "data/process/video_frames/video5_segment/frames/v5_22_frame_001338_t2676s.jpg",
+          "tag": "context-only"
+        }
+      ],
+      "scope": "Only listed samples. Consecutive cache frames are about2s apart; no full continuous coverage claim.",
+      "actually_viewed_this_pass": true
+    },
+    {
+      "unit_id": "v5_22",
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/remaining-a/v5_22/screen-00.jpg",
+      "contact_sha256": "3bddfa054dda563d14708884a0c1e199cf294bd80f807d28e4e8b0d3f2122285",
+      "crop_reference_xyxy": null,
+      "crop_reference_wh": [
+        1920,
+        1080
+      ],
+      "cache_points": [
+        {
+          "audit_sec": 0.0,
+          "frame": "data/process/video_frames/video5_segment/frames/v5_22_frame_000000_t0s.jpg",
+          "tag": "seg0 neg early"
+        },
+        {
+          "audit_sec": 2.0,
+          "frame": "data/process/video_frames/video5_segment/frames/v5_22_frame_000001_t2s.jpg",
+          "tag": "seg0 neg early"
+        },
+        {
+          "audit_sec": 4.0,
+          "frame": "data/process/video_frames/video5_segment/frames/v5_22_frame_000002_t4s.jpg",
+          "tag": "seg0 neg early"
+        },
+        {
+          "audit_sec": 1338.0,
+          "frame": "data/process/video_frames/video5_segment/frames/v5_22_frame_000669_t1338s.jpg",
+          "tag": "seg0 neg middle"
+        },
+        {
+          "audit_sec": 1340.0,
+          "frame": "data/process/video_frames/video5_segment/frames/v5_22_frame_000670_t1340s.jpg",
+          "tag": "seg0 neg middle"
+        },
+        {
+          "audit_sec": 1342.0,
+          "frame": "data/process/video_frames/video5_segment/frames/v5_22_frame_000671_t1342s.jpg",
+          "tag": "seg0 neg middle"
+        },
+        {
+          "audit_sec": 2670.0,
+          "frame": "data/process/video_frames/video5_segment/frames/v5_22_frame_001335_t2670s.jpg",
+          "tag": "seg0 neg late"
+        },
+        {
+          "audit_sec": 2672.0,
+          "frame": "data/process/video_frames/video5_segment/frames/v5_22_frame_001336_t2672s.jpg",
+          "tag": "seg0 neg late"
+        },
+        {
+          "audit_sec": 2674.0,
+          "frame": "data/process/video_frames/video5_segment/frames/v5_22_frame_001337_t2674s.jpg",
+          "tag": "seg0 neg late"
+        }
+      ],
+      "scope": "Only listed samples. Consecutive cache frames are about2s apart; no full continuous coverage claim.",
+      "actually_viewed_this_pass": true
+    }
+  ],
+  "actual_cache_points_seen_sec": [
+    0.0,
+    2.0,
+    4.0,
+    382.0,
+    764.0,
+    1146.0,
+    1338.0,
+    1340.0,
+    1342.0,
+    1530.0,
+    1912.0,
+    2294.0,
+    2556.0,
+    2616.0,
+    2646.0,
+    2660.0,
+    2666.0,
+    2668.0,
+    2670.0,
+    2672.0,
+    2674.0,
+    2676.0
+  ],
+  "inherited_unobserved_scope": "All audit seconds other than the listed cache points were not continuously reobserved. PureP opening or pureN ending extra samples and 8 isolated context points are investigation, not whole-video certification. Stable unseen periods retain old working labels.",
+  "new_T_explanation": null,
+  "cut_preservation": {
+    "same_coverage": true,
+    "old_cut_union": [],
+    "recommended_cut_union": []
+  },
+  "model_predictions_used": false,
+  "labels_or_supervision_written": false,
+  "training_ready": false
+}

@@ -1,0 +1,1840 @@
+{
+  "schema_version": 1,
+  "training_ready": false,
+  "content_acceptance": "User says N/P generally accurate; preserve latest manual edits and explicitly confirmed T anchors. No fresh all-video visual certification.",
+  "annotations_dir": "data/metadata/annotation-revisions/npt-20261109-full-review-working-v1",
+  "items": [
+    {
+      "unit_id": "v1_01",
+      "category": "当前标签：用户确认或自行修改",
+      "question": "当前显式区间：N 0.0–44.0秒；T 44.0–134.0秒；P 134.0–1068.0秒。本轮只做训练设计，不使用旧候选覆盖。",
+      "regions": [
+        {
+          "start": 0.0,
+          "end": 0.0,
+          "label": "定位参考：当前标注N"
+        },
+        {
+          "start": 40.05,
+          "end": 40.05,
+          "label": "定位参考：当前标注N"
+        },
+        {
+          "start": 80.15,
+          "end": 80.15,
+          "label": "定位参考：当前标注T"
+        },
+        {
+          "start": 120.25,
+          "end": 120.25,
+          "label": "定位参考：当前标注T"
+        }
+      ],
+      "evidence": "data/metadata/annotation-review/active-mixed-20261109-v2/v1_01/proposal.json",
+      "training_ready": false,
+      "followup_action": "priority_review"
+    },
+    {
+      "unit_id": "v1_02",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_03",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_04",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_05",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_07",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_08",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_09",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_10",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_11",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_12",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_13",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_14",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_15",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_16",
+      "category": "当前标签：用户确认或自行修改",
+      "question": "当前显式区间：N 0.0–1035.0秒；P 1035.0–1766.0秒。本轮只做训练设计，不使用旧候选覆盖。",
+      "regions": [
+        {
+          "start": 518.02,
+          "end": 518.02,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_16_frame_000247_t518s.jpg"
+        },
+        {
+          "start": 1400.83,
+          "end": 1400.83,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_16_frame_000668_t1401s.jpg"
+        },
+        {
+          "start": 1033.92,
+          "end": 1033.92,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_16_frame_000493_t1034s.jpg"
+        },
+        {
+          "start": 1038.12,
+          "end": 1038.12,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_16_frame_000495_t1038s.jpg"
+        }
+      ],
+      "evidence": "data/metadata/annotation-review/two-video-relabel-20261109-v1/user-acceptance.json",
+      "training_ready": false,
+      "followup_action": "accepted_keep"
+    },
+    {
+      "unit_id": "v1_17",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_18",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_19",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_20",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_21",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_22",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_24",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_25",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_27",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_28",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_29",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_31",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_32",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_33",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_35",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_37",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_39",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_40",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_41",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_42",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_43",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_44",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_45",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_46",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_47",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_48",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_49",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_50",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_51",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_52",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_55",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_56",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_57",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_58",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_59",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_60",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_61",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_62",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_63",
+      "category": "当前标签：用户确认或自行修改",
+      "question": "当前显式区间：N 0.0–327.47秒；T 327.47–491.2秒；P 491.2–1406.0秒。本轮只做训练设计，不使用旧候选覆盖。",
+      "regions": [
+        {
+          "start": 325.42,
+          "end": 325.42,
+          "label": "定位参考：当前标注N"
+        },
+        {
+          "start": 329.51,
+          "end": 329.51,
+          "label": "定位参考：当前标注T"
+        },
+        {
+          "start": 327.47,
+          "end": 327.47,
+          "label": "定位参考：当前标注T"
+        }
+      ],
+      "evidence": "data/metadata/annotation-review/active-mixed-20261109-v2/v1_63/proposal.json",
+      "training_ready": false,
+      "followup_action": "priority_review"
+    },
+    {
+      "unit_id": "v1_64",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_65",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_67",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_68",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_69",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_70",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_72",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_73",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_76",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_77",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_78",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_79",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_81",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_82",
+      "category": "当前标签：用户确认或自行修改",
+      "question": "当前显式区间：N 0.0–209.52秒；T 209.52–410.69秒；P 410.69–1589.0秒。本轮只做训练设计，不使用旧候选覆盖。",
+      "regions": [
+        {
+          "start": 207.44,
+          "end": 207.44,
+          "label": "定位参考：当前标注N"
+        },
+        {
+          "start": 211.59,
+          "end": 211.59,
+          "label": "定位参考：当前标注T"
+        },
+        {
+          "start": 209.52,
+          "end": 209.52,
+          "label": "定位参考：当前标注T"
+        }
+      ],
+      "evidence": "data/metadata/annotation-review/active-mixed-20261109-v2/v1_82/proposal.json",
+      "training_ready": false,
+      "followup_action": "priority_review"
+    },
+    {
+      "unit_id": "v1_83",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_84",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_85",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_86",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_87",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_88",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_89",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_91",
+      "category": "当前N/P：用户总体认可，保留",
+      "question": "当前显式区间：N 0.0–1524.22秒；P 1524.22–1870.0秒；cut 1870.0–2055.0秒。本轮只做训练设计，不使用旧候选覆盖。",
+      "regions": [
+        {
+          "start": 763.16,
+          "end": 763.16,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_91_frame_000364_t763s.jpg"
+        },
+        {
+          "start": 1696.14,
+          "end": 1696.14,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_91_frame_000809_t1696s.jpg"
+        },
+        {
+          "start": 1962.4,
+          "end": 1962.4,
+          "label": "定位参考：当前标注cut",
+          "frame_file": "v1_91_frame_000936_t1962s.jpg"
+        },
+        {
+          "start": 1522.12,
+          "end": 1522.12,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_91_frame_000726_t1522s.jpg"
+        },
+        {
+          "start": 1526.31,
+          "end": 1526.31,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_91_frame_000728_t1526s.jpg"
+        },
+        {
+          "start": 1868.06,
+          "end": 1868.06,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_91_frame_000891_t1868s.jpg"
+        },
+        {
+          "start": 1872.25,
+          "end": 1872.25,
+          "label": "定位参考：当前标注cut",
+          "frame_file": "v1_91_frame_000893_t1872s.jpg"
+        }
+      ],
+      "evidence": "data/metadata/annotation-review/four-video-relabel-20261109-v1/v1_91/proposal.json",
+      "training_ready": false,
+      "followup_action": "priority_review"
+    },
+    {
+      "unit_id": "v1_92",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_93",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_94",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_95",
+      "category": "当前N/P：用户总体认可，保留",
+      "question": "当前显式区间：N 0.0–1328.0秒；P 1328.0–1406.0秒。本轮只做训练设计，不使用旧候选覆盖。",
+      "regions": [
+        {
+          "start": 663.12,
+          "end": 663.12,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_95_frame_000324_t663s.jpg"
+        },
+        {
+          "start": 1367.17,
+          "end": 1367.17,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_95_frame_000668_t1367s.jpg"
+        },
+        {
+          "start": 1326.24,
+          "end": 1326.24,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_95_frame_000648_t1326s.jpg"
+        },
+        {
+          "start": 1330.33,
+          "end": 1330.33,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_95_frame_000650_t1330s.jpg"
+        }
+      ],
+      "evidence": "data/metadata/annotation-review/four-video-relabel-20261109-v1/v1_95/proposal.json",
+      "training_ready": false,
+      "followup_action": "priority_review"
+    },
+    {
+      "unit_id": "v1_96",
+      "category": "当前标签：用户确认或自行修改",
+      "question": "当前显式区间：P 0.0–153.5秒；N 153.5–503.48秒；P 503.48–661.07秒；N 661.07–775.69秒；P 775.69–837.09秒；N 837.09–841.18秒；P 841.18–921.0秒；N 921.0–951.7秒；P 951.7–984.45秒；N 984.45–1406.06秒。本轮只做训练设计，不使用旧候选覆盖。",
+      "regions": [
+        {
+          "start": 327.47,
+          "end": 327.47,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_96_frame_000160_t327s.jpg"
+        },
+        {
+          "start": 718.38,
+          "end": 718.38,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_96_frame_000351_t718s.jpg"
+        },
+        {
+          "start": 75.73,
+          "end": 75.73,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_96_frame_000037_t76s.jpg"
+        },
+        {
+          "start": 583.3,
+          "end": 583.3,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_96_frame_000285_t583s.jpg"
+        },
+        {
+          "start": 151.45,
+          "end": 151.45,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_96_frame_000074_t151s.jpg"
+        },
+        {
+          "start": 155.55,
+          "end": 155.55,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_96_frame_000076_t156s.jpg"
+        },
+        {
+          "start": 501.43,
+          "end": 501.43,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_96_frame_000245_t501s.jpg"
+        },
+        {
+          "start": 505.53,
+          "end": 505.53,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_96_frame_000247_t506s.jpg"
+        },
+        {
+          "start": 659.03,
+          "end": 659.03,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_96_frame_000322_t659s.jpg"
+        },
+        {
+          "start": 663.12,
+          "end": 663.12,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_96_frame_000324_t663s.jpg"
+        },
+        {
+          "start": 773.64,
+          "end": 773.64,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_96_frame_000378_t774s.jpg"
+        },
+        {
+          "start": 777.73,
+          "end": 777.73,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_96_frame_000380_t778s.jpg"
+        },
+        {
+          "start": 835.04,
+          "end": 835.04,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_96_frame_000408_t835s.jpg"
+        },
+        {
+          "start": 839.13,
+          "end": 839.13,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_96_frame_000410_t839s.jpg"
+        },
+        {
+          "start": 839.13,
+          "end": 839.13,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_96_frame_000410_t839s.jpg"
+        },
+        {
+          "start": 843.23,
+          "end": 843.23,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_96_frame_000412_t843s.jpg"
+        },
+        {
+          "start": 918.95,
+          "end": 918.95,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_96_frame_000449_t919s.jpg"
+        },
+        {
+          "start": 923.05,
+          "end": 923.05,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_96_frame_000451_t923s.jpg"
+        },
+        {
+          "start": 949.65,
+          "end": 949.65,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_96_frame_000464_t950s.jpg"
+        },
+        {
+          "start": 953.75,
+          "end": 953.75,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_96_frame_000466_t954s.jpg"
+        },
+        {
+          "start": 982.4,
+          "end": 982.4,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_96_frame_000480_t982s.jpg"
+        },
+        {
+          "start": 986.49,
+          "end": 986.49,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_96_frame_000482_t986s.jpg"
+        }
+      ],
+      "evidence": "data/metadata/annotation-review/two-video-relabel-20261109-v1/user-acceptance.json",
+      "training_ready": false,
+      "followup_action": "accepted_keep"
+    },
+    {
+      "unit_id": "v1_97",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_98",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_99",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_100",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_101",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_102",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_103",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_104",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_105",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_106",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_107",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_108",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_109",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_110",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_111",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_112",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_113",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_114",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_117",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_118",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_119",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_120",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_121",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v1_122",
+      "category": "当前标签：用户确认或自行修改",
+      "question": "当前显式区间：N 0.0–699.02秒；N 699.02–972.77秒；T 972.77–1080.62秒；P 1080.62–1612.0秒。本轮只做训练设计，不使用旧候选覆盖。",
+      "regions": [
+        {
+          "start": 0.0,
+          "end": 0.0,
+          "label": "定位参考：当前标注N"
+        },
+        {
+          "start": 99.59,
+          "end": 99.59,
+          "label": "定位参考：当前标注N"
+        },
+        {
+          "start": 699.02,
+          "end": 699.02,
+          "label": "定位参考：当前标注N"
+        },
+        {
+          "start": 1080.62,
+          "end": 1080.62,
+          "label": "定位参考：当前标注P"
+        },
+        {
+          "start": 1400.07,
+          "end": 1400.07,
+          "label": "定位参考：当前标注P"
+        }
+      ],
+      "evidence": "data/metadata/annotation-review/active-mixed-20261109-v2/v1_122/proposal.json",
+      "training_ready": false,
+      "followup_action": "priority_review"
+    },
+    {
+      "unit_id": "v1_123",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v4_01",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v4_02",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v4_03",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v4_04",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v4_05",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v4_06",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v4_07",
+      "category": "当前标签：用户确认或自行修改",
+      "question": "当前显式区间：N 0.0–70.0秒；T 70.0–92.0秒；P 92.0–2776.0秒。本轮只做训练设计，不使用旧候选覆盖。",
+      "regions": [
+        {
+          "start": 68,
+          "end": 68,
+          "label": "定位参考：当前标注N"
+        },
+        {
+          "start": 72,
+          "end": 72,
+          "label": "定位参考：当前标注T"
+        }
+      ],
+      "evidence": "data/metadata/annotation-review/active-mixed-20261109-v2/v4_07/proposal.json",
+      "training_ready": false,
+      "followup_action": "priority_review"
+    },
+    {
+      "unit_id": "v4_08",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v4_09",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v4_10",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v4_11",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v4_12",
+      "category": "当前工作T保留：未另称逐条验收",
+      "question": "当前显式区间：N 0.0–134.0秒；T 134.0–156.0秒；P 156.0–2160.0秒。本轮只做训练设计，不使用旧候选覆盖。",
+      "regions": [
+        {
+          "start": 130,
+          "end": 130,
+          "label": "定位参考：当前标注N"
+        },
+        {
+          "start": 138,
+          "end": 138,
+          "label": "定位参考：当前标注T"
+        }
+      ],
+      "evidence": "data/metadata/annotation-review/active-mixed-20261109-v2/v4_12/proposal.json",
+      "training_ready": false,
+      "followup_action": "priority_review"
+    },
+    {
+      "unit_id": "v4_13",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v4_14",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v4_15",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v4_16",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v4_17",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v4_18",
+      "category": "当前标签：用户确认或自行修改",
+      "question": "当前显式区间：N 0.0–1590.0秒；T 1590.0–1766.0秒；P 1766.0–2700.0秒。本轮只做训练设计，不使用旧候选覆盖。",
+      "regions": [
+        {
+          "start": 1540.0,
+          "end": 1540.0,
+          "label": "定位参考：当前标注N"
+        },
+        {
+          "start": 1562.0,
+          "end": 1562.0,
+          "label": "定位参考：当前标注N"
+        },
+        {
+          "start": 1580.0,
+          "end": 1580.0,
+          "label": "定位参考：当前标注N"
+        },
+        {
+          "start": 1766.0,
+          "end": 1766.0,
+          "label": "定位参考：当前标注P"
+        }
+      ],
+      "evidence": "data/metadata/annotation-review/active-mixed-20261109-v2/v4_18/proposal.json",
+      "training_ready": false,
+      "followup_action": "priority_review"
+    },
+    {
+      "unit_id": "v4_19",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v4_20",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v4_21",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v4_22",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v5_01",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v5_02",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v5_03",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v5_04",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v5_05",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v5_06",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v5_07",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v5_09",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v5_10",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v5_11",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v5_12",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v5_13",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v5_14",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v5_15",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v5_16",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v5_17",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v5_18",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v5_19",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v5_20",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v5_21",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v5_22",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    },
+    {
+      "unit_id": "v5_23",
+      "category": "现役训练池：当前标注",
+      "question": "此视频属于现役150条训练开发池。显示当前保存标签；列入页面不表示本轮重新审计，也不修改标签。",
+      "regions": []
+    }
+  ],
+  "source_explanations": "data/metadata/annotation-review/full-dongchuan-20261109-v1/source-explanations.json",
+  "checks": {
+    "only_ready_notes_changed": true,
+    "notes_updated_video_keys": [
+      "v1_110",
+      "v1_111",
+      "v1_112",
+      "v1_113",
+      "v1_114",
+      "v1_117",
+      "v1_118",
+      "v1_119",
+      "v1_15",
+      "v1_74",
+      "v4_01",
+      "v5_01"
+    ],
+    "all_kinds_endpoints_and_segmentation_unchanged": true,
+    "protected_accepted_and_v197_raw_records_byte_identical": true,
+    "protected_keys": [
+      "v1_16",
+      "v1_96",
+      "v1_97"
+    ],
+    "user_changes_detected_and_preserved": [],
+    "all_non_updated_records_byte_identical": true,
+    "mapping_media_training_untouched": true,
+    "review_entry_count": 25,
+    "parent_snapshot": [
+      {
+        "path": "data/metadata/annotation-revisions/npt-20261109-four-video-v1/sources.json",
+        "sha256": "ff8827f208171ca43c26e22e5cb4e27d2199fbb2d89e0ba6a4f7f56518c4cbea"
+      },
+      {
+        "path": "data/metadata/annotation-revisions/npt-20261109-four-video-v1/video1_segment--64b3c72b2a7f/events.csv",
+        "sha256": "c8e26f71271576929fc1fe1c32a8ea5ec416bc9e62ad657ed52775396993768f"
+      },
+      {
+        "path": "data/metadata/annotation-revisions/npt-20261109-four-video-v1/video3_segment--ae36d08c7844/events.csv",
+        "sha256": "ba7a7979dc1b5c434934ad4e0ad916a3f3c0d4d76ac0605fb54620cc6bf173a7"
+      },
+      {
+        "path": "data/metadata/annotation-revisions/npt-20261109-four-video-v1/video4_segment--7adc714b792e/events.csv",
+        "sha256": "b6c522a690095c87b78159497d2fc9bc63b0fe81220ce3238e03fc9a6b02b376"
+      },
+      {
+        "path": "data/metadata/annotation-revisions/npt-20261109-four-video-v1/video5_segment--c006864bd72d/events.csv",
+        "sha256": "5c79ab7ee1a040d4c3a100c8231c8216480849a10c879a1b931aad1847a0dde6"
+      }
+    ]
+  },
+  "goal_effective_scope": {
+    "scope": "original_150_training_development_pool_only",
+    "unit_count": 150,
+    "followup_policy": "Skip effective all-P/all-N. Keep completed entries visible. Only nine pending mixed videos require new audit; v1_16/v1_96 already accepted.",
+    "supersedes_goal_text_168": true,
+    "user_latest_instruction_overrides_legacy_goal_text": true,
+    "goal_requires_no_user_manual_edit": true,
+    "training_ready": false
+  },
+  "active_scope": "data/metadata/annotation-review/full-dongchuan-20261109-v1/active-training150-mixed-scope.json",
+  "primary_list_policy": "Keep all 25 completed in-pool entries visible; single-class videos skipped only for future audits.",
+  "removed_outside150_review_keys": [
+    "v1_74",
+    "v5_08"
+  ],
+  "scope": {
+    "training_pool_count": 150,
+    "main_list_keys": [
+      "v1_01",
+      "v1_16",
+      "v1_63",
+      "v1_82",
+      "v1_91",
+      "v1_95",
+      "v1_96",
+      "v1_122",
+      "v4_07",
+      "v4_12",
+      "v4_18"
+    ],
+    "mixed": 11,
+    "accepted": 2,
+    "pending_priority": 9,
+    "allP_allN_followup_skipped": 139,
+    "training_ready": false
+  },
+  "current_training_design": "docs/process/experiments/EXP-029.md",
+  "focused_review_items": [
+    {
+      "unit_id": "v1_16",
+      "category": "当前标签：用户确认或自行修改",
+      "question": "当前显式区间：N 0.0–1035.0秒；P 1035.0–1766.0秒。本轮只做训练设计，不使用旧候选覆盖。",
+      "regions": [
+        {
+          "start": 518.02,
+          "end": 518.02,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_16_frame_000247_t518s.jpg"
+        },
+        {
+          "start": 1400.83,
+          "end": 1400.83,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_16_frame_000668_t1401s.jpg"
+        },
+        {
+          "start": 1033.92,
+          "end": 1033.92,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_16_frame_000493_t1034s.jpg"
+        },
+        {
+          "start": 1038.12,
+          "end": 1038.12,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_16_frame_000495_t1038s.jpg"
+        }
+      ],
+      "evidence": "data/metadata/annotation-review/two-video-relabel-20261109-v1/user-acceptance.json",
+      "training_ready": false,
+      "followup_action": "accepted_keep"
+    },
+    {
+      "unit_id": "v1_96",
+      "category": "当前标签：用户确认或自行修改",
+      "question": "当前显式区间：P 0.0–153.5秒；N 153.5–503.48秒；P 503.48–661.07秒；N 661.07–775.69秒；P 775.69–837.09秒；N 837.09–841.18秒；P 841.18–921.0秒；N 921.0–951.7秒；P 951.7–984.45秒；N 984.45–1406.06秒。本轮只做训练设计，不使用旧候选覆盖。",
+      "regions": [
+        {
+          "start": 327.47,
+          "end": 327.47,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_96_frame_000160_t327s.jpg"
+        },
+        {
+          "start": 718.38,
+          "end": 718.38,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_96_frame_000351_t718s.jpg"
+        },
+        {
+          "start": 75.73,
+          "end": 75.73,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_96_frame_000037_t76s.jpg"
+        },
+        {
+          "start": 583.3,
+          "end": 583.3,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_96_frame_000285_t583s.jpg"
+        },
+        {
+          "start": 151.45,
+          "end": 151.45,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_96_frame_000074_t151s.jpg"
+        },
+        {
+          "start": 155.55,
+          "end": 155.55,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_96_frame_000076_t156s.jpg"
+        },
+        {
+          "start": 501.43,
+          "end": 501.43,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_96_frame_000245_t501s.jpg"
+        },
+        {
+          "start": 505.53,
+          "end": 505.53,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_96_frame_000247_t506s.jpg"
+        },
+        {
+          "start": 659.03,
+          "end": 659.03,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_96_frame_000322_t659s.jpg"
+        },
+        {
+          "start": 663.12,
+          "end": 663.12,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_96_frame_000324_t663s.jpg"
+        },
+        {
+          "start": 773.64,
+          "end": 773.64,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_96_frame_000378_t774s.jpg"
+        },
+        {
+          "start": 777.73,
+          "end": 777.73,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_96_frame_000380_t778s.jpg"
+        },
+        {
+          "start": 835.04,
+          "end": 835.04,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_96_frame_000408_t835s.jpg"
+        },
+        {
+          "start": 839.13,
+          "end": 839.13,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_96_frame_000410_t839s.jpg"
+        },
+        {
+          "start": 839.13,
+          "end": 839.13,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_96_frame_000410_t839s.jpg"
+        },
+        {
+          "start": 843.23,
+          "end": 843.23,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_96_frame_000412_t843s.jpg"
+        },
+        {
+          "start": 918.95,
+          "end": 918.95,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_96_frame_000449_t919s.jpg"
+        },
+        {
+          "start": 923.05,
+          "end": 923.05,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_96_frame_000451_t923s.jpg"
+        },
+        {
+          "start": 949.65,
+          "end": 949.65,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_96_frame_000464_t950s.jpg"
+        },
+        {
+          "start": 953.75,
+          "end": 953.75,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_96_frame_000466_t954s.jpg"
+        },
+        {
+          "start": 982.4,
+          "end": 982.4,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_96_frame_000480_t982s.jpg"
+        },
+        {
+          "start": 986.49,
+          "end": 986.49,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_96_frame_000482_t986s.jpg"
+        }
+      ],
+      "evidence": "data/metadata/annotation-review/two-video-relabel-20261109-v1/user-acceptance.json",
+      "training_ready": false,
+      "followup_action": "accepted_keep"
+    },
+    {
+      "unit_id": "v1_91",
+      "category": "当前N/P：用户总体认可，保留",
+      "question": "当前显式区间：N 0.0–1524.22秒；P 1524.22–1870.0秒；cut 1870.0–2055.0秒。本轮只做训练设计，不使用旧候选覆盖。",
+      "regions": [
+        {
+          "start": 763.16,
+          "end": 763.16,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_91_frame_000364_t763s.jpg"
+        },
+        {
+          "start": 1696.14,
+          "end": 1696.14,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_91_frame_000809_t1696s.jpg"
+        },
+        {
+          "start": 1962.4,
+          "end": 1962.4,
+          "label": "定位参考：当前标注cut",
+          "frame_file": "v1_91_frame_000936_t1962s.jpg"
+        },
+        {
+          "start": 1522.12,
+          "end": 1522.12,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_91_frame_000726_t1522s.jpg"
+        },
+        {
+          "start": 1526.31,
+          "end": 1526.31,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_91_frame_000728_t1526s.jpg"
+        },
+        {
+          "start": 1868.06,
+          "end": 1868.06,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_91_frame_000891_t1868s.jpg"
+        },
+        {
+          "start": 1872.25,
+          "end": 1872.25,
+          "label": "定位参考：当前标注cut",
+          "frame_file": "v1_91_frame_000893_t1872s.jpg"
+        }
+      ],
+      "evidence": "data/metadata/annotation-review/four-video-relabel-20261109-v1/v1_91/proposal.json",
+      "training_ready": false,
+      "followup_action": "priority_review"
+    },
+    {
+      "unit_id": "v1_95",
+      "category": "当前N/P：用户总体认可，保留",
+      "question": "当前显式区间：N 0.0–1328.0秒；P 1328.0–1406.0秒。本轮只做训练设计，不使用旧候选覆盖。",
+      "regions": [
+        {
+          "start": 663.12,
+          "end": 663.12,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_95_frame_000324_t663s.jpg"
+        },
+        {
+          "start": 1367.17,
+          "end": 1367.17,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_95_frame_000668_t1367s.jpg"
+        },
+        {
+          "start": 1326.24,
+          "end": 1326.24,
+          "label": "定位参考：当前标注N",
+          "frame_file": "v1_95_frame_000648_t1326s.jpg"
+        },
+        {
+          "start": 1330.33,
+          "end": 1330.33,
+          "label": "定位参考：当前标注P",
+          "frame_file": "v1_95_frame_000650_t1330s.jpg"
+        }
+      ],
+      "evidence": "data/metadata/annotation-review/four-video-relabel-20261109-v1/v1_95/proposal.json",
+      "training_ready": false,
+      "followup_action": "priority_review"
+    },
+    {
+      "unit_id": "v1_01",
+      "category": "当前标签：用户确认或自行修改",
+      "question": "当前显式区间：N 0.0–44.0秒；T 44.0–134.0秒；P 134.0–1068.0秒。本轮只做训练设计，不使用旧候选覆盖。",
+      "regions": [
+        {
+          "start": 0.0,
+          "end": 0.0,
+          "label": "定位参考：当前标注N"
+        },
+        {
+          "start": 40.05,
+          "end": 40.05,
+          "label": "定位参考：当前标注N"
+        },
+        {
+          "start": 80.15,
+          "end": 80.15,
+          "label": "定位参考：当前标注T"
+        },
+        {
+          "start": 120.25,
+          "end": 120.25,
+          "label": "定位参考：当前标注T"
+        }
+      ],
+      "evidence": "data/metadata/annotation-review/active-mixed-20261109-v2/v1_01/proposal.json",
+      "training_ready": false,
+      "followup_action": "priority_review"
+    },
+    {
+      "unit_id": "v1_122",
+      "category": "当前标签：用户确认或自行修改",
+      "question": "当前显式区间：N 0.0–699.02秒；N 699.02–972.77秒；T 972.77–1080.62秒；P 1080.62–1612.0秒。本轮只做训练设计，不使用旧候选覆盖。",
+      "regions": [
+        {
+          "start": 0.0,
+          "end": 0.0,
+          "label": "定位参考：当前标注N"
+        },
+        {
+          "start": 99.59,
+          "end": 99.59,
+          "label": "定位参考：当前标注N"
+        },
+        {
+          "start": 699.02,
+          "end": 699.02,
+          "label": "定位参考：当前标注N"
+        },
+        {
+          "start": 1080.62,
+          "end": 1080.62,
+          "label": "定位参考：当前标注P"
+        },
+        {
+          "start": 1400.07,
+          "end": 1400.07,
+          "label": "定位参考：当前标注P"
+        }
+      ],
+      "evidence": "data/metadata/annotation-review/active-mixed-20261109-v2/v1_122/proposal.json",
+      "training_ready": false,
+      "followup_action": "priority_review"
+    },
+    {
+      "unit_id": "v1_63",
+      "category": "当前标签：用户确认或自行修改",
+      "question": "当前显式区间：N 0.0–327.47秒；T 327.47–491.2秒；P 491.2–1406.0秒。本轮只做训练设计，不使用旧候选覆盖。",
+      "regions": [
+        {
+          "start": 325.42,
+          "end": 325.42,
+          "label": "定位参考：当前标注N"
+        },
+        {
+          "start": 329.51,
+          "end": 329.51,
+          "label": "定位参考：当前标注T"
+        },
+        {
+          "start": 327.47,
+          "end": 327.47,
+          "label": "定位参考：当前标注T"
+        }
+      ],
+      "evidence": "data/metadata/annotation-review/active-mixed-20261109-v2/v1_63/proposal.json",
+      "training_ready": false,
+      "followup_action": "priority_review"
+    },
+    {
+      "unit_id": "v1_82",
+      "category": "当前标签：用户确认或自行修改",
+      "question": "当前显式区间：N 0.0–209.52秒；T 209.52–410.69秒；P 410.69–1589.0秒。本轮只做训练设计，不使用旧候选覆盖。",
+      "regions": [
+        {
+          "start": 207.44,
+          "end": 207.44,
+          "label": "定位参考：当前标注N"
+        },
+        {
+          "start": 211.59,
+          "end": 211.59,
+          "label": "定位参考：当前标注T"
+        },
+        {
+          "start": 209.52,
+          "end": 209.52,
+          "label": "定位参考：当前标注T"
+        }
+      ],
+      "evidence": "data/metadata/annotation-review/active-mixed-20261109-v2/v1_82/proposal.json",
+      "training_ready": false,
+      "followup_action": "priority_review"
+    },
+    {
+      "unit_id": "v4_18",
+      "category": "当前标签：用户确认或自行修改",
+      "question": "当前显式区间：N 0.0–1590.0秒；T 1590.0–1766.0秒；P 1766.0–2700.0秒。本轮只做训练设计，不使用旧候选覆盖。",
+      "regions": [
+        {
+          "start": 1540.0,
+          "end": 1540.0,
+          "label": "定位参考：当前标注N"
+        },
+        {
+          "start": 1562.0,
+          "end": 1562.0,
+          "label": "定位参考：当前标注N"
+        },
+        {
+          "start": 1580.0,
+          "end": 1580.0,
+          "label": "定位参考：当前标注N"
+        },
+        {
+          "start": 1766.0,
+          "end": 1766.0,
+          "label": "定位参考：当前标注P"
+        }
+      ],
+      "evidence": "data/metadata/annotation-review/active-mixed-20261109-v2/v4_18/proposal.json",
+      "training_ready": false,
+      "followup_action": "priority_review"
+    },
+    {
+      "unit_id": "v4_07",
+      "category": "当前标签：用户确认或自行修改",
+      "question": "当前显式区间：N 0.0–70.0秒；T 70.0–92.0秒；P 92.0–2776.0秒。本轮只做训练设计，不使用旧候选覆盖。",
+      "regions": [
+        {
+          "start": 68,
+          "end": 68,
+          "label": "定位参考：当前标注N"
+        },
+        {
+          "start": 72,
+          "end": 72,
+          "label": "定位参考：当前标注T"
+        }
+      ],
+      "evidence": "data/metadata/annotation-review/active-mixed-20261109-v2/v4_07/proposal.json",
+      "training_ready": false,
+      "followup_action": "priority_review"
+    },
+    {
+      "unit_id": "v4_12",
+      "category": "当前工作T保留：未另称逐条验收",
+      "question": "当前显式区间：N 0.0–134.0秒；T 134.0–156.0秒；P 156.0–2160.0秒。本轮只做训练设计，不使用旧候选覆盖。",
+      "regions": [
+        {
+          "start": 130,
+          "end": 130,
+          "label": "定位参考：当前标注N"
+        },
+        {
+          "start": 138,
+          "end": 138,
+          "label": "定位参考：当前标注T"
+        }
+      ],
+      "evidence": "data/metadata/annotation-review/active-mixed-20261109-v2/v4_12/proposal.json",
+      "training_ready": false,
+      "followup_action": "priority_review"
+    }
+  ],
+  "focused_review_keys": [
+    "v1_16",
+    "v1_96",
+    "v1_91",
+    "v1_95",
+    "v1_01",
+    "v1_122",
+    "v1_63",
+    "v1_82",
+    "v4_18",
+    "v4_07",
+    "v4_12"
+  ],
+  "active_list_scope": "current_training_development_pool_150"
+}

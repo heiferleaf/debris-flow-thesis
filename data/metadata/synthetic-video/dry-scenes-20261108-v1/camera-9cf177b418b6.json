@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "scene_id": "camera-9cf177b418b6",
+  "camera": "塔吊上游",
+  "source_path": "data/process/synthetic-video/references-20261108-v2/f033adab0106.jpg",
+  "source_sha256": "6a8e6df1f22e92b4d8b0f69f1d623b111f94762c6af8a3f40be2e16177d59e00",
+  "generated_path": "data/process/synthetic-video/dry-scenes-20261108-v1/camera-9cf177b418b6/dry-reference.png",
+  "generated_sha256": "de3c32729647452f8c265f10be9bed7602b0f55385706425d39640718834909e",
+  "builtin_saved_path": "C:/Users/20443/.codex/generated_images/01a1ba71-be0d-7be3-91a8-2fc00ee71ef4/exec-b91ad256-f577-42c0-8b35-8224d6b02671.png",
+  "prompt": "Use case: precise-object-edit. Edit target: the supplied single surveillance frame for 塔吊上游. Create a synthetic dry-channel reference from the SAME photo. Preserve the exact high oblique camera view, full 16:9 crop, original banks, channel width and receding depth, steep rocky left slope and rock faces, dark eroded right embankment, narrow road and green cultivated area upper right, original boulders and gravel bars, shadows and sunlight, all object locations and scale. The braided tan/yellow water network occupies the center and lower foreground. Remove EVERY branch of flowing water, tan muddy stream, clear liquid, white foam and wet glossy slurry throughout the entire visible channel, including tiny pale branches toward upper center and left. Reconstruct the water-covered areas as physically plausible rough, matte, completely dry gray gravel with angular stones and dry fine sediment matched to neighboring gravel bars. Preserve channel floor contours and existing gravel islands; do not simply recolor yellow water gray and do not flatten the landscape. There must be no water ribbons, wet reflection, ripple, foam or flowing mud anywhere. Keep existing timestamp 2026-08-18 12:07:44 and original camera-name overlay verbatim, with original glyph style, position and size. No text changes, additions, watermarks or new objects. Preserve any original black borders. CCTV photograph, no beautification.",
+  "tool": "image_gen.imagegen (built-in; model identifier not exposed)",
+  "generated_at_date": "2026-11-08",
+  "status": "synthetic_candidate_visual_reviewed",
+  "training_ready": false,
+  "fluid_suspected_in_channel": false,
+  "observations": [
+    "Viewed original and generated file with view_image.",
+    "Braided tan/yellow network removed throughout visible channel; reconstructed floor is matte rough gray gravel and scattered angular stones with shallow dry rills, no visible water/foam/slurry.",
+    "Left exposed rock slope, dark right bank, upper-right road and green planted area retain the original overall perspective and layout.",
+    "Channel microtopography and gravel-bar details regenerated; shallow dry-rill contours differ from the wet source.",
+    "Existing timestamp and camera-name content retained with regenerated glyph styling."
+  ],
+  "limitations": [
+    "Synthetic reference candidate only; training approval not granted.",
+    "No claim of pixel-level background identity.",
+    "Output raster is approximately 16:9 and copied without resampling; source had no black letterbox."
+  ],
+  "source_sha256_verified": true,
+  "generated_dimensions": {
+    "width": 1672,
+    "height": 941,
+    "requested_aspect_ratio": "16:9",
+    "actual_aspect_ratio": "1672:941",
+    "resampled": false
+  }
+}

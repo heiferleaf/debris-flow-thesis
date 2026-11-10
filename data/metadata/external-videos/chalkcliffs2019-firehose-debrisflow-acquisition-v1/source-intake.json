@@ -1,0 +1,41 @@
+{
+  "status": "human_download_received_CRC_tested_and_archived",
+  "received_utc": "2026-11-02T09:26:32.683239+00:00",
+  "source_id": "USGS-CHALK-CLIFFS-2019-FIREHOSE-DEBRISFLOW-080319",
+  "publisher_item": "https://www.sciencebase.gov/catalog/item/61b11e61d34e7fc6a0506174",
+  "publisher_attachment": "080319_firehose_debrisflow.zip",
+  "publisher_declared_bytes": 204549108,
+  "actual_bytes": 204549108,
+  "local_archive": "data/raw/source-downloads-archive/USGS-CHALK-CLIFFS-2019-FIREHOSE-DEBRISFLOW/080319_firehose_debrisflow.zip",
+  "sha256": "1ab44f15be37cf56037d88a70efe4f9018edac5557f5ebfb49d2ea4f8a9ef176",
+  "hash_scope": "local downloaded bytes; publisher did not supply attachment checksum",
+  "sevenzip_test_exit_code": 0,
+  "sevenzip_list_exit_code": 0,
+  "archive_members": [
+    {
+      "Path": "080319_firehose_debrisflow\\080319_firehose_debrisflow.MOV",
+      "Folder": "-",
+      "Size": "205423007",
+      "Packed Size": "204548896",
+      "Modified": "2019-08-03 01:17:32",
+      "Created": "",
+      "Accessed": "",
+      "Attributes": "A",
+      "Encrypted": "-",
+      "Comment": "",
+      "CRC": "E51FC977",
+      "Method": "Deflate",
+      "Characteristics": "",
+      "Host OS": "FAT",
+      "Version": "20",
+      "Volume Index": "0",
+      "Offset": "0"
+    }
+  ],
+  "expanded_bytes": 205423007,
+  "source_original_location": "C:\\Users\\20443\\Downloads\\080319_firehose_debrisflow.zip",
+  "source_removed_by_same_volume_rename": true,
+  "extracted": false,
+  "model_scores_read": false,
+  "formal_test_frozen": false
+}

@@ -1,0 +1,230 @@
+{
+  "unit_id": "v1_107",
+  "working_intervals": [
+    {
+      "video_id": "门前沟中游 Middle reach of Memqian Gully 19：10",
+      "video_key": "v1_107",
+      "start_sec": "0.0",
+      "end_sec": "1406.0",
+      "confidence": "real",
+      "kind": "pos",
+      "note": ""
+    }
+  ],
+  "windows": [
+    {
+      "start_requested": 0.0,
+      "state_working": "pos",
+      "frames": [
+        {
+          "video_key": "v1_107",
+          "frame_file": "v1_107_frame_000000_t0s.jpg",
+          "t_sec": "0.0",
+          "sheet": "0",
+          "t": 0.0,
+          "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_107_frame_000000_t0s.jpg"
+        },
+        {
+          "video_key": "v1_107",
+          "frame_file": "v1_107_frame_000001_t2s.jpg",
+          "t_sec": "2.05",
+          "sheet": "0",
+          "t": 2.05,
+          "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_107_frame_000001_t2s.jpg"
+        },
+        {
+          "video_key": "v1_107",
+          "frame_file": "v1_107_frame_000002_t4s.jpg",
+          "t_sec": "4.09",
+          "sheet": "0",
+          "t": 4.09,
+          "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_107_frame_000002_t4s.jpg"
+        },
+        {
+          "video_key": "v1_107",
+          "frame_file": "v1_107_frame_000003_t6s.jpg",
+          "t_sec": "6.14",
+          "sheet": "0",
+          "t": 6.14,
+          "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_107_frame_000003_t6s.jpg"
+        }
+      ]
+    },
+    {
+      "start_requested": 700.0,
+      "state_working": "pos",
+      "frames": [
+        {
+          "video_key": "v1_107",
+          "frame_file": "v1_107_frame_000342_t700s.jpg",
+          "t_sec": "699.96",
+          "sheet": "11",
+          "t": 699.96,
+          "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_107_frame_000342_t700s.jpg"
+        },
+        {
+          "video_key": "v1_107",
+          "frame_file": "v1_107_frame_000343_t702s.jpg",
+          "t_sec": "702.01",
+          "sheet": "11",
+          "t": 702.01,
+          "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_107_frame_000343_t702s.jpg"
+        },
+        {
+          "video_key": "v1_107",
+          "frame_file": "v1_107_frame_000344_t704s.jpg",
+          "t_sec": "704.06",
+          "sheet": "11",
+          "t": 704.06,
+          "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_107_frame_000344_t704s.jpg"
+        },
+        {
+          "video_key": "v1_107",
+          "frame_file": "v1_107_frame_000345_t706s.jpg",
+          "t_sec": "706.1",
+          "sheet": "11",
+          "t": 706.1,
+          "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_107_frame_000345_t706s.jpg"
+        }
+      ]
+    },
+    {
+      "start_requested": 1398.0,
+      "state_working": "pos",
+      "frames": [
+        {
+          "video_key": "v1_107",
+          "frame_file": "v1_107_frame_000683_t1398s.jpg",
+          "t_sec": "1397.88",
+          "sheet": "22",
+          "t": 1397.88,
+          "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_107_frame_000683_t1398s.jpg"
+        },
+        {
+          "video_key": "v1_107",
+          "frame_file": "v1_107_frame_000684_t1400s.jpg",
+          "t_sec": "1399.92",
+          "sheet": "22",
+          "t": 1399.92,
+          "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_107_frame_000684_t1400s.jpg"
+        },
+        {
+          "video_key": "v1_107",
+          "frame_file": "v1_107_frame_000685_t1402s.jpg",
+          "t_sec": "1401.97",
+          "sheet": "22",
+          "t": 1401.97,
+          "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_107_frame_000685_t1402s.jpg"
+        },
+        {
+          "video_key": "v1_107",
+          "frame_file": "v1_107_frame_000686_t1404s.jpg",
+          "t_sec": "1404.02",
+          "sheet": "22",
+          "t": 1404.02,
+          "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_107_frame_000686_t1404s.jpg"
+        }
+      ]
+    }
+  ],
+  "selected_frames": [
+    {
+      "video_key": "v1_107",
+      "frame_file": "v1_107_frame_000000_t0s.jpg",
+      "t_sec": "0.0",
+      "sheet": "0",
+      "t": 0.0,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_107_frame_000000_t0s.jpg"
+    },
+    {
+      "video_key": "v1_107",
+      "frame_file": "v1_107_frame_000001_t2s.jpg",
+      "t_sec": "2.05",
+      "sheet": "0",
+      "t": 2.05,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_107_frame_000001_t2s.jpg"
+    },
+    {
+      "video_key": "v1_107",
+      "frame_file": "v1_107_frame_000002_t4s.jpg",
+      "t_sec": "4.09",
+      "sheet": "0",
+      "t": 4.09,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_107_frame_000002_t4s.jpg"
+    },
+    {
+      "video_key": "v1_107",
+      "frame_file": "v1_107_frame_000003_t6s.jpg",
+      "t_sec": "6.14",
+      "sheet": "0",
+      "t": 6.14,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_107_frame_000003_t6s.jpg"
+    },
+    {
+      "video_key": "v1_107",
+      "frame_file": "v1_107_frame_000342_t700s.jpg",
+      "t_sec": "699.96",
+      "sheet": "11",
+      "t": 699.96,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_107_frame_000342_t700s.jpg"
+    },
+    {
+      "video_key": "v1_107",
+      "frame_file": "v1_107_frame_000343_t702s.jpg",
+      "t_sec": "702.01",
+      "sheet": "11",
+      "t": 702.01,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_107_frame_000343_t702s.jpg"
+    },
+    {
+      "video_key": "v1_107",
+      "frame_file": "v1_107_frame_000344_t704s.jpg",
+      "t_sec": "704.06",
+      "sheet": "11",
+      "t": 704.06,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_107_frame_000344_t704s.jpg"
+    },
+    {
+      "video_key": "v1_107",
+      "frame_file": "v1_107_frame_000345_t706s.jpg",
+      "t_sec": "706.1",
+      "sheet": "11",
+      "t": 706.1,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_107_frame_000345_t706s.jpg"
+    },
+    {
+      "video_key": "v1_107",
+      "frame_file": "v1_107_frame_000683_t1398s.jpg",
+      "t_sec": "1397.88",
+      "sheet": "22",
+      "t": 1397.88,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_107_frame_000683_t1398s.jpg"
+    },
+    {
+      "video_key": "v1_107",
+      "frame_file": "v1_107_frame_000684_t1400s.jpg",
+      "t_sec": "1399.92",
+      "sheet": "22",
+      "t": 1399.92,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_107_frame_000684_t1400s.jpg"
+    },
+    {
+      "video_key": "v1_107",
+      "frame_file": "v1_107_frame_000685_t1402s.jpg",
+      "t_sec": "1401.97",
+      "sheet": "22",
+      "t": 1401.97,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_107_frame_000685_t1402s.jpg"
+    },
+    {
+      "video_key": "v1_107",
+      "frame_file": "v1_107_frame_000686_t1404s.jpg",
+      "t_sec": "1404.02",
+      "sheet": "22",
+      "t": 1404.02,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_107_frame_000686_t1404s.jpg"
+    }
+  ],
+  "time_basis": "frames_index t_sec, not source PTS or seek",
+  "sampling_scope": "early/middle/late short ordered windows per non-cut interval; not uninterrupted whole-video review"
+}

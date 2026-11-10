@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "scene_id": "camera-7304b68c75dd",
+  "camera": "1号塔广角",
+  "source_path": "data/process/synthetic-video/references-20261108-v2/8c07e4ff146c.jpg",
+  "source_sha256": "9b9897560ed94da588b3704b1a7ef5947a52012dd9de9de24c0db288bc9d4214",
+  "generated_path": "data/process/synthetic-video/dry-scenes-20261108-v1/camera-7304b68c75dd/dry-reference.png",
+  "generated_sha256": "3e03468d95d664277275636b46b913787e0aeb5adb953a9358e54a6519a9eae7",
+  "builtin_saved_path": "C:/Users/20443/.codex/generated_images/01a1ba71-be0d-7be3-91a8-2fc00ee71ef4/exec-30836b41-56e1-4ac1-9b5e-32c30a7fbe03.png",
+  "prompt": "Use case: precise-object-edit. The single supplied image is the edit target, a 16:9 canvas containing the very wide 1号塔广角 CCTV scene in a central panoramic strip. Preserve the BLACK LETTERBOX EXACTLY: large full-width black band covering approximately top 25.7 percent and bottom 25.7 percent, with panoramic image only between y=25.7% and y=74.3%; do not expand, crop, reframe or zoom the scene. Within this original central strip ONLY, remove every yellow/brown muddy water ribbon, all clear stream water, foam, wet reflective surfaces and moving slurry from the broad curved gully across the foreground from far left to lower-right. Rebuild this channel as continuous dry gray gravel and angular rough stones with matte dry sediment, following the existing curved bank lines and gravel-bed relief; do not merely recolor water gray. Keep exactly the same fixed wide-angle camera geometry and mountains, left valley, vegetation, road, fields, concrete hillside structures, tower, buildings, original channel banks, light, scale and object locations. Existing timestamp and camera name must be preserved verbatim, same glyph style/position/size, without adding or editing text or watermarks. Natural CCTV photograph. No liquid surface, stream, water ripple or foam anywhere in the gully. Synthetic dry-channel reference candidate, not a new scene. Final output must keep entire original 16:9 canvas including original black letterbox.",
+  "tool": "image_gen.imagegen (built-in; model identifier not exposed)",
+  "generated_at_date": "2026-11-08",
+  "status": "synthetic_candidate_visual_reviewed",
+  "training_ready": false,
+  "fluid_suspected_in_channel": false,
+  "observations": [
+    "Viewed original and generated file with view_image.",
+    "Entire curved foreground channel shows matte individual gravel and rocks; no yellow/brown stream, reflective water, foam or flowing slurry observed.",
+    "Broad top and bottom black bands retained at approximately the source proportions; central panoramic scene remains in its strip.",
+    "Mountains, valley, vegetation, roads and distant structures retain the same overall arrangement, but textures and channel microgeometry are regenerated.",
+    "Original timestamp and camera-name text content retained with visible glyph regeneration."
+  ],
+  "limitations": [
+    "Synthetic reference candidate only; training approval not granted.",
+    "No claim of pixel-level background identity or exact black-band boundary equivalence.",
+    "Output raster is approximately 16:9 and copied without resampling."
+  ],
+  "source_sha256_verified": true,
+  "generated_dimensions": {
+    "width": 1672,
+    "height": 941,
+    "requested_aspect_ratio": "16:9",
+    "actual_aspect_ratio": "1672:941",
+    "resampled": false
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "audit_id": "full-dongchuan-20261109-v1/batch-03",
+  "video_key": "v4_18",
+  "status": "revised_candidate_pending_onset_review_after_documented_source_correction",
+  "merge_recommendation": "Withdraw the early-DOCX negative-type rationale. Propose old T as already-established small-flow P, keep the old N onset as a provisional working boundary only, and require main review of the early N/P distinction before merge.",
+  "rule": ".codex/docs/NPT标注操作细则-20261109.md",
+  "baseline": {
+    "snapshot_path": "data\\metadata\\annotation-review\\full-dongchuan-20261109-v1\\batch-03\\v4_18\\baseline-target-rows-snapshot.json",
+    "rows": [
+      {
+        "video_id": "D15_20260818161038",
+        "video_key": "v4_18",
+        "start_sec": "0",
+        "end_sec": "1590",
+        "confidence": "real",
+        "kind": "neg",
+        "note": ""
+      },
+      {
+        "video_id": "D15_20260818161038",
+        "video_key": "v4_18",
+        "start_sec": "1590",
+        "end_sec": "1766",
+        "confidence": "real",
+        "kind": "transition",
+        "note": ""
+      },
+      {
+        "video_id": "D15_20260818161038",
+        "video_key": "v4_18",
+        "start_sec": "1766",
+        "end_sec": "2700",
+        "confidence": "real",
+        "kind": "pos",
+        "note": ""
+      }
+    ],
+    "target_rows_sha256": "d6da019b1bc0ccf3aad5cdd7fc53135245a31e50f881acfa62eefe3835ad173a",
+    "target_rows_still_match_at_completion": true,
+    "target_rows_still_match_at_source_correction": true
+  },
+  "candidate_intervals": [
+    {
+      "start_sec": 0,
+      "end_sec": 1590,
+      "label": "N",
+      "reason": "0–1590暂保留旧N作为待复核工作区，不代表本次已重新确证其全部普通流水。已看全片概览和开头同河段分汊，早期也存在连续来水；后续来源支持小型目标，故不能用早期DOCX或细/稀/小排除P。缺口是明确指出这段与后续细颗粒P的实际输运差别，以及最早可辨成型时刻；不能凭后续说明直接0起全部P。"
+    },
+    {
+      "start_sec": 1590,
+      "end_sec": 2700,
+      "label": "P",
+      "reason": "1590起提议P工作候选：1570–1780全部106缓存ROI及1584请求20秒原片序列中，白袋、岸坎旁已有相接的来料与持续流面更新，之后主要是同一流带覆盖更多床面。后续文件明确这些上次交付到塔吊断面的状态为小型泥石流，结合具体连续输运，不能再以水感/细颗粒当普通流水。未取得相对于既有输运新建立组织的正面T证据，1766也没有独立成型突变，故旧T并入P候选；1590最早P点仍待定位，P可能更早。"
+    }
+  ],
+  "boundaries": [
+    {
+      "working_sec": 1590,
+      "from": "N",
+      "to": "P",
+      "observed_bracket_cache_sec": null,
+      "inspected_cache_sec_range": [
+        1570,
+        1780
+      ],
+      "status": "provisional_old_onset_not_independently_localized",
+      "reason": "以原N结束点暂作工作点，撤回旧T语义；该数字不是本次独立查到的最后明确N/首次明确P。需用同位置最早成型依据确定是否前移，不能按宽度或来源广播决定。"
+    }
+  ],
+  "old_new_difference": [
+    {
+      "start_sec": 0,
+      "end_sec": 1590,
+      "old_label": "N",
+      "new_label": "N",
+      "status": "provisional_early_state_not_recertified"
+    },
+    {
+      "start_sec": 1590,
+      "end_sec": 1766,
+      "old_label": "T",
+      "new_label": "P",
+      "status": "revised_candidate"
+    },
+    {
+      "start_sec": 1766,
+      "end_sec": 2700,
+      "old_label": "P",
+      "new_label": "P",
+      "status": "revised_small_flow_context"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "data\\process\\annotation-review\\full-dongchuan-20261109-v1\\batch-03\\v4_18\\overview-manifest.json",
+      "role": "全部1351缓存，0–2700秒，29页按序实际导航；河床下部按比例裁剪，不因混合分辨率裁出假黑图"
+    },
+    {
+      "path": "data\\process\\annotation-review\\full-dongchuan-20261109-v1\\batch-03\\v4_18\\native-cache\\roi-02-0.jpg",
+      "role": "1588缓存秒白袋旁上游原像素ROI，对照full-02.jpg"
+    },
+    {
+      "path": "data\\process\\annotation-review\\full-dongchuan-20261109-v1\\batch-03\\v4_18\\native-cache\\roi-03-0.jpg",
+      "role": "1590缓存秒同一固定河段原像素ROI"
+    },
+    {
+      "path": "data\\process\\annotation-review\\full-dongchuan-20261109-v1\\batch-03\\v4_18\\native-cache\\roi-05-0.jpg",
+      "role": "1600缓存秒，同岸坎和分汊"
+    },
+    {
+      "path": "data\\process\\annotation-review\\full-dongchuan-20261109-v1\\batch-03\\v4_18\\native-cache\\roi-06-0.jpg",
+      "role": "1640缓存秒，近处支槽逐渐连通"
+    },
+    {
+      "path": "data\\process\\annotation-review\\full-dongchuan-20261109-v1\\batch-03\\v4_18\\native-cache\\roi-07-0.jpg",
+      "role": "1700缓存秒，流带逐渐加宽"
+    },
+    {
+      "path": "data\\process\\annotation-review\\full-dongchuan-20261109-v1\\batch-03\\v4_18\\native-cache\\roi-08-0.jpg",
+      "role": "1766缓存秒，连通流带；不是独立突变的证明"
+    },
+    {
+      "path": "data\\process\\annotation-review\\full-dongchuan-20261109-v1\\batch-03\\v4_18\\native-cache\\roi-09-0.jpg",
+      "role": "2000缓存秒原像素后段参照"
+    },
+    {
+      "path": "data\\process\\annotation-review\\full-dongchuan-20261109-v1\\batch-03\\v4_18\\native-cache\\roi-00-0.jpg",
+      "role": "0缓存秒同河段参照"
+    },
+    {
+      "path": "data\\process\\annotation-review\\full-dongchuan-20261109-v1\\batch-03\\v4_18\\source-window\\command.json",
+      "role": "1584秒请求20秒窄窗，2fps40帧；3页sequence及3个原像素ROI已看"
+    },
+    {
+      "path": "data\\process\\annotation-review\\full-dongchuan-20261109-v1\\batch-03\\v4_18\\transition-native-cache\\manifest.json",
+      "role": "1570–1780缓存秒全部106张ROI，14页sequence已实际查看；混合分辨率，页中注明"
+    }
+  ],
+  "coverage": {
+    "cache_frames_viewed": 1351,
+    "cache_sec_range": [
+      0,
+      2700
+    ],
+    "overview_sheets_viewed": 29,
+    "overview_kind": "河床下部全宽按比例裁剪缩略导航；243张4K及1108张1280×720。先前错误坐标造成黑图的试版已替换，不计为有效观看。",
+    "key_cache_roi_views": 8,
+    "key_cache_roi_times_sec": [
+      0,
+      1588,
+      1590,
+      1600,
+      1640,
+      1700,
+      1766,
+      2000
+    ],
+    "transition_roi_frames_viewed": 106,
+    "transition_roi_cache_sec_range": [
+      1570,
+      1780
+    ],
+    "transition_roi_sheets_viewed": 14,
+    "source_frames_navigated": 40,
+    "source_windows": [
+      {
+        "seek_request_sec": 1584,
+        "duration_sec": 20,
+        "fps": 2,
+        "count": 40
+      }
+    ],
+    "source_native_roi_views": 3,
+    "source_full_views": 1,
+    "limitations": [
+      "约2秒缓存导航不能声称全片逐帧观看；原片只补20秒窄窗。",
+      "整个流带在概览图上远小于全画幅，因此关键处已看原像素ROI；仍有细颗粒类型语义缺口。",
+      "开头缓存OSD2026-08-18 16:10:33，1766缓存OSD16:39:59，2690缓存OSD16:55:23；1584请求窄窗首张OSD16:36:57。只报告实读OSD，不把seek请求称为精确原片PTS。",
+      "已发现并实际读取v4后续说明更正，旧早期DOCX支持全N的推论撤回；本次不新解码视频，保留先前全部实际覆盖。",
+      "旧N区暂保留而未重新验收，N/P工作点未独立定位；不能将本候选自动合并为已验收最终标签。"
+    ]
+  },
+  "review": {
+    "T_evidence_check": {
+      "N_baseline": "旧N段自身类型区别尚未独立确证，不能称已有可靠N→形成的起点。",
+      "specific_formation": "观察到来料相接、流面更新、覆盖更多洲体；未观察到足以区分为画内组织建立的独立变化。",
+      "connection_to_P": "同一地物旁过程连续，后续小型泥石流文件支持细颗粒P语义，不能反过来把相接前全部倒填T。",
+      "result": "本修订候选不保留T，旧T→P；最早P工作点仍待主审。"
+    },
+    "precise_evidence_gaps": [
+      "0–1590同河段最早可辨的目标输运与普通流水差别，需主审指出；当前N保留仅工作状态。",
+      "1590点没有可诚实报告的最后明确N/首次明确P夹逼，不能声称2秒精度。",
+      "后续文件是事件类型补证，不能单独使每个时刻P；图像已全覆盖导航但早期类型判断仍需按具体输运复核。"
+    ]
+  },
+  "source_context": "data\\metadata\\annotation-review\\full-dongchuan-20261109-v1\\batch-03\\v4_18\\source-context.json",
+  "cut_review": {
+    "baseline_cut_rows": [],
+    "action": "本次不新增cut；不存在可直接继承的当前cut行。历史讨论和灰缓存不作为自动加cut授权。"
+  },
+  "reference_calibration": "本轮复看已认可v1_16代表P；此前已看v1_96和用户v1_97负参照。泥石流存在不同类型，不以块石有无、颜色、水感或单个阵头定性；来源说明不广播每秒标签。",
+  "source_correction": {
+    "reason": "先前保留N/T/P，但将v3早期说明与小型泥石流注释列成待核口头确认的冲突，漏看v4后续明确更正；撤回早期DOCX普通流水解释的支持作用。后续更正为独立文件证据，不再写成只有未核实口头确认。",
+    "history_proposal": "data\\metadata\\annotation-review\\full-dongchuan-20261109-v1\\batch-03\\v4_18\\proposal-before-source-correction-20261109.json",
+    "later_docx_sha256": "5a1d7dace089f32c0a01038168eedd64cedc78d29b43b9cd7a24d0cc1b621d69",
+    "no_new_video_decode": true
+  },
+  "old_boundary_review": [
+    {
+      "working_sec": 1590,
+      "from": "N",
+      "to": "T",
+      "proposed_action": "replace_with_provisional_N_to_P",
+      "observed_bracket_cache_sec": null,
+      "reason": "旧T不因历史用户标签而不可重审；现有序列支持已在持续输运后的增强，未支持画内建立组织。最早P仍缺精确定位。"
+    },
+    {
+      "working_sec": 1766,
+      "from": "T",
+      "to": "P",
+      "proposed_action": "remove",
+      "observed_bracket_cache_sec": null,
+      "reason": "该点前后同一持续来料，没有独立成型变化，不以更宽/更大定义P。"
+    }
+  ],
+  "segment_evidence": [
+    {
+      "start_sec": 0,
+      "end_sec": 1590,
+      "reason": "0–1590暂保留旧N作为待复核工作区，不代表本次已重新确证其全部普通流水。已看全片概览和开头同河段分汊，早期也存在连续来水；后续来源支持小型目标，故不能用早期DOCX或细/稀/小排除P。缺口是明确指出这段与后续细颗粒P的实际输运差别，以及最早可辨成型时刻；不能凭后续说明直接0起全部P。"
+    },
+    {
+      "start_sec": 1590,
+      "end_sec": 2700,
+      "reason": "1590起提议P工作候选：1570–1780全部106缓存ROI及1584请求20秒原片序列中，白袋、岸坎旁已有相接的来料与持续流面更新，之后主要是同一流带覆盖更多床面。后续文件明确这些上次交付到塔吊断面的状态为小型泥石流，结合具体连续输运，不能再以水感/细颗粒当普通流水。未取得相对于既有输运新建立组织的正面T证据，1766也没有独立成型突变，故旧T并入P候选；1590最早P点仍待定位，P可能更早。"
+    }
+  ]
+}

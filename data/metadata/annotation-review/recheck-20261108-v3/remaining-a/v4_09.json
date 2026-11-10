@@ -1,0 +1,262 @@
+{
+  "schema": "remaining-dongchuan-label-survey-v3",
+  "unit_id": "v4_09",
+  "status": "reviewed_sampled_windows_proposal_only",
+  "old_working_release": "data/metadata/annotation-revisions/npt-20261107-proposals-v3",
+  "old_working_events_csv": "data/metadata/annotation-revisions/npt-20261107-proposals-v3/video4_segment--7adc714b792e/events.csv",
+  "old_working_events_sha256": "b6c522a690095c87b78159497d2fc9bc63b0fe81220ce3238e03fc9a6b02b376",
+  "old_working_annotations_verbatim": [
+    {
+      "video_id": "D12_20260818175850",
+      "video_key": "v4_09",
+      "start_sec": "0",
+      "end_sec": "2774",
+      "confidence": "real",
+      "kind": "pos",
+      "note": "整段预填正样本(小型泥石流),依据=说明.docx(2026-08-18上游14:24泥石流,本批为其后到达塔吊断面) + 叶海峰2026-09-23口头确认,待审计确认",
+      "null": [
+        "依据=说明.docx(泥石流爆发前常规水流及洪水视频)",
+        "待叶海峰审计确认"
+      ]
+    }
+  ],
+  "raw_video_paths": [
+    "data/raw/video_dataset_3/2026年8月18日 蒋家沟泥石流发生前水流（洪水）视频/D12_20260818175850.mp4"
+  ],
+  "camera": "塔吊下方",
+  "recommended_intervals": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 2774.0,
+      "state": "P",
+      "reason": "粗颗粒沉积岛和大块多数固定；岛间较平滑泥浊流线活动，局部有粗糙边缘/暗凹。早中晚及额外开头未找到可靠新起止。当前只保留旧工作P，不能将固定颗粒当移动输运证据。",
+      "confidence": "低"
+    }
+  ],
+  "observations_zh": [
+    "粗颗粒沉积岛和大块多数固定；岛间较平滑泥浊流线活动，局部有粗糙边缘/暗凹。早中晚及额外开头未找到可靠新起止。当前只保留旧工作P，不能将固定颗粒当移动输运证据。"
+  ],
+  "confidence": "低",
+  "remaining_evidence_needed": "本次可确认活动流体，但尚未清楚辨认物料输运；细粒泥石流不要求块石，普通含沙水流仍是替代解释。保留工作P属于低把握继承，不能论文引用为已认证P。",
+  "old_interval_sampling": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 2774.0,
+      "old_state": "P",
+      "actual_cache_points_seen_inside_interval_sec": [
+        0.0,
+        2.0,
+        4.0,
+        1386.0,
+        1388.0,
+        1390.0,
+        2768.0,
+        2770.0,
+        2772.0
+      ],
+      "nearest_context_points_outside_interval_sec": [],
+      "cache_availability_note": "Repeated nearest points do not count as multiple unique frames; actual sample spacing is preserved.",
+      "scope": "Early/middle/late navigation samples only. Cache gaps and sub-cadence intervals may not contain distinct samples for all phases."
+    }
+  ],
+  "observed_evidence": [
+    {
+      "unit_id": "v4_09",
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/remaining-a/v4_09/context-extra.jpg",
+      "contact_sha256": "c1052a05a7db882fbda9d5b1e61231a2dc9a564fea67f2d6a8d1a9ceccfbb101",
+      "crop_reference_xyxy": null,
+      "crop_reference_wh": [
+        2560,
+        1440
+      ],
+      "cache_points": [
+        {
+          "audit_sec": 0.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_09_frame_000000_t0s.jpg",
+          "tag": "P-opening-weak-check"
+        },
+        {
+          "audit_sec": 2.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_09_frame_000001_t2s.jpg",
+          "tag": "P-opening-weak-check"
+        },
+        {
+          "audit_sec": 4.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_09_frame_000002_t4s.jpg",
+          "tag": "P-opening-weak-check"
+        },
+        {
+          "audit_sec": 6.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_09_frame_000003_t6s.jpg",
+          "tag": "P-opening-weak-check"
+        },
+        {
+          "audit_sec": 8.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_09_frame_000004_t8s.jpg",
+          "tag": "P-opening-weak-check"
+        },
+        {
+          "audit_sec": 10.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_09_frame_000005_t10s.jpg",
+          "tag": "P-opening-weak-check"
+        },
+        {
+          "audit_sec": 20.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_09_frame_000010_t20s.jpg",
+          "tag": "P-opening-weak-check"
+        },
+        {
+          "audit_sec": 40.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_09_frame_000020_t40s.jpg",
+          "tag": "P-opening-weak-check"
+        },
+        {
+          "audit_sec": 60.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_09_frame_000030_t60s.jpg",
+          "tag": "P-opening-weak-check"
+        },
+        {
+          "audit_sec": 120.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_09_frame_000060_t120s.jpg",
+          "tag": "P-opening-weak-check"
+        },
+        {
+          "audit_sec": 0.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_09_frame_000000_t0s.jpg",
+          "tag": "context-only"
+        },
+        {
+          "audit_sec": 396.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_09_frame_000198_t396s.jpg",
+          "tag": "context-only"
+        },
+        {
+          "audit_sec": 792.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_09_frame_000396_t792s.jpg",
+          "tag": "context-only"
+        },
+        {
+          "audit_sec": 1188.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_09_frame_000594_t1188s.jpg",
+          "tag": "context-only"
+        },
+        {
+          "audit_sec": 1586.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_09_frame_000793_t1586s.jpg",
+          "tag": "context-only"
+        },
+        {
+          "audit_sec": 1982.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_09_frame_000991_t1982s.jpg",
+          "tag": "context-only"
+        },
+        {
+          "audit_sec": 2378.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_09_frame_001189_t2378s.jpg",
+          "tag": "context-only"
+        },
+        {
+          "audit_sec": 2774.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_09_frame_001387_t2774s.jpg",
+          "tag": "context-only"
+        }
+      ],
+      "scope": "Only listed samples. Consecutive cache frames are about2s apart; no full continuous coverage claim.",
+      "actually_viewed_this_pass": true
+    },
+    {
+      "unit_id": "v4_09",
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/remaining-a/v4_09/screen-00.jpg",
+      "contact_sha256": "686b65e09acc49cd6ca3e3d03912776c84f3a9c22ba263daf7fd6209ed2139ec",
+      "crop_reference_xyxy": null,
+      "crop_reference_wh": [
+        2560,
+        1440
+      ],
+      "cache_points": [
+        {
+          "audit_sec": 0.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_09_frame_000000_t0s.jpg",
+          "tag": "seg0 pos early"
+        },
+        {
+          "audit_sec": 2.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_09_frame_000001_t2s.jpg",
+          "tag": "seg0 pos early"
+        },
+        {
+          "audit_sec": 4.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_09_frame_000002_t4s.jpg",
+          "tag": "seg0 pos early"
+        },
+        {
+          "audit_sec": 1386.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_09_frame_000693_t1386s.jpg",
+          "tag": "seg0 pos middle"
+        },
+        {
+          "audit_sec": 1388.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_09_frame_000694_t1388s.jpg",
+          "tag": "seg0 pos middle"
+        },
+        {
+          "audit_sec": 1390.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_09_frame_000695_t1390s.jpg",
+          "tag": "seg0 pos middle"
+        },
+        {
+          "audit_sec": 2768.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_09_frame_001384_t2768s.jpg",
+          "tag": "seg0 pos late"
+        },
+        {
+          "audit_sec": 2770.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_09_frame_001385_t2770s.jpg",
+          "tag": "seg0 pos late"
+        },
+        {
+          "audit_sec": 2772.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_09_frame_001386_t2772s.jpg",
+          "tag": "seg0 pos late"
+        }
+      ],
+      "scope": "Only listed samples. Consecutive cache frames are about2s apart; no full continuous coverage claim.",
+      "actually_viewed_this_pass": true
+    }
+  ],
+  "actual_cache_points_seen_sec": [
+    0.0,
+    2.0,
+    4.0,
+    6.0,
+    8.0,
+    10.0,
+    20.0,
+    40.0,
+    60.0,
+    120.0,
+    396.0,
+    792.0,
+    1188.0,
+    1386.0,
+    1388.0,
+    1390.0,
+    1586.0,
+    1982.0,
+    2378.0,
+    2768.0,
+    2770.0,
+    2772.0,
+    2774.0
+  ],
+  "inherited_unobserved_scope": "All audit seconds other than the listed cache points were not continuously reobserved. PureP opening or pureN ending extra samples and 8 isolated context points are investigation, not whole-video certification. Stable unseen periods retain old working labels.",
+  "new_T_explanation": null,
+  "cut_preservation": {
+    "same_coverage": true,
+    "old_cut_union": [],
+    "recommended_cut_union": []
+  },
+  "model_predictions_used": false,
+  "labels_or_supervision_written": false,
+  "training_ready": false
+}

@@ -1,0 +1,126 @@
+{
+  "reviewer": "root",
+  "updated_utc": "2026-11-08T06:51:07.046511+00:00",
+  "method": "Actually opened every listed contact sheet; reused existing indexed JPEGs only.",
+  "items": [
+    {
+      "unit_id": "v1_25",
+      "requested_interval_seconds": [
+        1200,
+        1260
+      ],
+      "preparation": "root-v1_25-1200-1260-preparation.json",
+      "actual_images_viewed": 28,
+      "all_prepared_panels_actually_opened": [
+        ".codex/docs/.temp/full-temporal-20261108-v1/fine-root-v1_25-1200-1260/sheet-01.jpg",
+        ".codex/docs/.temp/full-temporal-20261108-v1/fine-root-v1_25-1200-1260/sheet-02.jpg"
+      ],
+      "observed_PTS_range": [
+        1201.34,
+        1257.95
+      ],
+      "observation": "The broad pale central bed has fixed marks. Along its right interior margin a darker rough narrow band repeatedly changes lobes and knots; an outer white-water strip is distinct. The fixed central area alone cannot support N for the whole frame.",
+      "conclusion": "Retain the existing P for now; no definite N counterexample in this sampled minute. Do not claim every pale part is flowing."
+    },
+    {
+      "unit_id": "v1_25",
+      "requested_interval_seconds": [
+        2200,
+        2260
+      ],
+      "preparation": "root-v1_25-2200-2260-preparation.json",
+      "actual_images_viewed": 28,
+      "all_prepared_panels_actually_opened": [
+        ".codex/docs/.temp/full-temporal-20261108-v1/fine-root-v1_25-2200-2260/sheet-01.jpg",
+        ".codex/docs/.temp/full-temporal-20261108-v1/fine-root-v1_25-2200-2260/sheet-02.jpg"
+      ],
+      "observed_PTS_range": [
+        2201.41,
+        2258.02
+      ],
+      "observation": "Central bed stones remain fixed; the right narrow dark band changes local rough patches, separate from bright edge water.",
+      "conclusion": "Same scoped conclusion; no new T is established. No exact end-of-event boundary follows from these samples."
+    },
+    {
+      "unit_id": "v1_31",
+      "requested_interval_seconds": [
+        300,
+        360
+      ],
+      "preparation": "root-v1_31-300-360-preparation.json",
+      "actual_images_viewed": 29,
+      "all_prepared_panels_actually_opened": [
+        ".codex/docs/.temp/full-temporal-20261108-v1/fine-root-v1_31-300-360/sheet-01.jpg",
+        ".codex/docs/.temp/full-temporal-20261108-v1/fine-root-v1_31-300-360/sheet-02.jpg"
+      ],
+      "observed_PTS_range": [
+        301.82,
+        358.13
+      ],
+      "observation": "A narrow pale-brown band occupies the steep lower channel; its local contour changes, while foreground gravel is fixed. Fog and distance prevent a reliable reading of transported material.",
+      "conclusion": "Fluid motion is visible, but its type is not resolved by these audit images. Do not use thinness to change P to N or T. Flag current P supervision for explicit uncertainty adjudication rather than calling this a confirmed error."
+    },
+    {
+      "unit_id": "v1_31",
+      "requested_interval_seconds": [
+        1180,
+        1240
+      ],
+      "preparation": "root-v1_31-1180-1240-preparation.json",
+      "actual_images_viewed": 30,
+      "all_prepared_panels_actually_opened": [
+        ".codex/docs/.temp/full-temporal-20261108-v1/fine-root-v1_31-1180-1240/sheet-01.jpg",
+        ".codex/docs/.temp/full-temporal-20261108-v1/fine-root-v1_31-1180-1240/sheet-02.jpg"
+      ],
+      "observed_PTS_range": [
+        1180.99,
+        1239.31
+      ],
+      "observation": "A brighter, locally broader band and changing lobes are visible in the lower bend. The upper band remains distant.",
+      "conclusion": "Widening alone is not a global P threshold; no physically precise onset or forced T is supported. Compare with earlier type uncertainty."
+    },
+    {
+      "unit_id": "v1_39",
+      "requested_interval_seconds": [
+        330,
+        390
+      ],
+      "preparation": "root-v1_39-330-390-preparation.json",
+      "actual_images_viewed": 30,
+      "all_prepared_panels_actually_opened": [
+        ".codex/docs/.temp/full-temporal-20261108-v1/fine-root-v1_39-330-390/sheet-01.jpg",
+        ".codex/docs/.temp/full-temporal-20261108-v1/fine-root-v1_39-330-390/sheet-02.jpg"
+      ],
+      "observed_PTS_range": [
+        331.39,
+        389.58
+      ],
+      "observation": "The first two images at331.39/333.39 are gray corrupt. From335.39 the night illumination reveals fixed ridged deposit, with a changing shiny left narrow strip; exposure varies strongly.",
+      "conclusion": "Illumination is not a target onset. The narrow-strip material type remains uncertain in the displayed images. Preserve that distinction from independently evident gray QC."
+    },
+    {
+      "unit_id": "v1_40",
+      "requested_interval_seconds": [
+        300,
+        360
+      ],
+      "preparation": "root-v1_40-300-360-preparation.json",
+      "actual_images_viewed": 30,
+      "all_prepared_panels_actually_opened": [
+        ".codex/docs/.temp/full-temporal-20261108-v1/fine-root-v1_40-300-360/sheet-01.jpg",
+        ".codex/docs/.temp/full-temporal-20261108-v1/fine-root-v1_40-300-360/sheet-02.jpg"
+      ],
+      "observed_PTS_range": [
+        301.19,
+        359.39
+      ],
+      "observation": "Night images show fixed central deposit ridges and a changing left shiny strip. At325.29 there is a bright exposure flash; other frames return to the darker view.",
+      "conclusion": "Do not mistake flash-induced differences for motion. These samples do not establish whether the left strip is ordinary water or target slurry; no forced N/P/T decision from brightness alone."
+    }
+  ],
+  "total_images_actually_viewed": 175,
+  "new_video_decode_count": 0,
+  "new_T_confirmed": false,
+  "label_changes_published_here": false,
+  "limits": "These are specified local intervals, not continuous full-video viewing or a geological concentration measurement."
+}

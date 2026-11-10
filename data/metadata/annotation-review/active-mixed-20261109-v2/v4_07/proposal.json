@@ -1,0 +1,161 @@
+{
+  "schema_version": 2,
+  "audit_id": "active-mixed-20261109-v2",
+  "video_key": "v4_07",
+  "status": "actionable_working_candidate_pending_main_review",
+  "rule": ".codex/docs/NPT标注操作细则-20261109.md",
+  "baseline": {
+    "snapshot_path": "data\\metadata\\annotation-review\\active-mixed-20261109-v2\\v4_07\\baseline-target-rows-snapshot.json",
+    "rows": [
+      {
+        "video_id": "D12_20260818162743",
+        "video_key": "v4_07",
+        "start_sec": "0",
+        "end_sec": "72",
+        "confidence": "real",
+        "kind": "neg",
+        "note": ""
+      },
+      {
+        "video_id": "D12_20260818162743",
+        "video_key": "v4_07",
+        "start_sec": "72",
+        "end_sec": "110",
+        "confidence": "real",
+        "kind": "transition",
+        "note": ""
+      },
+      {
+        "video_id": "D12_20260818162743",
+        "video_key": "v4_07",
+        "start_sec": "110",
+        "end_sec": "2776",
+        "confidence": "real",
+        "kind": "pos",
+        "note": ""
+      }
+    ],
+    "target_rows_still_match_at_completion": true,
+    "current_csv_sha256_at_completion": "b2c6798451a50ce6b97c3b7455943339b36ad73d8cc6d8b6b4c1277dfc23445d"
+  },
+  "candidate_intervals": [
+    {
+      "start_sec": 0,
+      "end_sec": 70,
+      "label": "N",
+      "reason": "开头至68秒，扁平灰石、灰蓝石与中央细长砾洲旁维持既有细分汊流，裸洲轮廓稳定，未见此次新来料前缘推进。并非以细流、水感或少石直接判N。"
+    },
+    {
+      "start_sec": 70,
+      "end_sec": 2776,
+      "label": "P",
+      "reason": "68–72秒连续窄窗中，灰蓝石右侧汇流处进入带相接前缘及后随主体的新来料；原像素72秒图已可辨，之后连续绕石、越过中央洲端。80–110秒主要为同一体推进覆盖更多床面，不能等110才P。后续全缓存至2776仍有连续目标来料，未见明确恢复N的间歇。"
+    }
+  ],
+  "boundaries": [
+    {
+      "working_sec": 70,
+      "from": "N",
+      "to": "P",
+      "observed_bracket_cache_sec": [
+        68,
+        72
+      ],
+      "last_prestate_evidence": "data\\process\\annotation-review\\active-mixed-20261109-v2\\v4_07\\N-before.jpg",
+      "first_poststate_evidence": "data\\process\\annotation-review\\active-mixed-20261109-v2\\v4_07\\P-after.jpg",
+      "reason": "N/P工作点70秒位于68–72观察括号内；旧N/T提前2秒，旧38秒T撤回。来料已有前缘及主体进入固定河段，未见画内从零建立组织。",
+      "precision_note": "v5_11–16虽为D12站点，实际均为长轴俯视，v4_07为横向近景，不能当逐像素同视角N对照。N前态以本片固定河段为主。"
+    }
+  ],
+  "change_reason": "N/P工作点70秒位于68–72观察括号内；旧N/T提前2秒，旧38秒T撤回。来料已有前缘及主体进入固定河段，未见画内从零建立组织。",
+  "old_new_difference": [
+    {
+      "start_sec": 70,
+      "end_sec": 72,
+      "old_label": "N",
+      "new_label": "P"
+    },
+    {
+      "start_sec": 72,
+      "end_sec": 110,
+      "old_label": "T",
+      "new_label": "P"
+    }
+  ],
+  "T_review": {
+    "proposed_T": false,
+    "N_baseline": "开头至68秒，扁平灰石、灰蓝石与中央细长砾洲旁维持既有细分汊流，裸洲轮廓稳定，未见此次新来料前缘推进。并非以细流、水感或少石直接判N。",
+    "specific_formation": "未见必须解释为画内建立输运组织的正面变化；新来料前缘进入固定河段后的扩展、增大仍P。",
+    "connection_to_P": "同一固定河段连续序列可追踪前缘与后随主体到旧P；不以未来峰值替代当前证据。",
+    "result": "撤回旧T，无T不凑。"
+  },
+  "source_context": "data\\metadata\\annotation-review\\active-mixed-20261109-v2\\v4_07\\source-context.json",
+  "source_correction": {
+    "docx": "D:/debris-flow-data/video_dataset_4/说明.docx",
+    "sha256": "5a1d7dace089f32c0a01038168eedd64cedc78d29b43b9cd7a24d0cc1b621d69",
+    "user_confirmation": "已明确确认早v3错误、后续邮件小型泥石流解释及v5普通水流；仅作类型补证。"
+  },
+  "evidence": [
+    {
+      "path": "data\\process\\annotation-review\\active-mixed-20261109-v2\\v4_07\\boundary-pair.jpg",
+      "role": "本次前后态对照；原像素单图见boundaries"
+    },
+    {
+      "path": "data\\process\\annotation-review\\active-mixed-20261109-v2\\v4_07\\onset-manifest.json",
+      "role": "本次选中缓存全部ROI逐页实际看完"
+    },
+    {
+      "path": "data\\process\\annotation-review\\active-mixed-20261109-v2\\v4_07\\full-onset-context.jpg",
+      "role": "6幅全画面参照已看"
+    },
+    {
+      "path": "data\\process\\annotation-review\\active-mixed-20261109-v2\\v4_07\\v5-same-site-context.jpg",
+      "role": "N站点0/中/末3图已看，具体视角限制见precision_note"
+    },
+    {
+      "path": "data\\process\\annotation-review\\full-dongchuan-20261109-v1\\batch-04\\v4_07\\overview-manifest.json",
+      "role": "本代理此前实际看过的全缓存按序导航记录，复用而未重新全解码"
+    }
+  ],
+  "coverage": {
+    "prior_full_cache_review_by_same_agent": {
+      "frames": 1389,
+      "range_sec": [
+        0,
+        2776
+      ],
+      "overview_pages": 22,
+      "manifest": "data\\process\\annotation-review\\full-dongchuan-20261109-v1\\batch-04\\v4_07\\overview-manifest.json"
+    },
+    "current_onset_cache_roi_review": {
+      "range_sec": [
+        50,
+        120
+      ],
+      "frames": 36,
+      "pages_viewed": 5,
+      "manifest": "data\\process\\annotation-review\\active-mixed-20261109-v2\\v4_07\\onset-manifest.json"
+    },
+    "current_full_context_frames_viewed": 6,
+    "current_N_context_frames_viewed": 3,
+    "current_extra_entry_check": "data\\process\\annotation-review\\active-mixed-20261109-v2\\v4_07\\v5-d12-view-check.jpg",
+    "native_windows": [
+      {
+        "command": "data\\process\\annotation-review\\full-dongchuan-20261109-v1\\batch-04\\v4_07\\source-68\\command.json",
+        "reused": true,
+        "all_frames_viewed": 16,
+        "first_OSD": "2026-08-18 16:28:51"
+      }
+    ],
+    "limitations": [
+      "全片约2秒缓存缩略导航与关键原像素检查，不冒称全原片逐帧。",
+      "缓存t、原片PTS、seek请求分开；OSD只记录实际读到的时间。",
+      "v5_11–16虽为D12站点，实际均为长轴俯视，v4_07为横向近景，不能当逐像素同视角N对照。N前态以本片固定河段为主。"
+    ]
+  },
+  "cut_review": {
+    "baseline_cut_rows": [],
+    "action": "不增cut/U/A，不关闭观察括号，不写共享CSV。"
+  },
+  "history_previous_proposal": "data\\metadata\\annotation-review\\full-dongchuan-20261109-v1\\batch-04\\v4_07\\proposal.json"
+}

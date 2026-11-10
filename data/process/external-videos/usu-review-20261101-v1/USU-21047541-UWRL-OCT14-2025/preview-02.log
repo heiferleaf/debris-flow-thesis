@@ -1,0 +1,37 @@
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'C:\Users\20443\Desktop\University_Learn\debris-flow-thesis\data\raw\web-research-20261030\negative\USU_fixed_river_cameras\UWRL\Oct14_2025.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    title           : RTSP server
+    encoder         : Lavf59.27.100
+  Duration: 00:00:40.03, start: 0.000000, bitrate: 8064 kb/s
+  Stream #0:0[0x1](und): Video: h264 (Main) (avc1 / 0x31637661), yuvj420p(pc, bt709, progressive), 2560x1920 [SAR 1:1 DAR 4:3], 8060 kb/s, 29.83 fps, 30 tbr, 90k tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+[Parsed_showinfo_0 @ 000001b1bff79440] config in time_base: 1/90000, frame_rate: 30/1
+[Parsed_showinfo_0 @ 000001b1bff79440] config out time_base: 0/0, frame_rate: 0/0
+[Parsed_showinfo_0 @ 000001b1bff79440] n:   0 pts:  47790 pts_time:0.531   duration:   3240 duration_time:0.036   fmt:yuvj420p cl:left sar:1/1 s:2560x1920 i:P iskey:0 type:P checksum:BC90828C plane_checksum:[CABF8223 DF6796A3 C76069B7] mean:[120 127 128] stdev:[38.1 11.6 4.8]
+[Parsed_showinfo_0 @ 000001b1bff79440] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[swscaler @ 000001b1c0153640] deprecated pixel format used, make sure you did set range correctly
+Output #0, image2, to 'C:\Users\20443\Desktop\University_Learn\debris-flow-thesis\data\process\external-videos\usu-review-20261101-v1\USU-21047541-UWRL-OCT14-2025\preview-02.jpg':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    title           : RTSP server
+    encoder         : Lavf63.1.102
+  Stream #0:0(und): Video: mjpeg, yuvj420p(pc, bt709, progressive), 960x720 [SAR 1:1 DAR 4:3], q=2-31, 200 kb/s, 30 fps, 30 tbn (default)
+    Metadata:
+      encoder         : Lavc63.1.102 mjpeg
+      handler_name    : VideoHandler
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[Parsed_showinfo_0 @ 000001b1bff79440] n:   1 pts:  51030 pts_time:0.567   duration:   2520 duration_time:0.028   fmt:yuvj420p cl:left sar:1/1 s:2560x1920 i:P iskey:0 type:P checksum:49AA70E9 plane_checksum:[72B565A6 210F799B 6E279199] mean:[120 127 128] stdev:[38.1 11.6 4.7]
+[Parsed_showinfo_0 @ 000001b1bff79440] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[image2 @ 000001b1bd7beac0] The specified filename 'C:\Users\20443\Desktop\University_Learn\debris-flow-thesis\data\process\external-videos\usu-review-20261101-v1\USU-21047541-UWRL-OCT14-2025\preview-02.jpg' does not contain an image sequence pattern or a pattern is invalid.
+[image2 @ 000001b1bd7beac0] Use a pattern such as %03d for an image sequence or use the -update option (with -frames:v 1 if needed) to write a single image.
+[out#0/image2 @ 000001b1bd77d180] video:252KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=2.0 Lsize=N/A time=00:00:00.00 bitrate=N/A speed=   0x elapsed=0:00:00.11    

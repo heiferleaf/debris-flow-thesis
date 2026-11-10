@@ -1,0 +1,558 @@
+{
+  "working_annotations_dir": "data/metadata/annotation-revisions/npt-20261109-full-review-working-v1",
+  "csv_fingerprints": [
+    {
+      "path": "data\\metadata\\annotation-revisions\\npt-20261109-full-review-working-v1\\v5_08--1a8d658ea3be\\events.csv",
+      "sha256": "5f7621a8040416d9810278d7e19dbfda70954f9ba680c301d2a50e6ec62e0582",
+      "bytes": 356
+    },
+    {
+      "path": "data\\metadata\\annotation-revisions\\npt-20261109-full-review-working-v1\\video1_segment--64b3c72b2a7f\\events.csv",
+      "sha256": "b4d55bde8c583fa94161359690119a456879f116fb5e33c63f613168978a9e41",
+      "bytes": 53227
+    },
+    {
+      "path": "data\\metadata\\annotation-revisions\\npt-20261109-full-review-working-v1\\video3_segment--ae36d08c7844\\events.csv",
+      "sha256": "ba7a7979dc1b5c434934ad4e0ad916a3f3c0d4d76ac0605fb54620cc6bf173a7",
+      "bytes": 270
+    },
+    {
+      "path": "data\\metadata\\annotation-revisions\\npt-20261109-full-review-working-v1\\video4_segment--7adc714b792e\\events.csv",
+      "sha256": "f8d606f154907357e2fd8664e060a68a2653afc277feb9c58535210695224df2",
+      "bytes": 8732
+    },
+    {
+      "path": "data\\metadata\\annotation-revisions\\npt-20261109-full-review-working-v1\\video5_segment--c006864bd72d\\events.csv",
+      "sha256": "ab54e987249fb72ea643e88288d4df121e85670b28878f05577b84d4da432f37",
+      "bytes": 4197
+    }
+  ],
+  "selected": {
+    "v1_75": {
+      "in_historical150": false,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 198.79,
+          "kind": "transition"
+        },
+        {
+          "start": 198.79,
+          "end": 548.0,
+          "kind": "pos"
+        }
+      ]
+    },
+    "v1_74": {
+      "in_historical150": false,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 167.0,
+          "kind": "neg"
+        },
+        {
+          "start": 167.0,
+          "end": 471.78,
+          "kind": "neg"
+        },
+        {
+          "start": 471.78,
+          "end": 566.0,
+          "kind": "transition"
+        }
+      ]
+    },
+    "v5_08": {
+      "in_historical150": false,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 2074.2,
+          "kind": "neg"
+        }
+      ]
+    },
+    "v1_13": {
+      "in_historical150": true,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 28.05,
+          "kind": "transition"
+        },
+        {
+          "start": 28.05,
+          "end": 1419.0,
+          "kind": "pos"
+        }
+      ]
+    },
+    "v1_16": {
+      "in_historical150": true,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 1035.0,
+          "kind": "neg"
+        },
+        {
+          "start": 1035.0,
+          "end": 1040.23,
+          "kind": "transition"
+        },
+        {
+          "start": 1040.23,
+          "end": 1766.0,
+          "kind": "pos"
+        }
+      ]
+    },
+    "v1_17": {
+      "in_historical150": true,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 10.47,
+          "kind": "neg"
+        },
+        {
+          "start": 10.47,
+          "end": 48.22,
+          "kind": "pos"
+        },
+        {
+          "start": 48.22,
+          "end": 88.04,
+          "kind": "neg"
+        },
+        {
+          "start": 88.04,
+          "end": 178.24,
+          "kind": "pos"
+        },
+        {
+          "start": 178.24,
+          "end": 207.6,
+          "kind": "neg"
+        },
+        {
+          "start": 207.6,
+          "end": 299.87,
+          "kind": "pos"
+        },
+        {
+          "start": 299.87,
+          "end": 314.57,
+          "kind": "neg"
+        },
+        {
+          "start": 314.57,
+          "end": 603.98,
+          "kind": "pos"
+        },
+        {
+          "start": 603.98,
+          "end": 622.84,
+          "kind": "neg"
+        },
+        {
+          "start": 622.84,
+          "end": 666.9,
+          "kind": "pos"
+        },
+        {
+          "start": 666.9,
+          "end": 721.42,
+          "kind": "neg"
+        },
+        {
+          "start": 721.42,
+          "end": 1906.0,
+          "kind": "pos"
+        }
+      ]
+    },
+    "v1_50": {
+      "in_historical150": true,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 355.0,
+          "kind": "cut"
+        },
+        {
+          "start": 355.0,
+          "end": 376.0,
+          "kind": "cut"
+        },
+        {
+          "start": 376.0,
+          "end": 510.0,
+          "kind": "cut"
+        },
+        {
+          "start": 510.0,
+          "end": 533.0,
+          "kind": "cut"
+        },
+        {
+          "start": 533.0,
+          "end": 555.0,
+          "kind": "cut"
+        },
+        {
+          "start": 555.0,
+          "end": 577.0,
+          "kind": "cut"
+        },
+        {
+          "start": 577.0,
+          "end": 1664.0,
+          "kind": "cut"
+        },
+        {
+          "start": 1664.0,
+          "end": 1686.0,
+          "kind": "pos"
+        },
+        {
+          "start": 1686.0,
+          "end": 1752.0,
+          "kind": "pos"
+        },
+        {
+          "start": 1752.0,
+          "end": 2611.0,
+          "kind": "pos"
+        }
+      ]
+    },
+    "v1_91": {
+      "in_historical150": true,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 1511.64,
+          "kind": "neg"
+        },
+        {
+          "start": 1511.64,
+          "end": 1524.22,
+          "kind": "transition"
+        },
+        {
+          "start": 1524.22,
+          "end": 1870.0,
+          "kind": "pos"
+        },
+        {
+          "start": 1870.0,
+          "end": 2055.0,
+          "kind": "cut"
+        }
+      ]
+    },
+    "v1_94": {
+      "in_historical150": true,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 176.11,
+          "kind": "neg"
+        },
+        {
+          "start": 176.11,
+          "end": 331.26,
+          "kind": "pos"
+        },
+        {
+          "start": 331.26,
+          "end": 450.77,
+          "kind": "neg"
+        },
+        {
+          "start": 450.77,
+          "end": 515.76,
+          "kind": "pos"
+        },
+        {
+          "start": 515.76,
+          "end": 1272.63,
+          "kind": "neg"
+        },
+        {
+          "start": 1272.63,
+          "end": 1295.69,
+          "kind": "transition"
+        },
+        {
+          "start": 1295.69,
+          "end": 1318.75,
+          "kind": "pos"
+        },
+        {
+          "start": 1318.75,
+          "end": 1438.26,
+          "kind": "neg"
+        },
+        {
+          "start": 1438.26,
+          "end": 1448.74,
+          "kind": "transition"
+        },
+        {
+          "start": 1448.74,
+          "end": 1549.38,
+          "kind": "pos"
+        },
+        {
+          "start": 1549.38,
+          "end": 1633.24,
+          "kind": "neg"
+        },
+        {
+          "start": 1633.24,
+          "end": 1643.72,
+          "kind": "transition"
+        },
+        {
+          "start": 1643.72,
+          "end": 1685.65,
+          "kind": "pos"
+        },
+        {
+          "start": 1685.65,
+          "end": 1828.22,
+          "kind": "neg"
+        },
+        {
+          "start": 1828.22,
+          "end": 1842.9,
+          "kind": "transition"
+        },
+        {
+          "start": 1842.9,
+          "end": 1960.0,
+          "kind": "pos"
+        }
+      ]
+    },
+    "v1_95": {
+      "in_historical150": true,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 1201.39,
+          "kind": "neg"
+        },
+        {
+          "start": 1201.39,
+          "end": 1328.0,
+          "kind": "transition"
+        },
+        {
+          "start": 1328.0,
+          "end": 1406.0,
+          "kind": "pos"
+        }
+      ]
+    },
+    "v1_97": {
+      "in_historical150": true,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 196.48,
+          "kind": "neg"
+        },
+        {
+          "start": 196.48,
+          "end": 208.76,
+          "kind": "pos"
+        },
+        {
+          "start": 208.76,
+          "end": 255.83,
+          "kind": "neg"
+        },
+        {
+          "start": 255.83,
+          "end": 358.17,
+          "kind": "neg"
+        },
+        {
+          "start": 358.17,
+          "end": 368.4,
+          "kind": "pos"
+        },
+        {
+          "start": 368.4,
+          "end": 461.0,
+          "kind": "neg"
+        },
+        {
+          "start": 461.0,
+          "end": 554.65,
+          "kind": "neg"
+        },
+        {
+          "start": 554.65,
+          "end": 568.97,
+          "kind": "pos"
+        },
+        {
+          "start": 568.97,
+          "end": 749.08,
+          "kind": "neg"
+        },
+        {
+          "start": 749.08,
+          "end": 761.36,
+          "kind": "pos"
+        },
+        {
+          "start": 761.36,
+          "end": 996.73,
+          "kind": "neg"
+        },
+        {
+          "start": 996.73,
+          "end": 1013.1,
+          "kind": "pos"
+        },
+        {
+          "start": 1013.1,
+          "end": 1158.41,
+          "kind": "neg"
+        },
+        {
+          "start": 1158.41,
+          "end": 1168.65,
+          "kind": "pos"
+        },
+        {
+          "start": 1168.65,
+          "end": 1193.21,
+          "kind": "neg"
+        },
+        {
+          "start": 1193.21,
+          "end": 1203.44,
+          "kind": "pos"
+        },
+        {
+          "start": 1203.44,
+          "end": 1291.45,
+          "kind": "neg"
+        },
+        {
+          "start": 1291.45,
+          "end": 1406.0,
+          "kind": "pos"
+        }
+      ]
+    },
+    "v4_01": {
+      "in_historical150": true,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 1852.0,
+          "kind": "neg"
+        }
+      ]
+    },
+    "v4_02": {
+      "in_historical150": true,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 1805.0,
+          "kind": "neg"
+        }
+      ]
+    },
+    "v4_03": {
+      "in_historical150": true,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 1807.0,
+          "kind": "neg"
+        }
+      ]
+    },
+    "v4_04": {
+      "in_historical150": true,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 1840.0,
+          "kind": "neg"
+        }
+      ]
+    },
+    "v5_15": {
+      "in_historical150": true,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 1408.0,
+          "kind": "pos"
+        }
+      ]
+    },
+    "v5_16": {
+      "in_historical150": true,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 1407.0,
+          "kind": "pos"
+        }
+      ]
+    },
+    "v5_17": {
+      "in_historical150": true,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 2049.0,
+          "kind": "pos"
+        }
+      ]
+    },
+    "v5_18": {
+      "in_historical150": true,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 2069.0,
+          "kind": "pos"
+        }
+      ]
+    },
+    "v5_19": {
+      "in_historical150": true,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 2081.0,
+          "kind": "neg"
+        }
+      ]
+    },
+    "v5_20": {
+      "in_historical150": true,
+      "events": [
+        {
+          "start": 0.0,
+          "end": 2104.0,
+          "kind": "neg"
+        }
+      ]
+    }
+  },
+  "scope_note": "Snapshot only; not a new annotation acceptance or training-pool release."
+}

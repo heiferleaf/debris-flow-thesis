@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "training_ready": false,
+  "release": {
+    "path": "data/metadata/annotation-revisions/npt-20261108-evidence-working-v3/released-intervals.json",
+    "sha256": "42f5260d1be9029fdcf4ba8f09f1cd97062ced22f104bcfbf68c2445da8280e0"
+  },
+  "roles": {
+    "path": "data/metadata/EXP-028/cross-camera-initial-role-v1.json",
+    "sha256": "3c47e2b554bf8c7195c3d1de0bc736fb3e6e027a9fb60a172ee749ad775f2c11"
+  },
+  "parent_grid": {
+    "path": "data/metadata/EXP-028/full-coverage-plan-20261108-v1/windows.jsonl",
+    "sha256": "c6cdb718a4dde35bafe9cb9613eeb315d0c3c47569ee0a9c8747e8a7977de466"
+  },
+  "known_pool_units": 150,
+  "camera_count": 11,
+  "full_grid_count": 78913,
+  "legal_K": 64762,
+  "cache_complete_K": 417,
+  "zero_K_units": [
+    "v1_31",
+    "v1_39",
+    "v1_40",
+    "v1_85",
+    "v1_86",
+    "v4_13",
+    "v4_17",
+    "v4_19"
+  ],
+  "roles_summary": {
+    "train": {
+      "cameras": [
+        "1号塔广角",
+        "九弯地沟下游",
+        "塔吊上游",
+        "塔吊下方",
+        "多照沟（门前多照汇口）",
+        "门前沟上游",
+        "门前沟中游",
+        "鸡冠山上游",
+        "鸡冠山下游"
+      ],
+      "pool_units": 120,
+      "units_with_legal_windows": 113,
+      "legal_K": 48810,
+      "cache_complete_K": 344,
+      "legal_N": 16219,
+      "legal_T": 0,
+      "legal_P": 32589,
+      "legal_MIX": 2,
+      "one_traversal_updates": 2034,
+      "Emax_under_10000_updates": 4,
+      "training_ready": false
+    },
+    "inner_validation": {
+      "cameras": [
+        "塔吊下游"
+      ],
+      "pool_units": 22,
+      "units_with_legal_windows": 22,
+      "legal_K": 9514,
+      "cache_complete_K": 52,
+      "legal_N": 4616,
+      "legal_T": 0,
+      "legal_P": 4898,
+      "legal_MIX": 0,
+      "one_traversal_updates": 397,
+      "Emax_under_10000_updates": 25,
+      "training_ready": false
+    },
+    "outer_evaluation": {
+      "cameras": [
+        "1号塔下游"
+      ],
+      "pool_units": 8,
+      "units_with_legal_windows": 7,
+      "legal_K": 6438,
+      "cache_complete_K": 21,
+      "legal_N": 3245,
+      "legal_T": 0,
+      "legal_P": 3193,
+      "legal_MIX": 0,
+      "one_traversal_updates": 269,
+      "Emax_under_10000_updates": 37,
+      "training_ready": false
+    },
+    "outer_refit": {
+      "cameras": [
+        "1号塔广角",
+        "九弯地沟下游",
+        "塔吊上游",
+        "塔吊下方",
+        "塔吊下游",
+        "多照沟（门前多照汇口）",
+        "门前沟上游",
+        "门前沟中游",
+        "鸡冠山上游",
+        "鸡冠山下游"
+      ],
+      "pool_units": 142,
+      "units_with_legal_windows": 135,
+      "legal_K": 58324,
+      "cache_complete_K": 396,
+      "legal_N": 20835,
+      "legal_T": 0,
+      "legal_P": 37487,
+      "legal_MIX": 2,
+      "one_traversal_updates": 2431,
+      "Emax_under_10000_updates": 4,
+      "training_ready": false
+    }
+  },
+  "common_complete_traversal_cap": 4,
+  "budget_spec_feasible_at_least_two_traversals": true,
+  "motion_policy": "unknown remains undiscounted; scoped flowing_N checks do not justify pure-static tagging",
+  "technical_policy": "Reuse frozen parent guard/gray/PTS/cache facts; no semantic relabel clears QC.",
+  "performed": {
+    "video_decodes": 0,
+    "JPEG_reads": 0,
+    "new_QC_scans": 0,
+    "model_fits": 0,
+    "paid_requests": 0
+  },
+  "limits": "A semantic overlay of inherited technical checks, not new raw-media/QC certification or training permission. Parent grid holds frame identities; weights are calculated separately for actual training and refit roles."
+}

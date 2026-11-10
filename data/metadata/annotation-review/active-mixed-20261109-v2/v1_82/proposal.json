@@ -1,0 +1,286 @@
+{
+  "schema_version": "npt-candidate-v1",
+  "video_key": "v1_82",
+  "video_id": "鸡冠山下游 Downstream of Jiguanshan 9：01",
+  "review_date": "2026-11-09",
+  "status": "candidate_for_root_review_not_applied",
+  "base_revision": "npt-20261109-full-review-working-v1",
+  "base_csv": "data/metadata/annotation-revisions/npt-20261109-full-review-working-v1/video1_segment--64b3c72b2a7f/events.csv",
+  "snapshot": "data/metadata/annotation-review/active-mixed-20261109-v2/v1_82/old-rows-snapshot.json",
+  "base_rows_unchanged_at_proposal_write": true,
+  "rules": ".codex/docs/NPT标注操作细则-20261109.md",
+  "old_intervals": [
+    {
+      "video_id": "鸡冠山下游 Downstream of Jiguanshan 9：01",
+      "video_key": "v1_82",
+      "start_sec": "0",
+      "end_sec": "253",
+      "confidence": "real",
+      "kind": "neg",
+      "note": ""
+    },
+    {
+      "video_id": "鸡冠山下游 Downstream of Jiguanshan 9：01",
+      "video_key": "v1_82",
+      "start_sec": "253",
+      "end_sec": "400.34",
+      "confidence": "real",
+      "kind": "transition",
+      "note": ""
+    },
+    {
+      "video_id": "鸡冠山下游 Downstream of Jiguanshan 9：01",
+      "video_key": "v1_82",
+      "start_sec": "400.34",
+      "end_sec": "1589",
+      "confidence": "real",
+      "kind": "pos",
+      "note": ""
+    }
+  ],
+  "candidate_intervals": [
+    {
+      "start_sec": 0,
+      "end_sec": 209.52,
+      "label": "N",
+      "reason": "固定观察左边界近中景床面：0–207.44秒是可辨固定砾床、零散浅水线及小水洼，左侧尚无连续进入的泥质来料舌；同一位置170.09–207.44秒连续缓存支持该负类基线。"
+    },
+    {
+      "start_sec": 209.52,
+      "end_sec": 1589,
+      "label": "P",
+      "reason": "约210秒，连续泥质来料由画面左边界进入；211.59秒可辨与画外主体相连的前缘，213.67–238.56秒持续向右推进并越过原裸露床面，后续绕过固定石块、保持连续物料输运。其在旧N结束253秒前已经出现，253–400.34秒是既有目标持续推进和分流，不能等主河段更宽才给P。旧P及尾段继续有同一连贯来料体及运动纹理，未恢复开头普通细水状态。"
+    }
+  ],
+  "process_type": "成型来料从画外进入，N→P；后续增强仍P",
+  "boundaries": [
+    {
+      "working_sec": 209.52,
+      "from": "N",
+      "to": "P",
+      "observed_bracket_cache_sec": [
+        207.44,
+        211.59
+      ],
+      "last_clear_before_cache_sec": 207.44,
+      "first_clear_after_cache_sec": 211.59,
+      "last_before": {
+        "cache_sec": 207.44,
+        "file": "data/process/video_frames/video1_segment/frames/v1_82_frame_000100_t207s.jpg",
+        "label": "N",
+        "osd_read": "2025-07-24 09:05:26"
+      },
+      "first_after": {
+        "cache_sec": 211.59,
+        "file": "data/process/video_frames/video1_segment/frames/v1_82_frame_000102_t212s.jpg",
+        "label": "P",
+        "osd_read": "2025-07-24 09:05:30"
+      },
+      "precision_note": "工作点取实看括号内约2秒缓存的中间位置；两位小数沿用缓存工作轴，不是原片精确PTS。括号内未另设T/U/A，也未删除监督。",
+      "reason": "最后明确负类基线与首次清楚目标入画之间定位；首个目标已经连贯，随后连续推进。",
+      "evidence": [
+        "data/process/annotation-review/active-mixed-20261109-v2/v1_82/entry-before-roi-02.jpg",
+        "data/process/annotation-review/active-mixed-20261109-v2/v1_82/left-edge-pixel-roi-01.jpg",
+        "data/process/annotation-review/active-mixed-20261109-v2/v1_82/entry-detail-roi-01.jpg"
+      ]
+    }
+  ],
+  "removed_old_boundaries": [
+    {
+      "working_sec": 253,
+      "reason": "旧N/T界未对应可靠的画内形成起点。"
+    },
+    {
+      "working_sec": 400.34,
+      "reason": "该时刻两侧都已经有目标输运，不再是T/P状态改变。"
+    }
+  ],
+  "t_decision": {
+    "proposed_T": false,
+    "reason": "新来料的连续前缘从左边界进入，后续是其在画内延伸、分汊与变宽。没有同一固定位置从零散搬运发展出目标组织的正面形成证据；最初入画面积小不构成T。旧253–400.34秒两端都已有连贯目标，不能据后续峰值倒填长T。"
+  },
+  "anchors": {
+    "N_baseline_cache_sec": [
+      0,
+      207.44
+    ],
+    "P_small_established_reference_cache_sec": [
+      211.59,
+      238.56
+    ],
+    "fixed_location": "画面左边界近中景入口及右方固定床石",
+    "difference_from_ordinary_water": "保留N的开头是稳定细水/零散水线与裸露床面；P段新增与画外主体连续相连的泥质来料舌，前缘与后续主体共同越过固定河床、持续更新物料纹理。判断结合整个连续过程和观测来源，不由有运动、颜色、缺少粗石或未来峰值单项决定。"
+  },
+  "evidence": {
+    "onset_contact": "data/process/annotation-review/active-mixed-20261109-v2/v1_82/entry-before-roi-02.jpg",
+    "onset_detail": "data/process/annotation-review/active-mixed-20261109-v2/v1_82/left-edge-pixel-roi-01.jpg",
+    "old_T_is_already_P_contact": "data/process/annotation-review/active-mixed-20261109-v2/v1_82/old-late-T-roi-01.jpg",
+    "P_continuation_and_tail": "data/process/annotation-review/active-mixed-20261109-v2/v1_82/established-P-check-roi-01.jpg",
+    "current_contact_manifests": [
+      {
+        "path": "data/process/annotation-review/active-mixed-20261109-v2/v1_82/early-onset-roi-manifest.json",
+        "cells": 56,
+        "cache_range_sec": [
+          170.09,
+          284.18
+        ],
+        "sheets": [
+          "early-onset-roi-01.jpg",
+          "early-onset-roi-02.jpg",
+          "early-onset-roi-03.jpg",
+          "early-onset-roi-04.jpg",
+          "early-onset-roi-05.jpg"
+        ]
+      },
+      {
+        "path": "data/process/annotation-review/active-mixed-20261109-v2/v1_82/entry-baseline-roi-manifest.json",
+        "cells": 8,
+        "cache_range_sec": [
+          0.0,
+          199.13
+        ],
+        "sheets": [
+          "entry-baseline-roi-01.jpg"
+        ]
+      },
+      {
+        "path": "data/process/annotation-review/active-mixed-20261109-v2/v1_82/entry-before-roi-manifest.json",
+        "cells": 25,
+        "cache_range_sec": [
+          170.09,
+          219.86
+        ],
+        "sheets": [
+          "entry-before-roi-01.jpg",
+          "entry-before-roi-02.jpg",
+          "entry-before-roi-03.jpg"
+        ]
+      },
+      {
+        "path": "data/process/annotation-review/active-mixed-20261109-v2/v1_82/entry-detail-roi-manifest.json",
+        "cells": 14,
+        "cache_range_sec": [
+          211.59,
+          238.56
+        ],
+        "sheets": [
+          "entry-detail-roi-01.jpg",
+          "entry-detail-roi-02.jpg"
+        ]
+      },
+      {
+        "path": "data/process/annotation-review/active-mixed-20261109-v2/v1_82/established-P-check-roi-manifest.json",
+        "cells": 13,
+        "cache_range_sec": [
+          400.34,
+          1588.77
+        ],
+        "sheets": [
+          "established-P-check-roi-01.jpg",
+          "established-P-check-roi-02.jpg"
+        ]
+      },
+      {
+        "path": "data/process/annotation-review/active-mixed-20261109-v2/v1_82/left-edge-pixel-roi-manifest.json",
+        "cells": 14,
+        "cache_range_sec": [
+          192.9,
+          219.86
+        ],
+        "sheets": [
+          "left-edge-pixel-roi-01.jpg",
+          "left-edge-pixel-roi-02.jpg"
+        ]
+      },
+      {
+        "path": "data/process/annotation-review/active-mixed-20261109-v2/v1_82/old-late-T-roi-manifest.json",
+        "cells": 58,
+        "cache_range_sec": [
+          286.25,
+          404.45
+        ],
+        "sheets": [
+          "old-late-T-roi-01.jpg",
+          "old-late-T-roi-02.jpg",
+          "old-late-T-roi-03.jpg",
+          "old-late-T-roi-04.jpg",
+          "old-late-T-roi-05.jpg"
+        ]
+      }
+    ],
+    "prior_full_navigation": [
+      "data/process/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_82/all-cache-01.jpg",
+      "data/process/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_82/all-cache-02.jpg",
+      "data/process/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_82/all-cache-03.jpg",
+      "data/process/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_82/all-cache-04.jpg",
+      "data/process/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_82/all-cache-05.jpg",
+      "data/process/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_82/all-cache-06.jpg",
+      "data/process/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_82/all-cache-07.jpg",
+      "data/process/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_82/all-cache-08.jpg",
+      "data/process/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_82/all-cache-09.jpg",
+      "data/process/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_82/all-cache-10.jpg",
+      "data/process/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_82/all-cache-11.jpg",
+      "data/process/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_82/all-cache-12.jpg",
+      "data/process/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_82/all-cache-13.jpg"
+    ],
+    "reused_native_ROI": "data/process/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_82/native-wave/roi-005.jpg"
+  },
+  "coverage": {
+    "prior_full_cache_review": {
+      "count": 767,
+      "cache_range_sec": [
+        0.0,
+        1588.77
+      ],
+      "method": "本次连续审计之前已按序实际查看全部缓存联系图；本轮重用该覆盖，明确撤回旧全N语义草案。不是声称本轮再逐帧看完原片。"
+    },
+    "current_pass": {
+      "native_cache_dimensions": [
+        960,
+        540
+      ],
+      "unique_cached_frames_in_viewed_contacts": 130,
+      "contiguous_onset_ROI_cache_range_sec": [
+        170.09,
+        284.18
+      ],
+      "contiguous_old_T_late_ROI_cache_range_sec": [
+        286.25,
+        404.45
+      ],
+      "all_generated_final_contact_sheets_visually_viewed": true,
+      "original_pixel_ROIs": true,
+      "extra_full_cache_frames_viewed": "边界相邻缓存原图与早期P参照；详见边界frame路径和联系图manifest。",
+      "reused_prior_native_ROI": {
+        "source_seek_window_sec": [
+          1000,
+          1012
+        ],
+        "native_crop_xywh": [
+          0,
+          1100,
+          2000,
+          900
+        ],
+        "current_pass_viewed": "roi-005.jpg；旧窄窗仅补充成型期细颗粒载体/固定床面的区分，不作为本轮入画时刻配准。"
+      },
+      "new_raw_video_decode_seconds": 0
+    },
+    "not_viewed": "本轮未全帧播放原视频；约2秒缓存之间的全部原片帧未逐帧查看。新边界约4秒括号尚未用原片逐帧收紧，不冒充精确PTS。"
+  },
+  "source_context": {
+    "package": "data/metadata/annotation-review/full-dongchuan-20261109-v1/source-explanations.json",
+    "applicable": "本v1组对应2025东川站观测视频，来源说明为泥石流观测上下文；不能广播为每秒P。",
+    "later_correction": "source4明确更正source3上次塔吊交付属于小型泥石流，本次source4/v5才常规水；该关系用于防止细颗粒/水感强即N的泛化，不把2026另一批次说明套成此2025片的逐秒真值。",
+    "prior_rejected_proposal": "full-dongchuan-20261109-v1/batch-02/v1_82/proposal.json 的整片N判断已撤回，不用于合并。"
+  },
+  "limitations": [
+    "RGB不提供可测含水率或体积浓度，未造该阈值。",
+    "成型入画与画内形成分开，未以边界定位不足凑T。",
+    "沿用现役片尾工作值；缓存最后时刻可能稍越/略早于该工作值，不改旧PTS体系。"
+  ],
+  "cut_intervals_preserved": [],
+  "new_U_A_or_cut": false,
+  "shared_files_modified": false,
+  "training_authorized": false
+}

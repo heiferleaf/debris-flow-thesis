@@ -1,0 +1,166 @@
+{
+  "source_id": "USGS-SILVERADO-20150719-CAM01-PUBCLIP",
+  "source_page": "https://www.usgs.gov/media/videos/post-wildfire-flood-and-debris-flow-2014-silverado-fire",
+  "direct_download_url": "https://usgs-ocapsv2-public-input-media.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/FinalFire.mp4",
+  "publisher": "U.S. Geological Survey (USGS)",
+  "official_page_title": "Post-wildfire Flood and Debris Flow: 2014 Silverado Fire",
+  "official_page_event_statement": "The USGS page states that an automated rain-triggered camera at the outlet of a 0.6 km^2 basin within the Silverado Fire burn area recorded the initial surge and peak flow triggered by a storm on 2015-07-19; the peak occurred about three minutes after the initial surge.",
+  "nominal_event_id": "USGS-SILVERADO-20150719:event01",
+  "site_group_id": "USGS-SILVERADO-CA:basin01",
+  "camera_group_id": "USGS-SILVERADO-CA:CAM01",
+  "event_date": "2015-07-19",
+  "fire_reference": "2014 Silverado Fire (burn area); event date comes from the official page description, not the fire year in the title.",
+  "location": "Silverado Fire burn area, Orange County, California; outlet of a small basin (USGS page states 0.6 km^2). Exact camera coordinates are not given on the source page.",
+  "license": "Public Domain (USGS source page)",
+  "acquired_date": "2026-11-01",
+  "local_path": "data/raw/web-research-20261101/USGS_Silverado_20150719.mp4",
+  "size_bytes": 59427721,
+  "sha256": "45463FDC22BB5D1CCA4B25017CC11554AEA9B9C095C03E2C8806CBA70DA52042",
+  "container": "MP4",
+  "video_codec": "H.264 High, yuv420p, BT.709",
+  "width": 980,
+  "height": 552,
+  "video_duration_seconds_from_mp4_track": 130.565367,
+  "audio_duration_seconds_from_mp4_track": 130.602721,
+  "browser_playback_duration_seconds": 130.602721,
+  "video_track_timescale": 30000,
+  "video_frame_count_from_mp4_sample_table": 3917,
+  "video_sample_timing": "stts contains one run: 3917 samples, each 1000 ticks at timebase 1/30000 s (30 fps); no ctts composition-offset table. FFmpeg showinfo confirmed selected decoded source-frame PTS values below.",
+  "sampled_frames": [
+    {
+      "requested_seconds": 0,
+      "pts": 0,
+      "timebase": "1/30000",
+      "sha256": "0381E5A07464A08F2B633E5BB4AC56169099DE06A73B270EBBB46C941470E93E",
+      "path": "data/metadata/external-videos/discovery-20261101-v2/USGS_Silverado_frame_t0.png"
+    },
+    {
+      "requested_seconds": 1,
+      "pts": 30000,
+      "timebase": "1/30000",
+      "path": "data/metadata/external-videos/discovery-20261101-v2/USGS_Silverado_frame_t1.png",
+      "sha256": "B92BEA034740E96B31679684EADAE45035DDD19BD7EE941B3DF06F7B3520DE82"
+    },
+    {
+      "requested_seconds": 3,
+      "pts": 90000,
+      "timebase": "1/30000",
+      "path": "data/metadata/external-videos/discovery-20261101-v2/USGS_Silverado_frame_t3.png",
+      "sha256": "3FBA932A88CAA09344A7930E32CEA10C024AF3F01DBF5B02A9CBEA84F78E3F0C"
+    },
+    {
+      "requested_seconds": 5,
+      "pts": 150000,
+      "timebase": "1/30000",
+      "path": "data/metadata/external-videos/discovery-20261101-v2/USGS_Silverado_frame_t5.png",
+      "sha256": "0257B65102F10EF305265905BB00AADF30FB8097084812D0CDD064555EF4E21C"
+    },
+    {
+      "requested_seconds": 10,
+      "pts": 300000,
+      "timebase": "1/30000",
+      "path": "data/metadata/external-videos/discovery-20261101-v2/USGS_Silverado_frame_t10.png",
+      "sha256": "396A3A4FD2372AFE74600DE0231EF75665DBF42077758A48A093AF5599E8B424"
+    },
+    {
+      "requested_seconds": 15,
+      "pts": 450000,
+      "timebase": "1/30000",
+      "path": "data/metadata/external-videos/discovery-20261101-v2/USGS_Silverado_frame_t15.png",
+      "sha256": "03360AD4365B3D26EDF97D1F713FA5CADFD4E0DE17F6DBECB3F310887B81642C"
+    },
+    {
+      "requested_seconds": 26,
+      "pts": 780000,
+      "timebase": "1/30000",
+      "sha256": "0CF07A2577B240BD92C6B1721AB51369B2641144375E90EEF550130EC4C184CE",
+      "path": "data/metadata/external-videos/discovery-20261101-v2/USGS_Silverado_frame_t26.png"
+    },
+    {
+      "requested_seconds": 52,
+      "pts": 1560000,
+      "timebase": "1/30000",
+      "sha256": "7FB5DCBFD97F625A7A7F51AB021032C14AE0AA1167C59D25357109ED93DB5459",
+      "path": "data/metadata/external-videos/discovery-20261101-v2/USGS_Silverado_frame_t52.png"
+    },
+    {
+      "requested_seconds": 65,
+      "pts": 1950000,
+      "timebase": "1/30000",
+      "path": "data/metadata/external-videos/discovery-20261101-v2/USGS_Silverado_frame_t65.png",
+      "sha256": "A4A9F8B066CD3E0070272A3105898B6A804FC909257CA5F5296CADDD4476640A"
+    },
+    {
+      "requested_seconds": 78,
+      "pts": 2340000,
+      "timebase": "1/30000",
+      "sha256": "9C36C94B83EDD24E8208B9C116776B26C77296D1BF457DD098DAFCEABC01C5F0",
+      "path": "data/metadata/external-videos/discovery-20261101-v2/USGS_Silverado_frame_t78.png"
+    },
+    {
+      "requested_seconds": 104,
+      "pts": 3120000,
+      "timebase": "1/30000",
+      "sha256": "02C282F72F7F4268A4D86999AC3D801D3D68B3BC7A461E0C7D7F35B417002DE2",
+      "path": "data/metadata/external-videos/discovery-20261101-v2/USGS_Silverado_frame_t104.png"
+    },
+    {
+      "requested_seconds": 125,
+      "pts": 3750000,
+      "timebase": "1/30000",
+      "path": "data/metadata/external-videos/discovery-20261101-v2/USGS_Silverado_frame_t125.png",
+      "sha256": "A74ED1A27C51D8770F64ED9A2C14AEEAAD7738A9FBEF5B5477630EFA1F1FB7A5"
+    },
+    {
+      "requested_seconds": 130.533333,
+      "pts": 3916000,
+      "timebase": "1/30000",
+      "sha256": "0381E5A07464A08F2B633E5BB4AC56169099DE06A73B270EBBB46C941470E93E",
+      "path": "data/metadata/external-videos/discovery-20261101-v2/USGS_Silverado_frame_last.png"
+    }
+  ],
+  "content_review": {
+    "review_scope": "Sparse direct frame extraction at 0, 1, 3, 5, 10, 15, 26, 52, 65, 78, 104, 125, and 130.533 s; not a full-video review or full decode.",
+    "viewpoint": "The same channel scene is visible across sampled frames, but the four interior frames show measurable image-plane shifts in matched static-looking vegetation/rock features. Viewpoint/framing stability is therefore pending; sampled frames do not justify claiming a continuously fixed framing or single uninterrupted camera view.",
+    "opening_and_overlays": "Black at PTS 0; sampled PTS 1, 3, and 5 show a USGS logo card. The channel view is present by 10 s. A persistent USGS watermark appears on scene frames. No sampled frame showed a debris-flow class caption or date overlay.",
+    "visual_content": "Sparse sampled frames show a muddy/turbid, flow-like visual appearance in the channel and different image content at the sampled times. These still samples do not establish flow speed, continuous motion, or temporal continuity. Event-level relevance is supported by the official source description; framewise labels and interval boundaries remain unreviewed.",
+    "remaining_review": "Review the complete clip for camera movement, digital reframing, edits, and any ordinary flood/water-only phases; the four-frame local feature comparison cannot distinguish camera/crop motion from local vegetation movement or establish continuity."
+  },
+  "media_verification_scope": "Original MP4 downloaded directly from the USGS-linked S3 asset. MP4 track/sample tables parsed; selected frames at known source PTS decoded locally with FFmpeg 4.2.2 without reported errors. Whole-file decode and end-to-end decode-error count were not run.",
+  "sampling_input_compatibility": "The 30 fps video-track rate and the 13 sampled PTS values describe the published MP4 encoding timeline only. They do not establish the source camera acquisition rate, independent real-world observations, or that 16 independent observations exist in any real 3-second window. Actual capture cadence and compatibility with the protocol remain unverified.",
+  "independence_status": "New nominal event and new region/site compared with listed current catalog entries; exact source identity, event independence, and development-pool overlap remain pending.",
+  "dataset_status": "candidate; unassigned; not frozen; no model scoring",
+  "media_role": "candidate_external_event_video",
+  "framewise_label_status": "unreviewed",
+  "count_as_independent_event": "provisional_one_nominal_event; pending identity audit",
+  "contact_sheet_path": "data/metadata/external-videos/discovery-20261101-v2/USGS_Silverado_uniform_contact_sheet.png",
+  "contact_sheet_sha256": "57C1E97452989C162F07A1479DE4515F9DE66E53C6B22C0D9330482981A5C595",
+  "viewpoint_stability_check": {
+    "evidence_file": "data/metadata/external-videos/discovery-20261101-v2/viewpoint-comparison-20261101.json",
+    "scope": "Four exact source-PTS frames at 26, 52, 78, and 104 seconds; no additional video download or full decode.",
+    "conclusion": "Local scale estimates near 1.0 provide no evidence of a major zoom change in this ROI; limited sparse sampling cannot exclude digital reframing or camera movement elsewhere. The measured image shifts mean viewpoint stability remains pending.",
+    "full_clip_single_camera_continuity": "not established"
+  },
+  "frame_extraction_record": {
+    "ffmpeg_version": "4.2.2 (imageio-ffmpeg bundled Windows binary)",
+    "executable_at_extraction": "%TEMP%\\codex-video-inspect\\imageio_ffmpeg\\binaries\\ffmpeg-win64-v4.2.2.exe",
+    "powershell_command_template": "$log = & $ffmpeg -y -hide_banner -copyts -ss $t -i $src -frames:v 1 -vf showinfo -vsync 0 $out 2>&1",
+    "sampled_times_seconds": [
+      0,
+      1,
+      3,
+      5,
+      10,
+      15,
+      26,
+      52,
+      65,
+      78,
+      104,
+      125,
+      130.533333
+    ],
+    "output_log_path": null,
+    "output_log_note": "The FFmpeg combined stdout/stderr was returned in the interactive command output and was not persisted to a file. No historical log is recreated."
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "unit_id": "v1_13",
+      "recommended_intervals": [
+        {
+          "start_sec": 0,
+          "end_sec": 36,
+          "state": "cut",
+          "reason": "沿用旧cut，不改变质量处理。",
+          "confidence": "继承"
+        },
+        {
+          "start_sec": 36,
+          "end_sec": 58.1,
+          "state": "T",
+          "reason": "上游新灰浊前缘从细分汊背景中持续前推，已有具体目标征象；远端小且有雾，粗糙连续物料主体尚不够明确。",
+          "confidence": "中；边界约±4秒"
+        },
+        {
+          "start_sec": 58.1,
+          "end_sec": 1419,
+          "state": "P",
+          "reason": "新连片主体和粗糙前缘已可辨认并持续下推，后续明确阵头支持P；未看时段沿用旧P。",
+          "confidence": "中高"
+        }
+      ],
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_13.json",
+      "evidence_sha256": "46db685e395672607773a40cf171666f942bb7525d541e02871b726415efd63b"
+    },
+    {
+      "unit_id": "v1_97",
+      "recommended_intervals": [
+        {
+          "start_sec": 0,
+          "end_sec": 198.53,
+          "state": "T",
+          "reason": "与review-v6待审的96尾T候选仅相隔4秒并同态接续；活动不透明流内不规则暗纹更新。未见使类型回到N的事件，物料组织又不如局部明确前缘清楚。",
+          "confidence": "medium"
+        },
+        {
+          "start_sec": 198.53,
+          "end_sec": 214.9,
+          "state": "P",
+          "reason": "新隆起粗糙弧形舌体从左下进入并向画面上方推进，粗糙内部结构随前部共同运动。原片source seek215.75以后可见同一前缘，OSD19:15:26–40，与审计约200–215相配。",
+          "confidence": "high_local_boundary_approximate"
+        },
+        {
+          "start_sec": 214.9,
+          "end_sec": 461,
+          "state": "T",
+          "reason": "前缘后活动流体维持与96末和97前部相近的不透明载体与暗纹更新，未见明确回N证据；没有把每个波谷自动作T，当前T依据前后同态及目标嫌疑。",
+          "confidence": "medium"
+        },
+        {
+          "start_sec": 461,
+          "end_sec": 1406,
+          "state": "cut",
+          "reason": "保持当前基版cut并集461–1406，不重新开放。",
+          "confidence": "inherited_cut"
+        }
+      ],
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_97.json",
+      "evidence_sha256": "887b38fbdf00de1d83aca8010733ffb0c95eda078eb564405dcc04025cfbdb98"
+    }
+  ],
+  "training_ready": false,
+  "status": "incremental_candidates_conditional_review_pass",
+  "limitations": [
+    "No state is inferred only from the neighboring file label.",
+    "Boundaries are approximate; unobserved intervals are not independently certified.",
+    "Current explicit cut and labelled support remain unchanged."
+  ]
+}

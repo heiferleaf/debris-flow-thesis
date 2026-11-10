@@ -1,0 +1,2144 @@
+{
+  "schema": "remaining-dongchuan-label-survey-v3",
+  "unit_id": "v1_114",
+  "status": "reviewed_sampled_windows_proposal_only",
+  "old_working_release": "data/metadata/annotation-revisions/npt-20261107-proposals-v3",
+  "old_working_events_csv": "data/metadata/annotation-revisions/npt-20261107-proposals-v3/video1_segment--64b3c72b2a7f/events.csv",
+  "old_working_events_sha256": "fce143f9261155d40dbcb992e1d448052d8658e877b2bf7e6dc290186d3ca6f3",
+  "old_working_annotations_verbatim": [
+    {
+      "video_id": "鸡冠山上游 Upstream of Jiguanshan 19：34",
+      "video_key": "v1_114",
+      "start_sec": "0",
+      "end_sec": "30",
+      "confidence": "real",
+      "kind": "pos",
+      "note": ""
+    },
+    {
+      "video_id": "鸡冠山上游 Upstream of Jiguanshan 19：34",
+      "video_key": "v1_114",
+      "start_sec": "30",
+      "end_sec": "32",
+      "confidence": "real",
+      "kind": "cut",
+      "note": ""
+    },
+    {
+      "video_id": "鸡冠山上游 Upstream of Jiguanshan 19：34",
+      "video_key": "v1_114",
+      "start_sec": "32",
+      "end_sec": "40",
+      "confidence": "real",
+      "kind": "pos",
+      "note": ""
+    },
+    {
+      "video_id": "鸡冠山上游 Upstream of Jiguanshan 19：34",
+      "video_key": "v1_114",
+      "start_sec": "40",
+      "end_sec": "46",
+      "confidence": "real",
+      "kind": "cut",
+      "note": ""
+    },
+    {
+      "video_id": "鸡冠山上游 Upstream of Jiguanshan 19：34",
+      "video_key": "v1_114",
+      "start_sec": "46",
+      "end_sec": "82",
+      "confidence": "real",
+      "kind": "pos",
+      "note": ""
+    },
+    {
+      "video_id": "鸡冠山上游 Upstream of Jiguanshan 19：34",
+      "video_key": "v1_114",
+      "start_sec": "82",
+      "end_sec": "86",
+      "confidence": "real",
+      "kind": "cut",
+      "note": ""
+    },
+    {
+      "video_id": "鸡冠山上游 Upstream of Jiguanshan 19：34",
+      "video_key": "v1_114",
+      "start_sec": "86",
+      "end_sec": "128",
+      "confidence": "real",
+      "kind": "pos",
+      "note": ""
+    },
+    {
+      "video_id": "鸡冠山上游 Upstream of Jiguanshan 19：34",
+      "video_key": "v1_114",
+      "start_sec": "128",
+      "end_sec": "134",
+      "confidence": "real",
+      "kind": "cut",
+      "note": ""
+    },
+    {
+      "video_id": "鸡冠山上游 Upstream of Jiguanshan 19：34",
+      "video_key": "v1_114",
+      "start_sec": "134",
+      "end_sec": "150",
+      "confidence": "real",
+      "kind": "cut",
+      "note": ""
+    },
+    {
+      "video_id": "鸡冠山上游 Upstream of Jiguanshan 19：34",
+      "video_key": "v1_114",
+      "start_sec": "150",
+      "end_sec": "343",
+      "confidence": "real",
+      "kind": "pos",
+      "note": ""
+    },
+    {
+      "video_id": "鸡冠山上游 Upstream of Jiguanshan 19：34",
+      "video_key": "v1_114",
+      "start_sec": "343",
+      "end_sec": "349",
+      "confidence": "real",
+      "kind": "cut",
+      "note": ""
+    },
+    {
+      "video_id": "鸡冠山上游 Upstream of Jiguanshan 19：34",
+      "video_key": "v1_114",
+      "start_sec": "349",
+      "end_sec": "360",
+      "confidence": "real",
+      "kind": "pos",
+      "note": ""
+    },
+    {
+      "video_id": "鸡冠山上游 Upstream of Jiguanshan 19：34",
+      "video_key": "v1_114",
+      "start_sec": "360",
+      "end_sec": "402",
+      "confidence": "real",
+      "kind": "cut",
+      "note": ""
+    },
+    {
+      "video_id": "鸡冠山上游 Upstream of Jiguanshan 19：34",
+      "video_key": "v1_114",
+      "start_sec": "402",
+      "end_sec": "462",
+      "confidence": "real",
+      "kind": "pos",
+      "note": ""
+    },
+    {
+      "video_id": "鸡冠山上游 Upstream of Jiguanshan 19：34",
+      "video_key": "v1_114",
+      "start_sec": "462",
+      "end_sec": "466",
+      "confidence": "real",
+      "kind": "cut",
+      "note": ""
+    },
+    {
+      "video_id": "鸡冠山上游 Upstream of Jiguanshan 19：34",
+      "video_key": "v1_114",
+      "start_sec": "466",
+      "end_sec": "528",
+      "confidence": "real",
+      "kind": "pos",
+      "note": ""
+    },
+    {
+      "video_id": "鸡冠山上游 Upstream of Jiguanshan 19：34",
+      "video_key": "v1_114",
+      "start_sec": "528",
+      "end_sec": "544",
+      "confidence": "real",
+      "kind": "cut",
+      "note": ""
+    }
+  ],
+  "raw_video_paths": [
+    "data/raw/video_dataset_1/2025年7月29日泥石流视频Debris flow video on July 29, 2025/鸡冠山上游 Upstream of Jiguanshan/鸡冠山上游 Upstream of Jiguanshan 19：34.mp4"
+  ],
+  "camera": "鸡冠山上游",
+  "recommended_intervals": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 30.0,
+      "state": "P",
+      "reason": "逐一查看17个旧P/cut区间及稀疏缓存相邻补图，非cut活动槽内可见推进的颗粒状粗糙前缘和持续主体；多处灰屏损坏由旧cut处理，未扩大cut或替换成T。部分很短区间只有1–2张缓存，实际点数单列。",
+      "confidence": "中高"
+    },
+    {
+      "start_sec": 30.0,
+      "end_sec": 32.0,
+      "state": "cut",
+      "reason": "旧cut保持覆盖并集。",
+      "confidence": "旧cut继承"
+    },
+    {
+      "start_sec": 32.0,
+      "end_sec": 40.0,
+      "state": "P",
+      "reason": "逐一查看17个旧P/cut区间及稀疏缓存相邻补图，非cut活动槽内可见推进的颗粒状粗糙前缘和持续主体；多处灰屏损坏由旧cut处理，未扩大cut或替换成T。部分很短区间只有1–2张缓存，实际点数单列。",
+      "confidence": "中高"
+    },
+    {
+      "start_sec": 40.0,
+      "end_sec": 46.0,
+      "state": "cut",
+      "reason": "旧cut保持覆盖并集。",
+      "confidence": "旧cut继承"
+    },
+    {
+      "start_sec": 46.0,
+      "end_sec": 82.0,
+      "state": "P",
+      "reason": "逐一查看17个旧P/cut区间及稀疏缓存相邻补图，非cut活动槽内可见推进的颗粒状粗糙前缘和持续主体；多处灰屏损坏由旧cut处理，未扩大cut或替换成T。部分很短区间只有1–2张缓存，实际点数单列。",
+      "confidence": "中高"
+    },
+    {
+      "start_sec": 82.0,
+      "end_sec": 86.0,
+      "state": "cut",
+      "reason": "旧cut保持覆盖并集。",
+      "confidence": "旧cut继承"
+    },
+    {
+      "start_sec": 86.0,
+      "end_sec": 128.0,
+      "state": "P",
+      "reason": "逐一查看17个旧P/cut区间及稀疏缓存相邻补图，非cut活动槽内可见推进的颗粒状粗糙前缘和持续主体；多处灰屏损坏由旧cut处理，未扩大cut或替换成T。部分很短区间只有1–2张缓存，实际点数单列。",
+      "confidence": "中高"
+    },
+    {
+      "start_sec": 128.0,
+      "end_sec": 150.0,
+      "state": "cut",
+      "reason": "旧cut保持覆盖并集。",
+      "confidence": "旧cut继承"
+    },
+    {
+      "start_sec": 150.0,
+      "end_sec": 343.0,
+      "state": "P",
+      "reason": "逐一查看17个旧P/cut区间及稀疏缓存相邻补图，非cut活动槽内可见推进的颗粒状粗糙前缘和持续主体；多处灰屏损坏由旧cut处理，未扩大cut或替换成T。部分很短区间只有1–2张缓存，实际点数单列。",
+      "confidence": "中高"
+    },
+    {
+      "start_sec": 343.0,
+      "end_sec": 349.0,
+      "state": "cut",
+      "reason": "旧cut保持覆盖并集。",
+      "confidence": "旧cut继承"
+    },
+    {
+      "start_sec": 349.0,
+      "end_sec": 360.0,
+      "state": "P",
+      "reason": "逐一查看17个旧P/cut区间及稀疏缓存相邻补图，非cut活动槽内可见推进的颗粒状粗糙前缘和持续主体；多处灰屏损坏由旧cut处理，未扩大cut或替换成T。部分很短区间只有1–2张缓存，实际点数单列。",
+      "confidence": "中高"
+    },
+    {
+      "start_sec": 360.0,
+      "end_sec": 402.0,
+      "state": "cut",
+      "reason": "旧cut保持覆盖并集。",
+      "confidence": "旧cut继承"
+    },
+    {
+      "start_sec": 402.0,
+      "end_sec": 462.0,
+      "state": "P",
+      "reason": "逐一查看17个旧P/cut区间及稀疏缓存相邻补图，非cut活动槽内可见推进的颗粒状粗糙前缘和持续主体；多处灰屏损坏由旧cut处理，未扩大cut或替换成T。部分很短区间只有1–2张缓存，实际点数单列。",
+      "confidence": "中高"
+    },
+    {
+      "start_sec": 462.0,
+      "end_sec": 466.0,
+      "state": "cut",
+      "reason": "旧cut保持覆盖并集。",
+      "confidence": "旧cut继承"
+    },
+    {
+      "start_sec": 466.0,
+      "end_sec": 528.0,
+      "state": "P",
+      "reason": "逐一查看17个旧P/cut区间及稀疏缓存相邻补图，非cut活动槽内可见推进的颗粒状粗糙前缘和持续主体；多处灰屏损坏由旧cut处理，未扩大cut或替换成T。部分很短区间只有1–2张缓存，实际点数单列。",
+      "confidence": "中高"
+    },
+    {
+      "start_sec": 528.0,
+      "end_sec": 544.0,
+      "state": "cut",
+      "reason": "旧cut保持覆盖并集。",
+      "confidence": "旧cut继承"
+    }
+  ],
+  "observations_zh": [
+    "逐一查看17个旧P/cut区间及稀疏缓存相邻补图，非cut活动槽内可见推进的颗粒状粗糙前缘和持续主体；多处灰屏损坏由旧cut处理，未扩大cut或替换成T。部分很短区间只有1–2张缓存，实际点数单列。"
+  ],
+  "confidence": "中高",
+  "remaining_evidence_needed": "只调查实际列出的缓存点；稳定间隔继承旧工作标注。未取得需新建T的目标状态转折。",
+  "old_interval_sampling": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 30.0,
+      "old_state": "P",
+      "actual_cache_points_seen_inside_interval_sec": [
+        0.0,
+        4.0,
+        8.0,
+        16.0,
+        20.0,
+        22.05,
+        26.05,
+        28.05
+      ],
+      "nearest_context_points_outside_interval_sec": [],
+      "cache_availability_note": "Repeated nearest points do not count as multiple unique frames; actual sample spacing is preserved.",
+      "scope": "Early/middle/late navigation samples only. Cache gaps and sub-cadence intervals may not contain distinct samples for all phases."
+    },
+    {
+      "start_sec": 30.0,
+      "end_sec": 32.0,
+      "old_state": "cut",
+      "actual_cache_points_seen_inside_interval_sec": [
+        30.05
+      ],
+      "nearest_context_points_outside_interval_sec": [],
+      "cache_availability_note": "Repeated nearest points do not count as multiple unique frames; actual sample spacing is preserved.",
+      "scope": "Early/middle/late navigation samples only. Cache gaps and sub-cadence intervals may not contain distinct samples for all phases."
+    },
+    {
+      "start_sec": 32.0,
+      "end_sec": 40.0,
+      "old_state": "P",
+      "actual_cache_points_seen_inside_interval_sec": [
+        32.05,
+        34.05,
+        36.05,
+        38.05
+      ],
+      "nearest_context_points_outside_interval_sec": [],
+      "cache_availability_note": "Repeated nearest points do not count as multiple unique frames; actual sample spacing is preserved.",
+      "scope": "Early/middle/late navigation samples only. Cache gaps and sub-cadence intervals may not contain distinct samples for all phases."
+    },
+    {
+      "start_sec": 40.0,
+      "end_sec": 46.0,
+      "old_state": "cut",
+      "actual_cache_points_seen_inside_interval_sec": [
+        40.05,
+        42.05,
+        44.05
+      ],
+      "nearest_context_points_outside_interval_sec": [],
+      "cache_availability_note": "Repeated nearest points do not count as multiple unique frames; actual sample spacing is preserved.",
+      "scope": "Early/middle/late navigation samples only. Cache gaps and sub-cadence intervals may not contain distinct samples for all phases."
+    },
+    {
+      "start_sec": 46.0,
+      "end_sec": 82.0,
+      "old_state": "P",
+      "actual_cache_points_seen_inside_interval_sec": [
+        46.1,
+        50.1,
+        52.1,
+        62.1,
+        66.1,
+        70.15,
+        74.15,
+        78.15,
+        80.15
+      ],
+      "nearest_context_points_outside_interval_sec": [],
+      "cache_availability_note": "Repeated nearest points do not count as multiple unique frames; actual sample spacing is preserved.",
+      "scope": "Early/middle/late navigation samples only. Cache gaps and sub-cadence intervals may not contain distinct samples for all phases."
+    },
+    {
+      "start_sec": 82.0,
+      "end_sec": 86.0,
+      "old_state": "cut",
+      "actual_cache_points_seen_inside_interval_sec": [
+        82.15,
+        84.15
+      ],
+      "nearest_context_points_outside_interval_sec": [],
+      "cache_availability_note": "Repeated nearest points do not count as multiple unique frames; actual sample spacing is preserved.",
+      "scope": "Early/middle/late navigation samples only. Cache gaps and sub-cadence intervals may not contain distinct samples for all phases."
+    },
+    {
+      "start_sec": 86.0,
+      "end_sec": 128.0,
+      "old_state": "P",
+      "actual_cache_points_seen_inside_interval_sec": [
+        86.15,
+        90.15,
+        92.15,
+        110.2,
+        114.2,
+        118.25,
+        120.25,
+        122.25,
+        124.25
+      ],
+      "nearest_context_points_outside_interval_sec": [],
+      "cache_availability_note": "Repeated nearest points do not count as multiple unique frames; actual sample spacing is preserved.",
+      "scope": "Early/middle/late navigation samples only. Cache gaps and sub-cadence intervals may not contain distinct samples for all phases."
+    },
+    {
+      "start_sec": 128.0,
+      "end_sec": 134.0,
+      "old_state": "cut",
+      "actual_cache_points_seen_inside_interval_sec": [
+        128.25,
+        132.4
+      ],
+      "nearest_context_points_outside_interval_sec": [],
+      "cache_availability_note": "Repeated nearest points do not count as multiple unique frames; actual sample spacing is preserved.",
+      "scope": "Early/middle/late navigation samples only. Cache gaps and sub-cadence intervals may not contain distinct samples for all phases."
+    },
+    {
+      "start_sec": 134.0,
+      "end_sec": 150.0,
+      "old_state": "cut",
+      "actual_cache_points_seen_inside_interval_sec": [
+        134.4,
+        138.4,
+        142.44
+      ],
+      "nearest_context_points_outside_interval_sec": [],
+      "cache_availability_note": "Repeated nearest points do not count as multiple unique frames; actual sample spacing is preserved.",
+      "scope": "Early/middle/late navigation samples only. Cache gaps and sub-cadence intervals may not contain distinct samples for all phases."
+    },
+    {
+      "start_sec": 150.0,
+      "end_sec": 343.0,
+      "old_state": "P",
+      "actual_cache_points_seen_inside_interval_sec": [
+        150.44,
+        152.44,
+        158.44,
+        246.99,
+        248.99,
+        254.99,
+        325.14,
+        331.14,
+        335.19
+      ],
+      "nearest_context_points_outside_interval_sec": [],
+      "cache_availability_note": "Repeated nearest points do not count as multiple unique frames; actual sample spacing is preserved.",
+      "scope": "Early/middle/late navigation samples only. Cache gaps and sub-cadence intervals may not contain distinct samples for all phases."
+    },
+    {
+      "start_sec": 343.0,
+      "end_sec": 349.0,
+      "old_state": "cut",
+      "actual_cache_points_seen_inside_interval_sec": [
+        343.19,
+        347.34
+      ],
+      "nearest_context_points_outside_interval_sec": [],
+      "cache_availability_note": "Repeated nearest points do not count as multiple unique frames; actual sample spacing is preserved.",
+      "scope": "Early/middle/late navigation samples only. Cache gaps and sub-cadence intervals may not contain distinct samples for all phases."
+    },
+    {
+      "start_sec": 349.0,
+      "end_sec": 360.0,
+      "old_state": "P",
+      "actual_cache_points_seen_inside_interval_sec": [
+        349.34,
+        353.34,
+        357.64,
+        359.69
+      ],
+      "nearest_context_points_outside_interval_sec": [],
+      "cache_availability_note": "Repeated nearest points do not count as multiple unique frames; actual sample spacing is preserved.",
+      "scope": "Early/middle/late navigation samples only. Cache gaps and sub-cadence intervals may not contain distinct samples for all phases."
+    },
+    {
+      "start_sec": 360.0,
+      "end_sec": 402.0,
+      "old_state": "cut",
+      "actual_cache_points_seen_inside_interval_sec": [
+        361.69,
+        363.69,
+        367.69,
+        381.69,
+        383.73,
+        385.73,
+        391.78,
+        399.98,
+        401.98
+      ],
+      "nearest_context_points_outside_interval_sec": [],
+      "cache_availability_note": "Repeated nearest points do not count as multiple unique frames; actual sample spacing is preserved.",
+      "scope": "Early/middle/late navigation samples only. Cache gaps and sub-cadence intervals may not contain distinct samples for all phases."
+    },
+    {
+      "start_sec": 402.0,
+      "end_sec": 462.0,
+      "old_state": "P",
+      "actual_cache_points_seen_inside_interval_sec": [
+        410.03,
+        412.03,
+        418.03,
+        432.08,
+        440.08,
+        444.08,
+        452.08,
+        456.13,
+        460.13
+      ],
+      "nearest_context_points_outside_interval_sec": [],
+      "cache_availability_note": "Repeated nearest points do not count as multiple unique frames; actual sample spacing is preserved.",
+      "scope": "Early/middle/late navigation samples only. Cache gaps and sub-cadence intervals may not contain distinct samples for all phases."
+    },
+    {
+      "start_sec": 462.0,
+      "end_sec": 466.0,
+      "old_state": "cut",
+      "actual_cache_points_seen_inside_interval_sec": [
+        462.13,
+        464.13
+      ],
+      "nearest_context_points_outside_interval_sec": [],
+      "cache_availability_note": "Repeated nearest points do not count as multiple unique frames; actual sample spacing is preserved.",
+      "scope": "Early/middle/late navigation samples only. Cache gaps and sub-cadence intervals may not contain distinct samples for all phases."
+    },
+    {
+      "start_sec": 466.0,
+      "end_sec": 528.0,
+      "old_state": "P",
+      "actual_cache_points_seen_inside_interval_sec": [
+        466.13,
+        470.13,
+        472.13,
+        498.18,
+        500.18,
+        504.23,
+        512.23,
+        518.23,
+        524.38
+      ],
+      "nearest_context_points_outside_interval_sec": [],
+      "cache_availability_note": "Repeated nearest points do not count as multiple unique frames; actual sample spacing is preserved.",
+      "scope": "Early/middle/late navigation samples only. Cache gaps and sub-cadence intervals may not contain distinct samples for all phases."
+    },
+    {
+      "start_sec": 528.0,
+      "end_sec": 544.0,
+      "old_state": "cut",
+      "actual_cache_points_seen_inside_interval_sec": [
+        528.43,
+        532.43,
+        534.43,
+        536.43,
+        538.43,
+        540.43,
+        542.43
+      ],
+      "nearest_context_points_outside_interval_sec": [],
+      "cache_availability_note": "Repeated nearest points do not count as multiple unique frames; actual sample spacing is preserved.",
+      "scope": "Early/middle/late navigation samples only. Cache gaps and sub-cadence intervals may not contain distinct samples for all phases."
+    }
+  ],
+  "observed_evidence": [
+    {
+      "unit_id": "v1_114",
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/remaining-a/v1_114/context-extra.jpg",
+      "contact_sha256": "33e3c6c4e843300b9e690ef4981c39238a5426f373ca1df132f6337d831e5708",
+      "crop_reference_xyxy": null,
+      "crop_reference_wh": [
+        960,
+        540
+      ],
+      "cache_points": [
+        {
+          "audit_sec": 0.0,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000000_t0s.jpg",
+          "tag": "context-only"
+        },
+        {
+          "audit_sec": 78.15,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000039_t78s.jpg",
+          "tag": "context-only"
+        },
+        {
+          "audit_sec": 152.44,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000076_t152s.jpg",
+          "tag": "context-only"
+        },
+        {
+          "audit_sec": 232.59,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000116_t233s.jpg",
+          "tag": "context-only"
+        },
+        {
+          "audit_sec": 315.14,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000157_t315s.jpg",
+          "tag": "context-only"
+        },
+        {
+          "audit_sec": 389.78,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000194_t390s.jpg",
+          "tag": "context-only"
+        },
+        {
+          "audit_sec": 466.13,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000232_t466s.jpg",
+          "tag": "context-only"
+        },
+        {
+          "audit_sec": 544.43,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000271_t544s.jpg",
+          "tag": "context-only"
+        }
+      ],
+      "scope": "Only listed samples. Consecutive cache frames are about2s apart; no full continuous coverage claim.",
+      "actually_viewed_this_pass": true
+    },
+    {
+      "unit_id": "v1_114",
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/remaining-a/v1_114/ordered-supplement-00.jpg",
+      "contact_sha256": "290b4f814fae50c230d595b7eae0d406cd953b210c17d1b17c66b57dc8edf640",
+      "crop_reference_xyxy": null,
+      "crop_reference_wh": [
+        960,
+        540
+      ],
+      "cache_points": [
+        {
+          "audit_sec": 0.0,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000000_t0s.jpg",
+          "tag": "seg0 pos early adjacent-existing"
+        },
+        {
+          "audit_sec": 4.0,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000002_t4s.jpg",
+          "tag": "seg0 pos early adjacent-existing"
+        },
+        {
+          "audit_sec": 8.0,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000004_t8s.jpg",
+          "tag": "seg0 pos early adjacent-existing"
+        },
+        {
+          "audit_sec": 16.0,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000008_t16s.jpg",
+          "tag": "seg0 pos middle adjacent-existing"
+        },
+        {
+          "audit_sec": 20.0,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000010_t20s.jpg",
+          "tag": "seg0 pos middle adjacent-existing"
+        },
+        {
+          "audit_sec": 22.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000011_t22s.jpg",
+          "tag": "seg0 pos middle adjacent-existing"
+        },
+        {
+          "audit_sec": 34.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000017_t34s.jpg",
+          "tag": "seg2 pos middle adjacent-existing"
+        },
+        {
+          "audit_sec": 36.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000018_t36s.jpg",
+          "tag": "seg2 pos middle adjacent-existing"
+        },
+        {
+          "audit_sec": 38.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000019_t38s.jpg",
+          "tag": "seg2 pos middle adjacent-existing"
+        },
+        {
+          "audit_sec": 40.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000020_t40s.jpg",
+          "tag": "seg3 cut middle adjacent-existing"
+        },
+        {
+          "audit_sec": 42.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000021_t42s.jpg",
+          "tag": "seg3 cut middle adjacent-existing"
+        },
+        {
+          "audit_sec": 44.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000022_t44s.jpg",
+          "tag": "seg3 cut middle adjacent-existing"
+        },
+        {
+          "audit_sec": 46.1,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000023_t46s.jpg",
+          "tag": "seg4 pos early adjacent-existing"
+        },
+        {
+          "audit_sec": 50.1,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000025_t50s.jpg",
+          "tag": "seg4 pos early adjacent-existing"
+        },
+        {
+          "audit_sec": 52.1,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000026_t52s.jpg",
+          "tag": "seg4 pos early adjacent-existing"
+        },
+        {
+          "audit_sec": 62.1,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000031_t62s.jpg",
+          "tag": "seg4 pos middle adjacent-existing"
+        },
+        {
+          "audit_sec": 66.1,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000033_t66s.jpg",
+          "tag": "seg4 pos middle adjacent-existing"
+        },
+        {
+          "audit_sec": 70.15,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000035_t70s.jpg",
+          "tag": "seg4 pos middle adjacent-existing"
+        }
+      ],
+      "scope": "Only listed samples. Consecutive cache frames are about2s apart; no full continuous coverage claim.",
+      "actually_viewed_this_pass": true
+    },
+    {
+      "unit_id": "v1_114",
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/remaining-a/v1_114/ordered-supplement-01.jpg",
+      "contact_sha256": "d58c994ec28ab287fdbdff3a73e180b124cf70497f3a8c1fa36f6e0b737031f8",
+      "crop_reference_xyxy": null,
+      "crop_reference_wh": [
+        960,
+        540
+      ],
+      "cache_points": [
+        {
+          "audit_sec": 82.15,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000041_t82s.jpg",
+          "tag": "seg5 cut middle adjacent-existing"
+        },
+        {
+          "audit_sec": 84.15,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000042_t84s.jpg",
+          "tag": "seg5 cut middle adjacent-existing"
+        },
+        {
+          "audit_sec": 86.15,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000043_t86s.jpg",
+          "tag": "seg6 pos early adjacent-existing"
+        },
+        {
+          "audit_sec": 90.15,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000045_t90s.jpg",
+          "tag": "seg6 pos early adjacent-existing"
+        },
+        {
+          "audit_sec": 92.15,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000046_t92s.jpg",
+          "tag": "seg6 pos early adjacent-existing"
+        },
+        {
+          "audit_sec": 110.2,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000055_t110s.jpg",
+          "tag": "seg6 pos middle adjacent-existing"
+        },
+        {
+          "audit_sec": 114.2,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000057_t114s.jpg",
+          "tag": "seg6 pos middle adjacent-existing"
+        },
+        {
+          "audit_sec": 118.25,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000059_t118s.jpg",
+          "tag": "seg6 pos middle adjacent-existing"
+        },
+        {
+          "audit_sec": 120.25,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000060_t120s.jpg",
+          "tag": "seg6 pos late adjacent-existing"
+        },
+        {
+          "audit_sec": 122.25,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000061_t122s.jpg",
+          "tag": "seg6 pos late adjacent-existing"
+        },
+        {
+          "audit_sec": 124.25,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000062_t124s.jpg",
+          "tag": "seg6 pos late adjacent-existing"
+        },
+        {
+          "audit_sec": 128.25,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000064_t128s.jpg",
+          "tag": "seg7 cut middle adjacent-existing"
+        },
+        {
+          "audit_sec": 132.4,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000066_t132s.jpg",
+          "tag": "seg7 cut middle adjacent-existing"
+        },
+        {
+          "audit_sec": 134.4,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000067_t134s.jpg",
+          "tag": "seg8 cut early adjacent-existing"
+        },
+        {
+          "audit_sec": 138.4,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000069_t138s.jpg",
+          "tag": "seg8 cut early adjacent-existing"
+        },
+        {
+          "audit_sec": 142.44,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000071_t142s.jpg",
+          "tag": "seg8 cut early adjacent-existing"
+        },
+        {
+          "audit_sec": 134.4,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000067_t134s.jpg",
+          "tag": "seg8 cut middle adjacent-existing"
+        },
+        {
+          "audit_sec": 138.4,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000069_t138s.jpg",
+          "tag": "seg8 cut middle adjacent-existing"
+        }
+      ],
+      "scope": "Only listed samples. Consecutive cache frames are about2s apart; no full continuous coverage claim.",
+      "actually_viewed_this_pass": true
+    },
+    {
+      "unit_id": "v1_114",
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/remaining-a/v1_114/ordered-supplement-02.jpg",
+      "contact_sha256": "fdfb4394b40cf6719aa61469ef42b6a9b38daad4bc783ee8950cbc96d94a5ce8",
+      "crop_reference_xyxy": null,
+      "crop_reference_wh": [
+        960,
+        540
+      ],
+      "cache_points": [
+        {
+          "audit_sec": 142.44,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000071_t142s.jpg",
+          "tag": "seg8 cut middle adjacent-existing"
+        },
+        {
+          "audit_sec": 134.4,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000067_t134s.jpg",
+          "tag": "seg8 cut late adjacent-existing"
+        },
+        {
+          "audit_sec": 138.4,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000069_t138s.jpg",
+          "tag": "seg8 cut late adjacent-existing"
+        },
+        {
+          "audit_sec": 142.44,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000071_t142s.jpg",
+          "tag": "seg8 cut late adjacent-existing"
+        },
+        {
+          "audit_sec": 150.44,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000075_t150s.jpg",
+          "tag": "seg9 pos early adjacent-existing"
+        },
+        {
+          "audit_sec": 152.44,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000076_t152s.jpg",
+          "tag": "seg9 pos early adjacent-existing"
+        },
+        {
+          "audit_sec": 158.44,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000079_t158s.jpg",
+          "tag": "seg9 pos early adjacent-existing"
+        },
+        {
+          "audit_sec": 246.99,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000123_t247s.jpg",
+          "tag": "seg9 pos middle adjacent-existing"
+        },
+        {
+          "audit_sec": 248.99,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000124_t249s.jpg",
+          "tag": "seg9 pos middle adjacent-existing"
+        },
+        {
+          "audit_sec": 254.99,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000127_t255s.jpg",
+          "tag": "seg9 pos middle adjacent-existing"
+        },
+        {
+          "audit_sec": 325.14,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000162_t325s.jpg",
+          "tag": "seg9 pos late adjacent-existing"
+        },
+        {
+          "audit_sec": 331.14,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000165_t331s.jpg",
+          "tag": "seg9 pos late adjacent-existing"
+        },
+        {
+          "audit_sec": 335.19,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000167_t335s.jpg",
+          "tag": "seg9 pos late adjacent-existing"
+        },
+        {
+          "audit_sec": 343.19,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000171_t343s.jpg",
+          "tag": "seg10 cut middle adjacent-existing"
+        },
+        {
+          "audit_sec": 347.34,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000173_t347s.jpg",
+          "tag": "seg10 cut middle adjacent-existing"
+        },
+        {
+          "audit_sec": 349.34,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000174_t349s.jpg",
+          "tag": "seg11 pos early adjacent-existing"
+        },
+        {
+          "audit_sec": 353.34,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000176_t353s.jpg",
+          "tag": "seg11 pos early adjacent-existing"
+        },
+        {
+          "audit_sec": 357.64,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000178_t358s.jpg",
+          "tag": "seg11 pos early adjacent-existing"
+        }
+      ],
+      "scope": "Only listed samples. Consecutive cache frames are about2s apart; no full continuous coverage claim.",
+      "actually_viewed_this_pass": true
+    },
+    {
+      "unit_id": "v1_114",
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/remaining-a/v1_114/ordered-supplement-03.jpg",
+      "contact_sha256": "dc3122673b2b8abe7071e1a60f17613a6657951111a816d1691a3eeb45ddd602",
+      "crop_reference_xyxy": null,
+      "crop_reference_wh": [
+        960,
+        540
+      ],
+      "cache_points": [
+        {
+          "audit_sec": 353.34,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000176_t353s.jpg",
+          "tag": "seg11 pos middle adjacent-existing"
+        },
+        {
+          "audit_sec": 357.64,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000178_t358s.jpg",
+          "tag": "seg11 pos middle adjacent-existing"
+        },
+        {
+          "audit_sec": 359.69,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000179_t360s.jpg",
+          "tag": "seg11 pos middle adjacent-existing"
+        },
+        {
+          "audit_sec": 353.34,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000176_t353s.jpg",
+          "tag": "seg11 pos late adjacent-existing"
+        },
+        {
+          "audit_sec": 357.64,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000178_t358s.jpg",
+          "tag": "seg11 pos late adjacent-existing"
+        },
+        {
+          "audit_sec": 359.69,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000179_t360s.jpg",
+          "tag": "seg11 pos late adjacent-existing"
+        },
+        {
+          "audit_sec": 361.69,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000180_t362s.jpg",
+          "tag": "seg12 cut early adjacent-existing"
+        },
+        {
+          "audit_sec": 363.69,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000181_t364s.jpg",
+          "tag": "seg12 cut early adjacent-existing"
+        },
+        {
+          "audit_sec": 367.69,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000183_t368s.jpg",
+          "tag": "seg12 cut early adjacent-existing"
+        },
+        {
+          "audit_sec": 391.78,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000195_t392s.jpg",
+          "tag": "seg12 cut late adjacent-existing"
+        },
+        {
+          "audit_sec": 399.98,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000199_t400s.jpg",
+          "tag": "seg12 cut late adjacent-existing"
+        },
+        {
+          "audit_sec": 401.98,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000200_t402s.jpg",
+          "tag": "seg12 cut late adjacent-existing"
+        },
+        {
+          "audit_sec": 410.03,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000204_t410s.jpg",
+          "tag": "seg13 pos early adjacent-existing"
+        },
+        {
+          "audit_sec": 412.03,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000205_t412s.jpg",
+          "tag": "seg13 pos early adjacent-existing"
+        },
+        {
+          "audit_sec": 418.03,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000208_t418s.jpg",
+          "tag": "seg13 pos early adjacent-existing"
+        },
+        {
+          "audit_sec": 432.08,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000215_t432s.jpg",
+          "tag": "seg13 pos middle adjacent-existing"
+        },
+        {
+          "audit_sec": 440.08,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000219_t440s.jpg",
+          "tag": "seg13 pos middle adjacent-existing"
+        },
+        {
+          "audit_sec": 444.08,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000221_t444s.jpg",
+          "tag": "seg13 pos middle adjacent-existing"
+        }
+      ],
+      "scope": "Only listed samples. Consecutive cache frames are about2s apart; no full continuous coverage claim.",
+      "actually_viewed_this_pass": true
+    },
+    {
+      "unit_id": "v1_114",
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/remaining-a/v1_114/ordered-supplement-04.jpg",
+      "contact_sha256": "417a9b1ac4ce3f619285df4200d06df5279696b64b285ca171404583c3a833a4",
+      "crop_reference_xyxy": null,
+      "crop_reference_wh": [
+        960,
+        540
+      ],
+      "cache_points": [
+        {
+          "audit_sec": 452.08,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000225_t452s.jpg",
+          "tag": "seg13 pos late adjacent-existing"
+        },
+        {
+          "audit_sec": 456.13,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000227_t456s.jpg",
+          "tag": "seg13 pos late adjacent-existing"
+        },
+        {
+          "audit_sec": 460.13,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000229_t460s.jpg",
+          "tag": "seg13 pos late adjacent-existing"
+        },
+        {
+          "audit_sec": 462.13,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000230_t462s.jpg",
+          "tag": "seg14 cut middle adjacent-existing"
+        },
+        {
+          "audit_sec": 464.13,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000231_t464s.jpg",
+          "tag": "seg14 cut middle adjacent-existing"
+        },
+        {
+          "audit_sec": 466.13,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000232_t466s.jpg",
+          "tag": "seg15 pos early adjacent-existing"
+        },
+        {
+          "audit_sec": 470.13,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000234_t470s.jpg",
+          "tag": "seg15 pos early adjacent-existing"
+        },
+        {
+          "audit_sec": 472.13,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000235_t472s.jpg",
+          "tag": "seg15 pos early adjacent-existing"
+        },
+        {
+          "audit_sec": 498.18,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000248_t498s.jpg",
+          "tag": "seg15 pos middle adjacent-existing"
+        },
+        {
+          "audit_sec": 500.18,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000249_t500s.jpg",
+          "tag": "seg15 pos middle adjacent-existing"
+        },
+        {
+          "audit_sec": 504.23,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000251_t504s.jpg",
+          "tag": "seg15 pos middle adjacent-existing"
+        },
+        {
+          "audit_sec": 512.23,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000255_t512s.jpg",
+          "tag": "seg15 pos late adjacent-existing"
+        },
+        {
+          "audit_sec": 518.23,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000258_t518s.jpg",
+          "tag": "seg15 pos late adjacent-existing"
+        },
+        {
+          "audit_sec": 524.38,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000261_t524s.jpg",
+          "tag": "seg15 pos late adjacent-existing"
+        },
+        {
+          "audit_sec": 528.43,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000263_t528s.jpg",
+          "tag": "seg16 cut early adjacent-existing"
+        },
+        {
+          "audit_sec": 532.43,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000265_t532s.jpg",
+          "tag": "seg16 cut early adjacent-existing"
+        },
+        {
+          "audit_sec": 534.43,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000266_t534s.jpg",
+          "tag": "seg16 cut early adjacent-existing"
+        }
+      ],
+      "scope": "Only listed samples. Consecutive cache frames are about2s apart; no full continuous coverage claim.",
+      "actually_viewed_this_pass": true
+    },
+    {
+      "unit_id": "v1_114",
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/remaining-a/v1_114/screen-00.jpg",
+      "contact_sha256": "7569b14fe482f1c8dc41db5c7eb1ec7f5f92a4be7599f86cbfdf4511219a59e1",
+      "crop_reference_xyxy": null,
+      "crop_reference_wh": [
+        960,
+        540
+      ],
+      "cache_points": [
+        {
+          "audit_sec": 0.0,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000000_t0s.jpg",
+          "tag": "seg0 pos early"
+        },
+        {
+          "audit_sec": 0.0,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000000_t0s.jpg",
+          "tag": "seg0 pos early"
+        },
+        {
+          "audit_sec": 4.0,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000002_t4s.jpg",
+          "tag": "seg0 pos early"
+        },
+        {
+          "audit_sec": 16.0,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000008_t16s.jpg",
+          "tag": "seg0 pos middle"
+        },
+        {
+          "audit_sec": 16.0,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000008_t16s.jpg",
+          "tag": "seg0 pos middle"
+        },
+        {
+          "audit_sec": 20.0,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000010_t20s.jpg",
+          "tag": "seg0 pos middle"
+        },
+        {
+          "audit_sec": 22.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000011_t22s.jpg",
+          "tag": "seg0 pos late"
+        },
+        {
+          "audit_sec": 26.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000013_t26s.jpg",
+          "tag": "seg0 pos late"
+        },
+        {
+          "audit_sec": 28.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000014_t28s.jpg",
+          "tag": "seg0 pos late"
+        },
+        {
+          "audit_sec": 30.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000015_t30s.jpg",
+          "tag": "seg1 cut early"
+        },
+        {
+          "audit_sec": 30.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000015_t30s.jpg",
+          "tag": "seg1 cut early"
+        },
+        {
+          "audit_sec": 30.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000015_t30s.jpg",
+          "tag": "seg1 cut early"
+        },
+        {
+          "audit_sec": 30.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000015_t30s.jpg",
+          "tag": "seg1 cut middle"
+        },
+        {
+          "audit_sec": 30.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000015_t30s.jpg",
+          "tag": "seg1 cut middle"
+        },
+        {
+          "audit_sec": 30.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000015_t30s.jpg",
+          "tag": "seg1 cut middle"
+        },
+        {
+          "audit_sec": 30.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000015_t30s.jpg",
+          "tag": "seg1 cut late"
+        },
+        {
+          "audit_sec": 30.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000015_t30s.jpg",
+          "tag": "seg1 cut late"
+        },
+        {
+          "audit_sec": 30.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000015_t30s.jpg",
+          "tag": "seg1 cut late"
+        },
+        {
+          "audit_sec": 32.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000016_t32s.jpg",
+          "tag": "seg2 pos early"
+        },
+        {
+          "audit_sec": 34.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000017_t34s.jpg",
+          "tag": "seg2 pos early"
+        },
+        {
+          "audit_sec": 36.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000018_t36s.jpg",
+          "tag": "seg2 pos early"
+        },
+        {
+          "audit_sec": 36.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000018_t36s.jpg",
+          "tag": "seg2 pos middle"
+        },
+        {
+          "audit_sec": 38.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000019_t38s.jpg",
+          "tag": "seg2 pos middle"
+        },
+        {
+          "audit_sec": 38.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000019_t38s.jpg",
+          "tag": "seg2 pos middle"
+        },
+        {
+          "audit_sec": 34.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000017_t34s.jpg",
+          "tag": "seg2 pos late"
+        },
+        {
+          "audit_sec": 36.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000018_t36s.jpg",
+          "tag": "seg2 pos late"
+        },
+        {
+          "audit_sec": 38.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000019_t38s.jpg",
+          "tag": "seg2 pos late"
+        }
+      ],
+      "scope": "Only listed samples. Consecutive cache frames are about2s apart; no full continuous coverage claim.",
+      "actually_viewed_this_pass": true
+    },
+    {
+      "unit_id": "v1_114",
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/remaining-a/v1_114/screen-01.jpg",
+      "contact_sha256": "4aaed77ee0e465adb6c4f3c92001e5ada23bf2d086cc2946e3aea3b20037778e",
+      "crop_reference_xyxy": null,
+      "crop_reference_wh": [
+        960,
+        540
+      ],
+      "cache_points": [
+        {
+          "audit_sec": 40.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000020_t40s.jpg",
+          "tag": "seg3 cut early"
+        },
+        {
+          "audit_sec": 42.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000021_t42s.jpg",
+          "tag": "seg3 cut early"
+        },
+        {
+          "audit_sec": 44.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000022_t44s.jpg",
+          "tag": "seg3 cut early"
+        },
+        {
+          "audit_sec": 42.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000021_t42s.jpg",
+          "tag": "seg3 cut middle"
+        },
+        {
+          "audit_sec": 44.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000022_t44s.jpg",
+          "tag": "seg3 cut middle"
+        },
+        {
+          "audit_sec": 44.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000022_t44s.jpg",
+          "tag": "seg3 cut middle"
+        },
+        {
+          "audit_sec": 40.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000020_t40s.jpg",
+          "tag": "seg3 cut late"
+        },
+        {
+          "audit_sec": 42.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000021_t42s.jpg",
+          "tag": "seg3 cut late"
+        },
+        {
+          "audit_sec": 44.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000022_t44s.jpg",
+          "tag": "seg3 cut late"
+        },
+        {
+          "audit_sec": 46.1,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000023_t46s.jpg",
+          "tag": "seg4 pos early"
+        },
+        {
+          "audit_sec": 46.1,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000023_t46s.jpg",
+          "tag": "seg4 pos early"
+        },
+        {
+          "audit_sec": 50.1,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000025_t50s.jpg",
+          "tag": "seg4 pos early"
+        },
+        {
+          "audit_sec": 62.1,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000031_t62s.jpg",
+          "tag": "seg4 pos middle"
+        },
+        {
+          "audit_sec": 66.1,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000033_t66s.jpg",
+          "tag": "seg4 pos middle"
+        },
+        {
+          "audit_sec": 66.1,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000033_t66s.jpg",
+          "tag": "seg4 pos middle"
+        },
+        {
+          "audit_sec": 74.15,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000037_t74s.jpg",
+          "tag": "seg4 pos late"
+        },
+        {
+          "audit_sec": 78.15,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000039_t78s.jpg",
+          "tag": "seg4 pos late"
+        },
+        {
+          "audit_sec": 80.15,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000040_t80s.jpg",
+          "tag": "seg4 pos late"
+        },
+        {
+          "audit_sec": 82.15,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000041_t82s.jpg",
+          "tag": "seg5 cut early"
+        },
+        {
+          "audit_sec": 84.15,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000042_t84s.jpg",
+          "tag": "seg5 cut early"
+        },
+        {
+          "audit_sec": 84.15,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000042_t84s.jpg",
+          "tag": "seg5 cut early"
+        },
+        {
+          "audit_sec": 84.15,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000042_t84s.jpg",
+          "tag": "seg5 cut middle"
+        },
+        {
+          "audit_sec": 84.15,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000042_t84s.jpg",
+          "tag": "seg5 cut middle"
+        },
+        {
+          "audit_sec": 84.15,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000042_t84s.jpg",
+          "tag": "seg5 cut middle"
+        },
+        {
+          "audit_sec": 82.15,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000041_t82s.jpg",
+          "tag": "seg5 cut late"
+        },
+        {
+          "audit_sec": 84.15,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000042_t84s.jpg",
+          "tag": "seg5 cut late"
+        },
+        {
+          "audit_sec": 84.15,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000042_t84s.jpg",
+          "tag": "seg5 cut late"
+        }
+      ],
+      "scope": "Only listed samples. Consecutive cache frames are about2s apart; no full continuous coverage claim.",
+      "actually_viewed_this_pass": true
+    },
+    {
+      "unit_id": "v1_114",
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/remaining-a/v1_114/screen-02.jpg",
+      "contact_sha256": "7ed2c1a48a922d51db9262def7e6cebbda163d0eb74573d834547c8ed39e31fa",
+      "crop_reference_xyxy": null,
+      "crop_reference_wh": [
+        960,
+        540
+      ],
+      "cache_points": [
+        {
+          "audit_sec": 86.15,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000043_t86s.jpg",
+          "tag": "seg6 pos early"
+        },
+        {
+          "audit_sec": 86.15,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000043_t86s.jpg",
+          "tag": "seg6 pos early"
+        },
+        {
+          "audit_sec": 90.15,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000045_t90s.jpg",
+          "tag": "seg6 pos early"
+        },
+        {
+          "audit_sec": 110.2,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000055_t110s.jpg",
+          "tag": "seg6 pos middle"
+        },
+        {
+          "audit_sec": 110.2,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000055_t110s.jpg",
+          "tag": "seg6 pos middle"
+        },
+        {
+          "audit_sec": 110.2,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000055_t110s.jpg",
+          "tag": "seg6 pos middle"
+        },
+        {
+          "audit_sec": 122.25,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000061_t122s.jpg",
+          "tag": "seg6 pos late"
+        },
+        {
+          "audit_sec": 124.25,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000062_t124s.jpg",
+          "tag": "seg6 pos late"
+        },
+        {
+          "audit_sec": 124.25,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000062_t124s.jpg",
+          "tag": "seg6 pos late"
+        },
+        {
+          "audit_sec": 128.25,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000064_t128s.jpg",
+          "tag": "seg7 cut early"
+        },
+        {
+          "audit_sec": 128.25,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000064_t128s.jpg",
+          "tag": "seg7 cut early"
+        },
+        {
+          "audit_sec": 132.4,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000066_t132s.jpg",
+          "tag": "seg7 cut early"
+        },
+        {
+          "audit_sec": 132.4,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000066_t132s.jpg",
+          "tag": "seg7 cut middle"
+        },
+        {
+          "audit_sec": 132.4,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000066_t132s.jpg",
+          "tag": "seg7 cut middle"
+        },
+        {
+          "audit_sec": 132.4,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000066_t132s.jpg",
+          "tag": "seg7 cut middle"
+        },
+        {
+          "audit_sec": 128.25,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000064_t128s.jpg",
+          "tag": "seg7 cut late"
+        },
+        {
+          "audit_sec": 128.25,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000064_t128s.jpg",
+          "tag": "seg7 cut late"
+        },
+        {
+          "audit_sec": 132.4,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000066_t132s.jpg",
+          "tag": "seg7 cut late"
+        },
+        {
+          "audit_sec": 134.4,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000067_t134s.jpg",
+          "tag": "seg8 cut early"
+        },
+        {
+          "audit_sec": 134.4,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000067_t134s.jpg",
+          "tag": "seg8 cut early"
+        },
+        {
+          "audit_sec": 138.4,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000069_t138s.jpg",
+          "tag": "seg8 cut early"
+        },
+        {
+          "audit_sec": 142.44,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000071_t142s.jpg",
+          "tag": "seg8 cut middle"
+        },
+        {
+          "audit_sec": 142.44,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000071_t142s.jpg",
+          "tag": "seg8 cut middle"
+        },
+        {
+          "audit_sec": 142.44,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000071_t142s.jpg",
+          "tag": "seg8 cut middle"
+        },
+        {
+          "audit_sec": 142.44,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000071_t142s.jpg",
+          "tag": "seg8 cut late"
+        },
+        {
+          "audit_sec": 142.44,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000071_t142s.jpg",
+          "tag": "seg8 cut late"
+        },
+        {
+          "audit_sec": 142.44,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000071_t142s.jpg",
+          "tag": "seg8 cut late"
+        }
+      ],
+      "scope": "Only listed samples. Consecutive cache frames are about2s apart; no full continuous coverage claim.",
+      "actually_viewed_this_pass": true
+    },
+    {
+      "unit_id": "v1_114",
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/remaining-a/v1_114/screen-03.jpg",
+      "contact_sha256": "6b4cc5cd36b17126045f00a307ca869d239b76b78c3089bf130af253b933c06a",
+      "crop_reference_xyxy": null,
+      "crop_reference_wh": [
+        960,
+        540
+      ],
+      "cache_points": [
+        {
+          "audit_sec": 150.44,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000075_t150s.jpg",
+          "tag": "seg9 pos early"
+        },
+        {
+          "audit_sec": 152.44,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000076_t152s.jpg",
+          "tag": "seg9 pos early"
+        },
+        {
+          "audit_sec": 152.44,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000076_t152s.jpg",
+          "tag": "seg9 pos early"
+        },
+        {
+          "audit_sec": 246.99,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000123_t247s.jpg",
+          "tag": "seg9 pos middle"
+        },
+        {
+          "audit_sec": 248.99,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000124_t249s.jpg",
+          "tag": "seg9 pos middle"
+        },
+        {
+          "audit_sec": 248.99,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000124_t249s.jpg",
+          "tag": "seg9 pos middle"
+        },
+        {
+          "audit_sec": 335.19,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000167_t335s.jpg",
+          "tag": "seg9 pos late"
+        },
+        {
+          "audit_sec": 335.19,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000167_t335s.jpg",
+          "tag": "seg9 pos late"
+        },
+        {
+          "audit_sec": 335.19,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000167_t335s.jpg",
+          "tag": "seg9 pos late"
+        },
+        {
+          "audit_sec": 343.19,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000171_t343s.jpg",
+          "tag": "seg10 cut early"
+        },
+        {
+          "audit_sec": 343.19,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000171_t343s.jpg",
+          "tag": "seg10 cut early"
+        },
+        {
+          "audit_sec": 347.34,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000173_t347s.jpg",
+          "tag": "seg10 cut early"
+        },
+        {
+          "audit_sec": 347.34,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000173_t347s.jpg",
+          "tag": "seg10 cut middle"
+        },
+        {
+          "audit_sec": 347.34,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000173_t347s.jpg",
+          "tag": "seg10 cut middle"
+        },
+        {
+          "audit_sec": 347.34,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000173_t347s.jpg",
+          "tag": "seg10 cut middle"
+        },
+        {
+          "audit_sec": 343.19,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000171_t343s.jpg",
+          "tag": "seg10 cut late"
+        },
+        {
+          "audit_sec": 343.19,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000171_t343s.jpg",
+          "tag": "seg10 cut late"
+        },
+        {
+          "audit_sec": 347.34,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000173_t347s.jpg",
+          "tag": "seg10 cut late"
+        },
+        {
+          "audit_sec": 349.34,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000174_t349s.jpg",
+          "tag": "seg11 pos early"
+        },
+        {
+          "audit_sec": 349.34,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000174_t349s.jpg",
+          "tag": "seg11 pos early"
+        },
+        {
+          "audit_sec": 353.34,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000176_t353s.jpg",
+          "tag": "seg11 pos early"
+        },
+        {
+          "audit_sec": 353.34,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000176_t353s.jpg",
+          "tag": "seg11 pos middle"
+        },
+        {
+          "audit_sec": 357.64,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000178_t358s.jpg",
+          "tag": "seg11 pos middle"
+        },
+        {
+          "audit_sec": 357.64,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000178_t358s.jpg",
+          "tag": "seg11 pos middle"
+        },
+        {
+          "audit_sec": 353.34,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000176_t353s.jpg",
+          "tag": "seg11 pos late"
+        },
+        {
+          "audit_sec": 357.64,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000178_t358s.jpg",
+          "tag": "seg11 pos late"
+        },
+        {
+          "audit_sec": 357.64,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000178_t358s.jpg",
+          "tag": "seg11 pos late"
+        }
+      ],
+      "scope": "Only listed samples. Consecutive cache frames are about2s apart; no full continuous coverage claim.",
+      "actually_viewed_this_pass": true
+    },
+    {
+      "unit_id": "v1_114",
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/remaining-a/v1_114/screen-04.jpg",
+      "contact_sha256": "ea15ef9fefe5a73c79f8c1e13d37ff874043c3abca0d6311b9b0ebdc2cc05bf5",
+      "crop_reference_xyxy": null,
+      "crop_reference_wh": [
+        960,
+        540
+      ],
+      "cache_points": [
+        {
+          "audit_sec": 361.69,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000180_t362s.jpg",
+          "tag": "seg12 cut early"
+        },
+        {
+          "audit_sec": 361.69,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000180_t362s.jpg",
+          "tag": "seg12 cut early"
+        },
+        {
+          "audit_sec": 363.69,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000181_t364s.jpg",
+          "tag": "seg12 cut early"
+        },
+        {
+          "audit_sec": 381.69,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000190_t382s.jpg",
+          "tag": "seg12 cut middle"
+        },
+        {
+          "audit_sec": 383.73,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000191_t384s.jpg",
+          "tag": "seg12 cut middle"
+        },
+        {
+          "audit_sec": 385.73,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000192_t386s.jpg",
+          "tag": "seg12 cut middle"
+        },
+        {
+          "audit_sec": 399.98,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000199_t400s.jpg",
+          "tag": "seg12 cut late"
+        },
+        {
+          "audit_sec": 399.98,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000199_t400s.jpg",
+          "tag": "seg12 cut late"
+        },
+        {
+          "audit_sec": 399.98,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000199_t400s.jpg",
+          "tag": "seg12 cut late"
+        },
+        {
+          "audit_sec": 410.03,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000204_t410s.jpg",
+          "tag": "seg13 pos early"
+        },
+        {
+          "audit_sec": 410.03,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000204_t410s.jpg",
+          "tag": "seg13 pos early"
+        },
+        {
+          "audit_sec": 410.03,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000204_t410s.jpg",
+          "tag": "seg13 pos early"
+        },
+        {
+          "audit_sec": 432.08,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000215_t432s.jpg",
+          "tag": "seg13 pos middle"
+        },
+        {
+          "audit_sec": 432.08,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000215_t432s.jpg",
+          "tag": "seg13 pos middle"
+        },
+        {
+          "audit_sec": 432.08,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000215_t432s.jpg",
+          "tag": "seg13 pos middle"
+        },
+        {
+          "audit_sec": 456.13,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000227_t456s.jpg",
+          "tag": "seg13 pos late"
+        },
+        {
+          "audit_sec": 456.13,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000227_t456s.jpg",
+          "tag": "seg13 pos late"
+        },
+        {
+          "audit_sec": 460.13,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000229_t460s.jpg",
+          "tag": "seg13 pos late"
+        },
+        {
+          "audit_sec": 462.13,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000230_t462s.jpg",
+          "tag": "seg14 cut early"
+        },
+        {
+          "audit_sec": 464.13,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000231_t464s.jpg",
+          "tag": "seg14 cut early"
+        },
+        {
+          "audit_sec": 464.13,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000231_t464s.jpg",
+          "tag": "seg14 cut early"
+        },
+        {
+          "audit_sec": 464.13,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000231_t464s.jpg",
+          "tag": "seg14 cut middle"
+        },
+        {
+          "audit_sec": 464.13,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000231_t464s.jpg",
+          "tag": "seg14 cut middle"
+        },
+        {
+          "audit_sec": 464.13,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000231_t464s.jpg",
+          "tag": "seg14 cut middle"
+        },
+        {
+          "audit_sec": 462.13,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000230_t462s.jpg",
+          "tag": "seg14 cut late"
+        },
+        {
+          "audit_sec": 464.13,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000231_t464s.jpg",
+          "tag": "seg14 cut late"
+        },
+        {
+          "audit_sec": 464.13,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000231_t464s.jpg",
+          "tag": "seg14 cut late"
+        }
+      ],
+      "scope": "Only listed samples. Consecutive cache frames are about2s apart; no full continuous coverage claim.",
+      "actually_viewed_this_pass": true
+    },
+    {
+      "unit_id": "v1_114",
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/remaining-a/v1_114/screen-05.jpg",
+      "contact_sha256": "99447e02a1317a85b8203f223ad3b5e41f16b61676a5539eef81e4556acb022a",
+      "crop_reference_xyxy": null,
+      "crop_reference_wh": [
+        960,
+        540
+      ],
+      "cache_points": [
+        {
+          "audit_sec": 466.13,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000232_t466s.jpg",
+          "tag": "seg15 pos early"
+        },
+        {
+          "audit_sec": 466.13,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000232_t466s.jpg",
+          "tag": "seg15 pos early"
+        },
+        {
+          "audit_sec": 470.13,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000234_t470s.jpg",
+          "tag": "seg15 pos early"
+        },
+        {
+          "audit_sec": 498.18,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000248_t498s.jpg",
+          "tag": "seg15 pos middle"
+        },
+        {
+          "audit_sec": 498.18,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000248_t498s.jpg",
+          "tag": "seg15 pos middle"
+        },
+        {
+          "audit_sec": 500.18,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000249_t500s.jpg",
+          "tag": "seg15 pos middle"
+        },
+        {
+          "audit_sec": 524.38,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000261_t524s.jpg",
+          "tag": "seg15 pos late"
+        },
+        {
+          "audit_sec": 524.38,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000261_t524s.jpg",
+          "tag": "seg15 pos late"
+        },
+        {
+          "audit_sec": 524.38,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000261_t524s.jpg",
+          "tag": "seg15 pos late"
+        },
+        {
+          "audit_sec": 528.43,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000263_t528s.jpg",
+          "tag": "seg16 cut early"
+        },
+        {
+          "audit_sec": 528.43,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000263_t528s.jpg",
+          "tag": "seg16 cut early"
+        },
+        {
+          "audit_sec": 532.43,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000265_t532s.jpg",
+          "tag": "seg16 cut early"
+        },
+        {
+          "audit_sec": 536.43,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000267_t536s.jpg",
+          "tag": "seg16 cut middle"
+        },
+        {
+          "audit_sec": 538.43,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000268_t538s.jpg",
+          "tag": "seg16 cut middle"
+        },
+        {
+          "audit_sec": 540.43,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000269_t540s.jpg",
+          "tag": "seg16 cut middle"
+        },
+        {
+          "audit_sec": 538.43,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000268_t538s.jpg",
+          "tag": "seg16 cut late"
+        },
+        {
+          "audit_sec": 540.43,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000269_t540s.jpg",
+          "tag": "seg16 cut late"
+        },
+        {
+          "audit_sec": 542.43,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_114_frame_000270_t542s.jpg",
+          "tag": "seg16 cut late"
+        }
+      ],
+      "scope": "Only listed samples. Consecutive cache frames are about2s apart; no full continuous coverage claim.",
+      "actually_viewed_this_pass": true
+    }
+  ],
+  "actual_cache_points_seen_sec": [
+    0.0,
+    4.0,
+    8.0,
+    16.0,
+    20.0,
+    22.05,
+    26.05,
+    28.05,
+    30.05,
+    32.05,
+    34.05,
+    36.05,
+    38.05,
+    40.05,
+    42.05,
+    44.05,
+    46.1,
+    50.1,
+    52.1,
+    62.1,
+    66.1,
+    70.15,
+    74.15,
+    78.15,
+    80.15,
+    82.15,
+    84.15,
+    86.15,
+    90.15,
+    92.15,
+    110.2,
+    114.2,
+    118.25,
+    120.25,
+    122.25,
+    124.25,
+    128.25,
+    132.4,
+    134.4,
+    138.4,
+    142.44,
+    150.44,
+    152.44,
+    158.44,
+    232.59,
+    246.99,
+    248.99,
+    254.99,
+    315.14,
+    325.14,
+    331.14,
+    335.19,
+    343.19,
+    347.34,
+    349.34,
+    353.34,
+    357.64,
+    359.69,
+    361.69,
+    363.69,
+    367.69,
+    381.69,
+    383.73,
+    385.73,
+    389.78,
+    391.78,
+    399.98,
+    401.98,
+    410.03,
+    412.03,
+    418.03,
+    432.08,
+    440.08,
+    444.08,
+    452.08,
+    456.13,
+    460.13,
+    462.13,
+    464.13,
+    466.13,
+    470.13,
+    472.13,
+    498.18,
+    500.18,
+    504.23,
+    512.23,
+    518.23,
+    524.38,
+    528.43,
+    532.43,
+    534.43,
+    536.43,
+    538.43,
+    540.43,
+    542.43,
+    544.43
+  ],
+  "inherited_unobserved_scope": "All audit seconds other than the listed cache points were not continuously reobserved. PureP opening or pureN ending extra samples and 8 isolated context points are investigation, not whole-video certification. Stable unseen periods retain old working labels.",
+  "new_T_explanation": null,
+  "cut_preservation": {
+    "same_coverage": true,
+    "old_cut_union": [
+      [
+        30.0,
+        32.0
+      ],
+      [
+        40.0,
+        46.0
+      ],
+      [
+        82.0,
+        86.0
+      ],
+      [
+        128.0,
+        150.0
+      ],
+      [
+        343.0,
+        349.0
+      ],
+      [
+        360.0,
+        402.0
+      ],
+      [
+        462.0,
+        466.0
+      ],
+      [
+        528.0,
+        544.0
+      ]
+    ],
+    "recommended_cut_union": [
+      [
+        30.0,
+        32.0
+      ],
+      [
+        40.0,
+        46.0
+      ],
+      [
+        82.0,
+        86.0
+      ],
+      [
+        128.0,
+        150.0
+      ],
+      [
+        343.0,
+        349.0
+      ],
+      [
+        360.0,
+        402.0
+      ],
+      [
+        462.0,
+        466.0
+      ],
+      [
+        528.0,
+        544.0
+      ]
+    ]
+  },
+  "model_predictions_used": false,
+  "labels_or_supervision_written": false,
+  "training_ready": false
+}

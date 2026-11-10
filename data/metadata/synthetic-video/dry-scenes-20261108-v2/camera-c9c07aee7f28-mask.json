@@ -1,0 +1,152 @@
+{
+  "scene_id": "camera-c9c07aee7f28",
+  "camera": "鸡冠山下游",
+  "source_path": "data/process/video_frames/video1_segment/frames/v1_16_frame_000143_t300s.jpg",
+  "directory": "data/process/synthetic-video/dry-scenes-20261108-v2/camera-c9c07aee7f28",
+  "prompt": "Use case: precise-object-edit. Edit target: this LOCAL CROP of a real fixed surveillance camera photograph. Remove only all visible flowing yellow/grey muddy water, foam, reflective liquid and ripples from the gully floor. Fill its footprint with a plausible DRY grey angular shale/gravel bed matching the adjacent original exposed gravel and the same perspective, scale, haze, lighting and source compression. Keep already exposed real rocks, gravel islands, eroded shorelines, cliffs, grass, road and objects exactly in position. Do not redesign the terrain. Very irregular subdued fine sediment and scattered small stones, natural scale variation, not rows or repeated wave shapes. NO water, mud waves, puddles, wet shine, repeated patterns, oversharpened textures, new big boulders or invented plants. Preserve all camera labels. Exact same crop geometry, no camera change or zoom. The hidden bed fill is a synthetic hypothesis, not recovered real geology. The lined independent reservoir in the lower right MUST stay filled with the original green still water and retain its exact white liner. Only the braided stream to its LEFT is being dried. Do not dry the reservoir.",
+  "feather_inward": 0,
+  "preserve_white_overlay": true,
+  "preserve_black_overlay": true,
+  "crop": [
+    0,
+    200,
+    960,
+    540
+  ],
+  "polygons": [
+    [
+      [
+        0,
+        475
+      ],
+      [
+        170,
+        409
+      ],
+      [
+        320,
+        355
+      ],
+      [
+        490,
+        330
+      ],
+      [
+        570,
+        278
+      ],
+      [
+        620,
+        275
+      ],
+      [
+        720,
+        275
+      ],
+      [
+        758,
+        265
+      ],
+      [
+        960,
+        275
+      ],
+      [
+        960,
+        305
+      ],
+      [
+        743,
+        301
+      ],
+      [
+        710,
+        304
+      ],
+      [
+        620,
+        306
+      ],
+      [
+        570,
+        337
+      ],
+      [
+        520,
+        358
+      ],
+      [
+        360,
+        408
+      ],
+      [
+        200,
+        459
+      ],
+      [
+        148,
+        535
+      ],
+      [
+        0,
+        540
+      ]
+    ]
+  ],
+  "color": "tan",
+  "r_b_min": 5,
+  "g_b_min": 2,
+  "dilate": 2,
+  "include_strokes": [
+    {
+      "points": [
+        [
+          484,
+          347
+        ],
+        [
+          476,
+          369
+        ],
+        [
+          462,
+          386
+        ],
+        [
+          452,
+          406
+        ],
+        [
+          444,
+          424
+        ],
+        [
+          450,
+          435
+        ],
+        [
+          441,
+          444
+        ]
+      ],
+      "width": 9
+    }
+  ],
+  "built_in_artifact_path": "C:/Users/20443/.codex/generated_images/01a1bb2d-01ca-72e3-ba8d-a04104b63f53/exec-447caf95-545c-4577-8fdd-4aba734936bc.png",
+  "assistant_visual_review": "Full-frame source/mask/composite comparison inspected. Original landscape retained outside the explicit mask. Candidate for user content review, not user acceptance.",
+  "limitations": [
+    "The generated hidden riverbed is an unverified synthetic hypothesis, not recovered original geology.",
+    "An explicit assistant-estimated fluid mask is used; preserving pixels outside it is a necessary constraint, not proof that the full mask is semantically correct.",
+    "Static video repeats one image and contains no observed physical time or flow."
+  ],
+  "status": "assistant_reviewed_candidate_pending_user_acceptance",
+  "needs_revision": false,
+  "residual_fluid": false,
+  "training_ready": false,
+  "root_review": {
+    "status": "assistant_reviewed_candidate",
+    "all_11_comparisons_viewed": true,
+    "user_acceptance": "pending",
+    "meaning": "Root compared all 11 source/output pairs. Two identified residual-flow issues (tower-upstream right branch and Menqian-middle transverse tributary) received targeted repair and root recheck. This does not certify real hidden geology or user approval."
+  }
+}

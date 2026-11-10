@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "created_date": "2026-11-08",
+  "asset_role": "synthetic dry-channel reference candidate",
+  "training_ready": false,
+  "label_changes": false,
+  "tool": "image_gen.imagegen (built-in; no API key or paid Bailian API)",
+  "workflow": "view source -> referenced-image edit -> view saved PNG; at most one targeted correction; no code image editing",
+  "requested_aspect_ratio": "16:9",
+  "actual_dimensions": [
+    1672,
+    941
+  ],
+  "actual_aspect_ratio": 1.7768331562167907,
+  "exact_16_9": false,
+  "aspect_note": "Hosted tool returned 1672x941 despite16:9 request, about0.053% narrower than exact16:9. Original generated candidate copied without image editing; normal contain/pad encoding may adapt it to exact16:9.",
+  "pixel_identical_background": false,
+  "acceptance": "Synthetic candidate visually reviewed for dry channel and recognisable scene only; not a factual no-flow observation or training approved.",
+  "status": "synthetic_candidate_visual_reviewed",
+  "source_letterbox": "No black letterbox visible in supplied full-frame source.",
+  "index": 10,
+  "scene_id": "camera-24c4f38b2c77",
+  "camera": "门前沟中游",
+  "source_path": "data/process/synthetic-video/references-20261108-v2/043a752b6146.jpg",
+  "source_sha256": "242d04872a8b5007a4063e0bf84bbb7e869d83cdf95cc6670e112a3d65db0e1d",
+  "output_path": "data/process/synthetic-video/dry-scenes-20261108-v1/camera-24c4f38b2c77/dry-reference.png",
+  "output_sha256": "6102d3658cb012998bf3b983c4d48a9139593e18141b428492cff8cf01a20c5e",
+  "generated_source_path": "C:/Users/20443/.codex/generated_images/01a1ba71-f080-7cf1-a566-c40871792b30/exec-d2af5bd6-a2f2-4ef9-a7c0-efff47591f6c.png",
+  "generation_attempts": [
+    {
+      "prompt": "Use case: precise-object-edit. Edit the supplied 门前沟中游 surveillance frame into a dry-gully reference candidate.\nRemove ALL yellow/tan/brown muddy river liquid from the long narrow winding gully at the left-center, starting at its far upper-left entrance and continuing through the middle and both bottom exits around the foreground gravel mound. This includes the tan pool/stream at lower right. Replace the flow footprint with a static, naturally exposed dry matte gray gravel/cobble bottom, with varied dry stones and shallow dry drainage grooves matching the scene. Remove clear water, slurry, foam, ripples and wet reflective surface too. Do not only recolor the stream gray; there must be no liquid or flowing-water texture anywhere in the channel.\nPreserve same camera and whole-frame 16:9 composition, steep V-shaped valley and exact bank outlines, dark diagonal rock strata, green vegetation, the foreground gravel mound with its existing stones, lighting, scale and surveillance quality. Existing timestamp and lower-right camera label are immutable: preserve wording, exact black/white color pattern, position and glyph appearance without adding/removing/repainting any text/watermark. Keep original black borders if present. Output exactly1920x1080 16:9 if supported; do not crop. No new objects, buildings, roads, camera movement, global recoloring or redesign. Separate artificial still pools outside this channel, if any, stay as originally shown.",
+      "result": "Generated images are saved to C:\\Users\\20443\\.codex\\generated_images\\01a1ba71-f080-7cf1-a566-c40871792b30 as C:\\Users\\20443\\.codex\\generated_images\\01a1ba71-f080-7cf1-a566-c40871792b30\\exec-187d8a65-15c5-4b3a-8bcc-2b5ef6a12b5e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "prompt": "Use case: precise-object-edit. Correct ONLY the existing text overlays in this dry surveillance candidate to restore source text; keep every scene element and dry river bed unchanged.\nThe timestamp must read \"2025年07月29日 18:35:05\": the month must be 07, not 02. Preserve its mixed black/white surveillance overlay styling and existing position, no added text.\nThe lower-right original camera label must remain \"门前沟中游（塔）\"; preserve its original mixed color appearance by rendering 游 white and the other characters black as in source. Do not change position or wording.\nMaintain the fully dry gray gravel/cobble gully with no muddy water, clear water, slurry, foam or wet sheen. Keep all cliff strata, vegetation, bank geometry, foreground gravel mound, lighting, camera, framing, image quality, and borders unchanged. No scene redesign or new watermark. 16:9 composition.",
+      "result": "Generated images are saved to C:\\Users\\20443\\.codex\\generated_images\\01a1ba71-f080-7cf1-a566-c40871792b30 as C:\\Users\\20443\\.codex\\generated_images\\01a1ba71-f080-7cf1-a566-c40871792b30\\exec-d2af5bd6-a2f2-4ef9-a7c0-efff47591f6c.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    }
+  ],
+  "visual_observation": "Original tan stream passes through left gully and lower-right bend around foreground gravel mound. Saved candidate replaces all of this with gray dry gravel/cobbles. Valley strata, vegetation arrangement, gully geometry and foreground mound remain recognisable. First output incorrectly rendered month02; sole targeted correction restored month07 and white 游 in camera label. Corrected timestamp now visibly reads2025年07月29日18:35:05.",
+  "remaining_concerns": [
+    "The correction also softened/repainted some existing rock and vegetation texture. Landmark geometry is recognisable; background is not pixel-identical.",
+    "Timestamp and camera overlay were synthesized; wording/color correction checked visually, exact original glyph pixels not retained.",
+    "Near16:9 hosted output needs normal encoding adaptation for exact720P."
+  ],
+  "fluid_check": "No obvious liquid remains in the upper channel, foreground bend or lower-right branch after correction.",
+  "watermark_check": "Source month07 restored after initial model error; camera label mixed color restored. No added watermark noticed."
+}

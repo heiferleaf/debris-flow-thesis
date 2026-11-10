@@ -1,0 +1,47 @@
+{
+  "records": [
+    {
+      "source_group": "video_dataset_1",
+      "path": "data/raw/video_dataset_1/2025年东川站蒋家沟泥石流视频说明 Description of debris flow vedio at Jiangjia Ravine in 2025.docx",
+      "resolved_path": "D:\\debris-flow-data\\video_dataset_1\\2025年东川站蒋家沟泥石流视频说明 Description of debris flow vedio at Jiangjia Ravine in 2025.docx",
+      "sha256": "6b033885fcb0086b8fdeb5b21c1548a4e105fce5343f0612152eb726a9f403b4",
+      "document_text": "2025年东川站蒋家沟泥石流视频数据说明视频拍摄位置说明:摄像头分别位于蒋家沟上游九弯地沟、门前沟及蒋家沟中游，具体经纬度见下表，其中塔吊断面为2025年泥石流运动学参数观测断面。序号位置Location经度 Longitude（°）纬度 Latitude（°）1门前沟中游、上游， 九弯地沟摄像头Cameras at the middle and upper reaches of Menqian Gully and Jiuwandi Gully103.17760926.26395232塔吊上游、下游 摄像头Cameras at the upstream and downstream of the tower crane location103.137230126.249236413鸡冠山上游、下游摄像头Cameras at the upstream and downstream of Jiguanshan103.134966726.24823692摄像头位于黄色塔吊上Ccameras are located on the yellow tower crane备注：（1）请在论文发表、专利申请、专著出版等工作中标注数据来源，并在公开发表的中文出版物的致谢部分标明“感谢中国科学院东川泥石流观测研究站为本研究提供了相关数据”，在英文论文致谢部分标明“Dongchuan Debris Flow Observation and Research Station (DDFORS), Chinese Academy of Sciences, which provided the field observation data for this study.”.（2）更多详细信息见东川站网页（中文网站http://nsl.imde.ac.cn/；英文网站http://nsl.imde.ac.cn/en/）.（3）数据问题可联系魏丽（weili@imde.ac.cn）和宋东日（drsong@imde.ac.cn）.Debris flow video at Jiangjia Ravine in 2025Video shooting locations:Cameras are located in the upper reaches of Jiangjia Gully at Jiuwandi Gully, Menqian Gully, and the middle reaches of Jiangjia Gully. Please refer to the table below for specific longitude and latitude coordinates. The tower crane section is the observation section for debris flow kinematic parameters in 2025.序号位置Location经度 Longitude（°）纬度 Latitude（°）1门前沟中游、上游， 九弯地沟摄像头Cameras at the middle and upper reaches of Menqian Gully and Jiuwandi Gully103.17760926.26395232塔吊上游、下游 摄像头Cameras at the upstream and downstream of the tower crane location103.137230126.249236413鸡冠山上游、下游摄像头Cameras at the upstream and downstream of Jiguanshan103.134966726.24823692Cameras are located on the yellow tower craneNote:(1) In works such as paper, patent, and monograph, please indicate the data source. In the acknowledgments section of Chinese publications, include the statement “感谢中国科学院东川泥石流观测研究站为本研究提供了相关数据” . In the acknowledgments section of English publications, please state, “We would like to thank the Dongchuan Debris Flow Observation and Research Station (DDFORS), Chinese Academy of Sciences, for providing the field observation data for this study.”(2) For more detailed information, please visit the website of Dongchuan Debris Flow Observation and Research Station (DDFORS) (Chinese website: http://nsl.imde.ac.cn/; English website: http://nsl.imde.ac.cn/en/).(3) For any data-related issues, please contact Li Wei (weili@imde.ac.cn) and Dongri Song (drsong@imde.ac.cn)."
+    },
+    {
+      "source_group": "video_dataset_2",
+      "path": "data/raw/video_dataset_2/Description of debris flow vedio at Jiangjia Ravine.docx",
+      "resolved_path": "D:\\debris-flow-data\\video_dataset_2\\Description of debris flow vedio at Jiangjia Ravine.docx",
+      "sha256": "fe5deb53fc442f7c70b1dc81ab5b4127d0fa183f5f7e477169d9652b12264d4f",
+      "document_text": "东川站蒋家沟泥石流视频数据说明东川站自2020年在蒋家沟泥石流沟道一侧安装了高分辨率摄像机（3840 × 2160 / 25 fps），可捕捉到泥石流运动的实时画面。2023年泥石流运动视频由安装在鸡冠山（103.135°，26.249°）的摄像机所拍摄。摄像机安装地点紧邻泥石流运动要素观测断面。鸡冠山视频监测摄像机备注：（1）请在论文发表、专利申请、专著出版等工作中标注数据来源，并在公开发表的中文出版物的致谢部分标明“感谢中国科学院东川泥石流观测研究站为本研究提供了相关数据”，在英文论文致谢部分标明“Dongchuan Debris Flow Observation and Research Station (DDFORS), Chinese Academy of Sciences, which provided the field observation data for this study.”.（2）更多详细信息见东川站网页（中文网站http://nsl.imde.ac.cn/；英文网站http://nsl.imde.ac.cn/en/）.（3）数据问题可联系魏丽（weili@imde.ac.cn）和宋东日（drsong@imde.ac.cn）.Debris flow video at Jiangjia RavineSince 2020, high-resolution cameras (3840 × 2160 at 25 fps) have been installed on one side of the debris flow channel, including the observation section. These cameras capture real-time footage of debris flow movements, which can be used for velocity analysis, flow state assessment, and other related tasks.The provided debris flow video was captured by the camera installed at Jiguanshan (103.135°, 26.249°) , the location is close to the observation section of debris flow kinematic characteristics.Cameras installed at JiguanshanNote:(1) In works such as paper, patent, and monograph, please indicate the data source. In the acknowledgments section of Chinese publications, include the statement “感谢中国科学院东川泥石流观测研究站为本研究提供了相关数据” . In the acknowledgments section of English publications, please state, “We would like to thank the Dongchuan Debris Flow Observation and Research Station (DDFORS), Chinese Academy of Sciences, for providing the field observation data for this study.”(2) For more detailed information, please visit the website of Dongchuan Debris Flow Observation and Research Station (DDFORS) (Chinese website: http://nsl.imde.ac.cn/; English website: http://nsl.imde.ac.cn/en/).(3) For any data-related issues, please contact Li Wei (weili@imde.ac.cn) and Dongri Song (drsong@imde.ac.cn)."
+    },
+    {
+      "source_group": "video_dataset_3",
+      "path": "data/raw/video_dataset_3/2026年8月18日 蒋家沟泥石流发生前水流（洪水）视频/说明.docx",
+      "resolved_path": "D:\\debris-flow-data\\video_dataset_3\\2026年8月18日 蒋家沟泥石流发生前水流（洪水）视频\\说明.docx",
+      "sha256": "54495696daa3eeee5b2143efe627e5723f77f80d91623382d59ee43a46d6057c",
+      "document_text": "2026年8月18日21时45分，云南东川泥石流国家野外科学观测研究站所观测的蒋家沟暴发泥石流（22:06到达观测断面，塔吊断面）。文件提供的视频是塔吊、鸡冠山、门前沟汇口三个位置在泥石流爆发前的常规水流及洪水视频（19点之后视频不清楚，故未提供），希望对你有用。"
+    },
+    {
+      "source_group": "video_dataset_4",
+      "path": "data/raw/video_dataset_4/说明.docx",
+      "resolved_path": "D:\\debris-flow-data\\video_dataset_4\\说明.docx",
+      "sha256": "5a1d7dace089f32c0a01038168eedd64cedc78d29b43b9cd7a24d0cc1b621d69",
+      "document_text": "经过再次确认，2026年8月18日，上游14:24发生泥石流，本次文件中的视频为常规水流的视频。上次给你发送的百度网盘的文件由于上游发生了泥石流，因此到达塔吊断面的不能视为常规水流，属于小型泥石流的状态。"
+    }
+  ],
+  "source3_source4_relationship": {
+    "source3_earlier_statement": "Before main event at21:45; ordinary water/flood supplied.",
+    "source4_later_correction": "Reconfirmed upstream14:24; previous delivery at tower crane is small debris flow; current delivery ordinary water.",
+    "mapping": "video_dataset_3 -> v4_*; video_dataset_4 -> v5_*",
+    "decision": "Read both together. Do not use source3 earlier statement alone to relabel v4 all N. Delivery context is not a per-second label.",
+    "precedence_evidence": "source4 text explicitly states reconfirmation and previous delivery, not file mtime.",
+    "user_confirmation": {
+      "decision_by": "user",
+      "date": "2026-11-09",
+      "text": "这个说明是有问题的，后来数据提供者和我回复的邮件里说“上次给你发送的百度网盘的文件由于上游发生了泥石流，因此到达塔吊断面的不能视为常规水流，属于小型泥石流的状态” v5 的视频才是真的无泥石流的",
+      "scope": "Confirms source addendum and batch meaning; not a per-second label for every v4 video."
+    }
+  },
+  "user_question_about_oral_confirmation": "No longer required; primary written addendum located.",
+  "training_ready": false
+}

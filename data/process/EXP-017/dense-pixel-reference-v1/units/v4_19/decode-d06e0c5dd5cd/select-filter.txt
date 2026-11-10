@@ -1,0 +1,1 @@
+showinfo,select='(between(n,0,14)*eq(mod(n-0,2),0)+(between(n,15,27972)+between(n,27974,28000)*eq(mod(n-27974,2),0)))',format=bgr24

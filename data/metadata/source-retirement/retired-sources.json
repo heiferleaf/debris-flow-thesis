@@ -1,0 +1,9 @@
+{
+  "schema": "retired-audit-sources/v1",
+  "updated_on": "2026-11-04",
+  "source_dirs": [
+    "data/process/video_frames/video2_segment"
+  ],
+  "reason": "User retired the 12 legacy webcam videos and authorized removal of their derived frames and caches from the annotation workbench.",
+  "record": "data/metadata/source-retirement/legacy-webcam-20261104-v1/derived-cleanup.json"
+}

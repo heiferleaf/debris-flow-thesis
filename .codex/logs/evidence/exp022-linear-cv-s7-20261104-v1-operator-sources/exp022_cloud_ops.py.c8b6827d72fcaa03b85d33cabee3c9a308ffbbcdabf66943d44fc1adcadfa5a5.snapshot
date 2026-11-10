@@ -1,0 +1,326 @@
+"""EXP022 narrow operations adapter; rental, billing and UI timers belong to root.
+
+Reuse frozen EXP021/020/017 SSH, path, once-launch and closed-copy helpers.
+No media upload, pixel rescan, model construction/forward, or soft forecast stop.
+"""
+import argparse
+import ast
+import base64
+import hashlib
+import importlib.util
+import json
+import math
+from pathlib import Path
+import shlex
+import time
+
+ROOT = Path(__file__).resolve().parents[3]
+BASE_PATH = Path(__file__).with_name('exp021_cloud_ops.py')
+BASE_SHA = 'f3182d4a0feb74424e37f577b8a546c4b85e4ef324d6b70d650ab97d9ea85593'
+if hashlib.sha256(BASE_PATH.read_bytes()).hexdigest() != BASE_SHA:
+    raise ValueError('Frozen EXP021 operations source changed')
+_spec = importlib.util.spec_from_file_location('exp022_frozen_exp021_ops', BASE_PATH)
+BASE = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(BASE)
+STATUS, COLLECT = BASE.STATUS, BASE.COLLECT
+digest, bounded_connect, bounded_close = BASE.digest, BASE.bounded_connect, BASE.bounded_close
+
+REMOTE = BASE.REMOTE
+OUTPUT_ROOT = '/root/exp022-results'
+RUN_ID = 'linear-cv-s7-20261104-v1'
+PLAN = 'data/metadata/EXP-022/linear-plan-v1'
+REFERENCE_ROOT, FFMPEG = BASE.REFERENCE_ROOT, BASE.FFMPEG
+STAGES = tuple(item for f in range(1, 6) for item in
+    (['f%02d-inner' % f] if f in (2, 3, 5) else []) + ['f%02d-outer' % f, 'f%02d-dense' % f])
+FIT_STAGES = tuple(s for s in STAGES if not s.endswith('dense'))
+DENSE_STAGES = tuple(s for s in STAGES if s.endswith('dense'))
+DEPLOYMENT = 'data/metadata/EXP-022/deployment-v1'
+PIN_PATH = ROOT / DEPLOYMENT / 'pins.json'
+PIN_SHA = 'ef041e716926f11380c31c1b7001401bc2d560eb95552105bed9132adaccf9b4'
+if digest(PIN_PATH) != PIN_SHA:
+    raise ValueError('Frozen EXP022 deployment pins changed')
+PINS = json.loads(PIN_PATH.read_text(encoding='utf-8'))
+SOURCE_PINS = PINS['files']
+# Protocol bytes are inherited in place, with the plan's explicit historical
+# snapshots. There is no protocol update or replacement in this deployment.
+PROTOCOLS, EXACT_PINS, METADATA_FILES, CODE_UPDATES = {}, {}, {}, {}
+
+
+def reused(name, replacements=()):
+    tree = ast.parse(BASE.REMOTE_SOURCE)
+    node = next(n for n in tree.body if isinstance(n, ast.FunctionDef) and n.name == name)
+    source = ast.get_source_segment(BASE.REMOTE_SOURCE, node)
+    for old, new in replacements:
+        if old not in source:
+            raise ValueError('Frozen operational edit no longer matches: ' + name)
+        source = source.replace(old, new)
+    return source
+
+
+def namespace_edits():
+    return (('exp021', 'exp022'), ('EXP-021', 'EXP-022'))
+
+
+REMOTE_ADAPTATION = r'''
+def valid_run(run):
+ require(run==RUN_ID,'Unregistered EXP022 run');return run
+
+def manifest_rows(manifest):
+ require(manifest.get('schema')=='exp022-new-small-files-v1' and isinstance(manifest.get('files'),list),'EXP022 manifest required')
+ seen=set();total=0
+ for row in manifest['files']:
+  name=row['path'];safe(Path('/'),name)
+  require(name in SOURCE_PINS and name not in seen,'Disallowed/duplicate new small-file path')
+  require(type(row['size_bytes']) is int and 0<=row['size_bytes']<=16*1024**2 and row['sha256']==SOURCE_PINS[name],'Malformed or unpinned small file')
+  seen.add(name);total+=row['size_bytes']
+ require(seen and total<=2*1024**2,'Only new code, plan and necessary small proofs are uploadable')
+ return manifest['files']
+
+def static_path(root,c):
+ return safe(root,'.codex/exp022-'+valid_run(c['run_id'])+'-static-cli-'+c['manifest_sha256']+'.json')
+
+def static_check(root,c,end):
+ deployment=read_json(deployment_path(root,c));require(deployment and deployment['manifest_sha256']==c['manifest_sha256'],'Sync must close before static CLI check')
+ receipt=static_path(root,c)
+ if receipt.exists():
+  value=read_json(receipt);require(value and value['status']=='static_bash_and_cli_passed' and value['manifest_sha256']==c['manifest_sha256'],'Static receipt conflict')
+  return value
+ commands=[['/bin/bash','-n','experiments/runspecs/EXP-022/run.sh'],['/root/miniconda3/bin/python','-B','experiments/runspecs/EXP-022/pipeline.py','--help']]
+ checks=[]
+ for args in commands:
+  alive(end)
+  result=subprocess.run(args,cwd=str(root),env=dict(os.environ,CUDA_VISIBLE_DEVICES=''),stdin=subprocess.DEVNULL,stdout=subprocess.PIPE,stderr=subprocess.STDOUT,timeout=max(.001,min(60,end-time.time())),check=False)
+  require(result.returncode==0,'New entry static bash/CLI check failed')
+  checks.append(dict(argv=args,returncode=result.returncode,output_sha256=hashlib.sha256(result.stdout).hexdigest(),output_bytes=len(result.stdout)))
+ value=dict(status='static_bash_and_cli_passed',manifest_sha256=c['manifest_sha256'],checks=checks,no_model_forward=True,no_input_decode=True,observed_unix=time.time())
+ exclusive_json(receipt,value);return value
+
+def check_launch_context(root,c,end):
+ require(c['run_id']==RUN_ID and c['plan']==PLAN,'EXP022 run/plan differs')
+ require(c['platform_timer_receipt']=='.codex/exp022-'+RUN_ID+'-platform-timer.json','Timer receipt path differs')
+ budget=money_guard(c['money'],time.time())
+ timer_path=safe(root,c['platform_timer_receipt']);require(sha(timer_path,end)==c['platform_timer_receipt_sha256'],'Actual timer bytes differ')
+ timer=read_json(timer_path)
+ require(timer['status']=='platform_timer_set_and_visible_UI_verified' and timer['run_id']==RUN_ID
+  and timer['platform_deadline_unix']==c['money']['platform_deadline_unix'] and timer['verified_hourly_price']==c['money']['verified_hourly_price'], 'New run-specific actual UI timer/price differs')
+ require(timer['boot_request_conservative_lower_bound_unix']==c['money']['gpu_start_unix'],'GPU interval must be the new actual start')
+ require(c['money']['gpu_start_unix']>=1793721600,'Prior completed GPU interval cannot be reused') # 2026-11-04 00:00 Asia/Shanghai
+ proof_path=safe(root,c['preflight_path']);require(sha(proof_path,end)==c['preflight_sha256'],'Accepted small preflight proof differs')
+ proof=read_json(proof_path);require(proof['status']=='cv_static_preflight_passed' and proof['files_verified']==192461,'Accepted input closure missing')
+ require(c['ffmpeg']==FFMPEG and Path(FFMPEG).is_file(),'Original accepted ffmpeg mapping differs')
+ plain_reference(c)
+ deployment=read_json(deployment_path(root,c));require(deployment and deployment['manifest_sha256']==c['manifest_sha256'],'No matching small deployment')
+ require(set(SOURCE_PINS)==set(r['path'] for r in deployment['files']),'New source/plan/proof deployment incomplete')
+ for row in deployment['files']:
+  p=safe(root,row['path']);require(p.stat().st_size==row['size_bytes'] and sha(p,end)==row['sha256'],'New small-file bytes changed before launch')
+ static=read_json(static_path(root,c));require(static and static['status']=='static_bash_and_cli_passed' and static['manifest_sha256']==c['manifest_sha256'],'CPU static CLI check not closed')
+ return budget
+'''
+
+
+def make_remote():
+    constants = dict(RUN_ID=RUN_ID, REFERENCE_ROOT=REFERENCE_ROOT, FFMPEG=FFMPEG, PLAN=PLAN,
+        FIT_STAGES=FIT_STAGES, DENSE_STAGES=DENSE_STAGES, PROTOCOLS=PROTOCOLS,
+        EXACT_PINS=EXACT_PINS, SOURCE_PINS=SOURCE_PINS, METADATA_FILES=METADATA_FILES, CODE_UPDATES=CODE_UPDATES)
+    header = 'from pathlib import Path,PurePosixPath\nimport base64,hashlib,json,math,os,re,stat,subprocess,sys,time\n'
+    header += '\n'.join(k+'='+repr(v) for k,v in constants.items())+'\n'
+    helpers = '\n'.join(reused(name, edits) for name, edits in (
+        ('require', ()), ('exclusive_json', ()), ('output_path', ()), ('sync_probe', ()),
+        ('publish_small', (('exp021', 'exp022'),)), ('deployment_path', (('exp021-', 'exp022-'),)),
+        ('install_timer', ()), ('commit_sync', (('exp021_', 'exp022_'),)),
+        ('money_guard', (('8.52<=prior<20', '10.87<=prior<20'),)), ('plain_reference', ()),
+        ('launch', namespace_edits()),
+        ('identity', namespace_edits() + (("'experiments/runspecs/EXP-022/train.py','experiments/runspecs/EXP-022/dense.py'", "'experiments/runspecs/EXP-022/stage.py'"),)),
+        ('snapshot', ()), ('inventory', ())))
+    return header + BASE.BASE.PRIMITIVES + '\n' + helpers + '\n' + REMOTE_ADAPTATION
+
+
+REMOTE_SOURCE = make_remote()
+NS = {}
+exec(REMOTE_SOURCE, NS)
+
+
+def command(action, payload, end):
+    expressions = dict(sync_probe="sync_probe(root,c['manifest'],end)", publish_small="publish_small(root,c['row'],c['temporary'],end)",
+        commit_sync="commit_sync(root,c['context'],c['manifest'],end)", static="static_check(root,c,end)",
+        launch="launch(root,output_root,c['context'],end,timer_b64=c['timer_b64'])", status="snapshot(root,output_root,c['run_id'],end)",
+        inventory="inventory(root,output_root,c['run_id'],end)")
+    program = REMOTE_SOURCE+'\nc=json.loads(sys.argv[1]);root=Path('+repr(REMOTE)+');output_root=Path('+repr(OUTPUT_ROOT)+');end='+repr(end)+'\nprint(json.dumps('+expressions[action]+',ensure_ascii=False,allow_nan=False))\n'
+    return ' '.join(shlex.quote(s) for s in (STATUS.PYTHON, '-c', program, json.dumps(payload)))
+
+
+def read_context(path, action):
+    c = json.loads(Path(path).read_text(encoding='utf-8'))
+    NS['valid_run'](c['run_id'])
+    if c['plan'] != PLAN or c.get('manifest') != DEPLOYMENT+'/manifest.json':
+        raise ValueError('EXP022 plan/manifest differs')
+    c.setdefault('reference_root', REFERENCE_ROOT);c.setdefault('ffmpeg', FFMPEG)
+    if c['reference_root'] != REFERENCE_ROOT or c['ffmpeg'] != FFMPEG:
+        raise ValueError('Reference/ffmpeg mapping differs')
+    c.update(config_sha256=digest(path), operator_source_sha256=digest(__file__),
+        upstream_source_sha256=dict(exp021_cloud_ops=BASE_SHA, exp020_cloud_ops=BASE.BASE_SHA, **BASE.BASE.UPSTREAM),
+        platform_timer_receipt='.codex/exp022-'+RUN_ID+'-platform-timer.json')
+    c.setdefault('preflight_path', 'data/process/EXP-017/cloud-preflight-transfer-v2/preflight.json')
+    c.setdefault('preflight_sha256', '01beb915fbc25e0ca82afe3efaf17834072d7769a65857abf9f8ebc1e4cfd3c8')
+    manifest_path = NS['safe'](ROOT, c['manifest'])
+    if digest(manifest_path) != c['manifest_sha256']:
+        raise ValueError('Actual new-small-files manifest differs')
+    manifest = json.loads(manifest_path.read_text(encoding='utf-8'))
+    rows = NS['manifest_rows'](manifest)
+    if set(SOURCE_PINS) != {r['path'] for r in rows}:
+        raise ValueError('Complete pinned manifest required')
+    if action in ('sync', 'launch'):
+        for row in rows:
+            source = NS['safe'](ROOT, row['path'])
+            if source.stat().st_size != row['size_bytes'] or digest(source) != row['sha256']:
+                raise ValueError('New small-file bytes differ: '+row['path'])
+    timer = None
+    if action == 'launch':
+        if not isinstance(c.get('money'), dict):
+            raise ValueError('Launch requires root-owned actual new GPU money context')
+        NS['money_guard'](c['money'], time.time())
+        timer = NS['safe'](ROOT, c['platform_timer_receipt_local'])
+        if digest(timer) != c['platform_timer_receipt_sha256']:
+            raise ValueError('Actual timer receipt differs')
+        evidence = json.loads(timer.read_text(encoding='utf-8'))
+        if (evidence.get('status') != 'platform_timer_set_and_visible_UI_verified' or evidence.get('run_id') != RUN_ID
+                or evidence.get('platform_deadline_unix') != c['money']['platform_deadline_unix']
+                or evidence.get('verified_hourly_price') != c['money']['verified_hourly_price']
+                or evidence.get('boot_request_conservative_lower_bound_unix') != c['money']['gpu_start_unix']
+                or c['money']['gpu_start_unix'] < 1793721600):
+            raise ValueError('New run-specific actual GPU start/UI timer evidence required')
+    return c, manifest, timer
+
+
+def sync(client, sftp, c, manifest, end):
+    # The frozen publisher rejects every unknown destination SHA, including
+    # the previously undeployed .codex EXP020 independent-review proof.
+    states = STATUS.bounded_command(client, command('sync_probe', dict(manifest=manifest), end), end)['files']
+    for row in manifest['files']:
+        if states[row['path']] == 'same_SHA_skip':continue
+        NS['alive'](end)
+        token = hashlib.sha256((RUN_ID+row['path']+str(time.time_ns())).encode()).hexdigest()[:24]
+        temporary = '.codex/exp022-upload-'+token+'.part'
+        sftp.get_channel().settimeout(max(.001, min(10, end-time.time())))
+        with NS['safe'](ROOT, row['path']).open('rb') as source, sftp.open(REMOTE+'/'+temporary, 'wx') as target:
+            while True:
+                NS['alive'](end);block = source.read(1024**2)
+                if not block:break
+                target.write(block)
+        STATUS.bounded_command(client, command('publish_small', dict(row=row, temporary=temporary), end), end)
+    closed = STATUS.bounded_command(client, command('commit_sync', dict(context=c, manifest=manifest), end), end)
+    closed['static_cli'] = STATUS.bounded_command(client, command('static', c, end), end)
+    return closed
+
+
+collection_order = BASE.collection_order
+
+
+def collect(client, sftp, c, end, once=False, poll=25, small_only=False):
+    destination = NS['safe'](ROOT, 'data/results/exp022/'+RUN_ID)
+    destination.mkdir(parents=True, exist_ok=True)
+    completed = {}
+    while True:
+        value = STATUS.bounded_command(client, command('inventory', c, end), end)
+        if value.get('run_id') != RUN_ID or not isinstance(value.get('files'), dict) or not set(completed) <= set(value['files']):
+            raise ValueError('Closed inventory identity/coverage differs')
+        for name, identity in sorted(value['files'].items(), key=lambda item: collection_order(*item)):
+            NS['safe'](destination, name)
+            if small_only and collection_order(name, identity)[0] != 0:continue
+            if name in completed:
+                if completed[name] != identity:raise ValueError('Previously closed artifact changed')
+                continue
+            receipt = COLLECT.bounded_copy(sftp, OUTPUT_ROOT+'/'+RUN_ID, destination, name, identity, end)
+            completed[name] = identity
+            record(c, 'artifact', dict(path=name, **identity, **receipt))
+        value.update(local_verified_files=len(completed), existing_SHA_policy='Once per invocation; cached across polls',
+            collection_priority='small evidence, best/selected, last and large inputs', small_only=small_only,
+            pending_uncollected_files=len(value['files'])-len(completed))
+        record(c, 'collection', value)
+        if once or value['terminal'] or value['identity']['status']=='not_started_no_controller_receipt':return value
+        remaining = end-time.time()
+        if remaining <= 0:return dict(status='local_observation_timeout_remote_unchanged', remote_interrupted=False, **value)
+        time.sleep(min(poll, remaining))
+        if time.time() >= end:return dict(status='local_observation_timeout_remote_unchanged', remote_interrupted=False, **value)
+
+
+def record(c, kind, value):
+    directory = ROOT/'.codex/logs';directory.mkdir(parents=True, exist_ok=True)
+    with (directory/('exp022-'+RUN_ID+'-'+kind+'.jsonl')).open('a', encoding='utf-8') as stream:
+        stream.write(json.dumps(value, ensure_ascii=False, allow_nan=False)+'\n')
+    # Full inventories, dense results and per-file hashes stay in JSONL.
+    if kind == 'artifact':return
+    who = value.get('identity', {})
+    summary = dict(action=kind, status=value.get('status', who.get('status', 'observed')), run_id=RUN_ID)
+    for key in ('local_verified_files','pending_uncollected_files','terminal','retry_forbidden','remote_interrupted','error_type'):
+        if key in value:summary[key]=value[key]
+    if 'stages' in value:
+        stages=value['stages'];summary['closed_stages']=sum(bool(row.get('closed_status')) for row in stages.values())
+        pending=next((name for name in STAGES if not stages[name].get('closed_status')),None)
+        if pending:
+            summary['next_or_active_stage']=pending
+            summary['progress']={k:stages[pending][k] for k in ('completed_epochs','optimizer_updates','provisional_window_score_bytes') if k in stages[pending]}
+    if 'scopes' in value:summary['scopes']=value['scopes']
+    if 'files' in value:summary['files']=len(value['files'])
+    if 'static_cli' in value:summary['static_cli']=value['static_cli']['status']
+    print(json.dumps(summary, ensure_ascii=False, allow_nan=False), flush=True)
+
+
+def preserve_operator(config):
+    directory = ROOT/'.codex/logs'/('exp022-'+RUN_ID+'-operator-sources')
+    directory.mkdir(parents=True, exist_ok=True)
+    for path in (Path(__file__), Path(config), PIN_PATH, ROOT/DEPLOYMENT/'manifest.json', BASE_PATH,
+                 BASE.BASE_PATH, *(BASE.BASE_PATH.with_name(n) for n in BASE.BASE.UPSTREAM)):
+        payload = path.read_bytes();target = directory/(path.name+'.'+hashlib.sha256(payload).hexdigest()+'.snapshot')
+        if target.exists():
+            if target.read_bytes() != payload:raise ValueError('Operator/config snapshot conflict')
+        else:
+            with target.open('xb') as stream:stream.write(payload)
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('action', choices=('sync','launch','status','collect'))
+    parser.add_argument('--config', type=Path, required=True)
+    parser.add_argument('--max-seconds', type=float, default=60, help='Local observation only; never kills or restarts the remote task')
+    parser.add_argument('--once', action='store_true')
+    parser.add_argument('--poll-seconds', type=float, default=25)
+    parser.add_argument('--small-only', action='store_true')
+    parser.add_argument('--dry-run', action='store_true')
+    args = parser.parse_args()
+    if not math.isfinite(args.max_seconds) or not 1<=args.max_seconds<=21600 or not math.isfinite(args.poll_seconds) or not 20<=args.poll_seconds<=30:
+        raise ValueError('Finite local observation1..21600seconds and polling20..30seconds required')
+    c, manifest, timer = read_context(args.config, args.action)
+    if args.dry_run:
+        print(json.dumps(dict(status='dry_run_no_network', action=args.action, run_id=RUN_ID, files=len(manifest['files']),
+            output=OUTPUT_ROOT+'/'+RUN_ID, local='data/results/exp022/'+RUN_ID, reference_root=REFERENCE_ROOT)))
+        return
+    preserve_operator(args.config)
+    if args.action=='launch':
+        intent=ROOT/'.codex/logs'/('exp022-'+RUN_ID+'-local-launch-intent.json')
+        if intent.exists():
+            record(c,'launch',dict(status='existing_local_intent_no_restart',retry_forbidden=True));raise SystemExit(3)
+        with intent.open('x',encoding='utf-8') as stream:json.dump(c,stream,ensure_ascii=False,allow_nan=False)
+    end=time.time()+args.max_seconds;client=None
+    try:
+        client=bounded_connect(end)
+        if args.action in ('sync','collect'):
+            sftp=COLLECT.bounded_sftp(client,end)
+            value=sync(client,sftp,c,manifest,end) if args.action=='sync' else collect(client,sftp,c,end,args.once,args.poll_seconds,args.small_only)
+        else:
+            payload=dict(context=c,timer_b64=base64.b64encode(timer.read_bytes()).decode('ascii')) if args.action=='launch' else c
+            value=STATUS.bounded_command(client,command(args.action,payload,end),end)
+        if args.action!='collect' or value.get('status')=='local_observation_timeout_remote_unchanged':record(c,args.action,value)
+        if args.action=='launch' and value['status'] not in ('launched','existing_launch_receipt_no_restart'):
+            raise SystemExit(2 if value['status']=='rejected_before_spawn' else 3)
+    except Exception as error:
+        if args.action=='launch':
+            record(c,'launch',dict(status='launch_observation_uncertain',error_type=type(error).__name__,retry_forbidden=True,
+                instruction='Read same PID/argv identity; never repeat or infer stop/shutdown'));raise SystemExit(3)
+        record(c,args.action,dict(status='observation_uncertain_remote_unchanged' if isinstance(error,TimeoutError) else 'operation_failed_partial_preserved',
+            error_type=type(error).__name__,remote_interrupted=False));raise
+    finally:
+        if client is not None:bounded_close(client,end)
+
+
+if __name__=='__main__':main()

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "scene_id": "camera-c9c07aee7f28",
+  "camera": "鸡冠山下游",
+  "asset_role": "ordinary_water_animation_start_frame",
+  "status": "negative_candidate",
+  "human_acceptance": "not_completed",
+  "training_ready": false,
+  "source_path": "data/process/synthetic-video/dry-scenes-20261108-v1/camera-c9c07aee7f28/dry-reference.png",
+  "source_sha256": "8c090467aaf05d2ca9a92cca1e2c9372b2ace5f92f802ee323c601a4bf2fb7c4",
+  "source_sha256_verified": true,
+  "generated_path": "data/process/synthetic-video/dry-scenes-20261108-v1/camera-c9c07aee7f28/ordinary-water-first-frame.png",
+  "generated_sha256": "4792ef3923127dce945cf68f5fb705e2c7cd2f20a66e5331426bae9cffbdc951",
+  "builtin_saved_path": "C:/Users/20443/.codex/generated_images/01a1ba71-be0d-7be3-91a8-2fc00ee71ef4/exec-e991fec6-4ca3-475d-bdcb-f62914757b32.png",
+  "tool": "image_gen.imagegen (built-in; model identifier not exposed)",
+  "generated_at_date": "2026-11-08",
+  "prompt": "Use case: precise-object-edit. Edit target: the single supplied dry-channel CCTV photograph of 鸡冠山下游. Produce one synthetic ORDINARY WATER first-frame candidate for a later image-to-video animation. This is an already-flowing normal stream animation starting frame, not a replacement dry reference. Add a clearly visible narrow connected ordinary stream of clean transparent water or pale neutral gray water, with a few small white foam patches and subtle water ripples, ONLY inside the original low braided gully trough. Water path in normalized image coordinates: near foreground begins around x6%,y94%, runs through x25%,y78%, x45%,y65%, x60%,y53%, and bends to right middle-ground around x90%,y59%. Approximate water ribbon width is 8% of image width near the foreground, narrowing naturally toward the distant/right section. Fit its shape to the existing channel low points and perspective; small dry gravel islands can divide the ribbon. Keep high gravel bars/islands fully exposed and dry. The stream must NOT spread onto roads, buildings, farms, either high bank or into the lower-right independent lined reservoir. Preserve this reservoir with its stationary green water and unchanged lining exactly. Keep all other background features, mountain slopes, vegetation, buildings, tower, roads, channel bank outline, gray gravel islands, foreground rocks, viewpoint, light, full 16:9 framing and any black borders. Preserve existing timestamp and camera-name text content/position without adding text. No arrows, colored frames, markings, labels or coordinate numerals. Prohibit yellow or brown muddy water, slurry, debris-flow texture, coarse solids in water, floating or rolling stones; stream contains only ordinary water and sparse small white foam. Water should be readily distinguishable from the dry gray gravel but not an over-wide flood. Natural surveillance-camera photograph.",
+  "requested_centerline_normalized": [
+    [
+      0.06,
+      0.94
+    ],
+    [
+      0.25,
+      0.78
+    ],
+    [
+      0.45,
+      0.65
+    ],
+    [
+      0.6,
+      0.53
+    ],
+    [
+      0.9,
+      0.59
+    ]
+  ],
+  "requested_foreground_width_fraction": 0.08,
+  "generated_dimensions": {
+    "width": 1672,
+    "height": 941,
+    "requested_aspect_ratio": "16:9",
+    "actual_aspect_ratio": "1672:941",
+    "resampled": false
+  },
+  "observations": [
+    "Viewed the dry reference before editing and generated file afterward using view_image.",
+    "A clearly distinguishable continuous pale gray/clear ordinary-water ribbon with sparse white foam now occupies the recessed diagonal main channel, from lower-left foreground to right middle-ground.",
+    "High gravel bars remain exposed. Water does not enter roads, farms, buildings, either high bank or the separate lined lower-right reservoir.",
+    "Lower-right reservoir retains green stationary water and its white lining.",
+    "Water appears neutral gray/clear; no yellow/brown muddy slurry, coarse debris clumps or floating/rolling rocks observed. Stones visible through shallow water appear to be static channel-bed stones.",
+    "Camera composition, mountains, buildings, banks and lighting remain recognizably aligned; background detail and text glyphs have generative drift.",
+    "Water placement approximates requested path. The foreground ribbon reaches the left edge near y95%, and the far-right ribbon appears nearer y53%-56% than the requested y59%; not verified by a pixel mask."
+  ],
+  "limitations": [
+    "Synthetic ordinary-water first frame only, not a generated animation or video.",
+    "negative_candidate is a candidate role, not a verified project N label or completed human acceptance.",
+    "Human acceptance remains incomplete and training_ready is false.",
+    "Not pixel-identical to dry reference; no guaranteed exact hydrologic geometry, flow velocity or temporal realism."
+  ],
+  "paid_video_api_called": false,
+  "training_started": false
+}

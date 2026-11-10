@@ -1,0 +1,69 @@
+{
+  "spec_id": "EXP-016",
+  "version": 1,
+  "resource": "data/metadata/EXP-016/metadata-v4",
+  "epochs": 20,
+  "seed": 7,
+  "train_count": 504,
+  "train_pos": 356,
+  "train_neg": 148,
+  "pos_weight": 0.4157303370786517,
+  "validation_count": 136,
+  "effective_batch": 24,
+  "microbatch_max": 8,
+  "dense_windows": 32567,
+  "unique_clips": 10180,
+  "sources": [
+    {
+      "path": "data/metadata/EXP-016/metadata-v4/windows.jsonl",
+      "sha256": "2c60d93fda3ebe9f46352f9ab4035db38c99869f682b6e3bfec81ed64053bcd8",
+      "size_bytes": 5719059
+    },
+    {
+      "path": "data/metadata/EXP-016/metadata-v4/segments.csv",
+      "sha256": "58ab042cc82d969fe59b69d85afcfc255d795db54d4a01012c8012260727a52e",
+      "size_bytes": 40236
+    },
+    {
+      "path": "data/metadata/EXP-016/metadata-v4/video-inputs.csv",
+      "sha256": "3b6be81e4a4fcd1943ab3f4b535868f6a3342a53435948957902e5b557668e3c",
+      "size_bytes": 154893
+    },
+    {
+      "path": "data/metadata/EXP-016/metadata-v4/dense-eval-windows.jsonl",
+      "sha256": "8d1fde5be4e2441f6d1625d68597eb0c5ee288a1647bc78bacc1665724ae35da",
+      "size_bytes": 10529371
+    },
+    {
+      "path": "data/metadata/EXP-016/metadata-v4/dense-transfer-references.csv",
+      "sha256": "3400239e240e47a609de58d353c034291d877dd377957ff10d2fc59ea066658b",
+      "size_bytes": 27224
+    },
+    {
+      "path": "data/metadata/EXP-016/metadata-v4/frozen-plan-closure.json",
+      "sha256": "735bb8e3a6b25842c673ad8720b81e19029b018e69cc23a7a1e300445e82a06f",
+      "size_bytes": 31932
+    },
+    {
+      "path": "data/process/EXP-016/metadata-v4/cache-completion.json",
+      "sha256": "400266e730aa1d788b5c35eea15982ad1d0930f1a6b342b06d751fbd369636fe",
+      "size_bytes": 62029
+    },
+    {
+      "path": "data/process/EXP-016/metadata-v4/verified-cache-files.csv",
+      "sha256": "7e58186d125c67b52c54f6e926c3cedcb162c30ed82772da671f65160d7b018e",
+      "size_bytes": 49876534
+    },
+    {
+      "path": "data/metadata/splits/EXP-016-development-holdout.json",
+      "sha256": "7de95d14b8e72a60e5f0fe8a48d2959b7c96d1d517e176a216b277b9c16b1989",
+      "size_bytes": 4000
+    }
+  ],
+  "files": {
+    "assignments.csv": "5d72de51faa3fb1d9c6dd574b16df7e967b6c17522f6a8f337cba9b07f91e0c0",
+    "coverage.json": "a6c61b5526cab495418cd95fb428abaec4a5c4e1b775a9ec516f05965b2175d6"
+  },
+  "generator_sha256": "1f29f36e360b7163c45bec3012240b1afb1fa16fa8523a2598c91ffc51db45ff",
+  "independent_test_used": false
+}

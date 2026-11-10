@@ -1,0 +1,24 @@
+{
+  "scene_id": "camera-24c4f38b2c77",
+  "camera": "门前沟中游",
+  "crop": [
+    130,
+    0,
+    1280,
+    720
+  ],
+  "detail_crop": [
+    180,
+    430,
+    1280,
+    720
+  ],
+  "use_old_mask": true,
+  "protected_rectangles": [],
+  "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: a local crop of an accepted dry-bed photograph from a fixed surveillance camera. Image 2 is a LOCATION GUIDE ONLY: the magenta marks the permitted low channel footprint. Change only that guided channel footprint into CLEARLY VISIBLE ORDINARY RUNNING WATER. Depict a moderate natural stream similar to a grey river at normal flow: continuous neutral grey to grey-silver liquid surface, some fine suspended silt, coherent small water ripples and irregular sparse white foam streaks, with modest turbulence where water passes original exposed stones. This must be recognizable flowing water, not a thin blue line and not an extreme flood. Leave exposed dry gravel islands and stones in place. The water surface must be fluid rather than granular mud or solid paste. No uniform yellow/brown/ochre, no tropical blue/green, no transported rocks, no debris masses, debris-flow front, huge waves or excessive whitewater. Retain the original surveillance light, source resolution and camera geometry. Do not move banks, flood the whole gravel bed, recolor terrain, sharpen the whole image, alter vegetation, cliffs, roads, timestamp, captions, or invent objects. The magenta guide is annotation, never a desired output color. Keep exactly the same framing. There are TWO visible water routes to restore: (1) the sinuous main channel down the left gully and its bend into the lower-left foreground, and (2) the narrow transverse tributary along the foot of the RIGHT cliff, from the right image edge across the lower-right band toward its occlusion behind the central foreground gravel spur. Put grey ordinary flowing water in BOTH guided channel routes, leaving the central raised gravel fan/spur dry. The right tributary must be visible, not omitted. Do not connect them by pouring across the raised gravel fan; their junction may be outside or hidden. Keep the main and right water surfaces similarly neutral grey with modest irregular white ripples and foam. Preserve the original caption over the right channel exactly, all timestamp characters, slopes and vegetation. No cliff waterfalls, no full-bank flooding, no mud front.",
+  "mask_note": "Reuses the repaired dry-reference fluid footprint, which explicitly includes the right transverse tributary; prior overlay glyph exclusions retained.",
+  "limitations": [
+    "Caption partly overlaps the right tributary, so original caption glyph pixels are retained from the dry source. The hidden junction of the visible routes is not inferred."
+  ],
+  "built_in_artifact_path": "C:\\Users\\20443\\.codex\\generated_images\\01a1bbdd-12c1-7430-82d9-e8780e761ead\\exec-aaf24e39-8650-4d60-ae2b-0d8905612625.png"
+}

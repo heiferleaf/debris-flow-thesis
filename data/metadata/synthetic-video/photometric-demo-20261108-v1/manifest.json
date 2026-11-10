@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "purpose": "local_photometric_still_preview_only",
+  "source": {
+    "path": "data/process/video_frames/video1_segment/frames/v1_16_frame_000143_t300s.jpg",
+    "sha256": "1c10f9c32fee010a88f34b217c985680713b8a5724cea845c9d0e90be731ed86",
+    "shape": [
+      540,
+      960,
+      3
+    ],
+    "semantic_anchor": "recognized ordinary-flow N",
+    "unique_source_images": 1
+  },
+  "physical_motion": "none",
+  "unique_source_images": 1,
+  "capture_observation_seconds": 0,
+  "preview_display_seconds": 3.0,
+  "training_ready": false,
+  "paid_api_calls": 0,
+  "parameters": {
+    "frame_count": 16,
+    "preview_display_seconds": 3.0,
+    "seed": 20261108,
+    "exposure_amplitude_ev": 0.02,
+    "exposure_period_seconds": 12.0,
+    "white_balance_amplitude": 0.005,
+    "white_balance_period_seconds": 12.0,
+    "noise_std_normalized": 0.001176470588235294,
+    "noise_rho": 0.95
+  },
+  "sensor_distribution_calibrated": false,
+  "transform_description": {
+    "exposure_only": "sRGB decode; linear RGB * 2**(amplitude_EV*sin(fixed_seed_phase+2*pi*t/period)); sRGB encode",
+    "white_balance_only": "sRGB decode; linear RGB * [1+offset,1,1-offset]; offset=amplitude*sin(fixed_seed_phase+2*pi*t/period); sRGB encode",
+    "sensor_noise_only": "encoded sRGB + stationary per-pixel/channel Gaussian AR(1); initial std=0.3/255; innovation std=std*sqrt(1-rho**2)",
+    "quantization": "clip [0,255] and nearest-integer uint8 rounding",
+    "geometry": "identity; no warp, crop, camera shake, water deformation or texture advection"
+  },
+  "conditions": [
+    {
+      "condition": "baseline",
+      "temporal_information": "none",
+      "physical_motion": "none",
+      "unique_source_images": 1,
+      "capture_observation_seconds": 0,
+      "preview_display_seconds": 3.0,
+      "frame_count": 16,
+      "training_ready": false,
+      "sensor_distribution_calibrated": false,
+      "parameters": {
+        "frame_count": 16,
+        "preview_display_seconds": 3.0,
+        "seed": 20261108,
+        "exposure_amplitude_ev": 0.02,
+        "exposure_period_seconds": 12.0,
+        "white_balance_amplitude": 0.005,
+        "white_balance_period_seconds": 12.0,
+        "noise_std_normalized": 0.001176470588235294,
+        "noise_rho": 0.95
+      },
+      "display_frame_start_seconds": [
+        0.0,
+        0.1875,
+        0.375,
+        0.5625,
+        0.75,
+        0.9375,
+        1.125,
+        1.3125,
+        1.5,
+        1.6875,
+        1.875,
+        2.0625,
+        2.25,
+        2.4375,
+        2.625,
+        2.8125
+      ],
+      "interpretation": "One ordinary-flow N still; frame count is not independent source observations.",
+      "output_shape": [
+        16,
+        540,
+        960,
+        3
+      ],
+      "dtype": "uint8",
+      "in_memory_frame_array_sha256": "0d191da24310bedbd70fcef1609d8a0dddd2e90ac463fc56732e5af5191f1c70",
+      "mean_absolute_code_value_delta_from_source": 0.0,
+      "mean_adjacent_frame_absolute_code_value_delta": 0.0,
+      "changed_code_value_fraction_from_source": 0.0,
+      "max_absolute_code_value_delta_from_source": 0
+    },
+    {
+      "condition": "exposure_only",
+      "temporal_information": "simulated_photometric_only",
+      "physical_motion": "none",
+      "unique_source_images": 1,
+      "capture_observation_seconds": 0,
+      "preview_display_seconds": 3.0,
+      "frame_count": 16,
+      "training_ready": false,
+      "sensor_distribution_calibrated": false,
+      "parameters": {
+        "frame_count": 16,
+        "preview_display_seconds": 3.0,
+        "seed": 20261108,
+        "exposure_amplitude_ev": 0.02,
+        "exposure_period_seconds": 12.0,
+        "white_balance_amplitude": 0.005,
+        "white_balance_period_seconds": 12.0,
+        "noise_std_normalized": 0.001176470588235294,
+        "noise_rho": 0.95
+      },
+      "display_frame_start_seconds": [
+        0.0,
+        0.1875,
+        0.375,
+        0.5625,
+        0.75,
+        0.9375,
+        1.125,
+        1.3125,
+        1.5,
+        1.6875,
+        1.875,
+        2.0625,
+        2.25,
+        2.4375,
+        2.625,
+        2.8125
+      ],
+      "interpretation": "One ordinary-flow N still; frame count is not independent source observations.",
+      "output_shape": [
+        16,
+        540,
+        960,
+        3
+      ],
+      "dtype": "uint8",
+      "in_memory_frame_array_sha256": "539e93e5410ccd96211a7579bcfdb09870ae44b6c5b9a0f3ba87cfb2cc9c75c0",
+      "mean_absolute_code_value_delta_from_source": 0.29275410718878603,
+      "mean_adjacent_frame_absolute_code_value_delta": 0.05995477537722908,
+      "changed_code_value_fraction_from_source": 0.29275410718878603,
+      "max_absolute_code_value_delta_from_source": 1
+    },
+    {
+      "condition": "white_balance_only",
+      "temporal_information": "simulated_photometric_only",
+      "physical_motion": "none",
+      "unique_source_images": 1,
+      "capture_observation_seconds": 0,
+      "preview_display_seconds": 3.0,
+      "frame_count": 16,
+      "training_ready": false,
+      "sensor_distribution_calibrated": false,
+      "parameters": {
+        "frame_count": 16,
+        "preview_display_seconds": 3.0,
+        "seed": 20261108,
+        "exposure_amplitude_ev": 0.02,
+        "exposure_period_seconds": 12.0,
+        "white_balance_amplitude": 0.005,
+        "white_balance_period_seconds": 12.0,
+        "noise_std_normalized": 0.001176470588235294,
+        "noise_rho": 0.95
+      },
+      "display_frame_start_seconds": [
+        0.0,
+        0.1875,
+        0.375,
+        0.5625,
+        0.75,
+        0.9375,
+        1.125,
+        1.3125,
+        1.5,
+        1.6875,
+        1.875,
+        2.0625,
+        2.25,
+        2.4375,
+        2.625,
+        2.8125
+      ],
+      "interpretation": "One ordinary-flow N still; frame count is not independent source observations.",
+      "output_shape": [
+        16,
+        540,
+        960,
+        3
+      ],
+      "dtype": "uint8",
+      "in_memory_frame_array_sha256": "3042331e55b211a0a84e9391ffea008858e38c7984360d0c2628d60e3d128f19",
+      "mean_absolute_code_value_delta_from_source": 2.527809927983539e-05,
+      "mean_adjacent_frame_absolute_code_value_delta": 2.6963305898491083e-05,
+      "changed_code_value_fraction_from_source": 2.527809927983539e-05,
+      "max_absolute_code_value_delta_from_source": 1
+    },
+    {
+      "condition": "sensor_noise_only",
+      "temporal_information": "simulated_photometric_only",
+      "physical_motion": "none",
+      "unique_source_images": 1,
+      "capture_observation_seconds": 0,
+      "preview_display_seconds": 3.0,
+      "frame_count": 16,
+      "training_ready": false,
+      "sensor_distribution_calibrated": false,
+      "parameters": {
+        "frame_count": 16,
+        "preview_display_seconds": 3.0,
+        "seed": 20261108,
+        "exposure_amplitude_ev": 0.02,
+        "exposure_period_seconds": 12.0,
+        "white_balance_amplitude": 0.005,
+        "white_balance_period_seconds": 12.0,
+        "noise_std_normalized": 0.001176470588235294,
+        "noise_rho": 0.95
+      },
+      "display_frame_start_seconds": [
+        0.0,
+        0.1875,
+        0.375,
+        0.5625,
+        0.75,
+        0.9375,
+        1.125,
+        1.3125,
+        1.5,
+        1.6875,
+        1.875,
+        2.0625,
+        2.25,
+        2.4375,
+        2.625,
+        2.8125
+      ],
+      "interpretation": "One ordinary-flow N still; frame count is not independent source observations.",
+      "output_shape": [
+        16,
+        540,
+        960,
+        3
+      ],
+      "dtype": "uint8",
+      "in_memory_frame_array_sha256": "030a692a58656a6b77a1d342024924ccc0a618534f46849a1a33d19e6875afa6",
+      "mean_absolute_code_value_delta_from_source": 0.09554771894290123,
+      "mean_adjacent_frame_absolute_code_value_delta": 0.04965003429355281,
+      "changed_code_value_fraction_from_source": 0.09554731706532922,
+      "max_absolute_code_value_delta_from_source": 2
+    }
+  ],
+  "code": [
+    {
+      "path": "experiments/common/video/photometric_static.py",
+      "sha256": "49c908dbe4660599f5f82a096d9d506901a35cf1296c53fe9c630e2d7c329905"
+    },
+    {
+      "path": "experiments/tools/preview_photometric_static.py",
+      "sha256": "402d0ccee6e56d7af94f70ffb9184bbaca5826b62d9f28a8b0af8fa59081d589"
+    }
+  ],
+  "environment": {
+    "python": "3.8.0",
+    "numpy": "1.24.3",
+    "pillow": "10.4.0",
+    "ffmpeg": ".venv/Lib/site-packages/imageio_ffmpeg/binaries/ffmpeg-win64-v4.2.2.exe"
+  },
+  "preview_encoding": {
+    "codec": "libx264",
+    "pixel_format": "yuv420p",
+    "crf": 10,
+    "display_frame_rate": "16/3",
+    "panel_width": 480,
+    "purpose": "viewing aid; resize and encoding may suppress tiny changes"
+  },
+  "command": [
+    ".venv/Scripts/python.exe",
+    "experiments/tools/preview_photometric_static.py",
+    "--source",
+    "data/process/video_frames/video1_segment/frames/v1_16_frame_000143_t300s.jpg",
+    "--manifest",
+    "data/metadata/synthetic-video/photometric-demo-20261108-v1/manifest.json",
+    "--preview-dir",
+    ".codex/docs/.temp/photometric-demo-20261108-v1",
+    "--seed",
+    "20261108",
+    "--ffmpeg",
+    ".venv/Lib/site-packages/imageio_ffmpeg/binaries/ffmpeg-win64-v4.2.2.exe"
+  ],
+  "outputs": [
+    {
+      "path": ".codex/docs/.temp/photometric-demo-20261108-v1/photometric_comparison.mp4",
+      "sha256": "2b1212b3293a80303a3f71974939fc7a2f013ece16ce402f1a5ef5a37735595d",
+      "bytes": 459330
+    },
+    {
+      "path": ".codex/docs/.temp/photometric-demo-20261108-v1/first_last_contact_sheet.png",
+      "sha256": "d9dad65aa2535bf9b2c311a2c096b5849e0545ed281f4deb6ec9ae66b3e6b191",
+      "bytes": 1270570
+    }
+  ],
+  "limitations": [
+    "Parameters are illustrative defaults, not calibrated to real sensor distributions.",
+    "No claim of improved realism or training effectiveness; nothing is connected to a trainer.",
+    "16 displayed frames from one still are not 16 independent source frames or 3 seconds of captured observation.",
+    "This is not a real 10-second video; physical ordinary-flow motion is absent.",
+    "Small uint8 changes may be difficult to see at preview scale; this is not evidence that physical motion exists."
+  ]
+}

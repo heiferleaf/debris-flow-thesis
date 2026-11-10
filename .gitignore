@@ -1,0 +1,11 @@
+data/raw/
+.venv/
+__pycache__/
+*.mp4
+*.mov
+*.avi
+*.jpg
+*.png
+*.npz
+*.npy
+.codex/secrets/

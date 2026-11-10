@@ -1,0 +1,1369 @@
+{
+  "schema_version": 1,
+  "all_originals": 168,
+  "sampled_content_records": 153,
+  "preserved_whole_cut": 15,
+  "existing_excluded": [
+    "v5_08"
+  ],
+  "active_changes_relative_pre_dispute": [
+    "v1_13",
+    "v1_96",
+    "v1_97"
+  ],
+  "current_review": "data/metadata/annotation-revisions/npt-20261108-review-v7",
+  "training_ready": false,
+  "items": [
+    {
+      "unit_id": "v1_01",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/batch-b/v1_01.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_02",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_02.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_03",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_03.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_04",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_04.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_05",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_05.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_06",
+      "camera": "鸡冠山上游",
+      "scope_status": "preserved_existing_whole_video_cut_no_new_semantic_class",
+      "evidence": null,
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_07",
+      "camera": "鸡冠山下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_07.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_08",
+      "camera": "鸡冠山下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_08.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_09",
+      "camera": "鸡冠山下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_09.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_10",
+      "camera": "鸡冠山下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_10.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_11",
+      "camera": "鸡冠山下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_11.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_12",
+      "camera": "鸡冠山下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_12.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_13",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_13.json",
+      "active_relabel": true,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_14",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_14.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_15",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/batch-a/v1_15.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_16",
+      "camera": "鸡冠山下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v2/v1_16/root-demo-review.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_17",
+      "camera": "鸡冠山下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_17.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_18",
+      "camera": "鸡冠山下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/batch-a/v1_18.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_19",
+      "camera": "九弯地沟下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_19.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_20",
+      "camera": "九弯地沟下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_20.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_21",
+      "camera": "九弯地沟下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_21.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_22",
+      "camera": "九弯地沟下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_22.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_23",
+      "camera": "塔吊上游",
+      "scope_status": "preserved_existing_whole_video_cut_no_new_semantic_class",
+      "evidence": null,
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_24",
+      "camera": "塔吊上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/batch-b/v1_24.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_25",
+      "camera": "塔吊上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_25.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_26",
+      "camera": "塔吊下游",
+      "scope_status": "preserved_existing_whole_video_cut_no_new_semantic_class",
+      "evidence": null,
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_27",
+      "camera": "塔吊下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_27.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_28",
+      "camera": "塔吊下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_28.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_29",
+      "camera": "塔吊下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_29.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_30",
+      "camera": "门前沟上游",
+      "scope_status": "preserved_existing_whole_video_cut_no_new_semantic_class",
+      "evidence": null,
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_31",
+      "camera": "门前沟上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/batch-a/v1_31.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_32",
+      "camera": "门前沟上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_32.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_33",
+      "camera": "门前沟上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_33.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_34",
+      "camera": "门前沟中游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_34.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_35",
+      "camera": "门前沟中游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_35.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_36",
+      "camera": "门前沟中游",
+      "scope_status": "preserved_existing_whole_video_cut_no_new_semantic_class",
+      "evidence": null,
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_37",
+      "camera": "门前沟中游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_37.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_38",
+      "camera": "鸡冠山上游",
+      "scope_status": "preserved_existing_whole_video_cut_no_new_semantic_class",
+      "evidence": null,
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_39",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/batch-a/v1_39.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_40",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/batch-a/v1_40.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_41",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_41.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_42",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_42.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_43",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_43.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_44",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_44.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_45",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_45.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_46",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_46.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_47",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_47.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_48",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_48.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_49",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_49.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_50",
+      "camera": "鸡冠山下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_50.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_51",
+      "camera": "鸡冠山下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_51.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_52",
+      "camera": "鸡冠山下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_52.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_53",
+      "camera": "九弯地沟下游",
+      "scope_status": "preserved_existing_whole_video_cut_no_new_semantic_class",
+      "evidence": null,
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_54",
+      "camera": "九弯地沟下游",
+      "scope_status": "preserved_existing_whole_video_cut_no_new_semantic_class",
+      "evidence": null,
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_55",
+      "camera": "九弯地沟下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/batch-a/v1_55.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_56",
+      "camera": "九弯地沟下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/batch-a/v1_56.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_57",
+      "camera": "塔吊上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_57.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_58",
+      "camera": "塔吊上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_58.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_59",
+      "camera": "塔吊上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_59.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_60",
+      "camera": "塔吊下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_60.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_61",
+      "camera": "塔吊下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_61.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_62",
+      "camera": "塔吊下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_62.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_63",
+      "camera": "塔吊下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/batch-b/v1_63.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_64",
+      "camera": "塔吊下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_64.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_65",
+      "camera": "塔吊下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_65.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_66",
+      "camera": "门前沟上游",
+      "scope_status": "preserved_existing_whole_video_cut_no_new_semantic_class",
+      "evidence": null,
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_67",
+      "camera": "门前沟上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_67.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_68",
+      "camera": "门前沟上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_68.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_69",
+      "camera": "门前沟中游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_69.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_70",
+      "camera": "门前沟中游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_70.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_71",
+      "camera": "门前沟中游",
+      "scope_status": "preserved_existing_whole_video_cut_no_new_semantic_class",
+      "evidence": null,
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_72",
+      "camera": "门前沟中游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_72.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_73",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_73.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_74",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_74.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_75",
+      "camera": "鸡冠山上游",
+      "scope_status": "preserved_existing_whole_video_cut_no_new_semantic_class",
+      "evidence": null,
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_76",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_76.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_77",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_77.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_78",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_78.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_79",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_79.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_80",
+      "camera": "鸡冠山上游",
+      "scope_status": "preserved_existing_whole_video_cut_no_new_semantic_class",
+      "evidence": null,
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_81",
+      "camera": "鸡冠山下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/batch-a/v1_81.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_82",
+      "camera": "鸡冠山下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/batch-b/v1_82.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_83",
+      "camera": "鸡冠山下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_83.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_84",
+      "camera": "鸡冠山下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_84.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_85",
+      "camera": "九弯地沟下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/batch-a/v1_85.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_86",
+      "camera": "九弯地沟下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/batch-a/v1_86.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_87",
+      "camera": "九弯地沟下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_87.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_88",
+      "camera": "九弯地沟下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_88.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_89",
+      "camera": "九弯地沟下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_89.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_90",
+      "camera": "九弯地沟下游",
+      "scope_status": "preserved_existing_whole_video_cut_no_new_semantic_class",
+      "evidence": null,
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_91",
+      "camera": "塔吊上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/batch-b/v1_91.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_92",
+      "camera": "塔吊上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_92.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_93",
+      "camera": "塔吊上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_93.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_94",
+      "camera": "塔吊上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_94.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_95",
+      "camera": "塔吊下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/batch-b/v1_95.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_96",
+      "camera": "塔吊下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/batch-b/v1_96.json",
+      "active_relabel": true,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_97",
+      "camera": "塔吊下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_97.json",
+      "active_relabel": true,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_98",
+      "camera": "塔吊下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_98.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_99",
+      "camera": "塔吊下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_99.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_100",
+      "camera": "塔吊下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_100.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_101",
+      "camera": "门前沟上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_101.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_102",
+      "camera": "门前沟上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_102.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_103",
+      "camera": "门前沟上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_103.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_104",
+      "camera": "门前沟上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_104.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_105",
+      "camera": "门前沟中游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_105.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_106",
+      "camera": "门前沟中游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_106.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_107",
+      "camera": "门前沟中游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_107.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_108",
+      "camera": "门前沟中游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_108.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_109",
+      "camera": "门前沟中游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_109.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_110",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_110.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_111",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_111.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_112",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_112.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_113",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_113.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_114",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_114.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_115",
+      "camera": "鸡冠山上游",
+      "scope_status": "preserved_existing_whole_video_cut_no_new_semantic_class",
+      "evidence": null,
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_116",
+      "camera": "鸡冠山上游",
+      "scope_status": "preserved_existing_whole_video_cut_no_new_semantic_class",
+      "evidence": null,
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_117",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_117.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_118",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_118.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_119",
+      "camera": "鸡冠山上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_119.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_120",
+      "camera": "鸡冠山下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_120.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_121",
+      "camera": "鸡冠山下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v1_121.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_122",
+      "camera": "鸡冠山下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/batch-b/v1_122.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v1_123",
+      "camera": "鸡冠山下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v1_123.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v4_01",
+      "camera": "多照沟（门前多照汇口）",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v4_01.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v4_02",
+      "camera": "多照沟（门前多照汇口）",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v4_02.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v4_03",
+      "camera": "多照沟（门前多照汇口）",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v4_03.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v4_04",
+      "camera": "多照沟（门前多照汇口）",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v4_04.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v4_05",
+      "camera": "多照沟（门前多照汇口）",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v4_05.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v4_06",
+      "camera": "多照沟（门前多照汇口）",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v4_06.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v4_07",
+      "camera": "塔吊下方",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/batch-b/v4_07.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v4_08",
+      "camera": "塔吊下方",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v4_08.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v4_09",
+      "camera": "塔吊下方",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v4_09.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v4_10",
+      "camera": "塔吊下方",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v4_10.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v4_11",
+      "camera": "塔吊下方",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/batch-a/v4_11.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v4_12",
+      "camera": "塔吊上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/batch-a/v4_12.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v4_13",
+      "camera": "塔吊上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/batch-a/v4_13.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v4_14",
+      "camera": "塔吊上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v4_14.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v4_15",
+      "camera": "塔吊上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v4_15.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v4_16",
+      "camera": "塔吊上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v4_16.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v4_17",
+      "camera": "塔吊上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/batch-b/v4_17.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v4_18",
+      "camera": "1号塔下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/batch-b/v4_18.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v4_19",
+      "camera": "1号塔下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/batch-b/v4_19.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v4_20",
+      "camera": "1号塔下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v4_20.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v4_21",
+      "camera": "1号塔下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v4_21.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v4_22",
+      "camera": "1号塔下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v4_22.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v5_01",
+      "camera": "1号塔广角",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v5_01.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v5_02",
+      "camera": "1号塔广角",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v5_02.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v5_03",
+      "camera": "1号塔广角",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v5_03.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v5_04",
+      "camera": "1号塔广角",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v5_04.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v5_05",
+      "camera": "多照沟（门前多照汇口）",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v5_05.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v5_06",
+      "camera": "多照沟（门前多照汇口）",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v5_06.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v5_07",
+      "camera": "多照沟（门前多照汇口）",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v5_07.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v5_08",
+      "camera": "多照沟（门前多照汇口）",
+      "scope_status": "source_three_short_windows_observed_existing_exclusion_preserved",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/excluded-v5_08.json",
+      "active_relabel": false,
+      "training_ready": false,
+      "source_content_suggestion": "N; source-time proposal only, not converted to audit events"
+    },
+    {
+      "unit_id": "v5_09",
+      "camera": "多照沟（门前多照汇口）",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v5_09.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v5_10",
+      "camera": "塔吊下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v5_10.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v5_11",
+      "camera": "塔吊下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v5_11.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v5_12",
+      "camera": "塔吊下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v5_12.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v5_13",
+      "camera": "塔吊下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v5_13.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v5_14",
+      "camera": "塔吊下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v5_14.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v5_15",
+      "camera": "塔吊下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v5_15.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v5_16",
+      "camera": "塔吊下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v5_16.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v5_17",
+      "camera": "塔吊上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v5_17.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v5_18",
+      "camera": "塔吊上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v5_18.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v5_19",
+      "camera": "塔吊上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v5_19.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v5_20",
+      "camera": "塔吊上游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v5_20.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v5_21",
+      "camera": "1号塔下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v5_21.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v5_22",
+      "camera": "1号塔下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-a/v5_22.json",
+      "active_relabel": false,
+      "training_ready": false
+    },
+    {
+      "unit_id": "v5_23",
+      "camera": "1号塔下游",
+      "scope_status": "sampled_content_review_with_explicit_observation_limits",
+      "evidence": "data/metadata/annotation-review/recheck-20261108-v3/remaining-b/v5_23.json",
+      "active_relabel": false,
+      "training_ready": false
+    }
+  ],
+  "important_limit": "Inventory coverage is complete; full continuous physical-type certification is not claimed.",
+  "records_with_existing_events_or_demo": 152,
+  "excluded_source_content_observed": 1,
+  "source_eligibility_pending": [
+    "v5_08"
+  ]
+}

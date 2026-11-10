@@ -1,0 +1,189 @@
+{
+  "schema_version": 3,
+  "unit_id": "v4_19",
+  "decision_status": "recommendation_only_no_events_written",
+  "summary": "保留用户P0–2800，撤销P候选整体隔离；明确视觉为抽样加来源支持。",
+  "source_video_id": "D15_20260818165538",
+  "raw_paths": [
+    "data/raw/video_dataset_3/2026年8月18日 蒋家沟泥石流发生前水流（洪水）视频/D15_20260818165538.mp4"
+  ],
+  "old_user_version": "data/metadata/annotation-revisions/npt-20261107-proposals-v3",
+  "disputed_version": "data/metadata/annotation-revisions/npt-20261108-review-v5",
+  "old_user_intervals": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 2800.0,
+      "state": "P"
+    }
+  ],
+  "disputed_intervals": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 2800.0,
+      "state": "P"
+    }
+  ],
+  "erroneous_or_unfounded_changes": [
+    "CSV仍P但整体作候选/监督隔离，缺少足以推翻用户P及较晚专家更正的反证；活动流体与固定床面必须分开观察。"
+  ],
+  "recommended_intervals": [
+    {
+      "start_sec": 0,
+      "end_sec": 2800,
+      "state": "P",
+      "reason": "保留用户P。直接核验较晚专家原文更正前批塔吊断面为小型泥石流；本片1号塔下游见持续活动不透明流带，内部浅暗组织更新并与前片P后续接续。当前抽样缺少足够相反证据将用户P降N。来源与画面联合支持，不能把黄色、流量或目录单独当P。",
+      "confidence": "medium_source_supported"
+    }
+  ],
+  "evidence_actually_observed": [
+    {
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/batch-b/v4_19-motion.jpg",
+      "frame_manifest": "data/process/annotation-review/recheck-20261108-v3/batch-b/v4_19-motion.json",
+      "audit_times_actually_viewed": [
+        0.0,
+        2.0,
+        4.0,
+        6.0,
+        8.0,
+        10.0,
+        12.0,
+        14.0,
+        1400.0,
+        1402.0,
+        1404.0,
+        1406.0,
+        1408.0,
+        1410.0,
+        1412.0,
+        1414.0,
+        1990.0,
+        1992.0,
+        1994.0,
+        1996.0,
+        1998.0,
+        2000.0,
+        2002.0,
+        2004.0
+      ],
+      "time_basis": "frames_index.csv t_sec; not source seek/PTS",
+      "crop_fraction": [
+        0.0,
+        0.64,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/batch-b/v4_19-overview.jpg",
+      "frame_manifest": "data/process/annotation-review/recheck-20261108-v3/batch-b/v4_19-overview.json",
+      "audit_times_actually_viewed": [
+        0.0,
+        60.0,
+        180.0,
+        360.0,
+        600.0,
+        900.0,
+        1200.0,
+        1500.0,
+        1800.0,
+        1980.0,
+        2000.0,
+        2020.0,
+        2100.0,
+        2400.0,
+        2700.0,
+        2798.0
+      ],
+      "time_basis": "frames_index.csv t_sec; not source seek/PTS",
+      "crop_fraction": null
+    },
+    {
+      "raw_manifest": "data/process/annotation-review/recheck-20261108-v3/batch-b/v4_19-raw-1990.json",
+      "time_basis": "nominal source seek, not independently extracted source PTS",
+      "actual_inspection": "all displayed ordered samples; startup corruption excluded as decoding defect",
+      "raw_seek_start": 1990,
+      "duration": 6,
+      "sample_fps": 4
+    }
+  ],
+  "all_audit_times_actually_viewed": [
+    0.0,
+    2.0,
+    4.0,
+    6.0,
+    8.0,
+    10.0,
+    12.0,
+    14.0,
+    60.0,
+    180.0,
+    360.0,
+    600.0,
+    900.0,
+    1200.0,
+    1400.0,
+    1402.0,
+    1404.0,
+    1406.0,
+    1408.0,
+    1410.0,
+    1412.0,
+    1414.0,
+    1500.0,
+    1800.0,
+    1980.0,
+    1990.0,
+    1992.0,
+    1994.0,
+    1996.0,
+    1998.0,
+    2000.0,
+    2002.0,
+    2004.0,
+    2020.0,
+    2100.0,
+    2400.0,
+    2700.0,
+    2798.0
+  ],
+  "observation_scope": "Ordered cached frames around boundaries plus early/middle/late navigation; raw dense windows only where explicitly listed. No claim of uninterrupted full-video examination.",
+  "transition_target_signs": null,
+  "transition_gap_before_P": null,
+  "inherited_not_continuously_reobserved": [
+    {
+      "start_sec": 14,
+      "end_sec": 1400,
+      "state": "P",
+      "limitation": "除60/180/360/600/900/1200抽帧未连续重看"
+    },
+    {
+      "start_sec": 1414,
+      "end_sec": 1990,
+      "state": "P",
+      "limitation": "除1500/1800/1980抽帧未连续重看"
+    },
+    {
+      "start_sec": 2004,
+      "end_sec": 2800,
+      "state": "P",
+      "limitation": "除2020/2100/2400/2700/2798抽帧未连续重看"
+    }
+  ],
+  "pending_evidence": [
+    "来源更正点名塔吊断面，对1号塔下游是批次和上下游接续支持，不能写成该视角每秒经专家认证。",
+    "远景下不易直接看清物料组织；若单独建立纯视觉P锚，需更高分辨率原片ROI或专业流态复核。"
+  ],
+  "prohibited_shortcuts_avoided": [
+    "未用来源目录、黄色、流量大小、阵流或有运动单独定P",
+    "未把固定岸石/床面代替实际流体观察",
+    "未新增U/A，未以大面积关闭监督代替审计",
+    "未用模型预测定义真值"
+  ],
+  "cut_policy": "Preserve proposals-v3 cut union exactly; decoder startup corruption is not a new user cut.",
+  "source_document_support": {
+    "verified_originals": "data/metadata/annotation-review/recheck-20261108-v3/batch-b/verified-source-evidence.json",
+    "old_statement_is_superseded": true,
+    "later_correction": "2026-08-18上游14:24已发生泥石流，前批到塔吊断面属小型泥石流；专家说明不能自动成为每秒标注。",
+    "scope_limit": "v4_17为塔吊上游；v4_19/v4_18是1号塔下游，后者跨视角对应强度低于直接塔吊断面。"
+  }
+}

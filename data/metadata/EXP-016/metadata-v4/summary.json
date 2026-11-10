@@ -1,0 +1,140 @@
+{
+  "status": "metadata_frozen_pixels_not_ready",
+  "videos_expected": 150,
+  "videos_metadata_pass": 150,
+  "failures": [],
+  "epochs": 20,
+  "candidate_tuples": 3028407,
+  "selected_unique_source_frames": 158142,
+  "training_quota_pos": 408,
+  "training_quota_neg": 168,
+  "pos_weight": 0.4117647058823529,
+  "fixed_validation_quota": 148,
+  "dense_validation_metadata_windows": 32567,
+  "segment_counts_and_quotas": {
+    "train/neg/segments": 43,
+    "train/neg/quota": 168,
+    "train/pos/segments": 105,
+    "train/pos/quota": 408,
+    "validation/neg/segments": 13,
+    "validation/neg/quota": 52,
+    "validation/pos/segments": 25,
+    "validation/pos/quota": 96
+  },
+  "zero_candidate_segments": [
+    "v1_109:event-line-113",
+    "v1_114:event-line-120",
+    "v1_114:event-line-127",
+    "v1_20:event-line-202",
+    "v1_24:implicit-gap-0"
+  ],
+  "gaps_total": 129,
+  "protocol9_implicit_gaps": [
+    {
+      "unit_id": "v1_24",
+      "split": "train",
+      "start_sec": 398.0,
+      "end_sec": 402.0,
+      "gap_type": "internal_between_annotations",
+      "audit_frame_count": 2,
+      "native_frame_count": 39,
+      "disposition": "protocol9_implicit_negative"
+    }
+  ],
+  "preprocessing": {
+    "cache": "256x256 JPEG quality95 BGR source pixels",
+    "runtime": "JPEG decode BGR to RGB then INTER_LINEAR resize112",
+    "mean": [
+      0.43216,
+      0.394666,
+      0.37645
+    ],
+    "std": [
+      0.22803,
+      0.22145,
+      0.216989
+    ],
+    "augmentation": "none"
+  },
+  "independent_test_sources_used": false,
+  "timebase_pixel_review": "v1_09 supervision core [0,524) verified; full clock remains unresolved",
+  "known_timebase_review_pending": [],
+  "full_timebase_mapping_unresolved": [
+    "v1_09"
+  ],
+  "counts_provisional_until_timebase_review": false,
+  "supervision_core_review": {
+    "unit_id": "v1_09",
+    "date": "2026-10-30",
+    "reviewer_role": "research-auditor Sol xhigh",
+    "decision": "approved_supervision_core",
+    "scope": "supervision_core_verified",
+    "annotation_start_sec": 0.0,
+    "annotation_end_sec": 526.0,
+    "sampling_start_sec": 0.0,
+    "sampling_end_sec": 524.0,
+    "boundary_semantics": "sampled actual PTS >=0 and <524; original human annotation remains [0,526)",
+    "full_timebase_mapping": "unresolved",
+    "dense_sampling_change": "none; this restriction applies only to supervision",
+    "basis": "Two inspected positive-scene anchors and multi-anchor local-motion evidence support a conservative interior of the single positive annotation; no inferred global time shift, no relabeling.",
+    "review_message": "Sol: approved v1_09 minimum supervision core [0,524), original events pos[0,526) retained. Full video clock mapping remains unresolved.",
+    "middleware_sha256": "61ab50147e61755e0d9e003d6181d50ff413e0994f79e3ce37472b593df61e1a",
+    "coord_sha256": "bf26edb46687f9bacae4dfb8240669a0cbbc86b3634358bb7def9a87f9ed288e",
+    "qc_sha256": "8044fbdd18179e0e630f3ed38e3454960974be732088cb9354790e973b47efab",
+    "evidence": [
+      {
+        "path": "data/process/EXP-016/probes/v1_09-clock-and-pixels-20261030/pixel-and-anchor-summary.json",
+        "sha256": "4ee497a1d44eafb7bb01cc3c8ee5825fc74bebffa98a345f38b29480189d51f5"
+      },
+      {
+        "path": "data/process/EXP-016/probes/v1_09-clock-and-pixels-20261030/anchor-localization/localization-summary.json",
+        "sha256": "3bf7216fd754ed29e2ca416e051b8b3d6a83cd4835550419b6419750f2287abf"
+      },
+      {
+        "path": "data/process/EXP-016/probes/v1_09-clock-and-pixels-20261030/anchor-0.00-frame-000000.jpg",
+        "sha256": "0170998b284d5a9ee54ef890d0adcfd92366e7df601b35db7b9a78965a677507"
+      },
+      {
+        "path": "data/process/EXP-016/probes/v1_09-clock-and-pixels-20261030/anchor-524.13-frame-010491.jpg",
+        "sha256": "ebc56499de470f20f41fe9ab505381ad00bbdbae93dd04afd39f4121ccd4c945"
+      }
+    ]
+  },
+  "pixels_ready": false,
+  "training_ready": false,
+  "cache_scope": "supervised_train_and_checkpoint_selection_only",
+  "dense_input_contract": "stream validation H264 via recorded frame indices; per decoded BGR frame reproduce cv2 JPEG95 encode/decode in memory, then RGB INTER_LINEAR112 and original mean/std; no dense JPEG cache claimed ready",
+  "metadata_fingerprints": {
+    "data/process/video_frames/video1_segment/events.csv": "bca5b876bba8b4b10d2d9435a91cf0a6c58d038425da3307536521f8cd8fc620",
+    "data/process/video_frames/video1_segment/frames_index.csv": "3c901ebc33b6a7323844964b6b9354c84f7e446dcb3eb99fe78714f8be4e7e12",
+    "data/process/video_frames/video4_segment/events.csv": "481bff9a9874e295ece278f37cf1c2e4f1be225aa5f2b634aae8e7f8132bd5e1",
+    "data/process/video_frames/video4_segment/frames_index.csv": "cc85aac191c08e0a08e5c9bb9d558083fbae0e8341297d6f291322b81265c68b",
+    "data/process/video_frames/video5_segment/events.csv": "ac68b38bdcecf8ba41d7d4929988f207cc9444ff5683e3f9ec96dcf1ca1185bd",
+    "data/process/video_frames/video5_segment/frames_index.csv": "6093feee5c7699055bd3c3de535abfb7351e341fb33e811d1b8d8e2cf491fdd2",
+    "data/metadata/EXP-016/reviews/v1_09-supervision-core-20261030.json": "dba22e3391be8e4ece8de1ce34fdcbec37dd5e63f9deb734fe62010adf33290f",
+    "data/process/EXP-016/probes/v1_09-clock-and-pixels-20261030/pixel-and-anchor-summary.json": "4ee497a1d44eafb7bb01cc3c8ee5825fc74bebffa98a345f38b29480189d51f5",
+    "data/process/EXP-016/probes/v1_09-clock-and-pixels-20261030/anchor-localization/localization-summary.json": "3bf7216fd754ed29e2ca416e051b8b3d6a83cd4835550419b6419750f2287abf",
+    "data/process/EXP-016/probes/v1_09-clock-and-pixels-20261030/anchor-0.00-frame-000000.jpg": "0170998b284d5a9ee54ef890d0adcfd92366e7df601b35db7b9a78965a677507",
+    "data/process/EXP-016/probes/v1_09-clock-and-pixels-20261030/anchor-524.13-frame-010491.jpg": "ebc56499de470f20f41fe9ab505381ad00bbdbae93dd04afd39f4121ccd4c945",
+    "data/process/EXP-016/metadata-v3/pixel-verification/20261030-180136-549590/run-summary.json": "605ea2a579c70cdacaa9c6f1651d93bb0dcd08a6dacf5d0a359e3269413ab986",
+    "data/metadata/splits/EXP-016-development-holdout.json": "7de95d14b8e72a60e5f0fe8a48d2959b7c96d1d517e176a216b277b9c16b1989",
+    "data/process/EXP-008-units-v2/unit-manifest.csv": "a4f44ce9f61a7d3c3da915878d4ab5e2a1827736111c0883ff6c6fe33aa925ca",
+    "experiments/common/video/build_units.py": "9422a833391549a22741055e840c07c6a527b6b870f9d4092fd6882acaefa0bb",
+    "experiments/common/video/build_units_v2.py": "71a578cdac529a7ede81f8fd69ae49ffe52e657e7a24fec89d1a379eff3b623e",
+    "experiments/common/video/build_units_stride.py": "c280ce0edc8636db8f18705aff2fc7adf25389270f47b37b4524075b4738a89d",
+    ".agents/skills/data-usage-protocol/SKILL.md": "e253390ccb6042eb079414b7a9d00c9944a87ac89f8075bf32fccc8e816a7204"
+  },
+  "command_argv": [
+    "experiments/runspecs/EXP-016/prepare_inputs.py",
+    "--freeze",
+    "metadata-v4",
+    "--qc-override",
+    "v1_09=data/process/EXP-016/qc-refresh/v1_09.csv",
+    "--qc-override",
+    "v4_11=data/process/EXP-016/qc-refresh/v4_11-fullprecision-20261030.csv",
+    "--reuse-success-run",
+    "data/process/EXP-016/metadata-v3/pixel-verification/20261030-180136-549590/run-summary.json"
+  ],
+  "common_sampling_sha256": "931f67394c82949d81570cb1607d7fb1b3a811d549841d8d46050188b1232178",
+  "entry_sha256": "1cff92a4b0ffcd446a1d6f22c12f1442331366cf6940b7d63f773ad60de71559"
+}

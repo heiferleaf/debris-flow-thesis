@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "scene_id": "camera-0b5670be8629",
+  "camera": "塔吊下游",
+  "kind": "ordinary-water",
+  "created_at": "2026-11-08T16:08:44.795629+00:00",
+  "status": "assistant_reviewed_candidate_pending_user_acceptance",
+  "training_ready": false,
+  "user_accepted": false,
+  "physical_flow_verified": false,
+  "source_path": "data/process/synthetic-video/dry-scenes-20261108-v2/camera-0b5670be8629/dry-reference.png",
+  "source_sha256": "31deba91cf9dab63f224a13be0be6132ff9be246d7a76bd5d9c876f311f5988e",
+  "source_acceptance": "User accepted all 11 dry references, as relayed by root; this water derivative is not user accepted.",
+  "style_reference_path": "data/process/synthetic-video/water-reference-demo-20261108-v3/camera-c9c07aee7f28/flood-reference.png",
+  "semantic_note": "User considered the prior flood-named demonstration suitable ordinary water. This derivative targets that visible moderate stream appearance, without strong flood or debris-flow depiction.",
+  "generation_tool": "built-in image_gen",
+  "built_in_artifact_path": "C:\\Users\\20443\\.codex\\generated_images\\01a1bbdd-12c1-7430-82d9-e8780e761ead\\exec-d91dfb0a-8225-4c1c-bf74-dd730a56f056.png",
+  "prompt_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-0b5670be8629/ordinary-water-prompt.json",
+  "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: a local crop from an accepted dry-bed surveillance photograph. Image 2 is a LOCATION GUIDE ONLY: magenta marks two connected low stream channels. Replace only these magenta-guided channel footprints with clearly visible ORDINARY RUNNING WATER. This is a moderate natural stream, with a continuous neutral grey to grey-silver liquid surface, coherent small current ripples, scattered irregular thin white foam streaks, and modest local turbulence around the unchanged exposed gravel islands. Water should be substantially visible, not a thin blue line; also not a violent large flood. Retain the dry gravel banks and the broad central and side gravel islands. Follow the original winding low channels and perspective. Maintain the original sunny surveillance exposure and compression. Leave grey dry stone islands visible and never move rocks. Do not pour water across the whole riverbed or over banks. No uniform ochre/yellow slurry, tropical blue/green, granular mud, debris mass, advancing debris-flow front, transported stones, large breaking waves, or new objects. Preserve all fixed mountains, cliff faces, trees, vegetation, road, camera label, date/time, yellow crane edge, framing and camera geometry exactly. No overall sharpening, recoloring, weather change or cinematic redesign. The magenta guide is annotation and must not appear in the result.",
+  "crop_xyxy": [
+    120,
+    0,
+    1110,
+    720
+  ],
+  "mask_method": "Hand-bounded channel subset intersected with the prior fluid-support mask; caption excluded.",
+  "mask_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-0b5670be8629/ordinary-water-mask.png",
+  "mask_sha256": "0a360f91179a40fb5636120d18b1be96e783fe8b83ddb531bc0f7349a50b3a64",
+  "alpha_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-0b5670be8629/ordinary-water-alpha.png",
+  "alpha_sha256": "389a6000a29f3a0bca0af6e732395060f2ecd70f41e2ec222e0b56390faa7fa6",
+  "raw_generation_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-0b5670be8629/ordinary-water-raw-generation.png",
+  "raw_generation_sha256": "5eea76508280a594d95412b32943ecf9e9ba51697e8bc865372faa2c020a7d6e",
+  "output_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-0b5670be8629/ordinary-water-reference.png",
+  "output_sha256": "7dd5b6526197f21d32d6c3967dae5e58a090b268cdaa68371c3b8598939cdce2",
+  "input_images": [
+    {
+      "role": "edit_target",
+      "path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-0b5670be8629/generation-input.png",
+      "sha256": "1c0e44c395eaa4bcb7741d1a1a7eec076ce3689752937abf3bfe1b91027348d6"
+    },
+    {
+      "role": "location_guide_only",
+      "path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-0b5670be8629/generation-guide.png",
+      "sha256": "184393b98eff81fb67753332af5c2b3857b0d8cb70418da4bcbc26c5a163a5ea"
+    }
+  ],
+  "pixel_checks": {
+    "mask_pixels": 111392,
+    "mask_fraction": 0.12086805555555556,
+    "outside_mask_changed_pixels": 0,
+    "outside_mask_max_difference": 0
+  },
+  "assistant_visual_review": {
+    "status": "candidate",
+    "full_frame_viewed": true,
+    "channel_detail_viewed": true,
+    "visual_observation": "Two grey-silver ordinary-water branches visibly wind through the accepted bed. Irregular small white ripples/foam are visible. Large central and side dry gravel islands remain exposed. No granular debris front or transported stone depiction.",
+    "limitation": "Shores retain the assistant-estimated support edge and can appear locally cut out; water depth is not observed.",
+    "physical_flow_verified": false
+  },
+  "limitations": [
+    "Low-channel footprint is assistant estimated from the accepted synthetic dry reference and earlier bounded fluid footprint; it is not measured water depth.",
+    "A synthetic still image does not establish physical flow, velocity, direction, or temporal consistency.",
+    "No per-image user acceptance; training_ready remains false.",
+    "Shores retain the assistant-estimated support edge and can appear locally cut out; water depth is not observed."
+  ],
+  "video_api_calls": 0,
+  "paid_video_api_calls": 0,
+  "code_sha256": "afa46220c1d4e4a5e87116f1f48a5a0f47df61d126f07e3b07fe91b6dfffe40b",
+  "command": [
+    ".venv/Scripts/python.exe",
+    ".codex/docs/.temp/water-v4-b/compose.py",
+    "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\.codex\\docs\\.temp\\water-v4-b\\camera-0b5670be8629.json",
+    "--generated",
+    "data/process/synthetic-video/ordinary-water-20261108-v4/camera-0b5670be8629/ordinary-water-raw-generation.png"
+  ],
+  "accepted": false,
+  "user_acceptance": "pending",
+  "source_copy_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-0b5670be8629/accepted-dry-source.png",
+  "source_copy_sha256": "31deba91cf9dab63f224a13be0be6132ff9be246d7a76bd5d9c876f311f5988e",
+  "style_reference_sha256": "2c81089d46ea122e33ffea39c0759b3f93d9fbf51f4fd1566cc74c928e5aaedd",
+  "generation_calls_for_asset": 1,
+  "generation_guide_matches_composition_mask": true
+}

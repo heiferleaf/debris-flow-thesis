@@ -1,0 +1,97 @@
+{
+  "schema_version": 3,
+  "unit_id": "v1_58",
+  "camera": "塔吊上游",
+  "source_video_id": "塔吊上游  Upstream  of the tower crane 8：58",
+  "raw_paths": [
+    "data/raw/video_dataset_1/2025年7月24日泥石流视频Debris flow video on July 24, 2025/塔吊上游  Upstream  of the tower crane/塔吊上游  Upstream  of the tower crane 8：58.mp4"
+  ],
+  "decision_status": "recommendation_only_no_events_written",
+  "baseline": "data\\metadata\\annotation-revisions\\npt-20261108-review-v5",
+  "baseline_intervals": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 2241.0,
+      "state": "P"
+    }
+  ],
+  "old_working_intervals": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 2241.0,
+      "state": "P"
+    }
+  ],
+  "label_provenance_warning": "proposals-v3 is an old working proposal, not blanket user-confirmed truth; this item is not asserted to be user-confirmed.",
+  "summary": "本次抽样没有发现足够改标依据，保留当前工作分段，判读把握与继承范围另记。",
+  "recommended_intervals": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 2241.0,
+      "state": "P",
+      "reason": "保留当前工作P。右侧真实流槽开头已有不透明活动流体，中窗1117–1123可清楚跟随多个隆起粗糙弧形舌体连续推进；尾段仍有物料样暗纹更新。 左侧固定灰床、线缆和石块未计作目标；全段P的抽样间隙沿用工作标注。",
+      "confidence": "high_local_medium_full_interval",
+      "decision_kind": "retain_working_label_with_local_observations_and_inherited_gaps"
+    }
+  ],
+  "evidence_actually_observed": [
+    {
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/remaining-b/v1_58-samples.jpg",
+      "frame_manifest": "data/process/annotation-review/recheck-20261108-v3/remaining-b/v1_58-samples.json",
+      "audit_times_actually_viewed": [
+        0.0,
+        2.1,
+        4.19,
+        6.29,
+        1117.48,
+        1119.58,
+        1121.67,
+        1123.77,
+        2232.86,
+        2234.96,
+        2237.05,
+        2239.15
+      ],
+      "time_basis": "frames_index.csv t_sec; not source seek or PTS",
+      "sampling": "short ordered early/middle/late windows for every existing non-cut interval"
+    }
+  ],
+  "all_audit_times_actually_viewed": [
+    0.0,
+    2.1,
+    4.19,
+    6.29,
+    1117.48,
+    1119.58,
+    1121.67,
+    1123.77,
+    2232.86,
+    2234.96,
+    2237.05,
+    2239.15
+  ],
+  "observed_fluid_evidence": "右侧真实流槽开头已有不透明活动流体，中窗1117–1123可清楚跟随多个隆起粗糙弧形舌体连续推进；尾段仍有物料样暗纹更新。",
+  "confidence": "high_local_medium_full_interval",
+  "limitations": "左侧固定灰床、线缆和石块未计作目标；全段P的抽样间隙沿用工作标注。",
+  "unobserved_scope": "Only frames explicitly listed were viewed. All remaining times inherit current working labels; no claim of continuous whole-video certification.",
+  "inherited_not_continuously_reobserved": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 2241.0,
+      "state": "P",
+      "scope": "所有未列入实际观测时刻的部分均继承；cut本次不重新开放"
+    }
+  ],
+  "source_document_support": null,
+  "pending_evidence": [
+    "需要作纯视觉物理类型认证或精确选帧时，再定点看原片；本次采样不足不作为改T、改U或关闭监督的理由。"
+  ],
+  "cut_policy": "Current baseline cut union exactly preserved; no new cut for cache decoder defects.",
+  "rules": [
+    "N允许普通水流、细流及洪水；P允许小型/细颗粒泥石流，不要求必有大石块。",
+    "不以固定岸石、颜色、大小、阵流或有运动单因素裁决。",
+    "不把每个P波谷改T；本次无法独立物理认证时可保留工作版并记录把握。"
+  ],
+  "labels_modified": false,
+  "training_ready": false
+}

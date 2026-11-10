@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-08T15:22:09.857974+00:00",
+  "scene_id": "camera-c9c07aee7f28",
+  "camera": "鸡冠山下游",
+  "kind": "flood",
+  "status": "assistant_inspected_candidate_pending_root_and_user_review",
+  "source_path": "data/process/synthetic-video/dry-scenes-20261108-v2/camera-c9c07aee7f28/dry-reference.png",
+  "source_sha256": "06bd25188ddef4d94527815d3d9cadf66fe8fe53eca892f65eece2126b4aa41d",
+  "source_acceptance": "User confirmed all 11 dry references in the current session, as relayed by root. This derivative has no user acceptance.",
+  "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET, a crop of an accepted dry-bed photograph from a fixed surveillance camera. Image 2 is a SUPPORTING LOCATION GUIDE: its magenta tint identifies the only thin channel footprints to receive water. The magenta is annotation, never a desired water color. Put the new water precisely inside the guided footprints and retain every grey gravel island between them. Preserve the exact terrain, channel banks, road, slopes, fields, plants, poles, text and camera geometry. The separate WHITE-LINED POND at lower right must keep exactly its original green still water and white liner. It is not part of the stream. Same overcast hazy light and low-resolution surveillance appearance, no cinematic lighting, no oversharpening. Do not move shorelines, dig channels, reshape banks, flood the gravel islands, or alter the pond. No yellow or ochre flow, no tropical blue/green river, no magenta, no muddy solid clumps, no debris-flow lobes, no transported gravel or stones, no new objects. Preserve image framing and crop dimensions exactly. Add a NATURAL RIVER FLOOD confined to the guided low braided channel. This has more depth and a wider, more continuous water surface than a small ordinary stream while the original exposed gravel islands remain visible. Natural neutral GREY turbid water carrying fine suspended silt; do not use a uniform yellow/brown/ochre color. The surface is unmistakably fluid: coherent current-aligned ripples, small turbulent waves and irregular thin white foam streaks on a continuous liquid surface. The surface can be opaque with fine suspended sediment but never contains granular mud clumps, rolling rocks, debris masses or a rough solid front. No debris-flow movement. Do not raise the water above the original banks or into the independent pond.",
+  "generation_tool": "built-in image_gen",
+  "built_in_artifact_path": "C:\\Users\\20443\\.codex\\generated_images\\01a1bb2d-01ca-72e3-ba8d-a04104b63f53\\exec-4bbaf26f-d60f-4281-8769-9600acb9ea76.png",
+  "crop_xyxy": [
+    0,
+    200,
+    960,
+    540
+  ],
+  "mask_path": "data/process/synthetic-video/water-reference-demo-20261108-v3/camera-c9c07aee7f28/flood-mask.png",
+  "mask_sha256": "502f80bc7910df479c5937bd6c10805b89c93c343ebf42c60fe0ce3ef7df2145",
+  "alpha_path": "data/process/synthetic-video/water-reference-demo-20261108-v3/camera-c9c07aee7f28/flood-alpha.png",
+  "alpha_sha256": "6b262c993ab5dee137701ed322afc9e4f694d9e0438c0b8d65e6d6ab4832ce78",
+  "raw_generation_path": "data/process/synthetic-video/water-reference-demo-20261108-v3/camera-c9c07aee7f28/flood-raw-generation.png",
+  "raw_generation_sha256": "a3b9ded52ef6aea77469a15abaa7d1515ccbdff09bff20042e5aafcec9b2e1f6",
+  "output_path": "data/process/synthetic-video/water-reference-demo-20261108-v3/camera-c9c07aee7f28/flood-reference.png",
+  "output_sha256": "2c81089d46ea122e33ffea39c0759b3f93d9fbf51f4fd1566cc74c928e5aaedd",
+  "mask_method": "Ordinary: hand-traced thin subdivisions intersected with original fluid-support mask. Flood: original fluid-support footprint, preserving exposed islands. Protected reservoir and fixed poles excluded in both.",
+  "pixel_checks": {
+    "mask_pixels": 39468,
+    "mask_fraction": 0.07613425925925926,
+    "outside_mask_changed_pixels": 0,
+    "outside_mask_max_difference": 0,
+    "reservoir_rectangle_changed_pixels": 0
+  },
+  "physical_flow_verified": false,
+  "video_api_calls": 0,
+  "paid_video_api_calls": 0,
+  "user_accepted": false,
+  "training_ready": false,
+  "assistant_visual_review": {
+    "status": "candidate",
+    "full_frame_and_channel_detail_viewed": true,
+    "color": "Stream is grey/grey-silver rather than yellow; original green reservoir retained separately.",
+    "surface": "Ordinary has narrow shallow-looking ripple threads and sparse white flecks; flood has broader continuous grey liquid surfaces and white foam streaks. No visible transported solid clumps or debris-flow lobe.",
+    "background": "Pixel retention outside explicit mask and protected pond was checked; natural gravel islands remain visible.",
+    "limitation": "First-frame depiction only. Ordinary transparency and both surface naturalness require root and user visual judgement; a static picture does not verify flow physics or direction."
+  },
+  "command": [
+    ".venv/Scripts/python.exe",
+    "experiments/tools/compose_local_water_reference.py",
+    "--kind",
+    "flood",
+    "--generated",
+    "data/process/synthetic-video/water-reference-demo-20261108-v3/camera-c9c07aee7f28/flood-raw-generation.png"
+  ],
+  "code_sha256": "33881d8fa4b0a8fe7ac019e333889f76bf6f66d42ae3a5769eef68ef41789c97",
+  "input_images": [
+    {
+      "role": "edit_target",
+      "path": "data/process/synthetic-video/water-reference-demo-20261108-v3/camera-c9c07aee7f28/generation-input.png",
+      "sha256": "6d394d08dd4942ebef46bfab059510c0e38c26cfa7c5ac84d10dfb72bde9a993"
+    },
+    {
+      "role": "location_guide_only",
+      "path": "data/process/synthetic-video/water-reference-demo-20261108-v3/camera-c9c07aee7f28/flood-generation-guide.png",
+      "sha256": "9847962894d558b14b0b9c366db4c4992ed2caefca717e63f7304d06d15e4022"
+    }
+  ]
+}

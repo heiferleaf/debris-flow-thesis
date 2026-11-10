@@ -1,0 +1,228 @@
+{
+  "schema_version": "npt-candidate-v1",
+  "video_key": "v1_01",
+  "video_id": "Video of debris flow occurred on August 2, 2023（Jihguanshan upstream perspective） (1)",
+  "review_date": "2026-11-09",
+  "status": "best_candidate_requires_root_semantic_adjudication_not_applied",
+  "base_revision": "npt-20261109-full-review-working-v1",
+  "base_csv": "data/metadata/annotation-revisions/npt-20261109-full-review-working-v1/video1_segment--64b3c72b2a7f/events.csv",
+  "snapshot": "data/metadata/annotation-review/active-mixed-20261109-v2/v1_01/old-rows-snapshot.json",
+  "current_target_rows_match_snapshot_at_write": true,
+  "rules": ".codex/docs/NPT标注操作细则-20261109.md",
+  "old_intervals": [
+    {
+      "video_id": "Video of debris flow occurred on August 2, 2023（Jihguanshan upstream perspective） (1)",
+      "video_key": "v1_01",
+      "start_sec": "0",
+      "end_sec": "44",
+      "confidence": "real",
+      "kind": "neg",
+      "note": ""
+    },
+    {
+      "video_id": "Video of debris flow occurred on August 2, 2023（Jihguanshan upstream perspective） (1)",
+      "video_key": "v1_01",
+      "start_sec": "44",
+      "end_sec": "134",
+      "confidence": "real",
+      "kind": "transition",
+      "note": ""
+    },
+    {
+      "video_id": "Video of debris flow occurred on August 2, 2023（Jihguanshan upstream perspective） (1)",
+      "video_key": "v1_01",
+      "start_sec": "134",
+      "end_sec": "1068",
+      "confidence": "real",
+      "kind": "pos",
+      "note": ""
+    }
+  ],
+  "cut_intervals_preserved": [],
+  "new_U_A_or_cut": false,
+  "shared_files_modified": false,
+  "training_authorized": false,
+  "source_context": {
+    "package": "data/metadata/annotation-review/full-dongchuan-20261109-v1/source-explanations.json",
+    "actual_group": "video_dataset_2 / 2023-08-02",
+    "use": "泥石流观测来源仅补证，不据此广播每秒P。source4对source3的书面更正表明小型/细颗粒也可为目标；该2026另一批次更正不作为本片2023/2025的逐秒真值。",
+    "prior_rejected_all_N": "旧batch-02整片N草案不采用，其只凭水感、固定砾洲及缺粗石排除目标的充分性已撤回。"
+  },
+  "evidence": {
+    "current_contact_manifests": [
+      {
+        "path": "data/process/annotation-review/active-mixed-20261109-v2/v1_01/continuation-roi-manifest.json",
+        "count": 11,
+        "cache_range_sec": [
+          300.59,
+          1068.26
+        ],
+        "sheets": [
+          "continuation-roi-01.jpg"
+        ]
+      },
+      {
+        "path": "data/process/annotation-review/active-mixed-20261109-v2/v1_01/early-upstream-roi-manifest.json",
+        "count": 35,
+        "cache_range_sec": [
+          0.0,
+          68.15
+        ],
+        "sheets": [
+          "early-upstream-roi-01.jpg",
+          "early-upstream-roi-02.jpg",
+          "early-upstream-roi-03.jpg"
+        ]
+      },
+      {
+        "path": "data/process/annotation-review/active-mixed-20261109-v2/v1_01/onset-navigate-roi-manifest.json",
+        "count": 31,
+        "cache_range_sec": [
+          0.0,
+          300.59
+        ],
+        "sheets": [
+          "onset-navigate-roi-01.jpg",
+          "onset-navigate-roi-02.jpg",
+          "onset-navigate-roi-03.jpg"
+        ]
+      },
+      {
+        "path": "data/process/annotation-review/active-mixed-20261109-v2/v1_01/upstream-entry-roi-manifest.json",
+        "count": 35,
+        "cache_range_sec": [
+          70.15,
+          138.29
+        ],
+        "sheets": [
+          "upstream-entry-roi-01.jpg",
+          "upstream-entry-roi-02.jpg",
+          "upstream-entry-roi-03.jpg"
+        ]
+      }
+    ],
+    "original_3840x2160_pixel_ROI_stills": [
+      "data/process/annotation-review/active-mixed-20261109-v2/v1_01/source-probe/nav-000.00.jpg",
+      "data/process/annotation-review/active-mixed-20261109-v2/v1_01/source-probe/nav-040.00.jpg",
+      "data/process/annotation-review/active-mixed-20261109-v2/v1_01/source-probe/nav-080.00.jpg",
+      "data/process/annotation-review/active-mixed-20261109-v2/v1_01/source-probe/nav-120.00.jpg"
+    ],
+    "native_probe_commands": [
+      "data/process/annotation-review/active-mixed-20261109-v2/v1_01/source-probe/nav-000.00.json",
+      "data/process/annotation-review/active-mixed-20261109-v2/v1_01/source-probe/nav-040.00.json",
+      "data/process/annotation-review/active-mixed-20261109-v2/v1_01/source-probe/nav-080.00.json",
+      "data/process/annotation-review/active-mixed-20261109-v2/v1_01/source-probe/nav-120.00.json"
+    ],
+    "previous_cache_ROI": [
+      "data/process/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_01/key-native-roi-01.jpg",
+      "data/process/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_01/key-native-roi-02.jpg"
+    ],
+    "previous_source_4K_ROI": "data/process/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_01/source-native/roi-01.jpg",
+    "previous_4fps_window_page_actually_viewed": "data/process/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_01/source-window-sequence-01.jpg",
+    "cross_video_reference_actually_viewed": "data/process/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_01/accepted-reference-comparison.jpg"
+  },
+  "coverage": {
+    "prior_full_navigation": {
+      "cache_count": 534,
+      "cache_range_sec": [
+        0.0,
+        1068.26
+      ],
+      "provenance": "batch-02原reviewer记录逐序列查看全部缓存；本轮复用该导航产物，不把别人已看等同本reviewer本轮看完全部原片。",
+      "metadata": "data/metadata/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_01/proposal.json"
+    },
+    "current_pass": {
+      "unique_cache_frames_in_viewed_new_contacts": 97,
+      "new_contact_sheets_all_actually_viewed": true,
+      "cache_ROI_pixel_basis": "960x540缓存原像素裁剪；不是4K源像素",
+      "prior_overview_pages_actually_reopened": [
+        "data/process/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_01/overview-01.jpg",
+        "data/process/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_01/overview-12.jpg"
+      ],
+      "prior_native_cache_ROI_cells_actually_viewed": 8,
+      "prior_4K_source_ROIs_actually_viewed": 1,
+      "prior_4fps_window_samples_actually_viewed": 20,
+      "new_4K_source_stills_actually_viewed": 4,
+      "new_source_decode": "仅4个导航单帧",
+      "new_source_navigation_requests_sec": [
+        0,
+        40,
+        80,
+        120
+      ],
+      "decoded_whole_video": false
+    },
+    "not_viewed": "没有逐帧观看整段原片；当前只重看变化过程及关键ROI。旧全缓存覆盖只作先前导航记录。原片seek请求、缓存秒、OSD未配准为精确PTS。"
+  },
+  "limits": [
+    "不从RGB推算含水率或体积浓度。",
+    "浮枝、颗粒、阵头、来源或规模均不单项决定P。",
+    "以下是具体最好候选，语义裁决点没有伪造最后明确N/首次明确P；不将不确定窗另作T/U/A或cut。"
+  ],
+  "candidate_intervals": [
+    {
+      "start_sec": 0,
+      "end_sec": 80.15,
+      "label": "N",
+      "reason": "最好候选保留开头普通细水基线：多条浅细支流绕固定裸露砾洲；0/40秒源像素ROI与0–70秒每张缓存已对照。此N末端并未获得独立物料状态改变的严格确认，见语义裁决点；不能当成已验收精确边界。"
+    },
+    {
+      "start_sec": 80.15,
+      "end_sec": 1068,
+      "label": "P",
+      "reason": "80秒上游原像素ROI已见由远端持续供给的连贯泥质来料与前缘/后续主体，随后沿固定床面向近景推进，约180–220秒近景仍是同一主体的延伸，后续至尾段持续输运而继续增强。首选不等待近景宽流或未来峰值才给P；80.15是保守工作识别点，语义和最早时刻仍须root/Sol裁决。"
+    }
+  ],
+  "boundaries": [
+    {
+      "working_sec": 80.15,
+      "from": "N",
+      "to": "P",
+      "observed_bracket_cache_sec": [
+        40.05,
+        120.25
+      ],
+      "bracket_status": "候选定位窗，尚不能认证为最后明确N/首次明确P括号",
+      "last_clear_before_cache_sec": null,
+      "first_clear_after_cache_sec": null,
+      "last_N_like_cache_sec": 40.05,
+      "first_P_like_cache_sec": 80.15,
+      "reason": "0/40/80/120秒固定上游河段的源像素比较支持来料增强并进入连续输运；但是40–80秒前后物料状态差异仍受原片失焦限制，不能只用宽度认定类型改变。",
+      "evidence": [
+        "data/process/annotation-review/active-mixed-20261109-v2/v1_01/early-upstream-roi-02.jpg",
+        "data/process/annotation-review/active-mixed-20261109-v2/v1_01/upstream-entry-roi-01.jpg",
+        "data/process/annotation-review/active-mixed-20261109-v2/v1_01/source-probe/nav-040.00.jpg",
+        "data/process/annotation-review/active-mixed-20261109-v2/v1_01/source-probe/nav-080.00.jpg"
+      ],
+      "precision_note": "80.15是最好候选工作点，不是精确PTS；80.20秒宽窗不是T。没有伪造2秒确定边界。"
+    }
+  ],
+  "process_type": "最好候选为远端成型来料进入并持续推进；未证明画内形成T",
+  "t_decision": {
+    "proposed_T": false,
+    "reason": "旧44–134秒不能整段用近景规模增长解释为形成。看见连贯目标来料后应P；此前若与N同态则N。未取得同一固定位置正面的输运组织建立证据，因此不给渐宽或看不清的阶段凑T。"
+  },
+  "old_boundary_review": [
+    {
+      "working_sec": 44,
+      "reason": "44秒近景与初段相近，旧N/T起点缺少正面画内形成证据；更远上游是否已P需裁决。"
+    },
+    {
+      "working_sec": 134,
+      "reason": "134秒前上游已有连续来料，不应等近景变大才开始P。"
+    }
+  ],
+  "root_decision_points": [
+    {
+      "range_cache_sec": [
+        0,
+        140.29
+      ],
+      "priority": "required_before_merge",
+      "issue": "开头分汊细水与80秒上游连贯细颗粒来料能否有实质目标状态差异，以及最早P是否在80前。",
+      "observed": "新4K源像素ROI显示80秒已有连续载体，0/40秒主体细节受原片失焦影响；现有可辨差异仍含流幅/连接程度因素，尚不能证明这就是物料类型改变。",
+      "best_candidate": "N0–80.15，P80.15–1068；工作点比旧134提前，取消旧长T。",
+      "warning": "不得将这条候选宣传成已由2秒缓存锁定的N/P实态边界。若root确认初段亦同类目标，应将P继续前推；不因这里拿不准恢复全N或凑T。"
+    }
+  ]
+}

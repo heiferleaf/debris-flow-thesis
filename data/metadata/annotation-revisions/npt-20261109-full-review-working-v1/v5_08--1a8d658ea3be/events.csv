@@ -1,0 +1,2 @@
+﻿video_id,start_sec,end_sec,confidence,kind,note
+v5_08,0,2074.2,real,neg,独立排除素材补审，仅供审计，不恢复训练资格。可见时段为普通浅水/固定沟床N；约1765–1770秒有丢块/灰图，其N为两侧连续状态支持的工作推定，非直接逐秒可见证据。其他技术间距缺口见proposal，未擅增cut。

@@ -1,0 +1,1 @@
+showinfo,select='((between(n,3459,3473)*eq(mod(n-3459,2),0)+(between(n,3474,5050)+between(n,5052,5062)*eq(mod(n-5052,2),0)))+(between(n,5103,5117)*eq(mod(n-5103,2),0)+(between(n,5118,5269)+between(n,5271,5295)*eq(mod(n-5271,2),0))))',format=bgr24

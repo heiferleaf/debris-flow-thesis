@@ -1,0 +1,34 @@
+{
+  "source": "data/metadata/annotation-revisions/npt-20261109-four-video-v1/video4_segment--7adc714b792e/events.csv",
+  "source_csv_sha256_at_read": "b6c522a690095c87b78159497d2fc9bc63b0fe81220ce3238e03fc9a6b02b376",
+  "video_key": "v4_18",
+  "rows": [
+    {
+      "video_id": "D15_20260818161038",
+      "video_key": "v4_18",
+      "start_sec": "0",
+      "end_sec": "1590",
+      "confidence": "real",
+      "kind": "neg",
+      "note": ""
+    },
+    {
+      "video_id": "D15_20260818161038",
+      "video_key": "v4_18",
+      "start_sec": "1590",
+      "end_sec": "1766",
+      "confidence": "real",
+      "kind": "transition",
+      "note": ""
+    },
+    {
+      "video_id": "D15_20260818161038",
+      "video_key": "v4_18",
+      "start_sec": "1766",
+      "end_sec": "2700",
+      "confidence": "real",
+      "kind": "pos",
+      "note": ""
+    }
+  ]
+}

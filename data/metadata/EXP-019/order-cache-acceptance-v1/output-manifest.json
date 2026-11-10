@@ -1,0 +1,49 @@
+{
+  "files": [
+    {
+      "path": "acceptance.json",
+      "sha256": "3446196c05d0729bfc3a68b5efd72d264c4f0742a64c2cf09c40ed4e57304a4c",
+      "size_bytes": 2282
+    },
+    {
+      "path": "launch.json",
+      "sha256": "8b4c836ba736233e3d9de53091045a2b2f85fc6de183d09a7be26d3af155e794",
+      "size_bytes": 1510
+    },
+    {
+      "path": "source-snapshot/experiments/common/video/order_cache_acceptance.py",
+      "sha256": "ab52abf75339ae5d5946f6be067f8c34b7ed295d9487c2a258d198315b7acf67",
+      "size_bytes": 14083
+    },
+    {
+      "path": "source-snapshot/experiments/common/video/order_plan.py",
+      "sha256": "483a249530d95dad80565e9e56a0cf0baf48f8b0583675d8432d65c34c9e0843",
+      "size_bytes": 23939
+    },
+    {
+      "path": "source-snapshot/experiments/common/video/pts_clip_sampling.py",
+      "sha256": "931f67394c82949d81570cb1607d7fb1b3a811d549841d8d46050188b1232178",
+      "size_bytes": 18533
+    },
+    {
+      "path": "source-snapshot/experiments/common/video/supervised_plan.py",
+      "sha256": "1f29f36e360b7163c45bec3012240b1afb1fa16fa8523a2598c91ffc51db45ff",
+      "size_bytes": 10546
+    },
+    {
+      "path": "source-snapshot/experiments/common/video/temporal_order.py",
+      "sha256": "223db255a25639cfde129cdee858925c69c9a2f1e4794e6f225806a74ca23ea7",
+      "size_bytes": 3817
+    },
+    {
+      "path": "source-snapshot/experiments/runspecs/EXP-019/verify_cache.py",
+      "sha256": "17cf2579099bb5e0ce419e6672db69b3f8f11c2acbb99db03771a39681b94594",
+      "size_bytes": 995
+    },
+    {
+      "path": "verified-required-frames.csv",
+      "sha256": "67ae4b67f5f91100d46f9494a8560dbeb7f30a46cf5ace0b744658eedf536187",
+      "size_bytes": 56585615
+    }
+  ]
+}

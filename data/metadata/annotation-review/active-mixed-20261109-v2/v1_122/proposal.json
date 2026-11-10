@@ -1,0 +1,186 @@
+{
+  "schema_version": "npt-candidate-v1",
+  "video_key": "v1_122",
+  "video_id": "鸡冠山下游 Downstream of Jiguanshan 19：14",
+  "review_date": "2026-11-09",
+  "status": "best_candidate_requires_root_semantic_adjudication_not_applied",
+  "base_revision": "npt-20261109-full-review-working-v1",
+  "base_csv": "data/metadata/annotation-revisions/npt-20261109-full-review-working-v1/video1_segment--64b3c72b2a7f/events.csv",
+  "snapshot": "data/metadata/annotation-review/active-mixed-20261109-v2/v1_122/old-rows-snapshot.json",
+  "current_target_rows_match_snapshot_at_write": true,
+  "rules": ".codex/docs/NPT标注操作细则-20261109.md",
+  "old_intervals": [
+    {
+      "video_id": "鸡冠山下游 Downstream of Jiguanshan 19：14",
+      "video_key": "v1_122",
+      "start_sec": "0",
+      "end_sec": "699.02",
+      "confidence": "real",
+      "kind": "neg",
+      "note": ""
+    },
+    {
+      "video_id": "鸡冠山下游 Downstream of Jiguanshan 19：14",
+      "video_key": "v1_122",
+      "start_sec": "699.02",
+      "end_sec": "1080.62",
+      "confidence": "real",
+      "kind": "transition",
+      "note": ""
+    },
+    {
+      "video_id": "鸡冠山下游 Downstream of Jiguanshan 19：14",
+      "video_key": "v1_122",
+      "start_sec": "1080.62",
+      "end_sec": "1612",
+      "confidence": "real",
+      "kind": "pos",
+      "note": ""
+    }
+  ],
+  "cut_intervals_preserved": [],
+  "new_U_A_or_cut": false,
+  "shared_files_modified": false,
+  "training_authorized": false,
+  "source_context": {
+    "package": "data/metadata/annotation-review/full-dongchuan-20261109-v1/source-explanations.json",
+    "actual_group": "video_dataset_1 / 2025-07-29",
+    "use": "泥石流观测来源仅补证，不据此广播每秒P。source4对source3的书面更正表明小型/细颗粒也可为目标；该2026另一批次更正不作为本片2023/2025的逐秒真值。",
+    "prior_rejected_all_N": "旧batch-02整片N草案不采用，其只凭水感、固定砾洲及缺粗石排除目标的充分性已撤回。"
+  },
+  "evidence": {
+    "current_contact_manifests": [
+      {
+        "path": "data/process/annotation-review/active-mixed-20261109-v2/v1_122/onset-navigate-roi-manifest.json",
+        "count": 33,
+        "cache_range_sec": [
+          0.0,
+          1611.62
+        ],
+        "sheets": [
+          "onset-navigate-roi-01.jpg",
+          "onset-navigate-roi-02.jpg",
+          "onset-navigate-roi-03.jpg"
+        ]
+      },
+      {
+        "path": "data/process/annotation-review/active-mixed-20261109-v2/v1_122/organization-navigate-roi-manifest.json",
+        "count": 46,
+        "cache_range_sec": [
+          649.2,
+          1099.32
+        ],
+        "sheets": [
+          "organization-navigate-roi-01.jpg",
+          "organization-navigate-roi-02.jpg",
+          "organization-navigate-roi-03.jpg",
+          "organization-navigate-roi-04.jpg"
+        ]
+      }
+    ],
+    "original_3840x2160_pixel_ROI_stills": [
+      "data/process/annotation-review/active-mixed-20261109-v2/v1_122/source-probe/nav-000.00.jpg",
+      "data/process/annotation-review/active-mixed-20261109-v2/v1_122/source-probe/nav-1000.00.jpg",
+      "data/process/annotation-review/active-mixed-20261109-v2/v1_122/source-probe/nav-800.00.jpg"
+    ],
+    "native_probe_commands": [
+      "data/process/annotation-review/active-mixed-20261109-v2/v1_122/source-probe/nav-000.00.json",
+      "data/process/annotation-review/active-mixed-20261109-v2/v1_122/source-probe/nav-1000.00.json",
+      "data/process/annotation-review/active-mixed-20261109-v2/v1_122/source-probe/nav-800.00.json"
+    ],
+    "previous_cache_ROI": [
+      "data/process/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_122/key-native-roi-01.jpg",
+      "data/process/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_122/key-native-roi-02.jpg"
+    ],
+    "previous_source_4K_ROI": "data/process/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_122/source-native/roi-01.jpg",
+    "previous_4fps_window_page_actually_viewed": "data/process/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_122/source-window-sequence-01.jpg",
+    "cross_video_reference_actually_viewed": "data/process/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_01/accepted-reference-comparison.jpg"
+  },
+  "coverage": {
+    "prior_full_navigation": {
+      "cache_count": 778,
+      "cache_range_sec": [
+        0.0,
+        1611.62
+      ],
+      "provenance": "batch-02原reviewer记录逐序列查看全部缓存；本轮复用该导航产物，不把别人已看等同本reviewer本轮看完全部原片。",
+      "metadata": "data/metadata/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_122/proposal.json"
+    },
+    "current_pass": {
+      "unique_cache_frames_in_viewed_new_contacts": 69,
+      "new_contact_sheets_all_actually_viewed": true,
+      "cache_ROI_pixel_basis": "960x540缓存原像素裁剪；不是4K源像素",
+      "prior_overview_pages_actually_reopened": [
+        "data/process/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_122/overview-01.jpg",
+        "data/process/annotation-review/full-dongchuan-20261109-v1/batch-02/v1_122/overview-17.jpg"
+      ],
+      "prior_native_cache_ROI_cells_actually_viewed": 8,
+      "prior_4K_source_ROIs_actually_viewed": 1,
+      "prior_4fps_window_samples_actually_viewed": 20,
+      "new_4K_source_stills_actually_viewed": 3,
+      "new_source_decode": "仅3个导航单帧",
+      "new_source_navigation_requests_sec": [
+        0,
+        800,
+        1000
+      ],
+      "decoded_whole_video": false
+    },
+    "not_viewed": "没有逐帧观看整段原片；当前只重看变化过程及关键ROI。旧全缓存覆盖只作先前导航记录。原片seek请求、缓存秒、OSD未配准为精确PTS。"
+  },
+  "limits": [
+    "不从RGB推算含水率或体积浓度。",
+    "浮枝、颗粒、阵头、来源或规模均不单项决定P。",
+    "以下是具体最好候选，语义裁决点没有伪造最后明确N/首次明确P；不将不确定窗另作T/U/A或cut。"
+  ],
+  "candidate_intervals": [
+    {
+      "start_sec": 0,
+      "end_sec": 1612,
+      "label": "P",
+      "reason": "最好候选认为视频开头已存在成型的小型细颗粒载体：下方主槽有与画外来料连续相连的泥质主体、分支内部物料纹理及持续输运；0秒4K原像素ROI与800/1000及既有1400秒ROI比较，后面主要是同类主体增强和铺展，并非699或1080处突然形成。因此不等待流幅峰值，候选从片头P并持续至末尾。细颗粒目标与普通含沙水的开头判别仍须root/Sol最终裁决，不由来源目录定P。"
+    }
+  ],
+  "boundaries": [],
+  "process_type": "最好候选为片头已经P，后续同类主体增强，无可靠片内换类点",
+  "video_start_state": {
+    "working_sec": 0,
+    "label": "P",
+    "first_viewed_cache_sec": 0,
+    "first_clear_P_confirmed_by_root": false,
+    "source_ROI": "data/process/annotation-review/active-mixed-20261109-v2/v1_122/source-probe/nav-000.00.jpg",
+    "note": "不是声称0秒是自然事件发生时刻；只是候选片头已经存在目标状态。"
+  },
+  "t_decision": {
+    "proposed_T": false,
+    "reason": "699–1080秒内同一固定位置持续有主槽泥质来料，没有观察到能独立支持目标组织从无到有的形成节点；若该载体属于P，应从已存在时给P，不能因为后面更宽才保留381.6秒T。"
+  },
+  "old_boundary_review": [
+    {
+      "working_sec": 699.02,
+      "reason": "699前后同类来料持续，未见正面的N/T组织起点。"
+    },
+    {
+      "working_sec": 1080.62,
+      "reason": "1080前后同类连贯主体，缺少独立T/P状态改变依据。"
+    }
+  ],
+  "root_decision_points": [
+    {
+      "range_cache_sec": [
+        0,
+        99.59
+      ],
+      "comparison_cache_sec": [
+        800.64,
+        999.73,
+        1400.07
+      ],
+      "priority": "required_before_merge",
+      "issue": "初段窄小泥质载体是否已属于项目P；这是类型语义裁决，不是重新猜一个更短T的时刻。",
+      "observed": "0秒原尺寸ROI显示连续泥质主体及内部物料，800/1000/1400主体几何和内部纹理相连，后面增强。浮枝本身不充分，固定床面保留也不排除P。",
+      "best_candidate": "P0–1612；若认可初段载体为细颗粒小型目标，这比机械取699/1080或任意截短T一致。",
+      "counterevidence": "初段及1400秒都具有平滑细波纹和水面观感；与用户v1_97负类的实质区别尚没有形成足够强的跨例判据。该差异不足不能悄悄改全N，也不能用阳性来源直接解决。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "unit_id": "v5_02",
+  "selected_frames": [
+    {
+      "video_key": "v5_02",
+      "frame_file": "v5_02_frame_000000_t0s.jpg",
+      "t_sec": "0.00",
+      "sheet": "0",
+      "t": 0.0,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video5_segment\\frames\\v5_02_frame_000000_t0s.jpg"
+    },
+    {
+      "video_key": "v5_02",
+      "frame_file": "v5_02_frame_000001_t2s.jpg",
+      "t_sec": "2.00",
+      "sheet": "0",
+      "t": 2.0,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video5_segment\\frames\\v5_02_frame_000001_t2s.jpg"
+    },
+    {
+      "video_key": "v5_02",
+      "frame_file": "v5_02_frame_000552_t1104s.jpg",
+      "t_sec": "1104.00",
+      "sheet": "0",
+      "t": 1104.0,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video5_segment\\frames\\v5_02_frame_000552_t1104s.jpg"
+    },
+    {
+      "video_key": "v5_02",
+      "frame_file": "v5_02_frame_000553_t1106s.jpg",
+      "t_sec": "1106.00",
+      "sheet": "0",
+      "t": 1106.0,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video5_segment\\frames\\v5_02_frame_000553_t1106s.jpg"
+    },
+    {
+      "video_key": "v5_02",
+      "frame_file": "v5_02_frame_001103_t2206s.jpg",
+      "t_sec": "2206.00",
+      "sheet": "0",
+      "t": 2206.0,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video5_segment\\frames\\v5_02_frame_001103_t2206s.jpg"
+    },
+    {
+      "video_key": "v5_02",
+      "frame_file": "v5_02_frame_001104_t2208s.jpg",
+      "t_sec": "2208.00",
+      "sheet": "0",
+      "t": 2208.0,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video5_segment\\frames\\v5_02_frame_001104_t2208s.jpg"
+    }
+  ],
+  "sampling": "larger display for actual panoramic fluid detail"
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "scene_id": "camera-a5beea032cb7",
+  "camera": "塔吊下方",
+  "source_path": "data/process/synthetic-video/references-20261108-v2/4f0759fb13bf.jpg",
+  "source_sha256": "bf99581fa92b60bfe7ae3b6e4a234cae687a6d894d936337129fad2a3f305afa",
+  "generated_path": "data/process/synthetic-video/dry-scenes-20261108-v1/camera-a5beea032cb7/dry-reference.png",
+  "generated_sha256": "15836331fb795e7a38f0a52921247cd73506c7c0fe52409d6bcc8aeefaa854f7",
+  "builtin_saved_path": "C:/Users/20443/.codex/generated_images/01a1ba71-be0d-7be3-91a8-2fc00ee71ef4/exec-03845c8c-bcc8-4ad8-a73d-328f77b00747.png",
+  "prompt": "Use case: precise-object-edit. The single supplied CCTV image of 塔吊下方 is the edit target. Create a synthetic dry-channel reference from this identical fixed camera view. Remove all tan/yellow/brown liquid in every braided stream branch, thin rivulet and shallow wet patch throughout the entire frame, including the broad upper-middle branch and lower-left branches. Remove water, muddy slurry, foam, flowing fluid, ripples and wet reflective surfaces completely. Reconstruct those areas as a natural completely dry rough gray gravel channel floor with individual angular gray stones, dry fine sediment and shallow dry rills matching adjacent gravel, not merely gray-painted water. Preserve the original bank lines, raised gravel-island positions, distinctive individual boulders, near-overhead oblique perspective, depth and 16:9 framing; preserve the concrete wall across the top, upper-left rocky face and sparse vegetation, original light/shadows, every object location and scale. Keep the water-replacement edits spatially confined to the existing channel surfaces. Preserve existing timestamp 2026年08月18日 16:28:19 and original camera-name text content, placement, size and glyph style exactly; no text changes or additions, no watermark. Preserve any original black borders. No crop, no camera movement, no newly invented structures. Natural CCTV photograph; channel fully dry, matte and rocky, zero visible fluid.",
+  "tool": "image_gen.imagegen (built-in; model identifier not exposed)",
+  "generated_at_date": "2026-11-08",
+  "status": "synthetic_candidate_visual_reviewed",
+  "training_ready": false,
+  "fluid_suspected_in_channel": false,
+  "observations": [
+    "Viewed original and generated file with view_image.",
+    "Entire braided tan/yellow stream network replaced by dry rough gray gravel and shallow dry rills; no visible liquid surface, foam or slurry.",
+    "Concrete wall, upper-left rock face and vegetation, several distinctive boulders and general near-overhead camera geometry preserved in overall position.",
+    "Gravel islands, boulder contours and floor microtopography show generative detail drift.",
+    "Existing timestamp and camera-name content retained with regenerated glyph styling."
+  ],
+  "limitations": [
+    "Synthetic reference candidate only; training approval not granted.",
+    "No claim of pixel-level background identity.",
+    "Output raster is approximately 16:9 and copied without resampling; source had no black letterbox."
+  ],
+  "source_sha256_verified": true,
+  "generated_dimensions": {
+    "width": 1672,
+    "height": 941,
+    "requested_aspect_ratio": "16:9",
+    "actual_aspect_ratio": "1672:941",
+    "resampled": false
+  }
+}

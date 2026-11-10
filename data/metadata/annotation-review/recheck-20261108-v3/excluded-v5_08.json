@@ -1,0 +1,292 @@
+{
+  "schema": "excluded-source-investigation-v1",
+  "unit_id": "v5_08",
+  "investigation_date_local": "2026-11-08",
+  "summary_zh": "历史记录将v5_08作为解码/质量原因排除；当前fixed文件的早中晚短窗已实际成功解码并可观察，未找到重复版证据。保持excluded=1，内容观察建议N与排除资格分别记录。",
+  "current_mapping": {
+    "path": "data/process/video_frames/video5_segment/mapping.csv",
+    "sha256": "17b620bc0c49a2286cb41099f958d8801881ea93a967d2ea2db8828cca17acfc",
+    "row_verbatim": {
+      "video_key": "v5_08",
+      "video_id": "D05_20260818131156_fixed",
+      "site": "多照沟（门前多照汇口）",
+      "site_code": "D05",
+      "date": "2026-08-18",
+      "excluded": "1"
+    },
+    "excluded_retained": true
+  },
+  "events_files_checked": [
+    {
+      "path": "data/process/video_frames/video5_segment/events.csv",
+      "sha256": "ac68b38bdcecf8ba41d7d4929988f207cc9444ff5683e3f9ec96dcf1ca1185bd",
+      "matching_rows": []
+    },
+    {
+      "path": "data/metadata/annotation-revisions/npt-20261107-proposals-v3/video5_segment--c006864bd72d/events.csv",
+      "sha256": "5c79ab7ee1a040d4c3a100c8231c8216480849a10c879a1b931aad1847a0dde6",
+      "matching_rows": []
+    }
+  ],
+  "existing_cache": {
+    "index_path": "data/process/video_frames/video5_segment/frames_index.csv",
+    "matching_index_rows": 0,
+    "matching_frame_files": 0,
+    "status": "No preexisting indexed audit frames; used three bounded raw windows."
+  },
+  "source": {
+    "path": "data/raw/video_dataset_4/D05_20260818131156_fixed.mp4",
+    "sha256": "1e67bf13c1ded1c4b0cbee7cc41e9c40838c8e64b89373cdc197538027afe96a",
+    "bytes": 1046027732,
+    "container_duration_sec": 2074.2,
+    "video": "HEVC Main,3840x2160,about9.96fps per ffmpeg header",
+    "container_encoder": "Lavf63.1.101",
+    "first_observed_OSD": "2026-08-18 13:12:01",
+    "filename_datetime_text": "2026-08-18 13:11:56",
+    "warning": "文件名时间比首窗可见OSD早5秒；不把文件名时间当逐帧时钟，不存在可直接继承的v5_08审计秒轴。"
+  },
+  "historical_exclusion_evidence": [
+    {
+      "path": "docs/process/experiments/EXP-006.md",
+      "line": 64,
+      "finding": "2026-09-23数据变更记录写v5_08解码不可修复、mapping excluded=1，并写叶海峰拍板剔除。",
+      "evidence_level": "historical narrative; exclusion state independently matches mapping, but exact failure command/input fingerprint and attributed approval not independently recovered."
+    },
+    {
+      "path": "docs/process/experiments/EXP-006-runlog-20260923.md",
+      "line": 15,
+      "finding": "同日运行日志记v5_08解码不可修复剔除，events本无其行。",
+      "evidence_level": "historical narrative consistent with current no-events state"
+    },
+    {
+      "path": "data/metadata/inventory-archive/20261104-before-current-only.md",
+      "line": 209,
+      "finding": "库存归档将原因写为源视频顺序解码只出2帧，判定解码器不兼容不可修复。",
+      "evidence_level": "old generated/inventory narrative; cannot establish current decoder capability"
+    },
+    {
+      "path": "experiments/common/temporal/build_segment_manifest.py",
+      "line": 188,
+      "finding": "构建器记录并跳过mapping excluded=1；当前排除影响训练清单。",
+      "evidence_level": "implementation evidence"
+    },
+    {
+      "path": "experiments/tools/event_annotator_server.py",
+      "line": 1840,
+      "finding": "服务跳过已排除视频以避免打开缺帧视频报错。",
+      "evidence_level": "implementation evidence"
+    }
+  ],
+  "reason_assessment": {
+    "best_supported_category": "historical_decoding_quality_exclusion",
+    "duplicate_version": "not_established",
+    "missing_annotation": "Current events has no row, consistent with exclusion; not itself evidence that video is N or undecidable.",
+    "current_unrepairable_claim": "not_supported_as_current_fact; three bounded windows decode successfully and show more than2 valid images with sequential changing OSD. This does not test the entire file.",
+    "who_and_when": "Old2026-09-23 records attribute exclusion to the user; original approval message and exact decoder failure log were not recovered, so do not restate attribution as independently verified."
+  },
+  "same_name_and_repair_lineage": {
+    "same_stem_paths_found_under_data": [
+      "data/raw/video_dataset_4/D05_20260818131156_fixed.mp4"
+    ],
+    "adjacent_camera_files": [
+      "data/raw/video_dataset_4/D05_20260818123849_fixed.mp4",
+      "data/raw/video_dataset_4/D05_20260818134631_fixed.mp4"
+    ],
+    "finding": "当前raw入口仅找到同名fixed.mp4，未找到未修复同名原件或另一重复版本。相邻文件名时刻不同，不能当重复版。",
+    "family_context": "库存归档第110行称video_dataset_4为数据方2026-09修复版；23个MP4文件均有_fixed后缀，22个历史可用，v5_08排除。该叙述不替代逐文件谱系。",
+    "not_recovered": [
+      "Pre-fixed original bytes/hash",
+      "Repair/remux command and exact processing mapping",
+      "Original decoder failure command/log and fingerprint"
+    ],
+    "caution": "_fixed后缀与Lavf元信息只说明当前文件/家族有处理线索，不足反推出修复方法、处理前后像素关系或被排除者与当前字节完全相同。"
+  },
+  "source_document_context": {
+    "path": "data/raw/video_dataset_4/说明.docx",
+    "sha256": "5a1d7dace089f32c0a01038168eedd64cedc78d29b43b9cd7a24d0cc1b621d69",
+    "text_read_directly": "经过再次确认，2026年8月18日，上游14:24发生泥石流，本次文件中的视频为常规水流的视频。上次给你发送的百度网盘的文件由于上游发生了泥石流，因此到达塔吊断面的不能视为常规水流，属于小型泥石流的状态。",
+    "use": "本批普通水流背景补证；不据此确定所有秒为N，也不将另一个批次的塔吊小型泥石流更正套到本条。"
+  },
+  "observed_windows": [
+    {
+      "name": "early",
+      "source_seek_request_sec": 0,
+      "requested_duration_sec": 4,
+      "command": [
+        "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\.venv\\Lib\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win64-v4.2.2.exe",
+        "-hide_banner",
+        "-ss",
+        "0",
+        "-i",
+        "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\raw\\video_dataset_4\\D05_20260818131156_fixed.mp4",
+        "-t",
+        "4",
+        "-an",
+        "-vf",
+        "showinfo,fps=1,scale=960:-1",
+        "-frames:v",
+        "4",
+        "-q:v",
+        "3",
+        "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\.codex\\docs\\.temp\\recheck-v3-a\\excluded-v5_08\\early\\frame-%02d.jpg"
+      ],
+      "returncode": 0,
+      "elapsed_wall_sec": 0.84,
+      "output_images": 4,
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/excluded-v5_08/early.jpg",
+      "stderr_path": ".codex/docs/.temp/recheck-v3-a/excluded-v5_08/early/stderr.txt",
+      "warning": "source seek and local showinfo PTS are not an audit/event time axis; no v5_08 cache index exists.",
+      "actually_viewed": true,
+      "actually_viewed_sample_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "OSD_first_last_read": [
+        "2026-08-18 13:12:01",
+        "2026-08-18 13:12:04"
+      ],
+      "output_contact_sha256": "fa8f7bf63db75e9d8d99d2aba765ab865b57e757fbbf5a10faf8daf10297ae32",
+      "local_showinfo_frame_records": 38,
+      "local_showinfo_pts_first_last": [
+        0.0,
+        3.694
+      ],
+      "decoding_warning_examples": []
+    },
+    {
+      "name": "middle",
+      "source_seek_request_sec": 1037,
+      "requested_duration_sec": 4,
+      "command": [
+        "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\.venv\\Lib\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win64-v4.2.2.exe",
+        "-hide_banner",
+        "-ss",
+        "1037",
+        "-i",
+        "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\raw\\video_dataset_4\\D05_20260818131156_fixed.mp4",
+        "-t",
+        "4",
+        "-an",
+        "-vf",
+        "showinfo,fps=1,scale=960:-1",
+        "-frames:v",
+        "4",
+        "-q:v",
+        "3",
+        "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\.codex\\docs\\.temp\\recheck-v3-a\\excluded-v5_08\\middle\\frame-%02d.jpg"
+      ],
+      "returncode": 0,
+      "elapsed_wall_sec": 0.7,
+      "output_images": 4,
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/excluded-v5_08/middle.jpg",
+      "stderr_path": ".codex/docs/.temp/recheck-v3-a/excluded-v5_08/middle/stderr.txt",
+      "warning": "source seek and local showinfo PTS are not an audit/event time axis; no v5_08 cache index exists.",
+      "actually_viewed": true,
+      "actually_viewed_sample_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "OSD_first_last_read": [
+        "2026-08-18 13:29:18",
+        "2026-08-18 13:29:21"
+      ],
+      "output_contact_sha256": "749d0cf3526b0fe549b298475aca51629ae6cdb2a6f06939a3b34545496387a3",
+      "local_showinfo_frame_records": 37,
+      "local_showinfo_pts_first_last": [
+        0.024,
+        3.618
+      ],
+      "decoding_warning_examples": []
+    },
+    {
+      "name": "late",
+      "source_seek_request_sec": 2060,
+      "requested_duration_sec": 4,
+      "command": [
+        "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\.venv\\Lib\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win64-v4.2.2.exe",
+        "-hide_banner",
+        "-ss",
+        "2060",
+        "-i",
+        "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\raw\\video_dataset_4\\D05_20260818131156_fixed.mp4",
+        "-t",
+        "4",
+        "-an",
+        "-vf",
+        "showinfo,fps=1,scale=960:-1",
+        "-frames:v",
+        "4",
+        "-q:v",
+        "3",
+        "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\.codex\\docs\\.temp\\recheck-v3-a\\excluded-v5_08\\late\\frame-%02d.jpg"
+      ],
+      "returncode": 0,
+      "elapsed_wall_sec": 0.89,
+      "output_images": 4,
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/excluded-v5_08/late.jpg",
+      "stderr_path": ".codex/docs/.temp/recheck-v3-a/excluded-v5_08/late/stderr.txt",
+      "warning": "source seek and local showinfo PTS are not an audit/event time axis; no v5_08 cache index exists.",
+      "actually_viewed": true,
+      "actually_viewed_sample_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "OSD_first_last_read": [
+        "2026-08-18 13:46:21",
+        "2026-08-18 13:46:24"
+      ],
+      "output_contact_sha256": "e5daec7f2382154a0f44ef72122bd9cb2a2bcb9fc42efe78ec573f6e1e572915",
+      "local_showinfo_frame_records": 37,
+      "local_showinfo_pts_first_last": [
+        0.07,
+        3.664
+      ],
+      "decoding_warning_examples": []
+    }
+  ],
+  "content_observation": {
+    "early": "OSD13:12:01–04：山脚原有窄槽/浅分汊水流，裸露灰床占主导，没有新连片粗糙主体。",
+    "middle": "OSD13:29:18–21：同一原有槽的浅流水线继续活动，未见具体物料前缘/团簇主体。",
+    "late": "OSD13:46:21–24：仍为山脚浅流和分汊水线，光照改变与流态分开，没有新目标型变化。",
+    "best_observed_label": "N",
+    "confidence": "中高（已看三个短窗）；全片工作建议中等",
+    "N_reason": "直接观察到的活动部分是分散浅流/细流，没有可辨新粗糙物料主体；N允许活动水、含沙水和洪水，未以固定岸石、黄颜色、来源目录单独判断。",
+    "new_T": "none; no specific suspected target sign observed in these windows, uncertainty alone does not create T."
+  },
+  "recommended_intervals": [
+    {
+      "start_sec": 0,
+      "end_sec": 2074.2,
+      "time_axis": "current_source_navigation_seconds_not_existing_event_axis",
+      "state": "N",
+      "reason": "早中晚各4秒窗与本批直接来源说明一致，未找到目标征象；间隔未连续看，作为独立内容工作建议，不恢复监督。",
+      "confidence": "中；sampled inference, not whole-video certification"
+    }
+  ],
+  "eligibility_recommendation": {
+    "excluded": 1,
+    "action": "retain_existing_exclusion",
+    "automatic_restore": false,
+    "training_ready": false,
+    "reason": "当前短窗可解码是新事实，但不授权恢复既有排除或自动补events；若以后需要纳入，另行核验完整技术可用性及来源谱系。"
+  },
+  "scope_limit": "Only twelve1fps images across three4s source windows were visually reviewed. No full sequential decode, no new frame library, no label CSV/pointer/UI/manual writes. Unseen intervals not certified.",
+  "remaining_evidence_needed": [
+    "Exact pre-fix to fixed lineage and original exclusion input/decoder log, if later restoration becomes useful",
+    "Whole-file technical decode/PTS check only if user chooses to restore eligibility; not done in this bounded investigation"
+  ],
+  "no_mutation": [
+    "mapping CSV",
+    "events CSV",
+    "UI/pointers",
+    "training/supervision",
+    "manual",
+    "completed63 reviews"
+  ]
+}

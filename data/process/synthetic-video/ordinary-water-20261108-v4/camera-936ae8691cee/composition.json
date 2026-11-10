@@ -1,0 +1,384 @@
+{
+  "schema_version": 1,
+  "scene_id": "camera-936ae8691cee",
+  "camera": "鸡冠山上游",
+  "kind": "ordinary-water",
+  "created_at": "2026-11-08T16:08:51.118934+00:00",
+  "status": "generated_pending_user_review",
+  "training_ready": false,
+  "user_accepted": false,
+  "physical_flow_verified": false,
+  "source_path": "data/process/synthetic-video/dry-scenes-20261108-v2/camera-936ae8691cee/dry-reference.png",
+  "source_sha256": "fc5192c27a97b1c1c43069ac3ea6f9fc8292be9aa047bea9c2a19eef5756fad8",
+  "source_acceptance": "User accepted all 11 dry references, as relayed by root; this water derivative is not user accepted.",
+  "style_reference_path": "data/process/synthetic-video/water-reference-demo-20261108-v3/camera-c9c07aee7f28/flood-reference.png",
+  "semantic_note": "User considered the prior flood-named demonstration suitable ordinary water. This derivative targets that visible moderate stream appearance, without strong flood or debris-flow depiction.",
+  "generation_tool": "built-in image_gen",
+  "built_in_artifact_path": "C:\\Users\\20443\\.codex\\generated_images\\01a1bbdd-12c1-7430-82d9-e8780e761ead\\exec-2ebd6213-9823-4b5b-835e-d890d8db3b56.png",
+  "prompt_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-936ae8691cee/ordinary-water-prompt.json",
+  "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET: a local crop of an accepted dry-bed photograph from a fixed surveillance camera. Image 2 is a LOCATION GUIDE ONLY: the magenta marks the permitted low channel footprint. Change only that guided channel footprint into CLEARLY VISIBLE ORDINARY RUNNING WATER. Depict a moderate natural stream similar to a grey river at normal flow: continuous neutral grey to grey-silver liquid surface, some fine suspended silt, coherent small water ripples and irregular sparse white foam streaks, with modest turbulence where water passes original exposed stones. This must be recognizable flowing water, not a thin blue line and not an extreme flood. Leave exposed dry gravel islands and stones in place. The water surface must be fluid rather than granular mud or solid paste. No uniform yellow/brown/ochre, no tropical blue/green, no transported rocks, no debris masses, debris-flow front, huge waves or excessive whitewater. Retain the original surveillance light, source resolution and camera geometry. Do not move banks, flood the whole gravel bed, recolor terrain, sharpen the whole image, alter vegetation, cliffs, roads, timestamp, captions, or invent objects. The magenta guide is annotation, never a desired output color. Keep exactly the same framing. CRITICAL: this real surveillance source is OUT OF FOCUS. Retain its original soft blurred lens appearance. Water, foam and ripples must have the SAME soft focus as the nearby original gravel. Do not deblur, upscale detail, sharpen the river, sharpen distant objects, or improve the camera. The water follows the guided modest braided main channel from far centre toward the lower right, with a small guided branch toward the lower centre. Keep the many unguided gravel islands and the large left gravel bar dry. Preserve the road/track and green meadow at upper right. This is a moderate ordinary grey stream, with soft current-aligned ripples and only scattered small pale foam streaks, not an intense flood or muddy debris flow.",
+  "crop_xyxy": [
+    190,
+    60,
+    1280,
+    720
+  ],
+  "mask_method": "Existing natural liquid pixels composited through a continuous hand-bounded channel envelope; no intersection with the rejected fragmented support. Broad dry bars, slopes, meadow, road and camera text remain source pixels outside this envelope.",
+  "mask_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-936ae8691cee/ordinary-water-mask.png",
+  "mask_sha256": "8289485374e1f491f72e980ca4b264d73c2ba44fee3beab4b8f646e2b7fb79dc",
+  "alpha_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-936ae8691cee/ordinary-water-alpha.png",
+  "alpha_sha256": "6b62ef492254b79eba92490c8deaad4b614d334138bdd3e0a4632eef2196056a",
+  "raw_generation_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-936ae8691cee/ordinary-water-raw-generation.png",
+  "raw_generation_sha256": "39bfb456f99dac2bcd08b5431bde0768712db4ebd9a6ac2f1c574422b6f55e57",
+  "output_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-936ae8691cee/ordinary-water-reference.png",
+  "output_sha256": "abbf9928d50d032d7971b88cb2416e61d406d2c540cd3a4ff7d1c01146c3bfe9",
+  "input_images": [
+    {
+      "role": "edit_target",
+      "path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-936ae8691cee/generation-input.png",
+      "sha256": "a1b345863590bdc9e5ce07397bc07d97bc2e0f2ec5fd934c1850a0dc36fa7541"
+    },
+    {
+      "role": "location_guide_only",
+      "path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-936ae8691cee/generation-guide.png",
+      "sha256": "7037442b82465b26c45f2a0f0926871f185128f2c92e2bd06039db1154886501"
+    }
+  ],
+  "pixel_checks": {
+    "mask_pixels": 171680,
+    "mask_fraction": 0.18628472222222223,
+    "outside_mask_changed_pixels": 0,
+    "outside_mask_max_difference": 0,
+    "protected_caption_glyph_changed_pixels": 0,
+    "protected_mountain_vegetation_timestamp_changed_pixels": 0
+  },
+  "assistant_visual_review": {
+    "status": "repair_ready_for_root_recheck",
+    "full_frame_viewed": true,
+    "channel_detail_viewed": true,
+    "visual_observation": "Main channel and one small branch now contain continuous natural grey liquid with soft small ripples/foam, smooth water/gravel banks and broad dry gravel bars. No large jagged mosaic/step bank fragments remain in the middle or lower-right reach. Original surveillance blur and source caption appearance retained.",
+    "limitations": "Synthetic static water does not verify flow physics, depth or direction. User acceptance is still pending."
+  },
+  "limitations": [
+    "Static synthetic frame does not verify physical flow or direction.",
+    "Source is out of focus; source background remains unsharpened.",
+    "Continuous envelope contains some adjacent synthetic bed pixels as well as water; it was drawn from the original natural-water generation, not the rejected fragmented support.",
+    "User acceptance remains pending; training_ready=false."
+  ],
+  "video_api_calls": 0,
+  "paid_video_api_calls": 0,
+  "code_sha256": "24005b3f2f2b11793abd04f8a9f10bac50f0e05ea666267f6fc1d85dee8a8357",
+  "command": [
+    ".venv/Scripts/python.exe",
+    "data/process/synthetic-video/ordinary-water-20261108-v4/camera-936ae8691cee/revision/continuous-channel-20261109/compose_continuous_channel.py"
+  ],
+  "accepted": false,
+  "user_acceptance": "pending",
+  "source_copy_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-936ae8691cee/accepted-dry-source.png",
+  "source_copy_sha256": "fc5192c27a97b1c1c43069ac3ea6f9fc8292be9aa047bea9c2a19eef5756fad8",
+  "style_reference_sha256": "2c81089d46ea122e33ffea39c0759b3f93d9fbf51f4fd1566cc74c928e5aaedd",
+  "generation_calls_for_asset": 2,
+  "generation_guide_matches_composition_mask": false,
+  "actual_generation_guidance_mask_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-936ae8691cee/actual-generation-guidance-mask.png",
+  "actual_generation_guidance_mask_sha256": "3022eaebe1113dcbddba81cbd3fd4ee123e4993652f2db5174f60f5b274a8015",
+  "composition_revision": {
+    "revision": "continuous-channel-20261109",
+    "reason": "root rejected fragmented_mask_edges",
+    "prior_output_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-936ae8691cee/revision/failed-20261109-fragmented-mask/ordinary-water-reference.png",
+    "prior_output_sha256": "6a17f07a855b652289b75993c3cf28af3a795a6f92a5f8f87f2ef2da45c96771",
+    "raw_generation_reused": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-936ae8691cee/ordinary-water-raw-generation.png",
+    "raw_generation_sha256": "39bfb456f99dac2bcd08b5431bde0768712db4ebd9a6ac2f1c574422b6f55e57",
+    "new_image_generation_calls": 1,
+    "caption_cleanup": {
+      "tool": "built-in image_gen",
+      "input_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-936ae8691cee/revision/continuous-channel-20261109/caption-cleanup-input.png",
+      "input_sha256": "f88ae0c6c8cd35ea3f8db487160c9cdf3346db5707e08b3b6f1c2321fab23a5e",
+      "prompt_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-936ae8691cee/revision/continuous-channel-20261109/caption-cleanup-prompt.json",
+      "raw_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-936ae8691cee/revision/continuous-channel-20261109/caption-cleanup-raw-generation.png",
+      "raw_sha256": "9a93e16a5eeeb44903ac9eb01dbe565496273680cfd0c72f8823b37d3d04bbb4",
+      "built_in_artifact_path": "C:/Users/20443/.codex/generated_images/01a1bbdd-12c1-7430-82d9-e8780e761ead/exec-60818aed-b3f6-4679-96b1-fcd19e1b0bec.png",
+      "applied_footprint_xyxy": [
+        1032,
+        648,
+        1180,
+        698
+      ],
+      "purpose": "Remove generated-caption ghost before restoring original exact glyph pixels."
+    },
+    "source_sha256": "fc5192c27a97b1c1c43069ac3ea6f9fc8292be9aa047bea9c2a19eef5756fad8",
+    "output_sha256": "abbf9928d50d032d7971b88cb2416e61d406d2c540cd3a4ff7d1c01146c3bfe9",
+    "main_envelope_points": [
+      [
+        630,
+        82
+      ],
+      [
+        579,
+        99
+      ],
+      [
+        535,
+        119
+      ],
+      [
+        526,
+        151
+      ],
+      [
+        554,
+        182
+      ],
+      [
+        611,
+        212
+      ],
+      [
+        675,
+        244
+      ],
+      [
+        730,
+        279
+      ],
+      [
+        794,
+        313
+      ],
+      [
+        856,
+        347
+      ],
+      [
+        918,
+        383
+      ],
+      [
+        975,
+        422
+      ],
+      [
+        1027,
+        462
+      ],
+      [
+        1087,
+        503
+      ],
+      [
+        1158,
+        543
+      ],
+      [
+        1226,
+        583
+      ],
+      [
+        1310,
+        627
+      ],
+      [
+        1320,
+        755
+      ],
+      [
+        1206,
+        755
+      ],
+      [
+        1144,
+        704
+      ],
+      [
+        1082,
+        664
+      ],
+      [
+        1017,
+        625
+      ],
+      [
+        958,
+        588
+      ],
+      [
+        909,
+        551
+      ],
+      [
+        861,
+        515
+      ],
+      [
+        817,
+        474
+      ],
+      [
+        770,
+        440
+      ],
+      [
+        722,
+        413
+      ],
+      [
+        674,
+        379
+      ],
+      [
+        627,
+        348
+      ],
+      [
+        576,
+        323
+      ],
+      [
+        524,
+        295
+      ],
+      [
+        470,
+        261
+      ],
+      [
+        426,
+        231
+      ],
+      [
+        395,
+        204
+      ],
+      [
+        393,
+        165
+      ],
+      [
+        410,
+        136
+      ],
+      [
+        455,
+        111
+      ],
+      [
+        502,
+        99
+      ],
+      [
+        549,
+        90
+      ]
+    ],
+    "branch_envelope_points": [
+      [
+        671,
+        350
+      ],
+      [
+        716,
+        373
+      ],
+      [
+        684,
+        411
+      ],
+      [
+        644,
+        447
+      ],
+      [
+        614,
+        483
+      ],
+      [
+        584,
+        526
+      ],
+      [
+        571,
+        572
+      ],
+      [
+        571,
+        617
+      ],
+      [
+        578,
+        663
+      ],
+      [
+        572,
+        747
+      ],
+      [
+        456,
+        747
+      ],
+      [
+        457,
+        679
+      ],
+      [
+        466,
+        635
+      ],
+      [
+        473,
+        590
+      ],
+      [
+        482,
+        544
+      ],
+      [
+        510,
+        499
+      ],
+      [
+        544,
+        458
+      ],
+      [
+        566,
+        417
+      ],
+      [
+        593,
+        386
+      ],
+      [
+        629,
+        363
+      ]
+    ],
+    "envelope_smoothing": "Closed Catmull-Rom, 12 samples per segment; 4x supersampled rasterization",
+    "alpha_feather_px": 3,
+    "patch_blur_px": 0.75,
+    "old_fluid_mask_used": false,
+    "method": "Existing natural liquid pixels composited through a continuous hand-bounded channel envelope; no intersection with the rejected fragmented support. Broad dry bars, slopes, meadow, road and camera text remain source pixels outside this envelope.",
+    "pixel_checks": {
+      "mask_pixels": 171680,
+      "mask_fraction": 0.18628472222222223,
+      "outside_mask_changed_pixels": 0,
+      "outside_mask_max_difference": 0,
+      "protected_caption_glyph_changed_pixels": 0,
+      "protected_mountain_vegetation_timestamp_changed_pixels": 0
+    },
+    "created_at": "2026-11-08T16:17:31.862021+00:00",
+    "script_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-936ae8691cee/revision/continuous-channel-20261109/compose_continuous_channel.py",
+    "script_sha256": "24005b3f2f2b11793abd04f8a9f10bac50f0e05ea666267f6fc1d85dee8a8357",
+    "status": "fragmented_mask_issue_resolved_pending_user_review"
+  },
+  "needs_revision": false,
+  "ref_issue": null,
+  "root_review": {
+    "status": "fragmented_mask_issue_resolved_pending_user_content_review",
+    "observed_at": "2026-11-08T16:25:25.090321+00:00",
+    "full_frame_actually_viewed": true,
+    "observation": "Continuous main water footprint and small branch replace the previously fragmented stepped patches. Terrain outside the edited footprint appears retained. Static water appearance remains synthetic and is not evidence of realistic dynamic flow.",
+    "user_accepted": false,
+    "training_ready": false
+  },
+  "revision_pending_root_review": false,
+  "revision_review_note": "Root viewed the final full frame. Specific fragmented-mask defect resolved; broader realism and user acceptance remain pending."
+}

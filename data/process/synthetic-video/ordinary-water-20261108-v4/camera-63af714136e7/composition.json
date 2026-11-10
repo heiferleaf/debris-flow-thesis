@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-08T16:04:02.892914+00:00",
+  "scene_id": "camera-63af714136e7",
+  "camera": "九弯地沟下游",
+  "kind": "ordinary-water",
+  "status": "assistant_reviewed_candidate_pending_user_acceptance",
+  "source_path": "data/process/synthetic-video/dry-scenes-20261108-v2/camera-63af714136e7/dry-reference.png",
+  "source_sha256": "d61e0c5c69241c1ec222e7e3c66ebbc798afaaa2c0041d136bb156c72e6ac804",
+  "source_acceptance": "Root relayed user acceptance of all 11 dry references. This water derivative has not been user accepted.",
+  "output_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-63af714136e7/ordinary-water-reference.png",
+  "output_sha256": "6e19451bf655d0a85174ebe661781362edfe8b4a52a73d3ba8d68671330402ba",
+  "mask_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-63af714136e7/ordinary-water-mask.png",
+  "mask_sha256": "d54c9a8ca380366990bb33b7257a2e8791b00f0d6f863f888f961c34d7675e95",
+  "alpha_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-63af714136e7/composition-alpha.png",
+  "alpha_sha256": "32e19f7613d4edadc9b2f43321cb132396ae36187214674b395c591d2edeca34",
+  "raw_generation_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-63af714136e7/raw-generation.png",
+  "raw_generation_sha256": "209ba507cfb52d4a6ff3949d1845f65ff1e29264028b6c507c008c2bb608872a",
+  "built_in_artifact_path": "C:/Users/20443/.codex/generated_images/01a1bbdc-7788-7c72-bcc2-cca8a99ed1f0/exec-dcc31f8d-0e55-4d35-a1c6-92ecef4d8d62.png",
+  "generation_tool": "built-in image_gen",
+  "prompt_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-63af714136e7/prompt.json",
+  "prompt_sha256": "54359f2555fe29d6e1625d6accce135e016883cbf3977c5a4076f2c6e7de3ee1",
+  "prompt": "Use case: precise-object-edit. Asset: ordinary water first-frame candidate, fixed surveillance photograph. Image 1 is the EDIT TARGET crop from the user-accepted dry reference. Image 2 is a SUPPORTING LOCATION GUIDE: magenta identifies the only water footprint and is annotation, never a desired color. Image 3 is a STYLE REFERENCE ONLY: use the natural neutral grey fluid appearance of its channel water, with small irregular foam streaks and ripples. Do not copy its landscape, framing, pond, camera or flow width.\nPrimary request: locally add a clearly visible NORMAL STREAM of water in the guided low channel, like the style reference that the user judged suitable for ordinary water. This is a moderate visible watercourse with continuous grey or slightly grey-turbid LIQUID surface, fine coherent ripples, a few small irregular white foam streaks, realistic shallow flowing-water texture. Water must be readily visible, neither a thin blue line nor a powerful flood. Preserve exposed gravel bars and islands; keep water below channel banks. Fine suspended sediment is allowed, but no granular mud clumps or transported stones, no solid front, debris mass, huge waves, uniform yellow/brown slurry, tropical blue/green water, repeated white chevrons, or glossy featureless paint. Preserve exact camera geometry, terrain, vegetation, roads, structures, text, lighting, source compression and framing. Change only the magenta footprint. No changes outside it, no new objects. Unknown physical flow direction is not evidence; do not add arrows. This is a synthetic appearance hypothesis, not validated physical dynamics.\nScene-specific location and constraints: Hazy dark narrow gorge. The only stream is the curved low channel at the bottom, diminishing towards the upper right. Keep dry margin gravel visible along the near bank. The large pale vertical geological streaks on the high cliffs are rock, not water; never edit the walls, slopes or caption. Match this very low contrast hazy exposure. No large bright waves.",
+  "crop_xyxy": [
+    300,
+    420,
+    940,
+    720
+  ],
+  "raw_content_crop_xyxy": [
+    0,
+    0,
+    1832,
+    859
+  ],
+  "method": "Built-in image_gen local crop edit, same bounded inward-feathered mask compositing method as experiments/tools/compose_local_water_reference.py. All pixels outside explicit assistant-traced channel mask copied exactly from accepted dry reference.",
+  "mask_note": "Hazy dark narrow gorge. The only stream is the curved low channel at the bottom, diminishing towards the upper right. Keep dry margin gravel visible along the near bank. The large pale vertical geological streaks on the high cliffs are rock, not water; never edit the walls, slopes or caption. Match this very low contrast hazy exposure. No large bright waves.",
+  "pixel_checks": {
+    "mask_pixels": 18618,
+    "mask_fraction": 0.020201822916666667,
+    "outside_mask_changed_pixels": 0,
+    "outside_mask_max_difference": 0
+  },
+  "shoreline_refinement": "Only within the 2-pixel inward shoreline strip, preserve actual source stone/gravel highlights with local luminance residual above 9. No replacement-water pixels are procedurally painted.",
+  "physical_flow_verified": false,
+  "video_api_calls": 0,
+  "paid_video_api_calls": 0,
+  "user_accepted": false,
+  "training_ready": false,
+  "assistant_visual_review": "Full final image and local detail actually viewed after final shoreline refinement. Grey fluid with modest white ripples in the curved low gorge route matches original haze; cliff geological streaks, near bank and camera caption unchanged. The actual discharge and flow direction remain unknown.",
+  "limitations": [
+    "Single synthetic still: does not establish temporal motion, real flow direction, discharge, or hydraulics.",
+    "Channel mask and water appearance require user review; grey color alone is not validation of ordinary-water semantics."
+  ],
+  "composition_script_path": ".codex/docs/.temp/water-v4-a/compose.py",
+  "composition_script_sha256": "a2a863bbecf1a4d72e8c6948383afd7cd281f5f9e5ebc0328555fc36b5b60038",
+  "all_source_and_input_images_actually_viewed": true,
+  "full_final_image_actually_viewed": true,
+  "local_final_detail_actually_viewed": true,
+  "needs_user_content_review": true,
+  "metadata_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-63af714136e7/composition.json",
+  "comparison_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-63af714136e7/comparison.png",
+  "detail_comparison_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-63af714136e7/water-detail-comparison.png",
+  "source_mask_config": {
+    "camera": "九弯地沟下游",
+    "crop": [
+      300,
+      420,
+      940,
+      720
+    ],
+    "polygons": [
+      [
+        [
+          442,
+          720
+        ],
+        [
+          454,
+          672
+        ],
+        [
+          472,
+          624
+        ],
+        [
+          490,
+          586
+        ],
+        [
+          515,
+          565
+        ],
+        [
+          550,
+          548
+        ],
+        [
+          591,
+          536
+        ],
+        [
+          644,
+          531
+        ],
+        [
+          695,
+          525
+        ],
+        [
+          747,
+          514
+        ],
+        [
+          801,
+          499
+        ],
+        [
+          836,
+          486
+        ],
+        [
+          842,
+          494
+        ],
+        [
+          808,
+          509
+        ],
+        [
+          764,
+          525
+        ],
+        [
+          719,
+          540
+        ],
+        [
+          670,
+          554
+        ],
+        [
+          625,
+          569
+        ],
+        [
+          593,
+          584
+        ],
+        [
+          565,
+          606
+        ],
+        [
+          542,
+          635
+        ],
+        [
+          522,
+          671
+        ],
+        [
+          503,
+          720
+        ]
+      ]
+    ],
+    "note": "Hazy dark narrow gorge. The only stream is the curved low channel at the bottom, diminishing towards the upper right. Keep dry margin gravel visible along the near bank. The large pale vertical geological streaks on the high cliffs are rock, not water; never edit the walls, slopes or caption. Match this very low contrast hazy exposure. No large bright waves."
+  }
+}

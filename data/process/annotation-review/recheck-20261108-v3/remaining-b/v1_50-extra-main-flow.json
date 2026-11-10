@@ -1,0 +1,108 @@
+{
+  "unit_id": "v1_50",
+  "anchors": [
+    577,
+    1590,
+    2603
+  ],
+  "selected_frames": [
+    {
+      "video_key": "v1_50",
+      "frame_file": "v1_50_frame_000268_t577s.jpg",
+      "t_sec": "576.5",
+      "sheet": "8",
+      "t": 576.5,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_50_frame_000268_t577s.jpg"
+    },
+    {
+      "video_key": "v1_50",
+      "frame_file": "v1_50_frame_000269_t579s.jpg",
+      "t_sec": "578.66",
+      "sheet": "8",
+      "t": 578.66,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_50_frame_000269_t579s.jpg"
+    },
+    {
+      "video_key": "v1_50",
+      "frame_file": "v1_50_frame_000270_t581s.jpg",
+      "t_sec": "580.82",
+      "sheet": "9",
+      "t": 580.82,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_50_frame_000270_t581s.jpg"
+    },
+    {
+      "video_key": "v1_50",
+      "frame_file": "v1_50_frame_000271_t583s.jpg",
+      "t_sec": "582.97",
+      "sheet": "9",
+      "t": 582.97,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_50_frame_000271_t583s.jpg"
+    },
+    {
+      "video_key": "v1_50",
+      "frame_file": "v1_50_frame_000739_t1589s.jpg",
+      "t_sec": "1588.93",
+      "sheet": "24",
+      "t": 1588.93,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_50_frame_000739_t1589s.jpg"
+    },
+    {
+      "video_key": "v1_50",
+      "frame_file": "v1_50_frame_000740_t1591s.jpg",
+      "t_sec": "1591.09",
+      "sheet": "24",
+      "t": 1591.09,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_50_frame_000740_t1591s.jpg"
+    },
+    {
+      "video_key": "v1_50",
+      "frame_file": "v1_50_frame_000741_t1593s.jpg",
+      "t_sec": "1593.25",
+      "sheet": "24",
+      "t": 1593.25,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_50_frame_000741_t1593s.jpg"
+    },
+    {
+      "video_key": "v1_50",
+      "frame_file": "v1_50_frame_000742_t1595s.jpg",
+      "t_sec": "1595.4",
+      "sheet": "24",
+      "t": 1595.4,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_50_frame_000742_t1595s.jpg"
+    },
+    {
+      "video_key": "v1_50",
+      "frame_file": "v1_50_frame_001224_t2603s.jpg",
+      "t_sec": "2603.12",
+      "sheet": "40",
+      "t": 2603.12,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_50_frame_001224_t2603s.jpg"
+    },
+    {
+      "video_key": "v1_50",
+      "frame_file": "v1_50_frame_001225_t2605s.jpg",
+      "t_sec": "2605.2",
+      "sheet": "40",
+      "t": 2605.2,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_50_frame_001225_t2605s.jpg"
+    },
+    {
+      "video_key": "v1_50",
+      "frame_file": "v1_50_frame_001226_t2607s.jpg",
+      "t_sec": "2607.27",
+      "sheet": "40",
+      "t": 2607.27,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_50_frame_001226_t2607s.jpg"
+    },
+    {
+      "video_key": "v1_50",
+      "frame_file": "v1_50_frame_001227_t2609s.jpg",
+      "t_sec": "2609.35",
+      "sheet": "40",
+      "t": 2609.35,
+      "path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\frames\\v1_50_frame_001227_t2609s.jpg"
+    }
+  ],
+  "sampling": "4 actual adjacent available cached frames per anchor; not fixed2s when original index gaps exist",
+  "crop_fraction": null
+}

@@ -1,0 +1,21 @@
+{
+  "experiment": "EXP-028",
+  "status": "execution_on_hold",
+  "effective_date": "2026-11-08",
+  "training_ready": false,
+  "reasons": [
+    "用户确认鸡冠山下游和1号塔下游属于同一物理场景；现角色将前者20条放train、后者8条放outer_evaluation，不满足严格跨物理场景目标。",
+    "T语义和旧U/A改标发布已撤回，标签校准与用户示范验收尚未完成。"
+  ],
+  "blocked_role_manifest": "data/metadata/EXP-028/cross-camera-initial-role-v1.json",
+  "scene_evidence": "data/metadata/scene-review/20261108-physical-scene-v1/scene-relations.json",
+  "partition_impact": "data/metadata/scene-review/20261108-physical-scene-v1/partition-impact.json",
+  "permitted_use_of_old_files": "只读历史解释与复现；保留原角色、标签、指标和指纹，不作为新训练就绪证明。",
+  "resume_conditions": [
+    "完成实际场景关系登记，保留视角与事件子标识，不按名字臆造独立场景。",
+    "核定标签并建立新的划分版本；内外层物理场景组无跨侧，疑似同景关系未消除前不跨侧。",
+    "重新核对有效输入、曝光、可用留出和预算，完成适用实验与费用授权。"
+  ],
+  "new_split_created": false,
+  "old_split_or_metrics_changed": false
+}

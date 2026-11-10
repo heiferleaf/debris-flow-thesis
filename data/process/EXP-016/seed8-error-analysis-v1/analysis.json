@@ -1,0 +1,354 @@
+{
+  "status": "read_only_four_case_analysis",
+  "source_scores_sha256": "d555d33172f65803a3010709a4ebfc3f62f67c36616ed2dcd51def27abbccbca",
+  "generator_sha256": "b5be08fd4ee8a20a63b5a57ffe1246e4eae6a8530c90bb64151bd0b1a059c9fc",
+  "threshold": 0.5,
+  "labels_unchanged": true,
+  "decoder_invoked": false,
+  "model_inference_invoked": false,
+  "window_patterns": [
+    {
+      "unit_id": "v1_120",
+      "video_label": "neg",
+      "mode": "rgb_zero",
+      "windows": 1080,
+      "above_threshold": 0,
+      "fraction": 0.0,
+      "score_min": 0.07388179749250412,
+      "score_max": 0.46279627084732056,
+      "peak_start_seconds": 1198.48,
+      "peak_end_seconds": 1201.52
+    },
+    {
+      "unit_id": "v1_120",
+      "video_label": "neg",
+      "mode": "rgb_diff",
+      "windows": 1080,
+      "above_threshold": 5,
+      "fraction": 0.004629629629629629,
+      "score_min": 0.377580851316452,
+      "score_max": 0.5227280259132385,
+      "peak_start_seconds": 269.96,
+      "peak_end_seconds": 272.96
+    },
+    {
+      "unit_id": "v1_62",
+      "video_label": "neg",
+      "mode": "rgb_zero",
+      "windows": 938,
+      "above_threshold": 23,
+      "fraction": 0.024520255863539446,
+      "score_min": 0.059534307569265366,
+      "score_max": 0.9236944913864136,
+      "peak_start_seconds": 1105.5,
+      "peak_end_seconds": 1108.5
+    },
+    {
+      "unit_id": "v1_62",
+      "video_label": "neg",
+      "mode": "rgb_diff",
+      "windows": 938,
+      "above_threshold": 938,
+      "fraction": 1.0,
+      "score_min": 0.5472036600112915,
+      "score_max": 0.8556736707687378,
+      "peak_start_seconds": 1105.5,
+      "peak_end_seconds": 1108.5
+    },
+    {
+      "unit_id": "v5_04",
+      "video_label": "neg",
+      "mode": "rgb_zero",
+      "windows": 1422,
+      "above_threshold": 5,
+      "fraction": 0.0035161744022503515,
+      "score_min": 0.13326528668403625,
+      "score_max": 0.6030815839767456,
+      "peak_start_seconds": 1465.5,
+      "peak_end_seconds": 1468.5
+    },
+    {
+      "unit_id": "v5_04",
+      "video_label": "neg",
+      "mode": "rgb_diff",
+      "windows": 1422,
+      "above_threshold": 0,
+      "fraction": 0.0,
+      "score_min": 0.23750180006027222,
+      "score_max": 0.38549327850341797,
+      "peak_start_seconds": 1459.5,
+      "peak_end_seconds": 1462.5
+    },
+    {
+      "unit_id": "v1_33",
+      "video_label": "pos",
+      "mode": "rgb_zero",
+      "windows": 1181,
+      "above_threshold": 0,
+      "fraction": 0.0,
+      "score_min": 0.2565493881702423,
+      "score_max": 0.4860709607601166,
+      "peak_start_seconds": 404.96,
+      "peak_end_seconds": 408.0
+    },
+    {
+      "unit_id": "v1_33",
+      "video_label": "pos",
+      "mode": "rgb_diff",
+      "windows": 1181,
+      "above_threshold": 1181,
+      "fraction": 1.0,
+      "score_min": 0.5153807401657104,
+      "score_max": 0.5769460797309875,
+      "peak_start_seconds": 500.96,
+      "peak_end_seconds": 504.0
+    }
+  ],
+  "existing_jpeg_examples": [
+    {
+      "clip": {
+        "clip_id": "v1_33:event-line-34:c1251efa49b401c5339b",
+        "unit_id": "v1_33",
+        "split": "validation",
+        "group_id": "d|门前沟上游|2025-07-19",
+        "segment_id": "event-line-34",
+        "kind": "pos",
+        "origin": "explicit_human_event",
+        "candidate_index": 7366,
+        "frame_indices": [
+          7367,
+          7369,
+          7372,
+          7374,
+          7377,
+          7379,
+          7382,
+          7384,
+          7387,
+          7389,
+          7392,
+          7394,
+          7397,
+          7399,
+          7402,
+          7404
+        ],
+        "source_pts_seconds": [
+          589.28,
+          589.44,
+          589.68,
+          589.84,
+          590.08,
+          590.24,
+          590.48,
+          590.64,
+          590.88,
+          591.04,
+          591.28,
+          591.44,
+          591.68,
+          591.84,
+          592.08,
+          592.24
+        ]
+      },
+      "rgb_probability": 0.4290113199979464,
+      "diff_probability": 0.5661417163450091,
+      "selection": "highest RGB score among frozen supervised validation clips for this video",
+      "is_dense_peak": false,
+      "frames": [
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v1_33/frame-00007367.jpg",
+          "sha256": "4c79711d20ec8651abd1abbe4322bad6dd598dd58d83d51231aa5c3b089c5bf2"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v1_33/frame-00007369.jpg",
+          "sha256": "7ac01541ad17b2f47f1070f5425b9e5cf123b158427e389538ed16f4474f1ece"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v1_33/frame-00007372.jpg",
+          "sha256": "fbb26de2fcf1d99c4f270769d48276d5a7fbe64ee04a39f77c08119d71531c65"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v1_33/frame-00007374.jpg",
+          "sha256": "ddfe283b0c69678abd18f10ec67f909b5f27ec0e14f0027d2d8d7ba1409a1822"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v1_33/frame-00007377.jpg",
+          "sha256": "0939c53c07ec57cdd16145966ccaa00809935078e90c301ebd9f79a3e3f37786"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v1_33/frame-00007379.jpg",
+          "sha256": "15b1f6aafc546def7913ca08098e1daf1e84559a7fa1c471fb0f9ea4a7d8a8b0"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v1_33/frame-00007382.jpg",
+          "sha256": "5497a86e8acf732b338e057186c186aa2eb628ab2481f4444baddc0a8bd2e24f"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v1_33/frame-00007384.jpg",
+          "sha256": "79fb2eca48a23a210cd91cedcea4d6333cdc401d4b4cae2f5b0f2a75e80283c3"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v1_33/frame-00007387.jpg",
+          "sha256": "bff2c5d8dc399ee7bbfd53da6823be1395b63e4dd834f30d001f28f3c0ea0429"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v1_33/frame-00007389.jpg",
+          "sha256": "73a7b4988da1fde0eac73e55477d044da731e97c27673dcb6a8bb15127d7dfdf"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v1_33/frame-00007392.jpg",
+          "sha256": "dde2e66b8424cb87653133ba3e7567e3df8ac1d92d235db26880ae365d6177fd"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v1_33/frame-00007394.jpg",
+          "sha256": "86e0d235bce79039d855cd2f4a6b90806511fea8ce8f4ab38e145fa2d0dee0be"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v1_33/frame-00007397.jpg",
+          "sha256": "2a22b89825fe0b694bdcfe3391085ef8802bfc4df564e59a89baeb014db060b8"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v1_33/frame-00007399.jpg",
+          "sha256": "30994806b44fbcae63186c675d7828c96ccca8ce974b3bdc948127d2f6614d5e"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v1_33/frame-00007402.jpg",
+          "sha256": "a99bd4ae0d51a84fc3009b06d8c88830d6533b117c3cf652d82a2b474b456f65"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v1_33/frame-00007404.jpg",
+          "sha256": "aed26faad057d8af4e1c87009d0fd669e8a6712c92e25e60b977004dac3a6623"
+        }
+      ],
+      "sheet": "data/process/EXP-016/seed8-error-analysis-v1/v1_33-fixed-validation.png"
+    },
+    {
+      "clip": {
+        "clip_id": "v5_04:event-line-5:9ffd8df76f70bda7d12f",
+        "unit_id": "v5_04",
+        "split": "validation",
+        "group_id": "d|1号塔广角|2026-08-18",
+        "segment_id": "event-line-5",
+        "kind": "neg",
+        "origin": "explicit_human_event",
+        "candidate_index": 20968,
+        "frame_indices": [
+          21337,
+          21339,
+          21341,
+          21343,
+          21345,
+          21347,
+          21349,
+          21351,
+          21353,
+          21355,
+          21357,
+          21360,
+          21361,
+          21363,
+          21365,
+          21367
+        ],
+        "source_pts_seconds": [
+          2133.9,
+          2134.1,
+          2134.3,
+          2134.4,
+          2134.7,
+          2134.9,
+          2135.1,
+          2135.3,
+          2135.5,
+          2135.7,
+          2135.9,
+          2136.1,
+          2136.3,
+          2136.5,
+          2136.7,
+          2136.9
+        ]
+      },
+      "rgb_probability": 0.3341181379060799,
+      "diff_probability": 0.3569801872251854,
+      "selection": "highest RGB score among frozen supervised validation clips for this video",
+      "is_dense_peak": false,
+      "frames": [
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v5_04/frame-00021337.jpg",
+          "sha256": "3dbe9dcf52913a97aabed21805423cd480838c51c0b7c31ac9505cb07a511819"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v5_04/frame-00021339.jpg",
+          "sha256": "f31d06bdb68ac906ddd9b09391eed032b1f042ec037b40879bffed5153daca06"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v5_04/frame-00021341.jpg",
+          "sha256": "0995871d83e6a519e2be962804892f87d5151c54cc9a8768b272317047f9ab2c"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v5_04/frame-00021343.jpg",
+          "sha256": "0e5d4ff47e7a4f68a9edc88d7e448fee921b012bc088e7d79e03a76479859601"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v5_04/frame-00021345.jpg",
+          "sha256": "e058cb04bc8d5280fe46383b18f9cd18e224a4a3d2793f451ffa3aae85705c9d"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v5_04/frame-00021347.jpg",
+          "sha256": "8513f5eb0deabfec79d19264b2166e5109ae7d77882a935b96b68fc1cecbc477"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v5_04/frame-00021349.jpg",
+          "sha256": "167d4009f5280a84a4ab21adc98d804fe3bae359cbc12b0d03f1f2d41726a331"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v5_04/frame-00021351.jpg",
+          "sha256": "9f9dd63f6131a6250e1dc9647ed52365db55c68ceecb8821a7f9fa6f12cb2ce7"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v5_04/frame-00021353.jpg",
+          "sha256": "75efb5b067dedc69e0f9936e532273924710f99b502c1179585f01d2cebe8caa"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v5_04/frame-00021355.jpg",
+          "sha256": "fd54dc42d7a9349c159ed071784510ca30a156c3a5cbdb2c181a16104ec5e13c"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v5_04/frame-00021357.jpg",
+          "sha256": "fcc177a70e986f5fd1a86b27b89a8614861de2512bd8f42425d046b0f951201e"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v5_04/frame-00021360.jpg",
+          "sha256": "c59c64a9777fad5bffa1d5bf42c16d98c6f14e2b944d688858134e70a88617ce"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v5_04/frame-00021361.jpg",
+          "sha256": "153c9929b20b6294dd7f2d1dd7578e7df34d4dfe1e4f44686c7ede0ea3578f96"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v5_04/frame-00021363.jpg",
+          "sha256": "681680a10c6322575fb1b3ae4ce8d4e01c0171fe09726db2d1b580c081f83fcf"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v5_04/frame-00021365.jpg",
+          "sha256": "b75acc749a12ec255ddd130251e8c83ac2c851ca1eaacfedeab098dc1f285137"
+        },
+        {
+          "path": "data/process/EXP-016/metadata-v3/frames/v5_04/frame-00021367.jpg",
+          "sha256": "13c4c4918e87ff563d69e11e16be9d0c37b2f91c7e0432fdc2e98fe1b5943d42"
+        }
+      ],
+      "sheet": "data/process/EXP-016/seed8-error-analysis-v1/v5_04-fixed-validation.png"
+    }
+  ],
+  "outputs_sha256": {
+    "docs/process/experiments/figures/EXP-016-seeds/seed8-error-timelines.png": "37945d0c45d2f8030c049c3336b5e8dbfa4f8739e97854ebc41de56fae92e6f2",
+    "docs/process/experiments/figures/EXP-016-seeds/seed8-error-timelines.pdf": "f611acb270a09a1b85d527fead51970556262ef2b788e222269f521f11b1dd55",
+    "docs/process/experiments/figures/EXP-016-seeds/seed8-error-timelines.svg": "37e205504d0fb32ff3a741f6ce79bcb730b0ba5dc9d3530ede3ffe365eccbc8b",
+    "data/process/EXP-016/seed8-error-analysis-v1/v1_33-fixed-validation.png": "d074bbaf430f628b627663f3769d40560b528bf4abebf9e809a205d3eb2215ef",
+    "data/process/EXP-016/seed8-error-analysis-v1/v5_04-fixed-validation.png": "82fa0ffd7615b4d2d7efb029a4ef8c90b3abc8693523917d329d654b552e8576"
+  }
+}

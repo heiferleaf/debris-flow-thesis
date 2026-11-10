@@ -1,0 +1,366 @@
+{
+  "schema": "changed-label-real-recheck-v3",
+  "unit_id": "v1_55",
+  "audit_date_local": "2026-11-08",
+  "status": "proposal_only_no_working_csv_or_service_write",
+  "summary": "恢复用户0–1077秒cut；1077–1408秒撤回U/N并保留原P。",
+  "annotation_timeline_end_sec": 1408.0,
+  "old_user_release": "data/metadata/annotation-revisions/npt-20261107-proposals-v3",
+  "old_user_events_csv": "data/metadata/annotation-revisions/npt-20261107-proposals-v3/video1_segment--64b3c72b2a7f/events.csv",
+  "old_user_events_sha256": "fce143f9261155d40dbcb992e1d448052d8658e877b2bf7e6dc290186d3ca6f3",
+  "old_user_annotations_verbatim": [
+    {
+      "video_id": "九弯地沟下游 Downstream of Jiuwandi Gully 9：24",
+      "video_key": "v1_55",
+      "start_sec": "0",
+      "end_sec": "1064",
+      "confidence": "real",
+      "kind": "cut",
+      "note": ""
+    },
+    {
+      "video_id": "九弯地沟下游 Downstream of Jiuwandi Gully 9：24",
+      "video_key": "v1_55",
+      "start_sec": "1064",
+      "end_sec": "1077",
+      "confidence": "real",
+      "kind": "cut",
+      "note": ""
+    },
+    {
+      "video_id": "九弯地沟下游 Downstream of Jiuwandi Gully 9：24",
+      "video_key": "v1_55",
+      "start_sec": "1077",
+      "end_sec": "1408",
+      "confidence": "real",
+      "kind": "pos",
+      "note": ""
+    }
+  ],
+  "disputed_release": "data/metadata/annotation-revisions/npt-20261108-review-v5",
+  "disputed_events_csv": "data/metadata/annotation-revisions/npt-20261108-review-v5/video1_segment--64b3c72b2a7f/events.csv",
+  "disputed_events_sha256": "c075cc414659eadeda13164b5b6769760a3b4ed5da8f6c2495d84451ff04541e",
+  "disputed_annotations_verbatim": [
+    {
+      "video_id": "九弯地沟下游 Downstream of Jiuwandi Gully 9：24",
+      "video_key": "v1_55",
+      "start_sec": "0.0",
+      "end_sec": "1064.0",
+      "confidence": "real",
+      "kind": "unknown",
+      "note": "[类型未定 U；仅供复核，不作训练真值]"
+    },
+    {
+      "video_id": "九弯地沟下游 Downstream of Jiuwandi Gully 9：24",
+      "video_key": "v1_55",
+      "start_sec": "1064.0",
+      "end_sec": "1077.0",
+      "confidence": "real",
+      "kind": "unknown",
+      "note": "[类型未定 U；仅供复核，不作训练真值]"
+    },
+    {
+      "video_id": "九弯地沟下游 Downstream of Jiuwandi Gully 9：24",
+      "video_key": "v1_55",
+      "start_sec": "1077.0",
+      "end_sec": "1090.87",
+      "confidence": "real",
+      "kind": "unknown",
+      "note": "[类型未定 U；仅供复核，不作训练真值]"
+    },
+    {
+      "video_id": "九弯地沟下游 Downstream of Jiuwandi Gully 9：24",
+      "video_key": "v1_55",
+      "start_sec": "1090.87",
+      "end_sec": "1408.0",
+      "confidence": "real",
+      "kind": "neg",
+      "note": ""
+    }
+  ],
+  "disputed_changes": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 1064.0,
+      "old_user_state": "cut",
+      "disputed_state": "U",
+      "disputed_note": "[类型未定 U；仅供复核，不作训练真值]",
+      "why_withdraw_or_revisit": "恢复用户0–1077秒cut；1077–1408秒撤回U/N并保留原P。"
+    },
+    {
+      "start_sec": 1064.0,
+      "end_sec": 1077.0,
+      "old_user_state": "cut",
+      "disputed_state": "U",
+      "disputed_note": "[类型未定 U；仅供复核，不作训练真值]",
+      "why_withdraw_or_revisit": "恢复用户0–1077秒cut；1077–1408秒撤回U/N并保留原P。"
+    },
+    {
+      "start_sec": 1077.0,
+      "end_sec": 1090.87,
+      "old_user_state": "P",
+      "disputed_state": "U",
+      "disputed_note": "[类型未定 U；仅供复核，不作训练真值]",
+      "why_withdraw_or_revisit": "恢复用户0–1077秒cut；1077–1408秒撤回U/N并保留原P。"
+    },
+    {
+      "start_sec": 1090.87,
+      "end_sec": 1408.0,
+      "old_user_state": "P",
+      "disputed_state": "N",
+      "disputed_note": "",
+      "why_withdraw_or_revisit": "恢复用户0–1077秒cut；1077–1408秒撤回U/N并保留原P。"
+    }
+  ],
+  "raw_video_paths": [
+    "data/raw/video_dataset_1/2025年7月24日泥石流视频Debris flow video on July 24, 2025/九弯地沟下游 Downstream of Jiuwandi Gully/九弯地沟下游 Downstream of Jiuwandi Gully 9：24.mp4"
+  ],
+  "cache_index": "data/process/video_frames/video1_segment/frames_index.csv",
+  "recommended_intervals": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 1077.0,
+      "state": "cut",
+      "reason": "原用户cut，覆盖并集不变。",
+      "confidence": "原用户cut继承",
+      "decision_kind": "retain_user_cut"
+    },
+    {
+      "start_sec": 1077.0,
+      "end_sec": 1408.0,
+      "state": "P",
+      "reason": "恢复用户0–1077秒cut；1077–1408秒撤回U/N并保留原P。",
+      "confidence": "中",
+      "decision_kind": "retain_or_restore_user_interval_with_observed_local_support_and_explicit_limits"
+    }
+  ],
+  "observed_evidence": [
+    {
+      "unit_id": "v1_55",
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/batch-a/v1_55/overview.jpg",
+      "crop_xyxy": null,
+      "cache_points": [
+        {
+          "audit_sec": 0.0,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000000_t0s.jpg"
+        },
+        {
+          "audit_sec": 94.15,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000046_t94s.jpg"
+        },
+        {
+          "audit_sec": 188.29,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000092_t188s.jpg"
+        },
+        {
+          "audit_sec": 282.44,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000138_t282s.jpg"
+        },
+        {
+          "audit_sec": 374.54,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000183_t375s.jpg"
+        },
+        {
+          "audit_sec": 468.69,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000229_t469s.jpg"
+        },
+        {
+          "audit_sec": 562.83,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000275_t563s.jpg"
+        },
+        {
+          "audit_sec": 656.98,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000321_t657s.jpg"
+        },
+        {
+          "audit_sec": 751.13,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000367_t751s.jpg"
+        },
+        {
+          "audit_sec": 845.27,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000413_t845s.jpg"
+        },
+        {
+          "audit_sec": 939.42,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000459_t939s.jpg"
+        },
+        {
+          "audit_sec": 1033.57,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000505_t1034s.jpg"
+        },
+        {
+          "audit_sec": 1125.67,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000550_t1126s.jpg"
+        },
+        {
+          "audit_sec": 1219.81,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000596_t1220s.jpg"
+        },
+        {
+          "audit_sec": 1313.96,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000642_t1314s.jpg"
+        },
+        {
+          "audit_sec": 1408.11,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000688_t1408s.jpg"
+        }
+      ],
+      "scope": "Only listed cache samples; gaps are not continuously viewed.",
+      "reviewed_in_this_pass": true,
+      "contact_sha256": "55c8dfe6609eae01b5119a3ac34af0d39820710cfea0c0353b0d9ab7298b4a01",
+      "crop_note": "Coordinates reference first cache frame; applied proportionally to each actual frame size. Some v4 cache files are 1280x720 and some are larger."
+    },
+    {
+      "unit_id": "v1_55",
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/batch-a/v1_55/flow-sequences.jpg",
+      "crop_xyxy": [
+        250,
+        340,
+        780,
+        540
+      ],
+      "cache_points": [
+        {
+          "audit_sec": 1076.55,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000526_t1077s.jpg"
+        },
+        {
+          "audit_sec": 1078.59,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000527_t1079s.jpg"
+        },
+        {
+          "audit_sec": 1080.64,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000528_t1081s.jpg"
+        },
+        {
+          "audit_sec": 1082.69,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000529_t1083s.jpg"
+        },
+        {
+          "audit_sec": 1084.73,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000530_t1085s.jpg"
+        },
+        {
+          "audit_sec": 1086.78,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000531_t1087s.jpg"
+        },
+        {
+          "audit_sec": 1219.81,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000596_t1220s.jpg"
+        },
+        {
+          "audit_sec": 1221.86,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000597_t1222s.jpg"
+        },
+        {
+          "audit_sec": 1223.91,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000598_t1224s.jpg"
+        },
+        {
+          "audit_sec": 1225.95,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000599_t1226s.jpg"
+        },
+        {
+          "audit_sec": 1228.0,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000600_t1228s.jpg"
+        },
+        {
+          "audit_sec": 1230.05,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000601_t1230s.jpg"
+        },
+        {
+          "audit_sec": 1379.45,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000674_t1379s.jpg"
+        },
+        {
+          "audit_sec": 1381.5,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000675_t1381s.jpg"
+        },
+        {
+          "audit_sec": 1383.55,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000676_t1384s.jpg"
+        },
+        {
+          "audit_sec": 1385.59,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000677_t1386s.jpg"
+        },
+        {
+          "audit_sec": 1387.64,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000678_t1388s.jpg"
+        },
+        {
+          "audit_sec": 1389.69,
+          "frame": "data/process/video_frames/video1_segment/frames/v1_55_frame_000679_t1390s.jpg"
+        }
+      ],
+      "scope": "Only listed cache samples; gaps are not continuously viewed.",
+      "reviewed_in_this_pass": true,
+      "contact_sha256": "13acc70363e109bae9de0be45e7c4a5557b1162e05d6920612ade9f750ca49e4",
+      "crop_note": "Coordinates reference first cache frame; applied proportionally to each actual frame size. Some v4 cache files are 1280x720 and some are larger."
+    }
+  ],
+  "new_raw_windows_observed": [],
+  "reused_raw_contact_sheets_observed": [],
+  "observations_zh": [
+    "0–1033.57秒16点概览多被雾覆盖，用户0–1064和1064–1077两段cut保留，不用U覆盖。",
+    "1076.55–1086.78、1219.81–1230.05、1379.45–1389.69秒连续缓存显示下部斜槽内黄褐流体表面团簇/波脊变化；近景碎石坡与岩壁不动。",
+    "后期雾散后，流体沿上右到下左的槽运动；不能因为岩壁黄褐条痕位置不动就把1090.87以后全N。"
+  ],
+  "specific_target_sign_and_limit": {
+    "positive_or_suspected_target_sign": "下部槽内的黄褐团簇状主体和隆起依次更替；固定壁痕与岸石不作为移动物料。",
+    "distinguishing_target_from_accepted_N": "N可以有黄色细流、普通水流和洪水；仅颜色、面积、流幅、运动、阵流或文件夹不是P/T充分条件。",
+    "accepted_anchor_images_actually_viewed": [
+      "data/process/video_frames/video1_segment/frames/v1_16_frame_000143_t300s.jpg",
+      "data/process/video_frames/video1_segment/frames/v1_16_frame_000498_t1044s.jpg"
+    ],
+    "gap_to_unambiguous_P": "本条未新增原片密集窗；缓存不能可靠分辨每个团簇是固体还是浑水波头。相邻v1_56的原片证据只能辅助找ROI，不能替代本条时间覆盖。",
+    "new_T_policy": "未因低把握新造T；只有v4_12沿用用户T，并记录其新前缘/主体铺展的具体疑似目标及不足P的缺口。"
+  },
+  "confidence": "中",
+  "inherited_not_newly_dense_observed_audit_ranges": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 1076.55,
+      "meaning": "No new dense cache sequence in this span; overview samples may exist. Working label inherited, not continuously reobserved."
+    },
+    {
+      "start_sec": 1086.78,
+      "end_sec": 1219.81,
+      "meaning": "No new dense cache sequence in this span; overview samples may exist. Working label inherited, not continuously reobserved."
+    },
+    {
+      "start_sec": 1230.05,
+      "end_sec": 1379.45,
+      "meaning": "No new dense cache sequence in this span; overview samples may exist. Working label inherited, not continuously reobserved."
+    },
+    {
+      "start_sec": 1389.69,
+      "end_sec": 1408.0,
+      "meaning": "No new dense cache sequence in this span; overview samples may exist. Working label inherited, not continuously reobserved."
+    }
+  ],
+  "sampling_limit": "Each evidence manifest lists exact viewed cache samples. Six consecutive ~2s samples are a sampled window, not a statement every intervening frame was seen. Overview is 16 isolated points. Raw contacts show 2fps over nominal5s or first9 samples at4fps; not all decoded frames visually watched. Recommendations cover full user annotation axis but are not whole-video certification.",
+  "remaining_evidence_needed": "本条未新增原片密集窗；缓存不能可靠分辨每个团簇是固体还是浑水波头。相邻v1_56的原片证据只能辅助找ROI，不能替代本条时间覆盖。",
+  "cut_preservation": {
+    "old_cut_intervals": [
+      [
+        0.0,
+        1064.0
+      ],
+      [
+        1064.0,
+        1077.0
+      ]
+    ],
+    "recommended_cut_intervals": [
+      [
+        0.0,
+        1077.0
+      ]
+    ],
+    "same_coverage": true
+  },
+  "no_training_or_supervision_decision": true,
+  "no_label_mutations": true,
+  "model_predictions_used": false
+}

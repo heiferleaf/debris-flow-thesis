@@ -1,0 +1,286 @@
+{
+  "status": "selection_rule_reviewed_input_and_independence_checks_pending",
+  "scientific_scope": "source-supported external video-presence challenge under publication/container time; not verified physical-clock or deployment evaluation",
+  "rule": "include all proposed pos/neg with sufficient source and visual evidence; exclude uncertain and direct class-bearing subtitle, without reading model scores",
+  "historical_4P4N_minimum_proposal": "superseded; original v1 preserved unchanged",
+  "review": "independent Sol label/admission decision 2026-11-01; not user signature",
+  "source_package_sha256": {
+    "data\\metadata\\external-videos\\label-review-20261101-v1\\video-label-review.csv": "76d54c6315241775a4e269447b2dd5b4e56bf69c5c08c71bc5d0a391863e1ebb",
+    "data\\metadata\\external-videos\\label-review-20261101-v1\\README.md": "c13297530b46f77baf785a27f14a132176c21ffea4c8442f5e756e91c262f920",
+    "data\\metadata\\external-videos\\label-review-20261101-v1\\review-source.json": "0ae74515ca5be3609ce190502accd7447930a9476e19ef0905144cd6197b74e0"
+  },
+  "selected_media": [
+    {
+      "source_id": "USGS-HPCC-20220803-CAM01-PART01",
+      "media_path": "data/raw/web-research-20261029/positive/USGS_HPCC_20220803_FinalCut.mp4",
+      "media_sha256_inherited": "806173e316b43341fbaba8a763575b7127115c7ce7280b4bd872572037e37af7",
+      "proposed_video_label": "pos",
+      "evidence_strength": "source-supported positive with visible event evidence",
+      "original_event_id": "usgs-hpcc-20220803:event01",
+      "camera_id": "cam01",
+      "source_site_group": "USGS-HPCC-site-group-review-pending",
+      "capture_clock_status": "unknown",
+      "proposed_start_frame": "0",
+      "proposed_end_frame_exclusive": "4433"
+    },
+    {
+      "source_id": "USGS-CC-2016-0818-CAM01-LEFT-PART01",
+      "media_path": "data/raw/web-research-20261030/positive/USGS_ChalkCliffs_2016-08-18_cam01.mp4",
+      "media_sha256_inherited": "5e7bb815ee23246cb6aa0cd4390d70009d7ffadad1e6bfab738bf0399ce37dbb",
+      "proposed_video_label": "pos",
+      "evidence_strength": "source-supported positive with visible event evidence",
+      "original_event_id": "usgs-chalkcliffs-20160818:event01",
+      "camera_id": "cam01",
+      "source_site_group": "USGS-CHALK-CLIFFS-site-group-review-pending",
+      "capture_clock_status": "unknown",
+      "proposed_start_frame": "0",
+      "proposed_end_frame_exclusive": "3754"
+    },
+    {
+      "source_id": "USGS-CC-2016-0818-CAM02-RIGHT-PART01",
+      "media_path": "data/raw/web-research-20261030/positive/USGS_ChalkCliffs_2016-08-18_cam02.mp4",
+      "media_sha256_inherited": "d507eafa4e11ad1187e04906d22b4c8b721a5dcc4352f5eff3d0f551107c0d34",
+      "proposed_video_label": "pos",
+      "evidence_strength": "source-supported positive with visible event evidence",
+      "original_event_id": "usgs-chalkcliffs-20160818:event01",
+      "camera_id": "cam02",
+      "source_site_group": "USGS-CHALK-CLIFFS-site-group-review-pending",
+      "capture_clock_status": "unknown",
+      "proposed_start_frame": "0",
+      "proposed_end_frame_exclusive": "3754"
+    },
+    {
+      "source_id": "USGS-CC-2017-0719-CAM01-ORIGINAL-RIGHT-PART01",
+      "media_path": "data/raw/web-research-20261030/positive/USGS_ChalkCliffs_2017-07-19_cam01_part01.mp4",
+      "media_sha256_inherited": "f35c8bc23642ee264590bd2a9ddd1a3b5ded068a3a885d9d3b49b4a9ff9ef458",
+      "proposed_video_label": "pos",
+      "evidence_strength": "source-supported positive with visible event evidence",
+      "original_event_id": "usgs-chalkcliffs-20170719:event-date-unverified",
+      "camera_id": "cam01",
+      "source_site_group": "USGS-CHALK-CLIFFS-site-group-review-pending",
+      "capture_clock_status": "unknown",
+      "proposed_start_frame": "0",
+      "proposed_end_frame_exclusive": "1703"
+    },
+    {
+      "source_id": "USGS-CC-2017-0719-CAM01-ORIGINAL-RIGHT-PART02",
+      "media_path": "data/raw/web-research-20261030/positive/USGS_ChalkCliffs_2017-07-19_cam01_part02.mp4",
+      "media_sha256_inherited": "6f56d399acce541c1833f3e6012602de2eb6c818d33a2e3c0cb2e073a9c6ee16",
+      "proposed_video_label": "pos",
+      "evidence_strength": "source-supported positive with visible event evidence",
+      "original_event_id": "usgs-chalkcliffs-20170719:event-date-unverified",
+      "camera_id": "cam01",
+      "source_site_group": "USGS-CHALK-CLIFFS-site-group-review-pending",
+      "capture_clock_status": "unknown",
+      "proposed_start_frame": "0",
+      "proposed_end_frame_exclusive": "1249"
+    },
+    {
+      "source_id": "EIDC-SHEAF-202408-27K30W",
+      "media_path": "data/raw/web-research-20261030/negative/Sheaf_27k_30fps_wide.mp4",
+      "media_sha256_inherited": "2d90a0ddca896d1b6ae6f43c6e94471719e0a2baf65a9bab418aae24574d5031",
+      "proposed_video_label": "neg",
+      "evidence_strength": "visual-supported provisional negative",
+      "original_event_id": "EIDC-SHEAF-202408-27K30W:event-unverified",
+      "camera_id": "viewpoint_review_pending",
+      "source_site_group": "EIDC-SHEAF-202408-27K30W:source-group",
+      "capture_clock_status": "unknown",
+      "proposed_start_frame": "0",
+      "proposed_end_frame_exclusive": "5396"
+    },
+    {
+      "source_id": "USU-21047541-BSF-APRIL17-2025",
+      "media_path": "data/raw/web-research-20261030/negative/USU_fixed_river_cameras/BSF/April17_2025.mp4",
+      "media_sha256_inherited": "7c17f60002b9386d091fb51fb546d2d20382d27fdd1bf001531b0880a74dab84",
+      "proposed_video_label": "neg",
+      "evidence_strength": "visual-supported provisional negative",
+      "original_event_id": "USU:BSF:2025-04-17",
+      "camera_id": "BSF",
+      "source_site_group": "USU-fixed-camera-site:BSF",
+      "capture_clock_status": "unknown",
+      "proposed_start_frame": "0",
+      "proposed_end_frame_exclusive": "1200"
+    },
+    {
+      "source_id": "USU-21047541-BSF-JUNE4-2025",
+      "media_path": "data/raw/web-research-20261030/negative/USU_fixed_river_cameras/BSF/June4_2025.mp4",
+      "media_sha256_inherited": "97cd703f52038cbce47fe9e146e2685fc953e73055947376a0b75dc911643dbb",
+      "proposed_video_label": "neg",
+      "evidence_strength": "visual-supported provisional negative",
+      "original_event_id": "USU:BSF:2025-06-04",
+      "camera_id": "BSF",
+      "source_site_group": "USU-fixed-camera-site:BSF",
+      "capture_clock_status": "unknown",
+      "proposed_start_frame": "0",
+      "proposed_end_frame_exclusive": "1200"
+    },
+    {
+      "source_id": "USU-21047541-BSF-OCT29-2025",
+      "media_path": "data/raw/web-research-20261030/negative/USU_fixed_river_cameras/BSF/Oct29_2025.mp4",
+      "media_sha256_inherited": "a0c12e4617c2a7b77f13a122d5195218701190735a1d84399e1932f900417b3a",
+      "proposed_video_label": "neg",
+      "evidence_strength": "visual-supported provisional negative",
+      "original_event_id": "USU:BSF:2025-10-29",
+      "camera_id": "BSF",
+      "source_site_group": "USU-fixed-camera-site:BSF",
+      "capture_clock_status": "unknown",
+      "proposed_start_frame": "0",
+      "proposed_end_frame_exclusive": "1201"
+    },
+    {
+      "source_id": "USU-21047541-FIRST-DAM-JULY15-2025",
+      "media_path": "data/raw/web-research-20261030/negative/USU_fixed_river_cameras/First dam/July15_2025.mp4",
+      "media_sha256_inherited": "7f3fe0523e7f087c093d4cd39aee5353a5c62d65b97ed7b07243926e44e7109b",
+      "proposed_video_label": "neg",
+      "evidence_strength": "visual-supported provisional negative",
+      "original_event_id": "USU:First dam:2025-07-15",
+      "camera_id": "First dam",
+      "source_site_group": "USU-fixed-camera-site:First dam",
+      "capture_clock_status": "unknown",
+      "proposed_start_frame": "0",
+      "proposed_end_frame_exclusive": "1177"
+    },
+    {
+      "source_id": "USU-21047541-FIRST-DAM-OCT15-2025",
+      "media_path": "data/raw/web-research-20261030/negative/USU_fixed_river_cameras/First dam/Oct15_2025.mp4",
+      "media_sha256_inherited": "1b093c10d850594d80be4d6cfdea50fd09c5e6dea0339522ae8717abf8c6cba5",
+      "proposed_video_label": "neg",
+      "evidence_strength": "visual-supported provisional negative",
+      "original_event_id": "USU:First dam:2025-10-15",
+      "camera_id": "First dam",
+      "source_site_group": "USU-fixed-camera-site:First dam",
+      "capture_clock_status": "unknown",
+      "proposed_start_frame": "0",
+      "proposed_end_frame_exclusive": "1207"
+    },
+    {
+      "source_id": "USU-21047541-UWRL-JUNE20-2025",
+      "media_path": "data/raw/web-research-20261030/negative/USU_fixed_river_cameras/UWRL/June20_2025.mp4",
+      "media_sha256_inherited": "f8730a8ddb5de88f226bf44849b0ca6b78c6770377889a5136503f052dde980e",
+      "proposed_video_label": "neg",
+      "evidence_strength": "visual-supported provisional negative",
+      "original_event_id": "USU:UWRL:2025-06-20",
+      "camera_id": "UWRL",
+      "source_site_group": "USU-fixed-camera-site:UWRL",
+      "capture_clock_status": "unknown",
+      "proposed_start_frame": "0",
+      "proposed_end_frame_exclusive": "1175"
+    },
+    {
+      "source_id": "USU-21047541-UWRL-LOW-LIGHT-1MARCH-2025-6PM",
+      "media_path": "data/raw/web-research-20261030/negative/USU_fixed_river_cameras/UWRL/Low_light_1march_2025_6pm.mp4",
+      "media_sha256_inherited": "528bc8285af62636eb86da2871f83567a12a12c2468e53be6705c6c0f57dc9db",
+      "proposed_video_label": "neg",
+      "evidence_strength": "visual-supported provisional negative",
+      "original_event_id": "USU:UWRL:2025-03-01",
+      "camera_id": "UWRL",
+      "source_site_group": "USU-fixed-camera-site:UWRL",
+      "capture_clock_status": "unknown",
+      "proposed_start_frame": "0",
+      "proposed_end_frame_exclusive": "1201"
+    },
+    {
+      "source_id": "USU-21047541-UWRL-OCT14-2025",
+      "media_path": "data/raw/web-research-20261030/negative/USU_fixed_river_cameras/UWRL/Oct14_2025.mp4",
+      "media_sha256_inherited": "bf1e8bb5ed05306eb5b90f9fc38beaa076a47e257c6d2f81305d08347e86473e",
+      "proposed_video_label": "neg",
+      "evidence_strength": "visual-supported provisional negative",
+      "original_event_id": "USU:UWRL:2025-10-14",
+      "camera_id": "UWRL",
+      "source_site_group": "USU-fixed-camera-site:UWRL",
+      "capture_clock_status": "unknown",
+      "proposed_start_frame": "0",
+      "proposed_end_frame_exclusive": "1194"
+    },
+    {
+      "source_id": "USU-21047541-UWRL-SNOW-FEB20-2025-11AM",
+      "media_path": "data/raw/web-research-20261030/negative/USU_fixed_river_cameras/UWRL/Snow_Feb20_2025_11am.mp4",
+      "media_sha256_inherited": "619eadc5bafabb13fb6fecaee8a4ce3324ad084ae644a36d5371070b34253256",
+      "proposed_video_label": "neg",
+      "evidence_strength": "visual-supported provisional negative",
+      "original_event_id": "USU:UWRL:2025-02-20",
+      "camera_id": "UWRL",
+      "source_site_group": "USU-fixed-camera-site:UWRL",
+      "capture_clock_status": "unknown",
+      "proposed_start_frame": "0",
+      "proposed_end_frame_exclusive": "1201"
+    },
+    {
+      "source_id": "USU-21047541-UWRL-SUNGLARE-1MARCH-2025-730PM",
+      "media_path": "data/raw/web-research-20261030/negative/USU_fixed_river_cameras/UWRL/sunglare_1march_2025_730pm.mp4",
+      "media_sha256_inherited": "368d9340f8cead3f49cd48e50e5ab23cabe8001d5aa600dc7a61b6b4e6980a52",
+      "proposed_video_label": "neg",
+      "evidence_strength": "low-confidence visual-supported negative",
+      "original_event_id": "USU:UWRL:2025-03-01",
+      "camera_id": "UWRL",
+      "source_site_group": "USU-fixed-camera-site:UWRL",
+      "capture_clock_status": "unknown",
+      "proposed_start_frame": "0",
+      "proposed_end_frame_exclusive": "1194"
+    },
+    {
+      "source_id": "USGS-SILVERADO-20150719-CAM01-PART01",
+      "media_path": "data/raw/web-research-20261101/positive/USGS_Silverado_20150719_cam01_part01.mp4",
+      "media_sha256_inherited": "fa86784e71a0a9117e66e4c39c10bc7caa0a03dc40cfcffba7f66016d1351fc9",
+      "proposed_video_label": "pos",
+      "evidence_strength": "source-supported positive with visible event evidence",
+      "original_event_id": "USGS-SILVERADO-20150719:event01",
+      "camera_id": "USGS-SILVERADO-CA:CAM01",
+      "source_site_group": "USGS-SILVERADO-CA:basin01",
+      "capture_clock_status": "unknown",
+      "proposed_start_frame": "0",
+      "proposed_end_frame_exclusive": "1807"
+    },
+    {
+      "source_id": "USGS-SILVERADO-20150719-CAM01-PART02",
+      "media_path": "data/raw/web-research-20261101/positive/USGS_Silverado_20150719_cam01_part02.mp4",
+      "media_sha256_inherited": "68c4b5765e2e372ea83b0da6b668c802de86c190127adc87c7165620a8bcb6d9",
+      "proposed_video_label": "pos",
+      "evidence_strength": "source-supported positive with visible event evidence",
+      "original_event_id": "USGS-SILVERADO-20150719:event01",
+      "camera_id": "USGS-SILVERADO-CA:CAM01",
+      "source_site_group": "USGS-SILVERADO-CA:basin01",
+      "capture_clock_status": "unknown",
+      "proposed_start_frame": "0",
+      "proposed_end_frame_exclusive": "1805"
+    }
+  ],
+  "excluded_media": [
+    {
+      "source_id": "USGS-ELK-2025-0715",
+      "reason": "direct class-bearing subtitle; uniform input policy not yet resolved"
+    },
+    {
+      "source_id": "USU-21047541-FIRST-DAM-MAY14-2025",
+      "reason": "uncertain visual class or insufficient visibility; no forced label"
+    },
+    {
+      "source_id": "USU-21047541-UWRL-MAY13-2025",
+      "reason": "uncertain visual class or insufficient visibility; no forced label"
+    },
+    {
+      "source_id": "USU-21047541-UWRL-NIGHT-1APRIL-1AM",
+      "reason": "uncertain visual class or insufficient visibility; no forced label"
+    }
+  ],
+  "counts": {
+    "media": 18,
+    "P": 7,
+    "N": 11,
+    "nominal_positive_events": 4,
+    "positive_sites": 3,
+    "nominal_negative_observation_groups": 10,
+    "negative_sites": 4,
+    "camera_clock_verified": 0,
+    "camera_clock_unknown": 18
+  },
+  "difficult_negative_review": "strong-backlight river remains visibly interpretable in the inspected 12 stills, supported by a second independent visual review; low confidence retained, not continuous-video certification",
+  "pending_before_formal_freeze": [
+    "PTS/QC and 16 distinct source-index sampling acceptance",
+    "media SHA and label/input/overlay policy freeze",
+    "bounded comparison against actual 150-video development provenance and existing representative images; inspect possible near-duplicates"
+  ],
+  "formal_test_frozen": false,
+  "model_scored": false,
+  "confounding": "P all USGS; N all USU/Sheaf; source, watermarks and sites correlate with class; small correlated challenge cannot certify general cross-domain or physical temporal mechanisms"
+}

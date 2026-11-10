@@ -1,0 +1,67 @@
+{
+  "experiment": "EXP-028",
+  "status": "offline_spec_not_training_ready",
+  "stage": "B0_only_initial_cross_camera_development",
+  "inputs": [
+    {
+      "path": "data/metadata/annotation-revisions/npt-20261108-evidence-working-v3/released-intervals.json",
+      "sha256": "42f5260d1be9029fdcf4ba8f09f1cd97062ced22f104bcfbf68c2445da8280e0"
+    },
+    {
+      "path": "data/metadata/EXP-028/cross-camera-initial-role-v1.json",
+      "sha256": "3c47e2b554bf8c7195c3d1de0bc736fb3e6e027a9fb60a172ee749ad775f2c11"
+    },
+    {
+      "path": "data/metadata/EXP-028/full-coverage-label-overlay-20261108-v3/summary.json",
+      "sha256": "cb34997f9dcbccbcc275d0ee831416741c721e4816537fa16585a3f587488752"
+    }
+  ],
+  "model": {
+    "name": "R(2+1)D-18",
+    "pretrained": "KINETICS400_V1",
+    "native_input_channels": 3,
+    "temporal_frames": 16,
+    "head": "Linear512to1_sigmoid",
+    "head_parameters": 513,
+    "backbone_trainable": true,
+    "BN_running_statistics_frozen": true,
+    "BN_affine_trainable": true,
+    "resume_old_project_checkpoint": false
+  },
+  "sampling": {
+    "span_seconds": 3,
+    "train_stride_seconds": 3,
+    "evaluation_stride_seconds": 3,
+    "effective_batch": 24,
+    "seed": 7,
+    "unknown_or_candidate_is_negative": false
+  },
+  "optimizer": {
+    "name": "Adam",
+    "lr_backbone": 0.0001,
+    "lr_head": 0.001,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0,
+    "AMP": false,
+    "scheduler": null,
+    "extra_augmentation": null
+  },
+  "budget": {
+    "max_updates_per_fit": 10000,
+    "common_complete_traversal_cap": 4,
+    "train_max_updates": 8136,
+    "refit_max_updates": 9724,
+    "GPU_authorized": false,
+    "paid_budget_authorized": false
+  },
+  "comparison": {
+    "V0_start_allowed": false,
+    "reason": "Reliable T is restricted to one camera and two mixed windows",
+    "stacked_modules": []
+  },
+  "implementation": "Metadata wrappers only. No new train.py or model fit in this stage."
+}

@@ -1,0 +1,54 @@
+{
+  "status": "local_environment_observation_not_production_proof",
+  "source_sha256": {
+    "experiments/common/video/head_comparison_training.py": "e8a31a3bc2493a0aa1f5081505a5f39191dd614f39a0cbd37a85e8f5bb945e65",
+    "experiments/common/video/r2plus1d_classifier.py": "f44734301e3040c3d0c18342ec4d9c3396693d9f9a4fbab21aeae8b3c7cc2f47",
+    "experiments/common/video/cv_supervised_training.py": "db5262b328ff39e3cd3048be32b19e65497f7c45c9720e8aa604601d4f7b9c93",
+    "experiments/runspecs/EXP-020/initialization.py": "7af50621ca605d66c1f36be09561f0e0cb39f07037cf239046f09ad4740ea01b"
+  },
+  "argv": [
+    "experiments/runspecs/EXP-020/initialization.py",
+    "--observe-local-environment",
+    "--out",
+    "data/metadata/EXP-020/local-initialization-v1.json"
+  ],
+  "environment": {
+    "python": "3.8.0 (tags/v3.8.0:fa919fd, Oct 14 2019, 19:37:50) [MSC v.1916 64 bit (AMD64)]",
+    "torch": "2.4.1+cpu",
+    "torchvision": "0.19.1+cpu",
+    "platform": "Windows-10-10.0.26100-SP0"
+  },
+  "device": "cpu",
+  "no_forward": true,
+  "no_optimizer": true,
+  "no_training": true,
+  "no_download": true,
+  "public_weights_sha256": "91a641e6c2ab531d1aca5f4321b4d802ec5c3babc15df855cdb6e39c6a1107c8",
+  "initializations": {
+    "deep-s7": {
+      "initial_state_sha256": "4e4136beee2b997f215deee7835a705e10fce42165d0ddc7535bf168e3e275a4",
+      "backbone_state_sha256": "0093965b8b24276e58332f96fa152da970c04ac130f08cc3ad9b90b183ba0143",
+      "stem_state_sha256": "020f2e47cac748664da4bc8573da0de89ac569f87bdea1a73cde9a0257b919db",
+      "head_parameters": 76033
+    },
+    "deep-s8": {
+      "initial_state_sha256": "9fdbf9bc5c70da5cf3b5fb702ee5e9398974a4f8fea64b621167306eb8b7b062",
+      "backbone_state_sha256": "0093965b8b24276e58332f96fa152da970c04ac130f08cc3ad9b90b183ba0143",
+      "stem_state_sha256": "020f2e47cac748664da4bc8573da0de89ac569f87bdea1a73cde9a0257b919db",
+      "head_parameters": 76033
+    },
+    "linear-s7": {
+      "initial_state_sha256": "ce926ee7fe8d54eae122611eb354ae7f7a83ecda272500c6fcc2c1327c7a28c9",
+      "backbone_state_sha256": "0093965b8b24276e58332f96fa152da970c04ac130f08cc3ad9b90b183ba0143",
+      "stem_state_sha256": "020f2e47cac748664da4bc8573da0de89ac569f87bdea1a73cde9a0257b919db",
+      "head_parameters": 513
+    },
+    "linear-s8": {
+      "initial_state_sha256": "42e09c3063be525265b0eee0b31b652816d647a4457989807c82c02d5859fed7",
+      "backbone_state_sha256": "0093965b8b24276e58332f96fa152da970c04ac130f08cc3ad9b90b183ba0143",
+      "stem_state_sha256": "020f2e47cac748664da4bc8573da0de89ac569f87bdea1a73cde9a0257b919db",
+      "head_parameters": 513
+    }
+  },
+  "seconds": 2.5386245
+}

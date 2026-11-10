@@ -1,0 +1,119 @@
+{
+  "status": "execution_sources_snapshotted",
+  "files": 22,
+  "total_bytes": 675342,
+  "manifest_sha256": "9bc99427d9ea0d429c1cfcc4f5045bdb90bd6357ce4ca5ec2ad995db24ff9727",
+  "sources": [
+    {
+      "path": ".agents/skills/data-usage-protocol/SKILL.md",
+      "size_bytes": 7340,
+      "sha256": "b276b49a89cda30c6912f4c0aed51595353911c470a2221a4e888daaabd466da"
+    },
+    {
+      "path": "data/metadata/EXP-018/paired-plan-v1/epochs.jsonl",
+      "size_bytes": 496618,
+      "sha256": "a1411779adbf41e6c9a6a4880a624df824ce94cf04f70760bde7bf4e54a5db12"
+    },
+    {
+      "path": "data/metadata/EXP-018/paired-plan-v1/plan.json",
+      "size_bytes": 7878,
+      "sha256": "7cda9b1c278e3af4b78ab7945bf656ff377ebbbdf07dd8e1d038b9d95b83b874"
+    },
+    {
+      "path": "docs/process/experiments/EXP-006-数据使用方案.md",
+      "size_bytes": 7803,
+      "sha256": "5d7d27a71b1ed30bbdf5d6d3b058d435a75a66d6695f6afa38de451f749c3c4c"
+    },
+    {
+      "path": "docs/process/experiments/EXP-018.md",
+      "size_bytes": 7414,
+      "sha256": "dfbf2ebc96ecf611820ed9afea8d78900f1da1286649b9f071985722a8420d14"
+    },
+    {
+      "path": "experiments/common/video/dense_evaluation.py",
+      "size_bytes": 18091,
+      "sha256": "0267f98ee28133c2098f253fb8a12bd7b380f2149baf4ac437924a912e5a40d3"
+    },
+    {
+      "path": "experiments/common/video/paired_plan.py",
+      "size_bytes": 14263,
+      "sha256": "aff204c4b340bb43e18690acb0a1f4de15f31cf03d5010ab1622f4fec9c1a94e"
+    },
+    {
+      "path": "experiments/common/video/paired_runtime.py",
+      "size_bytes": 5338,
+      "sha256": "9e390bad7b287f5f9eb8ae90452858b1df13324f1db2be214f7e0c3b0daf4448"
+    },
+    {
+      "path": "experiments/common/video/paired_training.py",
+      "size_bytes": 14574,
+      "sha256": "c9eee9da9037de34a88476380a9bdf6c8bb9833a3a964846e28bd2c2c7f8d0ca"
+    },
+    {
+      "path": "experiments/common/video/pts_clip_sampling.py",
+      "size_bytes": 18533,
+      "sha256": "931f67394c82949d81570cb1607d7fb1b3a811d549841d8d46050188b1232178"
+    },
+    {
+      "path": "experiments/common/video/r2plus1d_classifier.py",
+      "size_bytes": 2170,
+      "sha256": "f44734301e3040c3d0c18342ec4d9c3396693d9f9a4fbab21aeae8b3c7cc2f47"
+    },
+    {
+      "path": "experiments/common/video/supervised_plan.py",
+      "size_bytes": 10546,
+      "sha256": "1f29f36e360b7163c45bec3012240b1afb1fa16fa8523a2598c91ffc51db45ff"
+    },
+    {
+      "path": "experiments/common/video/supervised_runtime.py",
+      "size_bytes": 11317,
+      "sha256": "3b2b4119a0d8c7846b36d355c356d7730a17aa6c4c0a2324ec7bbddbe4fd3d9a"
+    },
+    {
+      "path": "experiments/common/video/supervised_training.py",
+      "size_bytes": 15243,
+      "sha256": "4f7ee39df6e33bca2db531b3d49ad465b62c362f30b88d2a1ff8e1fd256ce7c8"
+    },
+    {
+      "path": "experiments/runspecs/EXP-016/evaluate.py",
+      "size_bytes": 1187,
+      "sha256": "4278e6b02d6de3b0b604b680bcf9afc31445ad3cd82895f2204956b4c52cca66"
+    },
+    {
+      "path": "experiments/runspecs/EXP-016/run.py",
+      "size_bytes": 12281,
+      "sha256": "647d3fa9f0915db55a1bd3ab2ba5f96162a4888b9b2910054b5da047db262553"
+    },
+    {
+      "path": "experiments/runspecs/EXP-018/audit.py",
+      "size_bytes": 11272,
+      "sha256": "3a52278ca9aa5d3aaf7c761d7d06d5d3adb737efd613593b1f9142bc89759054"
+    },
+    {
+      "path": "experiments/runspecs/EXP-018/prepare.py",
+      "size_bytes": 927,
+      "sha256": "a17875c1828d0382f873b8834ea5323a9c09c206758384e98406908187456685"
+    },
+    {
+      "path": "experiments/runspecs/EXP-018/prepare_transfer.py",
+      "size_bytes": 1893,
+      "sha256": "9c6f83a0ba3c640f0709b79bfbe726ab16c99d847c42c9eb91f84f86fd7dd81f"
+    },
+    {
+      "path": "experiments/runspecs/EXP-018/run.py",
+      "size_bytes": 7916,
+      "sha256": "8dff133395cccdf7b084a4d5840df4e085dfd2988795bee0ebaf4b892c1e69b7"
+    },
+    {
+      "path": "experiments/runspecs/EXP-018/run_cloud.sh",
+      "size_bytes": 668,
+      "sha256": "bab49a6e8c65be9d92a7e597d9b1c1a39439a563308578bab390186eebefbb3d"
+    },
+    {
+      "path": "experiments/runspecs/EXP-018/train.py",
+      "size_bytes": 2070,
+      "sha256": "69cdc341620cbe60949dfc7a4ea6d11c65230ff5b83339b5ce05896c8244e37a"
+    }
+  ],
+  "authorization": "2026-11-01 goal; total new spend <= CNY20; EXP018 first stage <= CNY8"
+}

@@ -1,0 +1,82 @@
+{
+  "source_id": "USGS-ELK-2025-0715",
+  "local_path": "data/raw/web-research-20261030/positive/USGS_Elk_2025-07-15.mp4",
+  "original_sha256": "5446df8026310086bce9d4fb71d0c9608e459f733e6ad23846fae808d1da8afd",
+  "source_sha256_after": "5446df8026310086bce9d4fb71d0c9608e459f733e6ad23846fae808d1da8afd",
+  "size_bytes": 109401438,
+  "source_url": "https://www.usgs.gov/media/videos/postfire-debris-flow-2024-elk-fire-burn-area",
+  "license_catalog": "Public Domain",
+  "container": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1920,
+        "height": 1080,
+        "pix_fmt": "yuv420p",
+        "r_frame_rate": "30000/1001",
+        "avg_frame_rate": "30000/1001",
+        "time_base": "1/90000",
+        "start_time": "0.000000",
+        "duration": "136.269467",
+        "nb_frames": "4084"
+      }
+    ],
+    "format": {
+      "duration": "136.277000",
+      "size": "109401438"
+    }
+  },
+  "full_decoded_frames": 4084,
+  "sequential_decode_seconds": 20.8135301,
+  "pts_strictly_increasing": true,
+  "min_pts_delta": 0.03336666599997784,
+  "max_pts_delta": 0.03336666700002411,
+  "maximum_scene_score": 0.701506,
+  "scene_scores_above_point1": [
+    149,
+    3786,
+    3935
+  ],
+  "native_luma_std_min": 0.0,
+  "native_luma_std_max": 49.4,
+  "sparse_source_frames": [
+    0,
+    15,
+    30,
+    60,
+    90,
+    120,
+    135,
+    150,
+    165,
+    180,
+    240,
+    300,
+    450,
+    749,
+    1049,
+    1349,
+    1648,
+    1948,
+    2248,
+    2547,
+    2847,
+    3147,
+    3447,
+    3746,
+    3933,
+    3963,
+    3993,
+    4023,
+    4046,
+    4053,
+    4083
+  ],
+  "quality_measurement": "native decoded YUV luma mean/std from FFmpeg showinfo; diagnostic only, not model RGB/256 QC and not labels",
+  "decoder_errors": [],
+  "status": "candidate_content_review_pending_visual_inspection",
+  "source_frames_quality_csv": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/frame-pts-quality.csv",
+  "contact_sheet": "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/uniform-contact-sheet.jpg"
+}

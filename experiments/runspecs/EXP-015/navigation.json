@@ -1,0 +1,9 @@
+{
+  "kind": "navigation-only",
+  "experiment_id": "EXP-015",
+  "card": "docs/process/experiments/EXP-015.md",
+  "implementations": [],
+  "results_root": "data/results/exp008",
+  "status": "草案，未授权启动训练",
+  "note": "本文件是复现索引，不是新增训练授权或历史超参数的替代。"
+}

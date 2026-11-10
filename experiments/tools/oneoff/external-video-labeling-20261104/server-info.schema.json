@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Local video human review server receipt",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "session_id", "host", "port", "url", "pid", "started_at", "status"],
+  "properties": {
+    "schema": {"const": "external-video-human-review-server/v1"},
+    "session_id": {"type": "string", "minLength": 1},
+    "host": {"const": "127.0.0.1"},
+    "port": {"type": "integer", "minimum": 1, "maximum": 65535},
+    "url": {"type": "string", "pattern": "^http://127\\.0\\.0\\.1:[0-9]+/$"},
+    "pid": {"type": "integer", "minimum": 1},
+    "started_at": {"type": "string", "format": "date-time"},
+    "status": {"enum": ["running", "stopped"]},
+    "stopped_at": {"type": "string", "format": "date-time"}
+  }
+}

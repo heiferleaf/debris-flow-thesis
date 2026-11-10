@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "record_date": "2026-11-08",
+  "scene_definition": "Same physical monitored reach/space observed from different camera positions; neither view ID nor entire river basin is the physical scene ID.",
+  "confirmed_scene_relations": [
+    {
+      "physical_scene_id": "physical-jiguanshan-downstream-reach",
+      "views": [
+        "1号塔下游",
+        "鸡冠山下游"
+      ],
+      "evidence": "User explicitly confirms both are the same physical scene at different angles; original frames show shared hillside, tower, building/road layout and gravel reach.",
+      "evidence_authority": "user_confirmation_plus_original_image_inspection",
+      "all_descendants_same_partition": true
+    }
+  ],
+  "candidate_relations": [
+    {
+      "views": [
+        "1号塔下游",
+        "1号塔广角",
+        "鸡冠山下游"
+      ],
+      "status": "same_reach_suspected_not_confirmed",
+      "basis": "1号塔广角 shares prominent visible landmarks with the confirmed group. Requires reach-overlap confirmation; not promoted to confirmed by name alone.",
+      "partition_policy": "Do not place candidate-related views on opposite sides pending clarification; no new partition selected."
+    }
+  ],
+  "other_views": "Not automatically certified as independent scenes; relation review pending. Do not merge all views merely because of a common basin.",
+  "physical_scene_count": "Not yet determined;11 registered views must not be reported as11 independent physical scenes.",
+  "original_reference_images": [
+    "data/process/video_frames/video1_segment/frames/v1_16_frame_000143_t300s.jpg",
+    "data/process/synthetic-video/references-20261108-v2/e5fa7b89def2.jpg",
+    "data/process/synthetic-video/references-20261108-v2/8c07e4ff146c.jpg"
+  ],
+  "no_label_or_split_changes": true
+}

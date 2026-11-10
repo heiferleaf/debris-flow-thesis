@@ -1,0 +1,10 @@
+{
+  "prompt": "Use case: precise-object-edit. This is a LOCAL CROP from a soft OUT-OF-FOCUS surveillance-style photograph showing a grey ordinary running stream and dry grey gravel banks. REMOVE ONLY the Chinese camera caption near the lower middle of the crop. Fill its exact letter footprint with the same background that should lie behind it: softly blurred grey gravel on the left and softly blurred grey liquid stream on the right, following the EXISTING diagonal shoreline exactly. Preserve all water ripples, water color, gravel bar, shoreline shape and position, camera geometry, framing and original soft focus elsewhere. Do not move or reshape the bank, widen water, add stones, sharpen anything, invent objects or alter lighting. No text, letters, watermark, symbols or replacement caption anywhere. The output must otherwise match the input crop exactly; it will be composited only into the small existing caption region.",
+  "crop_xyxy": [
+    950,
+    560,
+    1280,
+    720
+  ],
+  "purpose": "Remove generated-caption ghost before exact original glyph restoration; no water-style or channel-geometry change."
+}

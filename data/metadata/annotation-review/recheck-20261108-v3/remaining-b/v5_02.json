@@ -1,0 +1,121 @@
+{
+  "schema_version": 3,
+  "unit_id": "v5_02",
+  "camera": "1号塔广角",
+  "source_video_id": "D02_20260818123245_fixed",
+  "raw_paths": [
+    "data/raw/video_dataset_4/D02_20260818123245_fixed.mp4"
+  ],
+  "decision_status": "recommendation_only_no_events_written",
+  "baseline": "data\\metadata\\annotation-revisions\\npt-20261108-review-v5",
+  "baseline_intervals": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 2215.0,
+      "state": "N"
+    }
+  ],
+  "old_working_intervals": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 2215.0,
+      "state": "N"
+    }
+  ],
+  "label_provenance_warning": "proposals-v3 is an old working proposal, not blanket user-confirmed truth; this item is not asserted to be user-confirmed.",
+  "summary": "本次抽样没有发现足够改标依据，保留当前工作分段，判读把握与继承范围另记。",
+  "recommended_intervals": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 2215.0,
+      "state": "N",
+      "reason": "保留当前工作N。广角全景早中晚实际细分汊水流持续，另加大显示0/2、1104/1106、2206/2208以核对流体；未见新增的粗糙物料前缘或团状输运。 观测时段约12:32–13:09，较晚说明明确本批为常规水流；不因浑浊或多分汊改T/P，抽样间隙仍继承。",
+      "confidence": "medium_to_high_source_supported",
+      "decision_kind": "retain_working_label_with_local_observations_and_inherited_gaps"
+    }
+  ],
+  "evidence_actually_observed": [
+    {
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/remaining-b/v5_02-samples.jpg",
+      "frame_manifest": "data/process/annotation-review/recheck-20261108-v3/remaining-b/v5_02-samples.json",
+      "audit_times_actually_viewed": [
+        0.0,
+        2.0,
+        4.0,
+        6.0,
+        1104.0,
+        1106.0,
+        1108.0,
+        1110.0,
+        2206.0,
+        2208.0,
+        2210.0,
+        2212.0,
+        0.0,
+        2.0,
+        1104.0,
+        1106.0,
+        2206.0,
+        2208.0
+      ],
+      "time_basis": "frames_index.csv t_sec; not source seek or PTS",
+      "sampling": "short ordered early/middle/late windows for every existing non-cut interval"
+    },
+    {
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/remaining-b/v5_02-extra-wide.jpg",
+      "frame_manifest": "data/process/annotation-review/recheck-20261108-v3/remaining-b/v5_02-extra-wide.json",
+      "audit_times_actually_viewed": [
+        0.0,
+        2.0,
+        1104.0,
+        1106.0,
+        2206.0,
+        2208.0
+      ],
+      "cross_unit_reference_frames": [],
+      "time_basis": "frames_index.csv t_sec; not source seek or PTS"
+    }
+  ],
+  "all_audit_times_actually_viewed": [
+    0.0,
+    2.0,
+    4.0,
+    6.0,
+    1104.0,
+    1106.0,
+    1108.0,
+    1110.0,
+    2206.0,
+    2208.0,
+    2210.0,
+    2212.0
+  ],
+  "observed_fluid_evidence": "广角全景早中晚实际细分汊水流持续，另加大显示0/2、1104/1106、2206/2208以核对流体；未见新增的粗糙物料前缘或团状输运。",
+  "confidence": "medium_to_high_source_supported",
+  "limitations": "观测时段约12:32–13:09，较晚说明明确本批为常规水流；不因浑浊或多分汊改T/P，抽样间隙仍继承。",
+  "unobserved_scope": "Only frames explicitly listed were viewed. All remaining times inherit current working labels; no claim of continuous whole-video certification.",
+  "inherited_not_continuously_reobserved": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 2215.0,
+      "state": "N",
+      "scope": "所有未列入实际观测时刻的部分均继承；cut本次不重新开放"
+    }
+  ],
+  "source_document_support": {
+    "verified_originals": "data/metadata/annotation-review/recheck-20261108-v3/batch-b/verified-source-evidence.json",
+    "scope": "dataset4/说明.docx直接说明本次文件为常规水流；同文另更正此前批次塔吊小型泥石流，两个批次不混用。",
+    "decision_use": "本批N有来源说明与局部实见水流形态共同支持；未宣称整片逐秒专家认证。"
+  },
+  "pending_evidence": [
+    "需要作纯视觉物理类型认证或精确选帧时，再定点看原片；本次采样不足不作为改T、改U或关闭监督的理由。"
+  ],
+  "cut_policy": "Current baseline cut union exactly preserved; no new cut for cache decoder defects.",
+  "rules": [
+    "N允许普通水流、细流及洪水；P允许小型/细颗粒泥石流，不要求必有大石块。",
+    "不以固定岸石、颜色、大小、阵流或有运动单因素裁决。",
+    "不把每个P波谷改T；本次无法独立物理认证时可保留工作版并记录把握。"
+  ],
+  "labels_modified": false,
+  "training_ready": false
+}

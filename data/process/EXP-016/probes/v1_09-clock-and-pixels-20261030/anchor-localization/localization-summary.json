@@ -1,0 +1,231 @@
+{
+  "seconds": 3.6752733999999996,
+  "decoded_selected_frames": 493,
+  "anchors": [
+    {
+      "audit_time": 0.0,
+      "audit_frame": "v1_09_frame_000000_t0s.jpg",
+      "roi_xywh": [
+        65,
+        110,
+        160,
+        120
+      ],
+      "nearest_frame": 0,
+      "nearest_physical_pts": 0.0,
+      "top5_roi_mean_absolute_errors": [
+        {
+          "source_frame": 0,
+          "physical_pts": 0.0,
+          "delta_pts_to_audit": 0.0,
+          "roi_gray_mae": 5.777083333333334
+        },
+        {
+          "source_frame": 1,
+          "physical_pts": 0.08,
+          "delta_pts_to_audit": 0.08,
+          "roi_gray_mae": 6.4721875
+        },
+        {
+          "source_frame": 2,
+          "physical_pts": 0.12,
+          "delta_pts_to_audit": 0.12,
+          "roi_gray_mae": 6.703645833333334
+        },
+        {
+          "source_frame": 3,
+          "physical_pts": 0.16,
+          "delta_pts_to_audit": 0.16,
+          "roi_gray_mae": 6.830364583333333
+        },
+        {
+          "source_frame": 4,
+          "physical_pts": 0.24,
+          "delta_pts_to_audit": 0.24,
+          "roi_gray_mae": 7.0015625
+        }
+      ],
+      "review_note": "diagnostic local correspondence only; no fitted offset, no events edits; confirm with OSD/visible motion"
+    },
+    {
+      "audit_time": 520.02,
+      "audit_frame": "v1_09_frame_000254_t520s.jpg",
+      "roi_xywh": [
+        65,
+        110,
+        160,
+        120
+      ],
+      "nearest_frame": 10409,
+      "nearest_physical_pts": 520.0,
+      "top5_roi_mean_absolute_errors": [
+        {
+          "source_frame": 10414,
+          "physical_pts": 520.24,
+          "delta_pts_to_audit": 0.22000000000002728,
+          "roi_gray_mae": 5.092864583333333
+        },
+        {
+          "source_frame": 10413,
+          "physical_pts": 520.2,
+          "delta_pts_to_audit": 0.18000000000006366,
+          "roi_gray_mae": 5.259739583333333
+        },
+        {
+          "source_frame": 10415,
+          "physical_pts": 520.28,
+          "delta_pts_to_audit": 0.2599999999999909,
+          "roi_gray_mae": 5.2696875
+        },
+        {
+          "source_frame": 10412,
+          "physical_pts": 520.16,
+          "delta_pts_to_audit": 0.13999999999998636,
+          "roi_gray_mae": 5.434739583333333
+        },
+        {
+          "source_frame": 10416,
+          "physical_pts": 520.36,
+          "delta_pts_to_audit": 0.34000000000003183,
+          "roi_gray_mae": 5.665729166666667
+        }
+      ],
+      "review_note": "diagnostic local correspondence only; no fitted offset, no events edits; confirm with OSD/visible motion"
+    },
+    {
+      "audit_time": 522.05,
+      "audit_frame": "v1_09_frame_000255_t522s.jpg",
+      "roi_xywh": [
+        65,
+        110,
+        160,
+        120
+      ],
+      "nearest_frame": 10450,
+      "nearest_physical_pts": 522.04,
+      "top5_roi_mean_absolute_errors": [
+        {
+          "source_frame": 10455,
+          "physical_pts": 522.28,
+          "delta_pts_to_audit": 0.2300000000000182,
+          "roi_gray_mae": 4.8488541666666665
+        },
+        {
+          "source_frame": 10454,
+          "physical_pts": 522.24,
+          "delta_pts_to_audit": 0.19000000000005457,
+          "roi_gray_mae": 4.921614583333334
+        },
+        {
+          "source_frame": 10453,
+          "physical_pts": 522.2,
+          "delta_pts_to_audit": 0.15000000000009095,
+          "roi_gray_mae": 5.03359375
+        },
+        {
+          "source_frame": 10456,
+          "physical_pts": 522.36,
+          "delta_pts_to_audit": 0.3100000000000591,
+          "roi_gray_mae": 5.0382291666666665
+        },
+        {
+          "source_frame": 10457,
+          "physical_pts": 522.4,
+          "delta_pts_to_audit": 0.35000000000002274,
+          "roi_gray_mae": 5.110677083333333
+        }
+      ],
+      "review_note": "diagnostic local correspondence only; no fitted offset, no events edits; confirm with OSD/visible motion"
+    },
+    {
+      "audit_time": 524.13,
+      "audit_frame": "v1_09_frame_000256_t524s.jpg",
+      "roi_xywh": [
+        65,
+        110,
+        160,
+        120
+      ],
+      "nearest_frame": 10491,
+      "nearest_physical_pts": 524.12,
+      "top5_roi_mean_absolute_errors": [
+        {
+          "source_frame": 10496,
+          "physical_pts": 524.36,
+          "delta_pts_to_audit": 0.2300000000000182,
+          "roi_gray_mae": 5.11171875
+        },
+        {
+          "source_frame": 10497,
+          "physical_pts": 524.4,
+          "delta_pts_to_audit": 0.2699999999999818,
+          "roi_gray_mae": 5.394739583333333
+        },
+        {
+          "source_frame": 10495,
+          "physical_pts": 524.28,
+          "delta_pts_to_audit": 0.14999999999997726,
+          "roi_gray_mae": 5.71328125
+        },
+        {
+          "source_frame": 10498,
+          "physical_pts": 524.44,
+          "delta_pts_to_audit": 0.3100000000000591,
+          "roi_gray_mae": 5.7196875
+        },
+        {
+          "source_frame": 10494,
+          "physical_pts": 524.24,
+          "delta_pts_to_audit": 0.11000000000001364,
+          "roi_gray_mae": 5.949427083333333
+        }
+      ],
+      "review_note": "diagnostic local correspondence only; no fitted offset, no events edits; confirm with OSD/visible motion"
+    },
+    {
+      "audit_time": 526.17,
+      "audit_frame": "v1_09_frame_000257_t526s.jpg",
+      "roi_xywh": [
+        65,
+        110,
+        160,
+        120
+      ],
+      "nearest_frame": 10532,
+      "nearest_physical_pts": 526.16,
+      "top5_roi_mean_absolute_errors": [
+        {
+          "source_frame": 10537,
+          "physical_pts": 526.4,
+          "delta_pts_to_audit": 0.2300000000000182,
+          "roi_gray_mae": 5.450208333333333
+        },
+        {
+          "source_frame": 10538,
+          "physical_pts": 526.400078,
+          "delta_pts_to_audit": 0.23007800000004863,
+          "roi_gray_mae": 6.0215625
+        },
+        {
+          "source_frame": 10536,
+          "physical_pts": 526.36,
+          "delta_pts_to_audit": 0.19000000000005457,
+          "roi_gray_mae": 6.039010416666667
+        },
+        {
+          "source_frame": 10539,
+          "physical_pts": 526.52,
+          "delta_pts_to_audit": 0.35000000000002274,
+          "roi_gray_mae": 6.53875
+        },
+        {
+          "source_frame": 10540,
+          "physical_pts": 526.520078,
+          "delta_pts_to_audit": 0.3500780000000532,
+          "roi_gray_mae": 6.82421875
+        }
+      ],
+      "review_note": "diagnostic local correspondence only; no fitted offset, no events edits; confirm with OSD/visible motion"
+    }
+  ]
+}

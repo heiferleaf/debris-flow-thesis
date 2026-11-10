@@ -1,0 +1,205 @@
+{
+  "schema_version": 3,
+  "unit_id": "v4_18",
+  "decision_status": "recommendation_only_no_events_written",
+  "summary": "恢复1590–1766用户T，0–1590 N及1766–2700 P继承。",
+  "source_video_id": "D15_20260818161038",
+  "raw_paths": [
+    "data/raw/video_dataset_3/2026年8月18日 蒋家沟泥石流发生前水流（洪水）视频/D15_20260818161038.mp4"
+  ],
+  "old_user_version": "data/metadata/annotation-revisions/npt-20261107-proposals-v3",
+  "disputed_version": "data/metadata/annotation-revisions/npt-20261108-review-v5",
+  "old_user_intervals": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 1590.0,
+      "state": "N"
+    },
+    {
+      "start_sec": 1590.0,
+      "end_sec": 1766.0,
+      "state": "T"
+    },
+    {
+      "start_sec": 1766.0,
+      "end_sec": 2700.0,
+      "state": "P"
+    }
+  ],
+  "disputed_intervals": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 1590.0,
+      "state": "N"
+    },
+    {
+      "start_sec": 1590.0,
+      "end_sec": 1766.0,
+      "state": "U"
+    },
+    {
+      "start_sec": 1766.0,
+      "end_sec": 2700.0,
+      "state": "P"
+    }
+  ],
+  "erroneous_or_unfounded_changes": [
+    "用户T被改为U，缺乏足以推翻用户T的证据；以U关闭监督不构成完成类型复审。"
+  ],
+  "recommended_intervals": [
+    {
+      "start_sec": 0,
+      "end_sec": 1590,
+      "state": "N",
+      "reason": "沿用用户N，本次观测0/600/1200/1500及1578–1588邻近状态；来源更正不能独自覆盖已认可局部N边界。",
+      "confidence": "inherited"
+    },
+    {
+      "start_sec": 1590,
+      "end_sec": 1766,
+      "state": "T",
+      "reason": "保留用户T。活动不透明流带逐步形成更连通的舌体，局部不规则表面组织更新并与后续P邻接；细颗粒泥石流来源支持存在，但远景不足把本区间全升P。",
+      "confidence": "low_to_medium"
+    },
+    {
+      "start_sec": 1766,
+      "end_sec": 2700,
+      "state": "P",
+      "reason": "沿用用户P并受后期来源更正支持；本次只核对1766邻近至1776，不认证后面全段。",
+      "confidence": "inherited"
+    }
+  ],
+  "evidence_actually_observed": [
+    {
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/batch-b/v4_18-boundary.jpg",
+      "frame_manifest": "data/process/annotation-review/recheck-20261108-v3/batch-b/v4_18-boundary.json",
+      "audit_times_actually_viewed": [
+        1578.0,
+        1580.0,
+        1582.0,
+        1584.0,
+        1586.0,
+        1588.0,
+        1590.0,
+        1592.0,
+        1594.0,
+        1596.0,
+        1598.0,
+        1600.0,
+        1754.0,
+        1756.0,
+        1758.0,
+        1760.0,
+        1762.0,
+        1764.0,
+        1766.0,
+        1768.0,
+        1770.0,
+        1772.0,
+        1774.0,
+        1776.0
+      ],
+      "time_basis": "frames_index.csv t_sec; not source seek/PTS",
+      "crop_fraction": [
+        0.0,
+        0.64,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/batch-b/v4_18-overview.jpg",
+      "frame_manifest": "data/process/annotation-review/recheck-20261108-v3/batch-b/v4_18-overview.json",
+      "audit_times_actually_viewed": [
+        0.0,
+        600.0,
+        1200.0,
+        1500.0,
+        1586.0,
+        1592.0,
+        1600.0,
+        1620.0,
+        1640.0,
+        1660.0,
+        1680.0,
+        1700.0,
+        1720.0,
+        1740.0,
+        1762.0,
+        1764.0
+      ],
+      "time_basis": "frames_index.csv t_sec; not source seek/PTS",
+      "crop_fraction": null
+    }
+  ],
+  "all_audit_times_actually_viewed": [
+    0.0,
+    600.0,
+    1200.0,
+    1500.0,
+    1578.0,
+    1580.0,
+    1582.0,
+    1584.0,
+    1586.0,
+    1588.0,
+    1590.0,
+    1592.0,
+    1594.0,
+    1596.0,
+    1598.0,
+    1600.0,
+    1620.0,
+    1640.0,
+    1660.0,
+    1680.0,
+    1700.0,
+    1720.0,
+    1740.0,
+    1754.0,
+    1756.0,
+    1758.0,
+    1760.0,
+    1762.0,
+    1764.0,
+    1766.0,
+    1768.0,
+    1770.0,
+    1772.0,
+    1774.0,
+    1776.0
+  ],
+  "observation_scope": "Ordered cached frames around boundaries plus early/middle/late navigation; raw dense windows only where explicitly listed. No claim of uninterrupted full-video examination.",
+  "transition_target_signs": "相对前段窄流N，新来流逐渐连接原分汊，出现可跟随流带的舌状不透明区域与不规则表面组织；专家更正使细颗粒泥石流成为可信候选。",
+  "transition_gap_before_P": "1590附近变化很弱，远景不足可靠区别普通涨水与细颗粒泥浆，且来源只支持前批断面而非这一边界。",
+  "inherited_not_continuously_reobserved": [
+    {
+      "start_sec": 0,
+      "end_sec": 1500,
+      "state": "N",
+      "limitation": "仅0/600/1200/1500抽帧"
+    },
+    {
+      "start_sec": 1776,
+      "end_sec": 2700,
+      "state": "P",
+      "limitation": "未重新观看"
+    }
+  ],
+  "pending_evidence": [
+    "原用户边界精度未作原片逐帧重定；当前建议恢复工作标签，低把握另记。"
+  ],
+  "prohibited_shortcuts_avoided": [
+    "未用来源目录、黄色、流量大小、阵流或有运动单独定P",
+    "未把固定岸石/床面代替实际流体观察",
+    "未新增U/A，未以大面积关闭监督代替审计",
+    "未用模型预测定义真值"
+  ],
+  "cut_policy": "Preserve proposals-v3 cut union exactly; decoder startup corruption is not a new user cut.",
+  "source_document_support": {
+    "verified_originals": "data/metadata/annotation-review/recheck-20261108-v3/batch-b/verified-source-evidence.json",
+    "old_statement_is_superseded": true,
+    "later_correction": "2026-08-18上游14:24已发生泥石流，前批到塔吊断面属小型泥石流；专家说明不能自动成为每秒标注。",
+    "scope_limit": "v4_17为塔吊上游；v4_19/v4_18是1号塔下游，后者跨视角对应强度低于直接塔吊断面。"
+  }
+}

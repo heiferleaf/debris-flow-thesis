@@ -1,0 +1,14 @@
+﻿{
+    "recorded_utc":  "2026-11-07T12:36:51.3820756+00:00",
+    "deleted_files":  58946,
+    "deleted_bytes":  1594529830,
+    "missing_files":  0,
+    "failures":  [
+
+                 ],
+    "C_free_before":  47951310848,
+    "C_free_after":  48405069824,
+    "raw_and_txt_preserved":  true,
+    "thumbnail_plan":  "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\.codex\\logs\\2026-11-07-thumbnail-cleanup-plan.json",
+    "crop_manifest":  "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\metadata\\cache-retirement\\images-padded-free-20261107-v1\\manifest.json"
+}

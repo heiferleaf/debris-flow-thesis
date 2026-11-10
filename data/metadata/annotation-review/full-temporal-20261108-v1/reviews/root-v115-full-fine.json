@@ -1,0 +1,103 @@
+{
+  "reviewer": "root",
+  "updated_at": "2026-11-08T06:41:54.818927+00:00",
+  "unit_id": "v1_15",
+  "status": "fine_existing_frame_review_complete",
+  "preparation": "root-v115-full-preparation.json",
+  "panels_actually_opened": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45
+  ],
+  "pages_not_reopened_because_all_frames_previously_viewed": [
+    33,
+    34,
+    35
+  ],
+  "reuse_source": "root-v115-1000-1140-preparation.json",
+  "direct_unique_frames": 662,
+  "reused_previously_viewed_frames": 70,
+  "union_unique_frames_actually_viewed": 710,
+  "union_matches_all_existing_indexed_frames": true,
+  "actual_frame_time_range_seconds": [
+    0.0,
+    1420.94
+  ],
+  "missing_existing_indexed_files": 0,
+  "new_video_decode_count": 0,
+  "observations": [
+    {
+      "range_seconds": [
+        0,
+        96
+      ],
+      "observed": "Dense fog hides the distant upper channel; foreground bed stones and branching grooves remain fixed. No affirmative active target is seen, but hidden distance cannot be certified negative."
+    },
+    {
+      "range_seconds": [
+        96,
+        192.39
+      ],
+      "observed": "Fog progressively thins. The same bed landmarks persist; no advancing material body is visible. Visibility, rather than a physical event end, changes."
+    },
+    {
+      "range_seconds": [
+        192.39,
+        1420.94
+      ],
+      "observed": "Crane and upper channel become visible. Pale bed, scattered stones and branching grooves keep their identities over hundreds of successive images. No coherent slurry body, transported granular lobes or advancing front is visible."
+    },
+    {
+      "range_seconds": [
+        1000.06,
+        1138.35
+      ],
+      "observed": "Red-clothed person traverses the fixed bed and moves onto the gravel bank. This proves the recording is not wholly frozen; the negative judgment comes from unchanged bed landmarks and absent target transport, not from a person being present."
+    }
+  ],
+  "decision": "Original all-P annotation is contradicted in the clearly visible bed interval. Publish N for the reliably visible stationary deposit; keep early fog as an observability qualification/U rather than inventing a T phase. Final extent awaits the bounded independent extent check.",
+  "independent_check_of_1000_1140": "reviewer-b-fine-v115-1000-1140.json",
+  "new_T_confirmed": false,
+  "limits": "All 710 existing ~2-second audit images were viewed. This is not continuous 25-fps viewing and does not certify material composition or exclude an event hidden by fog. Endpoint precision is audit-index precision, not a newly established physical onset or cessation.",
+  "labels_published_in_this_receipt": false,
+  "research_implication": "A positive event source can contain static aftermath. Such a P label rewards static deposit appearance and can conflict with the intended active-flow temporal cue. This is a concrete label error, not proof of the sole cause of prior model results."
+}

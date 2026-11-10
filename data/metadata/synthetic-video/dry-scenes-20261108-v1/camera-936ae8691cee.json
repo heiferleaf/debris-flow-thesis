@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "created_date": "2026-11-08",
+  "asset_role": "synthetic dry-channel reference candidate",
+  "training_ready": false,
+  "label_changes": false,
+  "tool": "image_gen.imagegen (built-in; no API key or paid Bailian API)",
+  "workflow": "view source -> referenced-image edit -> view saved PNG; at most one targeted correction; no code image editing",
+  "requested_aspect_ratio": "16:9",
+  "actual_dimensions": [
+    1672,
+    941
+  ],
+  "actual_aspect_ratio": 1.7768331562167907,
+  "exact_16_9": false,
+  "aspect_note": "Hosted tool returned 1672x941 despite16:9 request, about0.053% narrower than exact16:9. Original generated candidate copied without image editing; normal contain/pad encoding may adapt it to exact16:9.",
+  "pixel_identical_background": false,
+  "acceptance": "Synthetic candidate visually reviewed for dry channel and recognisable scene only; not a factual no-flow observation or training approved.",
+  "status": "synthetic_candidate_visual_reviewed",
+  "source_letterbox": "No black letterbox visible in supplied full-frame source.",
+  "index": 11,
+  "scene_id": "camera-936ae8691cee",
+  "camera": "鸡冠山上游",
+  "source_path": "data/process/synthetic-video/references-20261108-v2/71f983d5c193.jpg",
+  "source_sha256": "e123006c831d7ba8a23881eae4c063ce552f977881bab0e8b5c2dbfc43cd74f4",
+  "output_path": "data/process/synthetic-video/dry-scenes-20261108-v1/camera-936ae8691cee/dry-reference.png",
+  "output_sha256": "3ad3e7e4ff83d73945bf57cba2eeed9ed7dcf725a5be17fde5ea40d932aded52",
+  "generated_source_path": "C:/Users/20443/.codex/generated_images/01a1ba71-f080-7cf1-a566-c40871792b30/exec-1db4aacd-76bc-41b0-abb0-c91894156131.png",
+  "generation_attempts": [
+    {
+      "prompt": "Use case: precise-object-edit. Edit this supplied 鸡冠山上游 fixed-camera surveillance photograph into a dry-riverbed reference candidate.\nRemove every cream/yellow/tan/brown or clear fluid within the entire braided river/gully channel, from the distant upper-center reach to all foreground branches and both edges. Include the small pale water pocket beside the left cliff. Replace all liquid, slurry, wet reflective stream surfaces, ripples and whitewater with a static dry matte dark-gray gravel/cobble river bottom, preserving natural branching dry depressions and heterogeneous dry stones. The old fluid footprints must become genuine granular dry bed, not recolored flowing-water texture. There must be no water anywhere in this river channel.\nPreserve same camera, perspective, original banks and gravel-island boundaries, left cliff and vegetation, right floodplain grass, road/path along right side, distant valley and mountain contours, image softness/compression, diffuse overcast lighting and atmospheric haze. Preserve the existing top-left timestamp \"2023年08月02日 18:30:48\" and lower-right \"鸡冠山上游\" label including original black/white color pattern, exact glyph appearance and position; do not add, remove or rewrite watermarks/text. Keep whole original 16:9 framing and any existing black borders; output exactly1920x1080 16:9 if supported.\nNo sharpening, cinematic styling, new objects, changes of weather/camera, global recoloring or landscape redesign. If there is a separate artificial still reservoir outside the channel, leave it unchanged.",
+      "result": "Generated images are saved to C:\\Users\\20443\\.codex\\generated_images\\01a1ba71-f080-7cf1-a566-c40871792b30 as C:\\Users\\20443\\.codex\\generated_images\\01a1ba71-f080-7cf1-a566-c40871792b30\\exec-1db4aacd-76bc-41b0-abb0-c91894156131.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    }
+  ],
+  "visual_observation": "Original has pale braided streams over a broad dark gravel riverbed, plus a small pale pocket beside left cliff. Saved candidate replaces the braided streams and left-side water pocket with granular matte dry gravel. Left cliff, right vegetated floodplain/path and distant valley remain recognisable, with similar haze. No obvious yellow/brown/clear stream or white foam remains. Timestamp and camera label remain recognisable.",
+  "remaining_concerns": [
+    "Existing gravel-island margins were visually blended into reconstructed dry bed; fine source gravel and grass details have changed.",
+    "Some existing plants, rock surface and distant haze details are re-rendered; source background is not pixel-identical.",
+    "Near16:9 hosted output needs normal encoding adaptation for exact720P."
+  ],
+  "fluid_check": "No obvious liquid remains throughout braided bed or small left-side source pocket.",
+  "watermark_check": "Date/time2023年08月02日18:30:48 and 鸡冠山上游 remain visible with similar mixed colors; no added watermark noticed."
+}

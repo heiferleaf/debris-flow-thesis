@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "status": "completed_bounded_sparse_adjudication",
+  "ontology": "npt-evidence-contract-v1",
+  "records": [
+    {
+      "unit_id": "v1_16",
+      "current_T_ranges_sec": [
+        [
+          1036.04,
+          1038.0
+        ],
+        [
+          1038.0,
+          1040.23
+        ]
+      ],
+      "actual_sheets_opened": [
+        {
+          "path": ".codex/docs/.temp/saved-transitions-20261108-v1/v1_16/sheet-01.jpg",
+          "sha256": "5323b1bed9f421fe3660ca42beacf2cf38bf116d3f272c42d6e49767906cb4cc",
+          "bytes": 494833,
+          "page": 1,
+          "panel_count": 8,
+          "columns": 4,
+          "rows": 2,
+          "width": 1920,
+          "height": 778,
+          "sequence_first": 1,
+          "sequence_last": 8,
+          "time_range_sec": [
+            1029.73,
+            1044.43
+          ],
+          "frame_index_records": [
+            9109,
+            9110,
+            9111,
+            9112,
+            9113,
+            9114,
+            9115,
+            9116
+          ],
+          "status": "prepared_not_reviewed"
+        }
+      ],
+      "actual_frame_count_seen": 8,
+      "actual_frame_paths": [
+        "data/process/video_frames/video1_segment/frames/v1_16_frame_000491_t1030s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_16_frame_000492_t1032s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_16_frame_000493_t1034s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_16_frame_000494_t1036s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_16_frame_000495_t1038s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_16_frame_000496_t1040s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_16_frame_000497_t1042s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_16_frame_000498_t1044s.jpg"
+      ],
+      "audit_time_range_seen_sec": [
+        1029.73,
+        1044.43
+      ],
+      "maximum_sampling_gap_sec": 2.12,
+      "review_sampling": "all extant indexed audit images in saved T plus context, about2sec sparse, not original fps",
+      "training_runs": 0,
+      "paid_jobs": 0,
+      "released_state_recommendation": "T",
+      "eligible_for_label_supervision": true,
+      "certainty": "bounded_manual_supported_not_independent_geological_certification",
+      "evidence_level": "root_D001_current_visible_target_partial_detail",
+      "observations": "1029.73–1033.92原浅色分汊流和砾床大体稳定。1036.04、1038.12右上活动沟道局部有新暗色前缘，至1040.23及后续局部沿沟向中部推进；不是因为面积小就判T。",
+      "current_existence_evidence": "此前用户在同视频连贯观看中已认可此处目标刚出现，当前局部新前缘与随后可追踪主体相连；这里已有可见变化，不把此前空画面倒推为T。",
+      "limited_recognition_cue": "在右上较远位置仅新前缘/部分流面可见，材料纹理和完整输运线索尚未充分显现；P仍以当前可清楚辨认优先，不要求所有典型特征。",
+      "boundary_uncertainty_sec": {
+        "entry_bracket": [
+          1033.92,
+          1036.04
+        ],
+        "T_to_P_bracket": [
+          1038.12,
+          1040.23
+        ]
+      },
+      "decision": "保持用户T两行及原端点，记录约2秒边界包络；不把原端点冒称逐帧精确。"
+    },
+    {
+      "unit_id": "v1_95",
+      "current_T_ranges_sec": [
+        [
+          1328.0,
+          1406.0
+        ]
+      ],
+      "actual_sheets_opened": [
+        {
+          "path": ".codex/docs/.temp/saved-transitions-20261108-v1/v1_95/sheet-01.jpg",
+          "sha256": "6cde311b5ff08b79142629cdd52d8d63f76aaa3f4f5c7593421274e4a04c9be9",
+          "bytes": 1104364,
+          "page": 1,
+          "panel_count": 16,
+          "columns": 4,
+          "rows": 4,
+          "width": 1920,
+          "height": 1456,
+          "sequence_first": 1,
+          "sequence_last": 16,
+          "time_range_sec": [
+            1322.15,
+            1352.85
+          ],
+          "frame_index_records": [
+            57880,
+            57881,
+            57882,
+            57883,
+            57884,
+            57885,
+            57886,
+            57887,
+            57888,
+            57889,
+            57890,
+            57891,
+            57892,
+            57893,
+            57894,
+            57895
+          ],
+          "status": "prepared_not_reviewed"
+        },
+        {
+          "path": ".codex/docs/.temp/saved-transitions-20261108-v1/v1_95/sheet-02.jpg",
+          "sha256": "4546ca186e2466364be2ae4968abcc0f4a0875874ab47b2a7115fb6b87027b26",
+          "bytes": 1097412,
+          "page": 2,
+          "panel_count": 16,
+          "columns": 4,
+          "rows": 4,
+          "width": 1920,
+          "height": 1456,
+          "sequence_first": 17,
+          "sequence_last": 32,
+          "time_range_sec": [
+            1354.89,
+            1385.59
+          ],
+          "frame_index_records": [
+            57896,
+            57897,
+            57898,
+            57899,
+            57900,
+            57901,
+            57902,
+            57903,
+            57904,
+            57905,
+            57906,
+            57907,
+            57908,
+            57909,
+            57910,
+            57911
+          ],
+          "status": "prepared_not_reviewed"
+        },
+        {
+          "path": ".codex/docs/.temp/saved-transitions-20261108-v1/v1_95/sheet-03.jpg",
+          "sha256": "b68a8e05ab9f607bd3cceb09b65e100f11b990387fe80b70f6c581be7a54d21b",
+          "bytes": 710264,
+          "page": 3,
+          "panel_count": 10,
+          "columns": 4,
+          "rows": 3,
+          "width": 1920,
+          "height": 1117,
+          "sequence_first": 33,
+          "sequence_last": 42,
+          "time_range_sec": [
+            1387.64,
+            1406.06
+          ],
+          "frame_index_records": [
+            57912,
+            57913,
+            57914,
+            57915,
+            57916,
+            57917,
+            57918,
+            57919,
+            57920,
+            57921
+          ],
+          "status": "prepared_not_reviewed"
+        }
+      ],
+      "actual_frame_count_seen": 42,
+      "actual_frame_paths": [
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000646_t1322s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000647_t1324s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000648_t1326s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000649_t1328s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000650_t1330s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000651_t1332s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000652_t1334s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000653_t1336s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000654_t1339s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000655_t1341s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000656_t1343s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000657_t1345s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000658_t1347s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000659_t1349s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000660_t1351s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000661_t1353s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000662_t1355s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000663_t1357s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000664_t1359s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000665_t1361s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000666_t1363s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000667_t1365s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000668_t1367s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000669_t1369s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000670_t1371s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000671_t1373s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000672_t1375s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000673_t1377s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000674_t1379s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000675_t1382s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000676_t1384s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000677_t1386s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000678_t1388s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000679_t1390s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000680_t1392s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000681_t1394s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000682_t1396s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000683_t1398s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000684_t1400s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000685_t1402s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000686_t1404s.jpg",
+        "data/process/video_frames/video1_segment/frames/v1_95_frame_000687_t1406s.jpg"
+      ],
+      "audit_time_range_seen_sec": [
+        1322.15,
+        1406.06
+      ],
+      "maximum_sampling_gap_sec": 2.05,
+      "review_sampling": "all extant indexed audit images in saved T plus context, about2sec sparse, not original fps",
+      "training_runs": 0,
+      "paid_jobs": 0,
+      "released_state_recommendation": "U",
+      "eligible_for_label_supervision": false,
+      "certainty": "high_for_visible_fluid_insufficient_for_material_type",
+      "evidence_level": "full_saved_T_sparse_review_type_unresolved",
+      "observations": "1322.15–1406.06中央深灰纵向流带一直有活动；边界与两侧砾床脊稳定，局部纹理/明暗波纹沿序列变化。不能说中间没有流体。T内有起伏与局部增宽，但没有仅凭本次图序足以排除普通高含沙水流的材料输运组合证据。",
+      "current_existence_evidence": "确认有流体，尚未独立确认它在当前任务中属于泥石流目标；此前源目录和用户“像要发生”的感觉不足以补这个类型判断。",
+      "limited_recognition_cue": "缺的是目标类型肯定依据，而不是已经确认目标后某个部分不清；按当前合同应U，不能用T取代不知道是什么。",
+      "decision": "用户T原记录和理由完整保留；新发布监督状态U，不改N、不宣称原T已被证伪，也不硬训练T。",
+      "boundary_uncertainty_sec": null,
+      "remaining_specific_evidence": "能独立区分该细流物质类型的动态/来源方片段说明；仅延长同样静态外观审看不能代替类型依据。"
+    }
+  ],
+  "geological_certification": false,
+  "label_files_overwritten": false,
+  "scope": "root assigned2 units; actual observations plus user provenance, no new model scores"
+}

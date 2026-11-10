@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-11-08T15:58:23.312653+00:00",
+  "training_ready": false,
+  "items": [
+    {
+      "path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-c9c07aee7f28/ordinary-water-reference.png",
+      "sha256": "2c81089d46ea122e33ffea39c0759b3f93d9fbf51f4fd1566cc74c928e5aaedd",
+      "status": "accepted_by_user",
+      "authority": "explicit_user_reference_content_acceptance_relayed_by_root",
+      "acceptance_scope": "single_media_preview_reference_content_only",
+      "training_ready": false,
+      "interpretation": "user_reinterpreted_flood_demo_as_ordinary_stream"
+    }
+  ]
+}

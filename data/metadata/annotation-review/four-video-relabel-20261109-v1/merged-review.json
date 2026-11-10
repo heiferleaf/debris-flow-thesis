@@ -1,0 +1,502 @@
+{
+  "schema_version": 1,
+  "status": "pending_user_review",
+  "content_acceptance": "pending_user_review",
+  "training_ready": false,
+  "parent_revision": "data/metadata/annotation-revisions/npt-20261109-two-video-v1",
+  "revision": "data/metadata/annotation-revisions/npt-20261109-four-video-v1",
+  "allowed_changed_video_keys": [
+    "v1_13",
+    "v1_91",
+    "v1_95",
+    "v1_97"
+  ],
+  "inherited_user_acceptance": {
+    "accepted_video_keys": [
+      "v1_16",
+      "v1_96"
+    ],
+    "decision_by": "user",
+    "decision_text": "这两个没有问题，继续审计一些视频",
+    "acceptance_record": "data/metadata/annotation-review/two-video-relabel-20261109-v1/user-acceptance.json",
+    "acceptance_sha256": "8c306737a16cfbdf1b5475dc6025cfbdd9a28d3766c25934d09a9ce93cb8ff6b",
+    "inherited_rows_unchanged": true,
+    "scope": "Only v1_16 and v1_96 accepted previously; four new candidates remain pending."
+  },
+  "segments": {
+    "v1_13": [
+      {
+        "start": 0.0,
+        "end": 1419.0,
+        "label": "P",
+        "reason": "开头原片4K局部已经可见吊机下方弯口的横向粗糙阵线、相连宽来料体及变化的颗粒斑；连续序列显示其相对吊机、固定灰色侧岸和右岸小路推进。中近景仍是细水沟时，远处已满足P，不等阵体占据大部分画面才标P。后续各阵头、后随主体及波谷中仍有可辨物料输运；全片缓存未见恢复明确普通浅水或静止沟床的间歇。"
+      }
+    ],
+    "v1_91": [
+      {
+        "start": 0.0,
+        "end": 1524.22,
+        "label": "N",
+        "reason": "同视角的裸露砾石洲、固定岸石及沟床纹理长期保持；旧1400.52秒起点没有相应的前缘、主体或物料输运组织建立过程。主要为静止沟床及普通细流，不因随后出现目标而倒填为长T。1524.22是下述观察括号内的工作分界，不能理解为此前每个瞬间均已逐原片帧核实。"
+      },
+      {
+        "start": 1524.22,
+        "end": 1870.0,
+        "label": "P",
+        "reason": "上游小阵头绕固定砾石洲沿两侧通道推进，前缘与后随来料共同更新；近景尚大面积静止时，上游已存在实际目标输运。它随后向中下游推进并反复有后继小阵头补充，不能以远、小、薄或尚未到达前景为由延后P。1488.58–1878.54秒所有缓存帧已逐张查看，P段内未确认恢复普通流水/静止沟床的独立间歇；较平缓时仍保留P。"
+      },
+      {
+        "start": 1870.0,
+        "end": 2055.0,
+        "label": "cut",
+        "reason": "保留本轮基版既有cut；它是独立的沿用排除段，不是画面中的P→N或P→T。实看1870前后及片尾未见对应的整体画质失效，且cut内部仍能看到成型来料。原因未获得可证明的用户信息，本提案不自行解除cut。"
+      }
+    ],
+    "v1_95": [
+      {
+        "start": 0.0,
+        "end": 1328.0,
+        "label": "N",
+        "reason": "全程按序缓存对照中，左侧沟道及中央纵向灰带的固定岸线、砾石条带和凸石保持，期间可有普通细水流动；未见需要将前段改为形成阶段的连贯物料体建立过程。不能因随后阵头进入而把此前长段倒填T。临界处以1326.24–1332.38秒观察括号表达，1328仅沿用为工作分界。"
+      },
+      {
+        "start": 1328.0,
+        "end": 1406.0,
+        "label": "P",
+        "reason": "约1330–1332秒，左下画外进入一个已有前缘和后随主体的小阵体；到1334.43秒，粗糙来料体正沿白色凸石左侧沟道向画面远端推进。之后不规则物料纹理、多个小阵线及后随薄层持续更新，相对固定砾石条带有实际输运。这里观察到的是已成型阵体入画、接近和铺展，不是从普通细水在同一位置逐渐建立输运组织，故建议将原T改P，不以规模小、稀疏或未达未来峰值降T。"
+      }
+    ],
+    "v1_97": [
+      {
+        "start": 0.0,
+        "end": 198.53,
+        "label": "N",
+        "reason": "本片自己的0–196.48序列中泥面、枝状纹理及石簇固定，未见物料体推进或输运组织形成；不能从前一视频旧T接续倒填T。"
+      },
+      {
+        "start": 198.53,
+        "end": 255.83,
+        "label": "P",
+        "reason": "198.53左下边缘已经出现成型小阵头，后续前缘与主体向远端推进；214.90后仍有左沟薄层物料输运，尾流保留P，不仅峰值P。"
+      },
+      {
+        "start": 255.83,
+        "end": 358.17,
+        "label": "N",
+        "reason": "255.83后左沟回到固定泥面与普通细水，261–276原尺寸ROI和后续缓存至356.12支持静止基线，无正面形成依据。"
+      },
+      {
+        "start": 358.17,
+        "end": 461.0,
+        "label": "P",
+        "reason": "358.17左下边缘已有很小的成型前缘，360.21更明显，不能等362后才P；397及425附近小脉冲和弱尾流连续存在，至460.50未见确认恢复N。"
+      },
+      {
+        "start": 461.0,
+        "end": 1406.0,
+        "label": "cut",
+        "reason": "保留基版技术cut，未凭可读缓存认证原片完整可用；语义缓存反证与技术限制分开记录，见cut_review。"
+      }
+    ]
+  },
+  "boundaries": {
+    "v1_13": [],
+    "v1_91": [
+      {
+        "at": 1524.22,
+        "bracket": [
+          1515.83,
+          1526.31
+        ],
+        "before": "N",
+        "after": "P",
+        "technical": false,
+        "reason": "工作分界保留1524.22，但只声称位于上述10.48秒的实看括号内；近入画的小阵头与此前细流的最初区别存在判读精度限制，原片2fps窄窗用于确认成型输运而未捕获逐输出PTS。此括号不新增类别、不删除预测，也不作为T理由。"
+      },
+      {
+        "at": 1870.0,
+        "bracket": [
+          1868.06,
+          1870.15
+        ],
+        "before": "P",
+        "after": "cut",
+        "technical": true,
+        "reason": "两侧仍有可辨来料；括号仅证明已检查既有cut位置，不证明这里发生语义或画质换态。cut沿用，非本次重新推断。"
+      }
+    ],
+    "v1_95": [
+      {
+        "at": 1328.0,
+        "bracket": [
+          1326.24,
+          1332.38
+        ],
+        "before": "N",
+        "after": "P",
+        "technical": false,
+        "reason": "1326.24秒未见入画的成型阵头，1330.33秒左下边缘已见来料，1332.38秒小阵体与后随主体明确。1328.29秒只见最下缘局部变化，保留旧1328为括号内工作点，不声称首次发生精确到0.01秒。"
+      }
+    ],
+    "v1_97": [
+      {
+        "at": 198.53,
+        "bracket": [
+          196.48,
+          198.53
+        ],
+        "before": "N",
+        "after": "P",
+        "technical": false,
+        "reason": "196.48静止，198.53已成型入画；没有画内逐步建立过程支持T。"
+      },
+      {
+        "at": 255.83,
+        "bracket": [
+          247.65,
+          255.83
+        ],
+        "before": "P",
+        "after": "N",
+        "technical": false,
+        "reason": "247.65仍有左侧细输运带，255.83及之后为固定表面；保留尾部辨识括号，不填T。"
+      },
+      {
+        "at": 358.17,
+        "bracket": [
+          356.12,
+          358.17
+        ],
+        "before": "N",
+        "after": "P",
+        "technical": false,
+        "reason": "356.12为静止基线；358.17最下缘的小成型舌体已入画，随后在同一沟道向远端推进。"
+      },
+      {
+        "at": 461.0,
+        "bracket": [
+          460.5,
+          462.55
+        ],
+        "before": "P",
+        "after": "cut",
+        "technical": true,
+        "reason": "仅继承技术cut，不是N/P/T状态转换；本轮未认证461为真实损坏起点。"
+      }
+    ]
+  },
+  "source_proposals": [
+    "data/metadata/annotation-review/four-video-relabel-20261109-v1/v1_13/proposal.json",
+    "data/metadata/annotation-review/four-video-relabel-20261109-v1/v1_91/proposal.json",
+    "data/metadata/annotation-review/four-video-relabel-20261109-v1/v1_95/proposal.json",
+    "data/metadata/annotation-review/four-video-relabel-20261109-v1/v1_97/proposal.json"
+  ],
+  "checks": {
+    "changed_video_keys": [
+      "v1_13",
+      "v1_91",
+      "v1_95",
+      "v1_97"
+    ],
+    "non_target_video_rows_equal": true,
+    "non_target_raw_csv_records_byte_equal": true,
+    "protected_accepted_rows_equal": {
+      "v1_16": true,
+      "v1_96": true
+    },
+    "other_csv_byte_equal": {
+      "video3_segment--ae36d08c7844/events.csv": true,
+      "video4_segment--7adc714b792e/events.csv": true,
+      "video5_segment--c006864bd72d/events.csv": true
+    },
+    "no_overlaps_or_internal_gaps": true,
+    "existing_endpoints_preserved": true,
+    "inherited_cut_preserved_except_authorized_v1_13_retraction": true,
+    "images_read_or_copied": 0,
+    "pointer_changed": false,
+    "service_changed": false
+  },
+  "original_target_rows": {
+    "v1_13": [
+      {
+        "video_id": "Video of debris flow occurred on July 28, 2024(Jiguanshan upstream perspective (1)",
+        "video_key": "v1_13",
+        "start_sec": "0",
+        "end_sec": "36",
+        "confidence": "real",
+        "kind": "cut",
+        "note": ""
+      },
+      {
+        "video_id": "Video of debris flow occurred on July 28, 2024(Jiguanshan upstream perspective (1)",
+        "video_key": "v1_13",
+        "start_sec": "36",
+        "end_sec": "58.1",
+        "confidence": "real",
+        "kind": "transition",
+        "note": ""
+      },
+      {
+        "video_id": "Video of debris flow occurred on July 28, 2024(Jiguanshan upstream perspective (1)",
+        "video_key": "v1_13",
+        "start_sec": "58.1",
+        "end_sec": "1419",
+        "confidence": "real",
+        "kind": "pos",
+        "note": ""
+      }
+    ],
+    "v1_91": [
+      {
+        "video_id": "塔吊上游  Upstream  of the tower crane 18：19",
+        "video_key": "v1_91",
+        "start_sec": "0",
+        "end_sec": "1400.52",
+        "confidence": "real",
+        "kind": "neg",
+        "note": ""
+      },
+      {
+        "video_id": "塔吊上游  Upstream  of the tower crane 18：19",
+        "video_key": "v1_91",
+        "start_sec": "1400.52",
+        "end_sec": "1524.22",
+        "confidence": "real",
+        "kind": "transition",
+        "note": ""
+      },
+      {
+        "video_id": "塔吊上游  Upstream  of the tower crane 18：19",
+        "video_key": "v1_91",
+        "start_sec": "1524.22",
+        "end_sec": "1870",
+        "confidence": "real",
+        "kind": "pos",
+        "note": ""
+      },
+      {
+        "video_id": "塔吊上游  Upstream  of the tower crane 18：19",
+        "video_key": "v1_91",
+        "start_sec": "1870",
+        "end_sec": "2055",
+        "confidence": "real",
+        "kind": "cut",
+        "note": ""
+      }
+    ],
+    "v1_95": [
+      {
+        "video_id": "塔吊下游  Downstream of the tower crane 18：25",
+        "video_key": "v1_95",
+        "start_sec": "0",
+        "end_sec": "1328",
+        "confidence": "real",
+        "kind": "neg",
+        "note": ""
+      },
+      {
+        "video_id": "塔吊下游  Downstream of the tower crane 18：25",
+        "video_key": "v1_95",
+        "start_sec": "1328",
+        "end_sec": "1406",
+        "confidence": "real",
+        "kind": "transition",
+        "note": ""
+      }
+    ],
+    "v1_97": [
+      {
+        "video_id": "塔吊下游  Downstream of the tower crane 19：21",
+        "video_key": "v1_97",
+        "start_sec": "0",
+        "end_sec": "198.53",
+        "confidence": "real",
+        "kind": "transition",
+        "note": ""
+      },
+      {
+        "video_id": "塔吊下游  Downstream of the tower crane 19：21",
+        "video_key": "v1_97",
+        "start_sec": "198.53",
+        "end_sec": "214.9",
+        "confidence": "real",
+        "kind": "pos",
+        "note": ""
+      },
+      {
+        "video_id": "塔吊下游  Downstream of the tower crane 19：21",
+        "video_key": "v1_97",
+        "start_sec": "214.9",
+        "end_sec": "461",
+        "confidence": "real",
+        "kind": "transition",
+        "note": ""
+      },
+      {
+        "video_id": "塔吊下游  Downstream of the tower crane 19：21",
+        "video_key": "v1_97",
+        "start_sec": "461",
+        "end_sec": "1406",
+        "confidence": "real",
+        "kind": "cut",
+        "note": ""
+      }
+    ]
+  },
+  "new_target_rows": {
+    "v1_13": [
+      {
+        "video_id": "Video of debris flow occurred on July 28, 2024(Jiguanshan upstream perspective (1)",
+        "video_key": "v1_13",
+        "start_sec": "0",
+        "end_sec": "1419",
+        "confidence": "real",
+        "kind": "pos",
+        "note": "2026-11-09四视频重标候选（待用户复核，非训练发布）。开头原片4K局部已经可见吊机下方弯口的横向粗糙阵线、相连宽来料体及变化的颗粒斑；连续序列显示其相对吊机、固定灰色侧岸和右岸小路推进。中近景仍是细水沟时，远处已满足P，不等阵体占据大部分画面才标P。后续各阵头、后随主体及波谷中仍有可辨物料输运；全片缓存未见恢复明确普通浅水或静止沟床的间歇。 用户已指出旧0–36秒cut为助手误加并允许撤回；本轮撤回该cut。视频开始已为P，无片内前态/后态边界括号。"
+      }
+    ],
+    "v1_91": [
+      {
+        "video_id": "塔吊上游  Upstream  of the tower crane 18：19",
+        "video_key": "v1_91",
+        "start_sec": "0",
+        "end_sec": "1524.22",
+        "confidence": "real",
+        "kind": "neg",
+        "note": "2026-11-09四视频重标候选（待用户复核，非训练发布）。同视角的裸露砾石洲、固定岸石及沟床纹理长期保持；旧1400.52秒起点没有相应的前缘、主体或物料输运组织建立过程。主要为静止沟床及普通细流，不因随后出现目标而倒填为长T。1524.22是下述观察括号内的工作分界，不能理解为此前每个瞬间均已逐原片帧核实。 N→P边界1524.22秒为工作值，实看前态/后态观察括号[1515.83,1526.31]秒，不声称原片精确发生秒。"
+      },
+      {
+        "video_id": "塔吊上游  Upstream  of the tower crane 18：19",
+        "video_key": "v1_91",
+        "start_sec": "1524.22",
+        "end_sec": "1870",
+        "confidence": "real",
+        "kind": "pos",
+        "note": "2026-11-09四视频重标候选（待用户复核，非训练发布）。上游小阵头绕固定砾石洲沿两侧通道推进，前缘与后随来料共同更新；近景尚大面积静止时，上游已存在实际目标输运。它随后向中下游推进并反复有后继小阵头补充，不能以远、小、薄或尚未到达前景为由延后P。1488.58–1878.54秒所有缓存帧已逐张查看，P段内未确认恢复普通流水/静止沟床的独立间歇；较平缓时仍保留P。 N→P边界1524.22秒为工作值，实看前态/后态观察括号[1515.83,1526.31]秒，不声称原片精确发生秒。 沿用旧cut边界1870秒；原因/时间对应待核实；清晰缓存反证另列，本轮未解除。相邻检查帧[1868.06,1870.15]秒仅作位置核对，不是N/P/T状态转换，也不认证真实损坏起点。"
+      },
+      {
+        "video_id": "塔吊上游  Upstream  of the tower crane 18：19",
+        "video_key": "v1_91",
+        "start_sec": "1870",
+        "end_sec": "2055",
+        "confidence": "real",
+        "kind": "cut",
+        "note": "2026-11-09四视频重标候选（待用户复核，非训练发布）。保留本轮基版既有cut；它是独立的沿用排除段，不是画面中的P→N或P→T。实看1870前后及片尾未见对应的整体画质失效，且cut内部仍能看到成型来料。原因未获得可证明的用户信息，本提案不自行解除cut。 沿用旧cut边界1870秒；原因/时间对应待核实；清晰缓存反证另列，本轮未解除。相邻检查帧[1868.06,1870.15]秒仅作位置核对，不是N/P/T状态转换，也不认证真实损坏起点。 沿用旧cut；原因/时间对应待核实；清晰缓存反证另列，本轮未解除。本次没有认证原片该段损坏，也没有开放该段训练监督。"
+      }
+    ],
+    "v1_95": [
+      {
+        "video_id": "塔吊下游  Downstream of the tower crane 18：25",
+        "video_key": "v1_95",
+        "start_sec": "0",
+        "end_sec": "1328",
+        "confidence": "real",
+        "kind": "neg",
+        "note": "2026-11-09四视频重标候选（待用户复核，非训练发布）。全程按序缓存对照中，左侧沟道及中央纵向灰带的固定岸线、砾石条带和凸石保持，期间可有普通细水流动；未见需要将前段改为形成阶段的连贯物料体建立过程。不能因随后阵头进入而把此前长段倒填T。临界处以1326.24–1332.38秒观察括号表达，1328仅沿用为工作分界。 N→P边界1328秒为工作值，实看前态/后态观察括号[1326.24,1332.38]秒，不声称原片精确发生秒。"
+      },
+      {
+        "video_id": "塔吊下游  Downstream of the tower crane 18：25",
+        "video_key": "v1_95",
+        "start_sec": "1328",
+        "end_sec": "1406",
+        "confidence": "real",
+        "kind": "pos",
+        "note": "2026-11-09四视频重标候选（待用户复核，非训练发布）。约1330–1332秒，左下画外进入一个已有前缘和后随主体的小阵体；到1334.43秒，粗糙来料体正沿白色凸石左侧沟道向画面远端推进。之后不规则物料纹理、多个小阵线及后随薄层持续更新，相对固定砾石条带有实际输运。这里观察到的是已成型阵体入画、接近和铺展，不是从普通细水在同一位置逐渐建立输运组织，故建议将原T改P，不以规模小、稀疏或未达未来峰值降T。 1328–1406秒旧T曾获用户确认；本轮改P仅为候选，旧版本保留，尚未获得用户对本次修改的接受。 N→P边界1328秒为工作值，实看前态/后态观察括号[1326.24,1332.38]秒，不声称原片精确发生秒。"
+      }
+    ],
+    "v1_97": [
+      {
+        "video_id": "塔吊下游  Downstream of the tower crane 19：21",
+        "video_key": "v1_97",
+        "start_sec": "0",
+        "end_sec": "198.53",
+        "confidence": "real",
+        "kind": "neg",
+        "note": "2026-11-09四视频重标候选（待用户复核，非训练发布）。本片自己的0–196.48序列中泥面、枝状纹理及石簇固定，未见物料体推进或输运组织形成；不能从前一视频旧T接续倒填T。 N→P边界198.53秒为工作值，实看前态/后态观察括号[196.48,198.53]秒，不声称原片精确发生秒。"
+      },
+      {
+        "video_id": "塔吊下游  Downstream of the tower crane 19：21",
+        "video_key": "v1_97",
+        "start_sec": "198.53",
+        "end_sec": "255.83",
+        "confidence": "real",
+        "kind": "pos",
+        "note": "2026-11-09四视频重标候选（待用户复核，非训练发布）。198.53左下边缘已经出现成型小阵头，后续前缘与主体向远端推进；214.90后仍有左沟薄层物料输运，尾流保留P，不仅峰值P。 N→P边界198.53秒为工作值，实看前态/后态观察括号[196.48,198.53]秒，不声称原片精确发生秒。 P→N边界255.83秒为工作值，实看前态/后态观察括号[247.65,255.83]秒，不声称原片精确发生秒。"
+      },
+      {
+        "video_id": "塔吊下游  Downstream of the tower crane 19：21",
+        "video_key": "v1_97",
+        "start_sec": "255.83",
+        "end_sec": "358.17",
+        "confidence": "real",
+        "kind": "neg",
+        "note": "2026-11-09四视频重标候选（待用户复核，非训练发布）。255.83后左沟回到固定泥面与普通细水，261–276原尺寸ROI和后续缓存至356.12支持静止基线，无正面形成依据。 P→N边界255.83秒为工作值，实看前态/后态观察括号[247.65,255.83]秒，不声称原片精确发生秒。 N→P边界358.17秒为工作值，实看前态/后态观察括号[356.12,358.17]秒，不声称原片精确发生秒。"
+      },
+      {
+        "video_id": "塔吊下游  Downstream of the tower crane 19：21",
+        "video_key": "v1_97",
+        "start_sec": "358.17",
+        "end_sec": "461",
+        "confidence": "real",
+        "kind": "pos",
+        "note": "2026-11-09四视频重标候选（待用户复核，非训练发布）。358.17左下边缘已有很小的成型前缘，360.21更明显，不能等362后才P；397及425附近小脉冲和弱尾流连续存在，至460.50未见确认恢复N。 N→P边界358.17秒为工作值，实看前态/后态观察括号[356.12,358.17]秒，不声称原片精确发生秒。 沿用旧cut边界461秒；原因/时间对应待核实；清晰缓存反证另列，本轮未解除。相邻检查帧[460.5,462.55]秒仅作位置核对，不是N/P/T状态转换，也不认证真实损坏起点。"
+      },
+      {
+        "video_id": "塔吊下游  Downstream of the tower crane 19：21",
+        "video_key": "v1_97",
+        "start_sec": "461",
+        "end_sec": "1406",
+        "confidence": "real",
+        "kind": "cut",
+        "note": "2026-11-09四视频重标候选（待用户复核，非训练发布）。保留基版技术cut，未凭可读缓存认证原片完整可用；语义缓存反证与技术限制分开记录，见cut_review。 沿用旧cut边界461秒；原因/时间对应待核实；清晰缓存反证另列，本轮未解除。相邻检查帧[460.5,462.55]秒仅作位置核对，不是N/P/T状态转换，也不认证真实损坏起点。 沿用旧cut；原因/时间对应待核实；清晰缓存反证另列，本轮未解除。本次没有认证原片该段损坏，也没有开放该段训练监督。"
+      }
+    ]
+  },
+  "inputs": [
+    {
+      "path": "data/metadata/annotation-revisions/npt-20261109-two-video-v1/sources.json",
+      "sha256": "e3fdc5c971453525de3ca9ec1adcdd7056760ecee0b33990a3daafc9247d323d"
+    },
+    {
+      "path": "data/metadata/annotation-revisions/npt-20261109-two-video-v1/video1_segment--64b3c72b2a7f/events.csv",
+      "sha256": "c02b96add3a94185a9f5000873a3e689de3f71a3c72a1704dc4718a2d09aee38"
+    },
+    {
+      "path": "data/metadata/annotation-revisions/npt-20261109-two-video-v1/video3_segment--ae36d08c7844/events.csv",
+      "sha256": "ba7a7979dc1b5c434934ad4e0ad916a3f3c0d4d76ac0605fb54620cc6bf173a7"
+    },
+    {
+      "path": "data/metadata/annotation-revisions/npt-20261109-two-video-v1/video4_segment--7adc714b792e/events.csv",
+      "sha256": "b6c522a690095c87b78159497d2fc9bc63b0fe81220ce3238e03fc9a6b02b376"
+    },
+    {
+      "path": "data/metadata/annotation-revisions/npt-20261109-two-video-v1/video5_segment--c006864bd72d/events.csv",
+      "sha256": "5c79ab7ee1a040d4c3a100c8231c8216480849a10c879a1b931aad1847a0dde6"
+    },
+    {
+      "path": "data/metadata/annotation-review/two-video-relabel-20261109-v1/user-acceptance.json",
+      "sha256": "8c306737a16cfbdf1b5475dc6025cfbdd9a28d3766c25934d09a9ce93cb8ff6b"
+    },
+    {
+      "path": "data/metadata/annotation-review/four-video-relabel-20261109-v1/v1_13/proposal.json",
+      "sha256": "074732078bd939bfde3b529092eb11b15d20246c39c724b77e2f59993abd361f"
+    },
+    {
+      "path": "data/metadata/annotation-review/four-video-relabel-20261109-v1/v1_91/proposal.json",
+      "sha256": "0f113d43ac73f4b543231bca6888e3001dcabe1f289bea8b634d6beeae4e9751"
+    },
+    {
+      "path": "data/metadata/annotation-review/four-video-relabel-20261109-v1/v1_95/proposal.json",
+      "sha256": "858b9f9dc6dc774d67cde31c9cb148e9ce4e510f913499f56c2417b8d4553b6f"
+    },
+    {
+      "path": "data/metadata/annotation-review/four-video-relabel-20261109-v1/v1_97/proposal.json",
+      "sha256": "3d60c52650a2cef4ec35946523f27053687844a822d9cbf1a425a99f2b50dee8"
+    },
+    {
+      "path": "data/process/video_frames/video1_segment/frames_index.csv",
+      "sha256": "3c901ebc33b6a7323844964b6b9354c84f7e446dcb3eb99fe78714f8be4e7e12"
+    }
+  ],
+  "limitations": "The proposals retain their actual sampling limits; cache navigation seconds are not certified original PTS. Cut inheritance is not a damage finding. Four candidates have not been accepted by the user."
+}

@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "64b3c72b2a7f": {
+      "source_id": "data/process/video_frames/video1_segment",
+      "origin_csv": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video1_segment\\events.csv",
+      "origin_sha256": "b154081478f0d665fa74a7dc368239eebd379288c0151567de111c867fbb6220",
+      "annotations_csv": "video1_segment--64b3c72b2a7f/events.csv",
+      "parent_annotation_csv": "data/metadata/annotation-revisions/npt-20261109-four-video-v1/video1_segment--64b3c72b2a7f/events.csv",
+      "parent_annotation_sha256": "c8e26f71271576929fc1fe1c32a8ea5ec416bc9e62ad657ed52775396993768f",
+      "initial_annotations_sha256": "b1da78100d61bd3298c9fb5b42cb500634a172f296bf8aa26101813a8b533b38"
+    },
+    "ae36d08c7844": {
+      "source_id": "data/process/video_frames/video3_segment",
+      "origin_csv": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video3_segment\\events.csv",
+      "origin_sha256": "ba7a7979dc1b5c434934ad4e0ad916a3f3c0d4d76ac0605fb54620cc6bf173a7",
+      "annotations_csv": "video3_segment--ae36d08c7844/events.csv",
+      "parent_annotation_csv": "data/metadata/annotation-revisions/npt-20261109-four-video-v1/video3_segment--ae36d08c7844/events.csv",
+      "parent_annotation_sha256": "ba7a7979dc1b5c434934ad4e0ad916a3f3c0d4d76ac0605fb54620cc6bf173a7",
+      "initial_annotations_sha256": "ba7a7979dc1b5c434934ad4e0ad916a3f3c0d4d76ac0605fb54620cc6bf173a7"
+    },
+    "7adc714b792e": {
+      "source_id": "data/process/video_frames/video4_segment",
+      "origin_csv": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video4_segment\\events.csv",
+      "origin_sha256": "481bff9a9874e295ece278f37cf1c2e4f1be225aa5f2b634aae8e7f8132bd5e1",
+      "annotations_csv": "video4_segment--7adc714b792e/events.csv",
+      "parent_annotation_csv": "data/metadata/annotation-revisions/npt-20261109-four-video-v1/video4_segment--7adc714b792e/events.csv",
+      "parent_annotation_sha256": "b6c522a690095c87b78159497d2fc9bc63b0fe81220ce3238e03fc9a6b02b376",
+      "initial_annotations_sha256": "b2c6798451a50ce6b97c3b7455943339b36ad73d8cc6d8b6b4c1277dfc23445d"
+    },
+    "c006864bd72d": {
+      "source_id": "data/process/video_frames/video5_segment",
+      "origin_csv": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\video5_segment\\events.csv",
+      "origin_sha256": "ac68b38bdcecf8ba41d7d4929988f207cc9444ff5683e3f9ec96dcf1ca1185bd",
+      "annotations_csv": "video5_segment--c006864bd72d/events.csv",
+      "parent_annotation_csv": "data/metadata/annotation-revisions/npt-20261109-four-video-v1/video5_segment--c006864bd72d/events.csv",
+      "parent_annotation_sha256": "5c79ab7ee1a040d4c3a100c8231c8216480849a10c879a1b931aad1847a0dde6",
+      "initial_annotations_sha256": "ae27c61cf010e5864b253d80b1901939242dbe292e208d28d38a290ecac9f8bd"
+    },
+    "1a8d658ea3be": {
+      "source_id": "data/process/video_frames/v5_08",
+      "origin_csv": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\video_frames\\v5_08\\events.csv",
+      "origin_sha256": null,
+      "annotations_csv": "v5_08--1a8d658ea3be/events.csv",
+      "audit_only": true,
+      "training_exclusion_unchanged": true,
+      "in_current150_development_pool": false,
+      "review_scope": "outside_current_training150_scope",
+      "semantic_candidate_only": true
+    }
+  },
+  "editable_review": true,
+  "training_ready": false,
+  "revision_status": "editable_workbench_pending_user_review",
+  "audit_proposals": "data/metadata/annotation-review/four-video-relabel-20261109-v1/merged-review.json",
+  "provenance_sidecar": "merge-provenance.json",
+  "allowed_changed_video_keys": [
+    "v1_110",
+    "v1_111",
+    "v1_112",
+    "v1_113",
+    "v1_114",
+    "v1_117",
+    "v1_118",
+    "v1_119",
+    "v1_15",
+    "v1_74",
+    "v4_01",
+    "v5_01"
+  ],
+  "content_acceptance": "pending_user_review",
+  "parent_version": "data/metadata/annotation-revisions/npt-20261109-four-video-v1",
+  "parent_sources_sha256": "e3fdc5c971453525de3ca9ec1adcdd7056760ecee0b33990a3daafc9247d323d",
+  "inherited_user_acceptance": {
+    "accepted_video_keys": [
+      "v1_16",
+      "v1_96"
+    ],
+    "decision_by": "user",
+    "decision_text": "这两个没有问题，继续审计一些视频",
+    "acceptance_record": "data/metadata/annotation-review/two-video-relabel-20261109-v1/user-acceptance.json",
+    "acceptance_sha256": "8c306737a16cfbdf1b5475dc6025cfbdd9a28d3766c25934d09a9ce93cb8ff6b",
+    "inherited_rows_unchanged": true,
+    "scope": "Only v1_16 and v1_96 accepted previously; four new candidates remain pending."
+  },
+  "csv_confidence_real_means_saved_review_only": true,
+  "allowed_changes": "notes only; no label, interval, cut, splitting or training eligibility changes",
+  "workbench_review_list": "data/metadata/annotation-review/full-dongchuan-20261109-v1/workbench-review-list.json",
+  "parent_snapshot": [
+    {
+      "path": "data/metadata/annotation-revisions/npt-20261109-four-video-v1/sources.json",
+      "sha256": "ff8827f208171ca43c26e22e5cb4e27d2199fbb2d89e0ba6a4f7f56518c4cbea"
+    },
+    {
+      "path": "data/metadata/annotation-revisions/npt-20261109-four-video-v1/video1_segment--64b3c72b2a7f/events.csv",
+      "sha256": "c8e26f71271576929fc1fe1c32a8ea5ec416bc9e62ad657ed52775396993768f"
+    },
+    {
+      "path": "data/metadata/annotation-revisions/npt-20261109-four-video-v1/video3_segment--ae36d08c7844/events.csv",
+      "sha256": "ba7a7979dc1b5c434934ad4e0ad916a3f3c0d4d76ac0605fb54620cc6bf173a7"
+    },
+    {
+      "path": "data/metadata/annotation-revisions/npt-20261109-four-video-v1/video4_segment--7adc714b792e/events.csv",
+      "sha256": "b6c522a690095c87b78159497d2fc9bc63b0fe81220ce3238e03fc9a6b02b376"
+    },
+    {
+      "path": "data/metadata/annotation-revisions/npt-20261109-four-video-v1/video5_segment--c006864bd72d/events.csv",
+      "sha256": "5c79ab7ee1a040d4c3a100c8231c8216480849a10c879a1b931aad1847a0dde6"
+    }
+  ],
+  "goal_effective_scope": {
+    "scope": "original_150_training_development_pool_only",
+    "unit_count": 150,
+    "followup_policy": "Skip effective all-P/all-N. Keep completed entries visible. Only nine pending mixed videos require new audit; v1_16/v1_96 already accepted.",
+    "supersedes_goal_text_168": true,
+    "user_latest_instruction_overrides_legacy_goal_text": true,
+    "goal_requires_no_user_manual_edit": true,
+    "training_ready": false
+  },
+  "active_scope": "data/metadata/annotation-review/full-dongchuan-20261109-v1/active-training150-mixed-scope.json"
+}

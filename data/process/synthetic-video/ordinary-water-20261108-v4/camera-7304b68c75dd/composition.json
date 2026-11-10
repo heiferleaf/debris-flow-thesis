@@ -1,0 +1,244 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-08T16:04:00.982002+00:00",
+  "scene_id": "camera-7304b68c75dd",
+  "camera": "1号塔广角",
+  "kind": "ordinary-water",
+  "status": "assistant_reviewed_candidate_pending_user_acceptance",
+  "source_path": "data/process/synthetic-video/dry-scenes-20261108-v2/camera-7304b68c75dd/dry-reference.png",
+  "source_sha256": "14b31412f2330215e1c1113ddcee744792b584f0ee894b3092ade9a0d78fa15b",
+  "source_acceptance": "Root relayed user acceptance of all 11 dry references. This water derivative has not been user accepted.",
+  "output_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-7304b68c75dd/ordinary-water-reference.png",
+  "output_sha256": "41960d12f091f91d7e51155c25215e0b491c668c0b715962a0f77547aba2ced4",
+  "mask_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-7304b68c75dd/ordinary-water-mask.png",
+  "mask_sha256": "7b5751560b82f7fbe3457517368d5ac95f6b99cb8ee1b607dcb42561a17ee8f0",
+  "alpha_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-7304b68c75dd/composition-alpha.png",
+  "alpha_sha256": "0f067f0304b18cc8fb94824620ea374c606dbc3280df6e531b19e2d37064893e",
+  "raw_generation_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-7304b68c75dd/raw-generation.png",
+  "raw_generation_sha256": "4f330f0e6e6a98f4f032e0f2745876acca9f5bed57e42b30a3616b0ac7a54e64",
+  "built_in_artifact_path": "C:/Users/20443/.codex/generated_images/01a1bbdc-7788-7c72-bcc2-cca8a99ed1f0/exec-4a4b895e-414c-419c-b45e-dc4015f793ea.png",
+  "generation_tool": "built-in image_gen",
+  "prompt_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-7304b68c75dd/prompt.json",
+  "prompt_sha256": "fae31f261ce17286a9058afa81ad871b91639138521143458f24eb3db34fe49e",
+  "prompt": "Use case: precise-object-edit. Asset: ordinary water first-frame candidate, fixed surveillance photograph. Image 1 is the EDIT TARGET crop from the user-accepted dry reference. Image 2 is a SUPPORTING LOCATION GUIDE: magenta identifies the only water footprint and is annotation, never a desired color. Image 3 is a STYLE REFERENCE ONLY: use the natural neutral grey fluid appearance of its channel water, with small irregular foam streaks and ripples. Do not copy its landscape, framing, pond, camera or flow width.\nPrimary request: locally add a clearly visible NORMAL STREAM of water in the guided low channel, like the style reference that the user judged suitable for ordinary water. This is a moderate visible watercourse with continuous grey or slightly grey-turbid LIQUID surface, fine coherent ripples, a few small irregular white foam streaks, realistic shallow flowing-water texture. Water must be readily visible, neither a thin blue line nor a powerful flood. Preserve exposed gravel bars and islands; keep water below channel banks. Fine suspended sediment is allowed, but no granular mud clumps or transported stones, no solid front, debris mass, huge waves, uniform yellow/brown slurry, tropical blue/green water, repeated white chevrons, or glossy featureless paint. Preserve exact camera geometry, terrain, vegetation, roads, structures, text, lighting, source compression and framing. Change only the magenta footprint. No changes outside it, no new objects. Unknown physical flow direction is not evidence; do not add arrows. This is a synthetic appearance hypothesis, not validated physical dynamics.\nScene-specific location and constraints: Panoramic fixed view with existing black letterbox bars. Water appears only in the two guided portions of the lower gravel channel, which extends out of the lower visible image. Preserve central high gravel shelves and all vegetation, road, banks, existing label and both black bars exactly. Normal distant water surface under the original daylight; do not widen water to cover the whole gravel bed.",
+  "crop_xyxy": [
+    0,
+    185,
+    1280,
+    615
+  ],
+  "raw_content_crop_xyxy": [
+    0,
+    0,
+    2164,
+    727
+  ],
+  "method": "Built-in image_gen local crop edit, same bounded inward-feathered mask compositing method as experiments/tools/compose_local_water_reference.py. All pixels outside explicit assistant-traced channel mask copied exactly from accepted dry reference.",
+  "mask_note": "Panoramic fixed view with existing black letterbox bars. Water appears only in the two guided portions of the lower gravel channel, which extends out of the lower visible image. Preserve central high gravel shelves and all vegetation, road, banks, existing label and both black bars exactly. Normal distant water surface under the original daylight; do not widen water to cover the whole gravel bed.",
+  "pixel_checks": {
+    "mask_pixels": 21098,
+    "mask_fraction": 0.02289279513888889,
+    "outside_mask_changed_pixels": 0,
+    "outside_mask_max_difference": 0
+  },
+  "shoreline_refinement": "Only within the 2-pixel inward shoreline strip, preserve actual source stone/gravel highlights with local luminance residual above 9. No replacement-water pixels are procedurally painted.",
+  "physical_flow_verified": false,
+  "video_api_calls": 0,
+  "paid_video_api_calls": 0,
+  "user_accepted": false,
+  "training_ready": false,
+  "assistant_visual_review": "Full final image and local detail actually viewed after final shoreline refinement. Grey water with irregular foam remains within two visible low-channel stretches, with source letterbox, caption, central road and banks pixel-identical. The two reaches extend out of the visible lower field; no unseen hydraulic connection is established. Shoreline is still somewhat regular.",
+  "limitations": [
+    "Single synthetic still: does not establish temporal motion, real flow direction, discharge, or hydraulics.",
+    "Channel mask and water appearance require user review; grey color alone is not validation of ordinary-water semantics."
+  ],
+  "composition_script_path": ".codex/docs/.temp/water-v4-a/compose.py",
+  "composition_script_sha256": "a2a863bbecf1a4d72e8c6948383afd7cd281f5f9e5ebc0328555fc36b5b60038",
+  "all_source_and_input_images_actually_viewed": true,
+  "full_final_image_actually_viewed": true,
+  "local_final_detail_actually_viewed": true,
+  "needs_user_content_review": true,
+  "metadata_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-7304b68c75dd/composition.json",
+  "comparison_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-7304b68c75dd/comparison.png",
+  "detail_comparison_path": "data/process/synthetic-video/ordinary-water-20261108-v4/camera-7304b68c75dd/water-detail-comparison.png",
+  "source_mask_config": {
+    "camera": "1号塔广角",
+    "crop": [
+      0,
+      185,
+      1280,
+      615
+    ],
+    "polygons": [
+      [
+        [
+          46,
+          338
+        ],
+        [
+          70,
+          348
+        ],
+        [
+          96,
+          365
+        ],
+        [
+          122,
+          390
+        ],
+        [
+          158,
+          418
+        ],
+        [
+          215,
+          452
+        ],
+        [
+          285,
+          487
+        ],
+        [
+          355,
+          511
+        ],
+        [
+          433,
+          535
+        ],
+        [
+          277,
+          535
+        ],
+        [
+          247,
+          514
+        ],
+        [
+          196,
+          479
+        ],
+        [
+          150,
+          444
+        ],
+        [
+          116,
+          411
+        ],
+        [
+          91,
+          384
+        ],
+        [
+          69,
+          362
+        ],
+        [
+          42,
+          347
+        ]
+      ],
+      [
+        [
+          1280,
+          423
+        ],
+        [
+          1201,
+          425
+        ],
+        [
+          1135,
+          434
+        ],
+        [
+          1091,
+          450
+        ],
+        [
+          1040,
+          466
+        ],
+        [
+          973,
+          483
+        ],
+        [
+          905,
+          499
+        ],
+        [
+          820,
+          516
+        ],
+        [
+          735,
+          535
+        ],
+        [
+          602,
+          535
+        ],
+        [
+          701,
+          513
+        ],
+        [
+          785,
+          495
+        ],
+        [
+          873,
+          486
+        ],
+        [
+          955,
+          470
+        ],
+        [
+          1025,
+          452
+        ],
+        [
+          1089,
+          436
+        ],
+        [
+          1135,
+          426
+        ],
+        [
+          1205,
+          419
+        ],
+        [
+          1280,
+          418
+        ]
+      ]
+    ],
+    "protected": [
+      [
+        0,
+        0,
+        1280,
+        184
+      ],
+      [
+        0,
+        535,
+        1280,
+        720
+      ],
+      [
+        910,
+        486,
+        1020,
+        525
+      ]
+    ],
+    "note": "Panoramic fixed view with existing black letterbox bars. Water appears only in the two guided portions of the lower gravel channel, which extends out of the lower visible image. Preserve central high gravel shelves and all vegetation, road, banks, existing label and both black bars exactly. Normal distant water surface under the original daylight; do not widen water to cover the whole gravel bed."
+  }
+}

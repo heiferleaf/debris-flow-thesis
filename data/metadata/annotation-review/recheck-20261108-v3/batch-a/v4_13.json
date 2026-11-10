@@ -1,0 +1,390 @@
+{
+  "schema": "changed-label-real-recheck-v3",
+  "unit_id": "v4_13",
+  "audit_date_local": "2026-11-08",
+  "status": "proposal_only_no_working_csv_or_service_write",
+  "summary": "撤回整段候选隔离的工作叙述，暂保留0–2276秒原P；低把握继承，不宣称本次独立认证。",
+  "annotation_timeline_end_sec": 2276.0,
+  "old_user_release": "data/metadata/annotation-revisions/npt-20261107-proposals-v3",
+  "old_user_events_csv": "data/metadata/annotation-revisions/npt-20261107-proposals-v3/video4_segment--7adc714b792e/events.csv",
+  "old_user_events_sha256": "b6c522a690095c87b78159497d2fc9bc63b0fe81220ce3238e03fc9a6b02b376",
+  "old_user_annotations_verbatim": [
+    {
+      "video_id": "D13_20260818170132",
+      "video_key": "v4_13",
+      "start_sec": "0",
+      "end_sec": "2276",
+      "confidence": "real",
+      "kind": "pos",
+      "note": "整段预填正样本(小型泥石流),依据=说明.docx(2026-08-18上游14:24泥石流,本批为其后到达塔吊断面) + 叶海峰2026-09-23口头确认,待审计确认",
+      "null": [
+        "依据=说明.docx(泥石流爆发前常规水流及洪水视频)",
+        "待叶海峰审计确认"
+      ]
+    }
+  ],
+  "disputed_release": "data/metadata/annotation-revisions/npt-20261108-review-v5",
+  "disputed_events_csv": "data/metadata/annotation-revisions/npt-20261108-review-v5/video4_segment--7adc714b792e/events.csv",
+  "disputed_events_sha256": "0baeb28ee128beaf6959790284f11d96635533250f50d43a28c8b62ccfb6b880",
+  "disputed_annotations_verbatim": [
+    {
+      "video_id": "D13_20260818170132",
+      "video_key": "v4_13",
+      "start_sec": "0.0",
+      "end_sec": "2276.0",
+      "confidence": "real",
+      "kind": "pos",
+      "note": "整段预填正样本(小型泥石流),依据=说明.docx(2026-08-18上游14:24泥石流,本批为其后到达塔吊断面) + 叶海峰2026-09-23口头确认,待审计确认\n[工作候选P；监督隔离，未作训练真值]",
+      "null": [
+        "依据=说明.docx(泥石流爆发前常规水流及洪水视频)",
+        "待叶海峰审计确认"
+      ]
+    }
+  ],
+  "disputed_changes": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 2276.0,
+      "old_user_state": "P",
+      "disputed_state": "P",
+      "disputed_note": "整段预填正样本(小型泥石流),依据=说明.docx(2026-08-18上游14:24泥石流,本批为其后到达塔吊断面) + 叶海峰2026-09-23口头确认,待审计确认\n[工作候选P；监督隔离，未作训练真值]",
+      "why_withdraw_or_revisit": "撤回整段候选隔离的工作叙述，暂保留0–2276秒原P；低把握继承，不宣称本次独立认证。"
+    }
+  ],
+  "raw_video_paths": [
+    "data/raw/video_dataset_3/2026年8月18日 蒋家沟泥石流发生前水流（洪水）视频/D13_20260818170132.mp4"
+  ],
+  "cache_index": "data/process/video_frames/video4_segment/frames_index.csv",
+  "recommended_intervals": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 2276.0,
+      "state": "P",
+      "reason": "撤回整段候选隔离的工作叙述，暂保留0–2276秒原P；低把握继承，不宣称本次独立认证。",
+      "confidence": "低",
+      "decision_kind": "retain_or_restore_user_interval_with_observed_local_support_and_explicit_limits"
+    }
+  ],
+  "observed_evidence": [
+    {
+      "unit_id": "v4_13",
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/batch-a/v4_13/overview.jpg",
+      "crop_xyxy": null,
+      "cache_points": [
+        {
+          "audit_sec": 0.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_000000_t0s.jpg"
+        },
+        {
+          "audit_sec": 152.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_000076_t152s.jpg"
+        },
+        {
+          "audit_sec": 303.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_000152_t303s.jpg"
+        },
+        {
+          "audit_sec": 455.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_000228_t455s.jpg"
+        },
+        {
+          "audit_sec": 607.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_000304_t607s.jpg"
+        },
+        {
+          "audit_sec": 759.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_000380_t759s.jpg"
+        },
+        {
+          "audit_sec": 910.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_000456_t910s.jpg"
+        },
+        {
+          "audit_sec": 1062.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_000532_t1062s.jpg"
+        },
+        {
+          "audit_sec": 1214.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_000608_t1214s.jpg"
+        },
+        {
+          "audit_sec": 1366.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_000684_t1366s.jpg"
+        },
+        {
+          "audit_sec": 1517.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_000760_t1517s.jpg"
+        },
+        {
+          "audit_sec": 1669.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_000836_t1669s.jpg"
+        },
+        {
+          "audit_sec": 1821.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_000912_t1821s.jpg"
+        },
+        {
+          "audit_sec": 1973.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_000988_t1973s.jpg"
+        },
+        {
+          "audit_sec": 2124.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_001064_t2124s.jpg"
+        },
+        {
+          "audit_sec": 2276.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_001140_t2276s.jpg"
+        }
+      ],
+      "scope": "Only listed cache samples; gaps are not continuously viewed.",
+      "reviewed_in_this_pass": true,
+      "contact_sha256": "fbabcc69a625fe2344c45541c2808202ef9401ded22c5b70763aae45359eea75",
+      "crop_note": "Coordinates reference first cache frame; applied proportionally to each actual frame size. Some v4 cache files are 1280x720 and some are larger."
+    },
+    {
+      "unit_id": "v4_13",
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/batch-a/v4_13/flow-sequences.jpg",
+      "crop_xyxy": [
+        1300,
+        800,
+        3300,
+        2100
+      ],
+      "cache_points": [
+        {
+          "audit_sec": 0.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_000000_t0s.jpg"
+        },
+        {
+          "audit_sec": 2.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_000001_t2s.jpg"
+        },
+        {
+          "audit_sec": 4.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_000002_t4s.jpg"
+        },
+        {
+          "audit_sec": 6.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_000003_t6s.jpg"
+        },
+        {
+          "audit_sec": 8.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_000004_t8s.jpg"
+        },
+        {
+          "audit_sec": 10.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_000005_t10s.jpg"
+        },
+        {
+          "audit_sec": 1100.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_000551_t1100s.jpg"
+        },
+        {
+          "audit_sec": 1102.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_000552_t1102s.jpg"
+        },
+        {
+          "audit_sec": 1104.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_000553_t1104s.jpg"
+        },
+        {
+          "audit_sec": 1106.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_000554_t1106s.jpg"
+        },
+        {
+          "audit_sec": 1108.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_000555_t1108s.jpg"
+        },
+        {
+          "audit_sec": 1110.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_000556_t1110s.jpg"
+        },
+        {
+          "audit_sec": 2200.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_001102_t2200s.jpg"
+        },
+        {
+          "audit_sec": 2202.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_001103_t2202s.jpg"
+        },
+        {
+          "audit_sec": 2204.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_001104_t2204s.jpg"
+        },
+        {
+          "audit_sec": 2206.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_001105_t2206s.jpg"
+        },
+        {
+          "audit_sec": 2208.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_001106_t2208s.jpg"
+        },
+        {
+          "audit_sec": 2210.0,
+          "frame": "data/process/video_frames/video4_segment/frames/v4_13_frame_001107_t2210s.jpg"
+        }
+      ],
+      "scope": "Only listed cache samples; gaps are not continuously viewed.",
+      "reviewed_in_this_pass": true,
+      "contact_sha256": "f4a65601ea7ae937f04a774693389e4e364e6c15bb5acaa49b5d28357c8631a4",
+      "crop_note": "Coordinates reference first cache frame; applied proportionally to each actual frame size. Some v4 cache files are 1280x720 and some are larger."
+    }
+  ],
+  "new_raw_windows_observed": [
+    {
+      "unit_id": "v4_13",
+      "source_video": "data/raw/video_dataset_3/2026年8月18日 蒋家沟泥石流发生前水流（洪水）视频/D13_20260818170132.mp4",
+      "source_seek_request_sec": 1100,
+      "requested_duration_sec": 5,
+      "filter": "showinfo,fps=2,scale=1280:-1",
+      "command": [
+        "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\.venv\\Lib\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win64-v4.2.2.exe",
+        "-hide_banner",
+        "-loglevel",
+        "info",
+        "-ss",
+        "1092",
+        "-i",
+        "data/raw/video_dataset_3/2026年8月18日 蒋家沟泥石流发生前水流（洪水）视频/D13_20260818170132.mp4",
+        "-ss",
+        "8",
+        "-t",
+        "5",
+        "-an",
+        "-vf",
+        "showinfo,fps=2,scale=1280:-1",
+        "-q:v",
+        "3",
+        "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\.codex\\docs\\.temp\\recheck-v3-a\\v4_13\\native-seek-1100\\frame-%03d.jpg"
+      ],
+      "returncode": 0,
+      "output_frames": 10,
+      "clock_image": "data/process/annotation-review/recheck-20261108-v3/batch-a/v4_13/native-seek-1100-clock.jpg",
+      "roi_contact_sheet": "data/process/annotation-review/recheck-20261108-v3/batch-a/v4_13/native-seek-1100-roi.jpg",
+      "stderr_path": ".codex/docs/.temp/recheck-v3-a/v4_13/native-seek-1100/ffmpeg.stderr.txt",
+      "time_warning": "seek is source navigation only. Local decoded PTS in stderr does not equal audit seconds. Frame index represents sampled fps output, not a verified audit boundary. Match OSD and river geometry before linking to audit.",
+      "actually_viewed_sample_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "first_saved_clock_OSD_read": "2026-08-18 17:19:51",
+      "audit_alignment": "OSD plus scene geometry only; no exact audit timestamp inferred",
+      "source_PTS_handling": "showinfo contains local decoder timestamps after input seek; not relabeled as absolute source PTS. Filter samples/output idx are not nominal-fps frame positions."
+    },
+    {
+      "unit_id": "v4_13",
+      "source_seek_request_sec": 1100,
+      "sample_fps": 4,
+      "sample_indices_viewable": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "nominal_sample_span_sec": 2,
+      "audit_time_not_assigned": true,
+      "source_video": "data/raw/video_dataset_3/2026年8月18日 蒋家沟泥石流发生前水流（洪水）视频/D13_20260818170132.mp4",
+      "command": [
+        "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\.venv\\Lib\\site-packages\\imageio_ffmpeg\\binaries\\ffmpeg-win64-v4.2.2.exe",
+        "-hide_banner",
+        "-loglevel",
+        "info",
+        "-ss",
+        "1092",
+        "-i",
+        "data/raw/video_dataset_3/2026年8月18日 蒋家沟泥石流发生前水流（洪水）视频/D13_20260818170132.mp4",
+        "-ss",
+        "8",
+        "-t",
+        "3",
+        "-an",
+        "-vf",
+        "crop=iw*0.54687500:ih*0.53240741:iw*0.26041667:ih*0.46296296,fps=4,scale=500:-1",
+        "-q:v",
+        "2",
+        "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\.codex\\docs\\.temp\\recheck-v3-a\\v4_13\\zoom-1100\\f-%02d.jpg"
+      ],
+      "stderr_path": ".codex/docs/.temp/recheck-v3-a/v4_13/zoom-1100/stderr.txt",
+      "reference_cache_xyxy": [
+        1000,
+        1000,
+        3100,
+        2150
+      ],
+      "reference_cache_wh": [
+        3840,
+        2160
+      ],
+      "output_frames": 12,
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/batch-a/v4_13/native-zoom-1100.jpg",
+      "actually_viewed_sample_indices": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    }
+  ],
+  "reused_raw_contact_sheets_observed": [],
+  "observations_zh": [
+    "16点概览可见连续浑浊覆盖带及多个固定粗颗粒斑块，许多斑块跨时段基本固定，不能当作正在输运的颗粒。",
+    "0–10、1100–1110、2200–2210秒缓存和source-seek1100的5秒2fps、4fps前2秒高分辨率ROI，沿固定岛之间的浅色活动槽看，平滑流线与局部表面明暗会更替。",
+    "流体存在较清楚，独立固体输运并不清楚；后期阴影移动不代表目标运动。"
+  ],
+  "specific_target_sign_and_limit": {
+    "positive_or_suspected_target_sign": "灰浊连续主体的局部粗糙边缘/团簇与原P相容，但当前直接物料征象不足以独立排除普通含沙水流。",
+    "distinguishing_target_from_accepted_N": "N可以有黄色细流、普通水流和洪水；仅颜色、面积、流幅、运动、阵流或文件夹不是P/T充分条件。",
+    "accepted_anchor_images_actually_viewed": [
+      "data/process/video_frames/video1_segment/frames/v1_16_frame_000143_t300s.jpg",
+      "data/process/video_frames/video1_segment/frames/v1_16_frame_000498_t1044s.jpg"
+    ],
+    "gap_to_unambiguous_P": "未完成块石或团块轨迹，不能用整幅灰浊覆盖宽度和来源目录证明P，也不能用固定斑块否定旁侧流体中的P。保留原P为工作继承，来源口头确认备注未再核验。",
+    "new_T_policy": "未因低把握新造T；只有v4_12沿用用户T，并记录其新前缘/主体铺展的具体疑似目标及不足P的缺口。"
+  },
+  "confidence": "低",
+  "inherited_not_newly_dense_observed_audit_ranges": [
+    {
+      "start_sec": 10.0,
+      "end_sec": 1100.0,
+      "meaning": "No new dense cache sequence in this span; overview samples may exist. Working label inherited, not continuously reobserved."
+    },
+    {
+      "start_sec": 1110.0,
+      "end_sec": 2200.0,
+      "meaning": "No new dense cache sequence in this span; overview samples may exist. Working label inherited, not continuously reobserved."
+    },
+    {
+      "start_sec": 2210.0,
+      "end_sec": 2276.0,
+      "meaning": "No new dense cache sequence in this span; overview samples may exist. Working label inherited, not continuously reobserved."
+    }
+  ],
+  "sampling_limit": "Each evidence manifest lists exact viewed cache samples. Six consecutive ~2s samples are a sampled window, not a statement every intervening frame was seen. Overview is 16 isolated points. Raw contacts show 2fps over nominal5s or first9 samples at4fps; not all decoded frames visually watched. Recommendations cover full user annotation axis but are not whole-video certification.",
+  "remaining_evidence_needed": "未完成块石或团块轨迹，不能用整幅灰浊覆盖宽度和来源目录证明P，也不能用固定斑块否定旁侧流体中的P。保留原P为工作继承，来源口头确认备注未再核验。",
+  "cut_preservation": {
+    "old_cut_intervals": [],
+    "recommended_cut_intervals": [],
+    "same_coverage": true
+  },
+  "no_training_or_supervision_decision": true,
+  "no_label_mutations": true,
+  "model_predictions_used": false
+}

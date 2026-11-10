@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "purpose": "media_preview",
+  "preview_only": true,
+  "training_ready": false,
+  "reference_use": {
+    "external_test": false,
+    "frozen_test_cameras": [],
+    "checked_current_frozen_test_list": true,
+    "checked_basis": "v1_16 is in150 development pool, not independent external test; no current permanent11-camera holdout is frozen",
+    "later_independent_generation_selection_holdout": false
+  },
+  "jobs": [
+    {
+      "job_id": "preview-v116-ordinary-water-gen4turbo-20261108-01",
+      "kind": "negative_candidate",
+      "preview_only": true,
+      "training_ready": false,
+      "synthetic": true,
+      "source_camera": "鸡冠山下游",
+      "submit_ready": true,
+      "status": "prepared_awaiting_explicit_single_preview_cost_authorization",
+      "selected_reference": {
+        "path": "../../../process/video_frames/video1_segment/frames/v1_16_frame_000143_t300s.jpg",
+        "repo_relative_path": "data/process/video_frames/video1_segment/frames/v1_16_frame_000143_t300s.jpg",
+        "sha256": "1c10f9c32fee010a88f34b217c985680713b8a5724cea845c9d0e90be731ed86",
+        "source_camera": "鸡冠山下游",
+        "source_unit": "v1_16",
+        "source_time_sec": 299.91,
+        "accepted": true,
+        "acceptance_scope": "Previously user-accepted ordinary-flow N anchor, reference content for one preview only; not training release",
+        "lineage_complete": true,
+        "parent_lineage": [
+          {
+            "source_camera": "鸡冠山下游",
+            "source_unit": "v1_16",
+            "source_group": "d|鸡冠山下游|2024-07-28",
+            "source_media_kind": "existing_audit_jpeg",
+            "source_media_path": "data/process/video_frames/video1_segment/frames/v1_16_frame_000143_t300s.jpg",
+            "source_media_sha256": "1c10f9c32fee010a88f34b217c985680713b8a5724cea845c9d0e90be731ed86",
+            "split": "development_source_not_external_test"
+          }
+        ],
+        "editing": "none"
+      },
+      "provider_request": {
+        "model": "gen4_turbo",
+        "ratio": "1280:720",
+        "duration": 10,
+        "seed": 20261108,
+        "promptText": "A locked-off surveillance camera records the exact reference valley. Ordinary shallow water flows continuously along the existing narrow channels at normal speed. Gravel bars, rocks, banks, roads, vegetation, buildings and the camera viewpoint stay fixed. Preserve the channel geometry and framing throughout one uninterrupted 10-second shot. The water remains a regular stream with small natural ripples. The exposed gravel bed remains exposed and stationary. Lighting stays consistent."
+      },
+      "accepted_label": null,
+      "intended_content": "ordinary water, no debris-flow transport; verify actual output"
+    }
+  ]
+}

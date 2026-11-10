@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "selected_label_release": "data/metadata/annotation-revisions/npt-20261108-evidence-working-v3",
+  "camera": "九弯地沟下游",
+  "unit_id": "v1_56",
+  "role": "train",
+  "reference_path": "data/process/video_frames/video1_segment/frames/v1_56_frame_000294_t602s.jpg",
+  "reference_sha256": "7177ef84e259c376d5c23ad9835541665e240f5cfaab047640b67a093ddc59ec",
+  "audit_t_sec": 601.72,
+  "status": "candidate_real_N_reference_not_generation_accepted",
+  "label_evidence": "data\\metadata\\annotation-review\\full-temporal-20261108-v1\\reviews\\reviewer-d-fine-extent-v155-v156-v181.json",
+  "needs_target_removal": false,
+  "new_provider_jobs": 0,
+  "uploaded": false,
+  "training_ready": false,
+  "remaining_target_edit_cameras": [
+    "塔吊下方",
+    "门前沟上游",
+    "门前沟中游"
+  ],
+  "preview_v1_16_unchanged": true
+}

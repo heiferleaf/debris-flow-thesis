@@ -1,0 +1,26 @@
+{
+  "argv": [
+    "experiments/runspecs/EXP-019/verify_cache.py",
+    "--plan",
+    "data/metadata/EXP-019/order-plan-v1",
+    "--out",
+    "data/metadata/EXP-019/order-cache-acceptance-v1",
+    "--workers",
+    "4"
+  ],
+  "order_plan_sha256": "0e1e697aa4959e69fa40b4a33166370f57a1298af94883e50301cb4e6eee944a",
+  "verified_cache_index": "data/process/EXP-016/metadata-v4/verified-cache-files.csv",
+  "verified_cache_index_sha256": "7e58186d125c67b52c54f6e926c3cedcb162c30ed82772da671f65160d7b018e",
+  "source_sha256": {
+    "experiments/common/video/order_cache_acceptance.py": "ab52abf75339ae5d5946f6be067f8c34b7ed295d9487c2a258d198315b7acf67",
+    "experiments/runspecs/EXP-019/verify_cache.py": "17cf2579099bb5e0ce419e6672db69b3f8f11c2acbb99db03771a39681b94594",
+    "experiments/common/video/pts_clip_sampling.py": "931f67394c82949d81570cb1607d7fb1b3a811d549841d8d46050188b1232178",
+    "experiments/common/video/order_plan.py": "483a249530d95dad80565e9e56a0cf0baf48f8b0583675d8432d65c34c9e0843",
+    "experiments/common/video/temporal_order.py": "223db255a25639cfde129cdee858925c69c9a2f1e4794e6f225806a74ca23ea7",
+    "experiments/common/video/supervised_plan.py": "1f29f36e360b7163c45bec3012240b1afb1fa16fa8523a2598c91ffc51db45ff"
+  },
+  "started_utc": "2026-11-01T11:39:40.863792+00:00",
+  "workers": 4,
+  "pipeline": "jpeg95-bgr-to-rgb-inter-linear-112-v1",
+  "media_source_identity": "use frozen order-plan data/source fingerprints; no video decode or new frame extraction"
+}

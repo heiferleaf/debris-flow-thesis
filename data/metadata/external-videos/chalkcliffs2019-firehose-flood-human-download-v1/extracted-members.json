@@ -1,0 +1,55 @@
+{
+  "status": "two_original_archive_members_extracted_and_hashed_awaiting_user_visual_review",
+  "archive_path": "data/raw/source-downloads-archive/USGS-CHALK-CLIFFS-2019-FIREHOSE-FLOOD/050819_firehose_flood.zip",
+  "archive_sha256": "ecce8d3da2ce74d36aa71119386dfb98d1abc64bb57dd2a8c65d27cf92e9d224",
+  "first_extraction_exit_code": 7,
+  "first_extraction_reason": "PowerShell passed separated -o switch; no media written",
+  "successful_extraction_exit_code": 0,
+  "successful_log_sha256": "e5c36901b3e8c6bf119675dfa0cf85e2b8923e62cd20c35175adf5208ff021b3",
+  "members": [
+    {
+      "path": "data/raw/web-research-20261102/review/ChalkCliffs2019_Firehose_Flood/050819_firehose_flood.MOV",
+      "size_bytes": 2571162095,
+      "sha256": "daa7148a6c0832ba49ec17c387121bb8a25a35408e4d73f171727e79981aec1f",
+      "probe_path": "data/metadata/external-videos/chalkcliffs2019-firehose-flood-human-download-v1/part01-probe.json",
+      "probe_sha256": "d1dcfdd3d0dff850c8665a8845e674cb76797c6308489bb36466f74539a3b65d",
+      "width": 1920,
+      "height": 1080,
+      "codec": "h264",
+      "container_fps": "30000/1001",
+      "container_frame_count": "28575",
+      "container_duration": "953.452500",
+      "source_metadata_tags": {
+        "major_brand": "qt  ",
+        "minor_version": "808464432",
+        "compatible_brands": "qt      ",
+        "creation_time": "2019-05-08T22:30:14.000000Z"
+      }
+    },
+    {
+      "path": "data/raw/web-research-20261102/review/ChalkCliffs2019_Firehose_Flood/050819_firehose_flood_pt2.MOV",
+      "size_bytes": 2254781572,
+      "sha256": "7c92cbdf27503ad24f6214d1ad6af3c3351475ab891ef1539a065bf5cc8ad11e",
+      "probe_path": "data/metadata/external-videos/chalkcliffs2019-firehose-flood-human-download-v1/part02-probe.json",
+      "probe_sha256": "28b3c9f2857de11f76d59b2c1564bea3377986e64cb1bb55d30c8e6e0d3bb5bd",
+      "width": 1920,
+      "height": 1080,
+      "codec": "h264",
+      "container_fps": "30000/1001",
+      "container_frame_count": "25005",
+      "container_duration": "834.333500",
+      "source_metadata_tags": {
+        "major_brand": "qt  ",
+        "minor_version": "808464432",
+        "compatible_brands": "qt      ",
+        "creation_time": "2019-05-08T22:44:15.000000Z"
+      }
+    }
+  ],
+  "transform": "none; decompressed original MOV bytes, no resize/transcode/frame generation",
+  "full_media_decode": false,
+  "real_capture_cadence_verified": false,
+  "video_labels": "unassigned; human visual review pending",
+  "model_scored": false,
+  "current_catalog_added": false
+}

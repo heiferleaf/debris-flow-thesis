@@ -1,0 +1,25 @@
+{
+  "docx_path": "D:\\debris-flow-data\\video_dataset_3\\2026年8月18日 蒋家沟泥石流发生前水流（洪水）视频\\说明.docx",
+  "sha256": "54495696daa3eeee5b2143efe627e5723f77f80d91623382d59ee43a46d6057c",
+  "extracted_text_path": "C:\\Users\\20443\\Desktop\\University_Learn\\debris-flow-thesis\\data\\process\\annotation-review\\full-dongchuan-20261109-v1\\batch-03\\source-context\\source-explanation.txt",
+  "video_links": [
+    {
+      "video_key": "v4_01",
+      "source_path": "D:\\debris-flow-data\\video_dataset_3\\2026年8月18日 蒋家沟泥石流发生前水流（洪水）视频\\D05_20260818163048.mp4",
+      "same_parent_folder": true,
+      "filename": "d05_20260818163048.mp4",
+      "cache_initial_osd": "2026-08-18 16:30:53",
+      "cache_initial_frame": "data/process/video_frames/video4_segment/frames/v4_01_frame_000000_t0s.jpg",
+      "note": "Same directory and date; actual timing conflicts with later CSV note; DOCX does not name individual video files. No per-second label is inferred."
+    },
+    {
+      "video_key": "v4_18",
+      "source_path": "D:\\debris-flow-data\\video_dataset_3\\2026年8月18日 蒋家沟泥石流发生前水流（洪水）视频\\D15_20260818161038.mp4",
+      "same_parent_folder": true,
+      "filename": "d15_20260818161038.mp4",
+      "cache_initial_osd": "2026-08-18 16:10:33",
+      "cache_initial_frame": "data/process/video_frames/video4_segment/frames/v4_18_frame_000000_t0s.jpg",
+      "note": "Same directory and date; actual timing conflicts with later CSV note; DOCX does not name individual video files. No per-second label is inferred."
+    }
+  ]
+}

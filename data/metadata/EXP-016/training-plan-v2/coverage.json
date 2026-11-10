@@ -1,0 +1,1623 @@
+[
+  {
+    "split": "train",
+    "unit_id": "v1_01",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-150"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_01",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-153"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_02",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-2"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_03",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-3"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_04",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-4"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_05",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-5"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_07",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-7"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_08",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-8"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_09",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-9"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_10",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-10"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_100",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-100"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_101",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-101"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_102",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-102"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_103",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-103"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_104",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-104"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_105",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-105"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_106",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-106"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_107",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-107"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_108",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-108"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_109",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-109",
+      "event-line-111"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_11",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-11"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_110",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-156",
+      "event-line-157"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_111",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-158"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_112",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-159"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_113",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-115"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_114",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-116",
+      "event-line-118",
+      "event-line-122",
+      "event-line-125",
+      "event-line-129",
+      "event-line-131"
+    ],
+    "first_coverage_epochs": 2
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_117",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-135",
+      "event-line-138",
+      "event-line-140",
+      "event-line-142"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_118",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-143"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_119",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-144"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_12",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-12"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_13",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-155"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_14",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-13"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_15",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-14"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_16",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-166"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_16",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-167"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_17",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-15"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_18",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-16"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_24",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-23"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_25",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-24"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_35",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-147",
+      "event-line-149"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_37",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-36"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_39",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-39"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_40",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-40"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_41",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-41"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_42",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-42"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_43",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-43"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_44",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-44"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_45",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-45"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_46",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-46"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_47",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-47"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_48",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-48"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_49",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-49"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_50",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-176",
+      "event-line-177",
+      "event-line-178",
+      "event-line-179"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_51",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-50"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_52",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-51"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_55",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-198"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_56",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-54"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_67",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-68"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_68",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-69"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_69",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-71"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_70",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-73"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_72",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-77"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_73",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-78"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_76",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-82"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_77",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-83"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_78",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-84"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_79",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-85"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_85",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-182"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_86",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-90"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_87",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-91"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_88",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-92"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_89",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-93"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_91",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-183",
+      "event-line-184"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_91",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-185"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_92",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-95"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_93",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-96"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_94",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-97"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_95",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-187"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_95",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-188"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_96",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-189"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_97",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-190",
+      "event-line-191",
+      "event-line-192",
+      "event-line-193"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_98",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-98"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v1_99",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-99"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v4_01",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-15"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v4_02",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-16"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v4_03",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-17"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v4_04",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-18"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v4_05",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-19"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v4_06",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-20"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v4_07",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-21"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v4_07",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-23"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v4_08",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-2"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v4_09",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-3"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v4_10",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-4"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v4_11",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-5"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v4_12",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-24"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v4_12",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-26"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v4_13",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-6"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v4_14",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-7"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v4_15",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-8"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v4_16",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-9"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v4_17",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-10"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v4_18",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-27"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v4_18",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-29"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v4_19",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-11"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v4_20",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-12"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v4_21",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-13"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v4_22",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-14"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v5_05",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-6"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v5_06",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-7"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v5_07",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-8"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v5_09",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-9"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v5_10",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-10"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v5_11",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-11"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v5_12",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-12"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v5_13",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-13"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v5_14",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-14"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v5_15",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-15"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v5_16",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-16"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v5_17",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-17"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v5_18",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-18"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v5_19",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-19"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v5_20",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-20"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v5_21",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-21"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v5_22",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-22"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "train",
+    "unit_id": "v5_23",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-23"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_120",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-145"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_121",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-160",
+      "event-line-161",
+      "event-line-162",
+      "event-line-163"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_122",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-164"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_122",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-165"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_123",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-146"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_19",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-18"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_20",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-203"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_21",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-19"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_22",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-20"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_27",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-27"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_28",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-28"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_29",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-29"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_31",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-32"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_32",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-33"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_33",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-34"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_57",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-55"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_58",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-56"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_59",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-57"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_60",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-58"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_61",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-59"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_62",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-60"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_63",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-61"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_63",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-63"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_64",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-64"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_65",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-65"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_81",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-87"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_82",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-180"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_82",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-181"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_83",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-88"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v1_84",
+    "kind": "pos",
+    "quota": 4,
+    "original_segments": [
+      "event-line-89"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v5_01",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-2"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v5_02",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-3"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v5_03",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-4"
+    ],
+    "first_coverage_epochs": 1
+  },
+  {
+    "split": "validation",
+    "unit_id": "v5_04",
+    "kind": "neg",
+    "quota": 4,
+    "original_segments": [
+      "event-line-5"
+    ],
+    "first_coverage_epochs": 1
+  }
+]

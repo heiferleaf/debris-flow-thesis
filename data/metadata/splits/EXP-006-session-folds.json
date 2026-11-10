@@ -1,0 +1,131 @@
+{
+ "name": "EXP-006-session-cv5",
+ "unit": "event_id",
+ "task": "A",
+ "meta": {
+  "seed": 42,
+  "group_column": "group_id",
+  "group_meaning": "场次组(机位×日期)",
+  "manifest": "experiments\\repro\\temporal\\runs\\EXP-006-pilot\\segment-manifest-20260924-addrmap.csv",
+  "note": "event_id 字段存划分组 ID(组=防泄题原子,整组同侧);train_temporal.py 生成"
+ },
+ "folds": [
+  {
+   "fold": 1,
+   "val_groups": [
+    "d|多照沟（门前多照汇口）|2026-08-18",
+    "d|门前沟上游|2025-07-29",
+    "d|门前沟中游|2025-07-19",
+    "d|鸡冠山上游|2025-07-19",
+    "d|鸡冠山下游|2025-07-24",
+    "v2|hard-flood__av117268864306277__|seg11",
+    "v2|hard-flood__av117268864306277__|seg15",
+    "v2|小溪|seg25",
+    "v2|小溪|seg27",
+    "v2|小溪|seg31",
+    "v3|cam1",
+    "v3|cam2"
+   ],
+   "val_segments": 41,
+   "val_windows": 253,
+   "val_frames": 2378
+  },
+  {
+   "fold": 2,
+   "val_groups": [
+    "d|塔吊上游|2025-07-29",
+    "d|塔吊上游|2026-08-18",
+    "d|塔吊下方|2026-08-18",
+    "d|塔吊下游|2025-07-29",
+    "d|门前沟上游|2025-07-24",
+    "d|鸡冠山下游|2025-07-19",
+    "v2|hard-flood__av117268864306277__|seg08",
+    "v2|hard-flood__av117268864306277__|seg13",
+    "v2|hard-spillway__av116945768683514__|seg03",
+    "v2|小溪|seg02",
+    "v2|小溪|seg04",
+    "v2|小溪|seg09",
+    "v2|小溪|seg12",
+    "v2|小溪|seg22",
+    "v2|小溪|seg28",
+    "v2|水库|seg01"
+   ],
+   "val_segments": 44,
+   "val_windows": 251,
+   "val_frames": 2412
+  },
+  {
+   "fold": 3,
+   "val_groups": [
+    "d|九弯地沟下游|2025-07-19",
+    "d|塔吊下游|2025-07-24",
+    "d|门前沟中游|2025-07-24",
+    "d|鸡冠山下游|2023-08-02",
+    "d|鸡冠山下游|2024-07-28",
+    "d|鸡冠山下游|2025-07-29",
+    "v2|hard-flood__BV1Xz421z7s1__|seg01",
+    "v2|hard-flood__av117164845633996__|seg01",
+    "v2|hard-flood__av117268864306277__|seg01",
+    "v2|hard-flood__av117268864306277__|seg02",
+    "v2|hard-flood__av117268864306277__|seg03",
+    "v2|hard-flood__av117268864306277__|seg04",
+    "v2|hard-flood__av117268864306277__|seg05",
+    "v2|hard-flood__av117268864306277__|seg06",
+    "v2|hard-spillway__av117269568949163__|seg01",
+    "v2|hard-spillway__av117269568949163__|seg02",
+    "v2|小溪|seg05",
+    "v2|小溪|seg06",
+    "v2|小溪|seg08",
+    "v2|小溪|seg10",
+    "v2|小溪|seg14",
+    "v2|小溪|seg15",
+    "v2|小溪|seg16",
+    "v2|小溪|seg17",
+    "v2|小溪|seg18",
+    "v2|小溪|seg19",
+    "v2|小溪|seg20",
+    "v2|小溪|seg29",
+    "v2|小溪|seg30"
+   ],
+   "val_segments": 53,
+   "val_windows": 253,
+   "val_frames": 2546
+  },
+  {
+   "fold": 4,
+   "val_groups": [
+    "d|1号塔下游|2026-08-18",
+    "d|1号塔广角|2026-08-18",
+    "d|九弯地沟下游|2025-07-24",
+    "d|九弯地沟下游|2025-07-29",
+    "d|塔吊上游|2025-07-24",
+    "d|门前沟上游|2025-07-19",
+    "d|门前沟中游|2025-07-29",
+    "v2|hard-flood__av117268864306277__|seg07",
+    "v2|hard-spillway__av116945768683514__|seg05",
+    "v2|hard-spillway__av704517221__|seg01",
+    "v2|山洪|seg02",
+    "v2|水库|seg05"
+   ],
+   "val_segments": 39,
+   "val_windows": 249,
+   "val_frames": 2307
+  },
+  {
+   "fold": 5,
+   "val_groups": [
+    "d|塔吊上游|2025-07-19",
+    "d|塔吊下游|2025-07-19",
+    "d|塔吊下游|2026-08-18",
+    "d|鸡冠山上游|2023-08-02",
+    "d|鸡冠山上游|2024-07-28",
+    "d|鸡冠山上游|2025-07-24",
+    "d|鸡冠山上游|2025-07-29",
+    "v2|小溪|seg24"
+   ],
+   "val_segments": 47,
+   "val_windows": 247,
+   "val_frames": 2301
+  }
+ ]
+}

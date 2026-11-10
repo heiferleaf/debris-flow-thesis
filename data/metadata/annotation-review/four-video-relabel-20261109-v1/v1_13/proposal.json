@@ -1,0 +1,85 @@
+{
+  "audit_id": "four-video-relabel-20261109-v1-v1_13",
+  "unit_id": "v1_13",
+  "created_date": "2026-11-09",
+  "status": "visually_reviewed_candidate_for_root_merge_not_applied",
+  "rule": ".codex/docs/NPT标注操作细则-20261109.md",
+  "baseline_csv": "data/metadata/annotation-revisions/npt-20261109-two-video-v1/video1_segment--64b3c72b2a7f/events.csv",
+  "source_video_id": "Video of debris flow occurred on July 28, 2024(Jiguanshan upstream perspective (1)",
+  "source_video": "data/raw/video_dataset_2/Video of debris flow occurred on July 28, 2024/Video of debris flow occurred on July 28, 2024(Jiguanshan upstream perspective (1).mp4",
+  "interval_convention": "[start,end)；末点1419沿用原标注终点。秒数为events/cache工作时间轴，不视为精确原片PTS。",
+  "existing_intervals": [
+    {"kind": "cut", "start": 0, "end": 36},
+    {"label": "T", "start": 36, "end": 58.1},
+    {"label": "P", "start": 58.1, "end": 1419}
+  ],
+  "proposed_intervals": [
+    {"label": "P", "start": 0, "end": 1419}
+  ],
+  "segments": [
+    {
+      "label": "P",
+      "start": 0,
+      "end": 1419,
+      "process_type": "视频从已成型目标输运开始；远处阵体持续沿弯口接近，随后持续输运并多次增强。",
+      "basis": "开头原片4K局部已经可见吊机下方弯口的横向粗糙阵线、相连宽来料体及变化的颗粒斑；连续序列显示其相对吊机、固定灰色侧岸和右岸小路推进。中近景仍是细水沟时，远处已满足P，不等阵体占据大部分画面才标P。后续各阵头、后随主体及波谷中仍有可辨物料输运；全片缓存未见恢复明确普通浅水或静止沟床的间歇。",
+      "fixed_observation_positions": ["吊机立柱下方弯口及横向粗糙阵线", "弯口右岸小路和固定灰色堆积岸", "后段中近景宽槽与左侧固定灰色沟岸"],
+      "positive_reference_cache_times": [0, 8, 20, 36.05, 58.1, 120.25, 240.49, 601.23, 801.62, 1202.45, 1418.89],
+      "evidence": ["source-start-roi-sequence-01.jpg至03.jpg", "source-start-roi/source-frame-0000-roi.jpg", "source-start-full-f0000.jpg", "early-upper-roi-01.jpg至04.jpg", "key-fullframes-01.jpg至02.jpg", "overview-01.jpg至24.jpg"],
+      "end_note": "最后缓存1418.89秒仍有近景粗糙阵头和相连主体，P延续到沿用的1419秒片尾；没有强制补T。"
+    }
+  ],
+  "boundaries": [
+    {
+      "type": "video_start_in_P",
+      "working_boundary": 0,
+      "last_clear_previous_state": null,
+      "first_clear_next_state": {"label": "P", "cache_t_sec": 0, "source_decoded_frame_index": 0, "osd": "2024-07-28 11:22:49"},
+      "reason": "开始时远处弯口已经建立目标输运，真实形成起点在本视频可见范围之外；不补N或T。这里没有视频内换类，故不存在可填写的前态/后态观察括号。"
+    }
+  ],
+  "old_boundary_retractions": [
+    {"time_sec": 36, "old": "cut→T", "new": "P持续", "reason": "0–36秒目标区域仍可见，36秒没有画质恢复或形成阶段开始的真实换类依据。"},
+    {"time_sec": 58.1, "old": "T→P", "new": "P持续", "reason": "36–58.1秒及更早的远处来料已经成型；更接近、更宽不构成T/P边界。"}
+  ],
+  "T_adjudication": {
+    "proposed_T_intervals": [],
+    "N_reference": "前景的浅细分汊流水可用于局部负类形态对照，但同一时刻远处弯口已经P，不能把这些整帧时段标成N。视频中未见全画面明确N基线。",
+    "positive_formation_evidence": "未见在同一固定河段由零散输运逐渐建立组织的正面证据。观察到的是已成型远处阵体推进、接近和铺展。",
+    "continuity": "开头弯口阵线与后随来料连续相连，后续同一路径进入近景；这是对已存在P的连续核对，不用未来峰值倒填T。",
+    "decision": "不为保留旧T或凑齐三类制造形成段。"
+  },
+  "cut_recommendation": {
+    "old_cut": [[0, 36]],
+    "recommended_cut": [],
+    "recommended_action": "撤回0–36秒cut，并纳入P。",
+    "historical_author": "助手上一轮错误新增；依据用户本轮明确澄清，非用户标注。",
+    "user_input": "用户本轮明确澄清：v1_13开头雾没有遮挡目标，0–36秒cut是助手上一轮加错，不是用户添加。本轮保留该错误及撤回记录。",
+    "visual_basis": "逐帧缓存概览、原尺寸ROI及原片开头4K窄窗一致显示：雾主要在远山和更远背景，吊机下方来料、固定岸线及近景沟床仍可辨；对比36秒前后没有支持这一cut端点的遮挡突变。",
+    "new_cut_added": false
+  },
+  "changes": [
+    {"start": 0, "end": 36, "old_kind": "cut", "new_label": "P", "reason": "目标未被雾遮住，视频开始已为P。"},
+    {"start": 36, "end": 58.1, "old_label": "T", "new_label": "P", "reason": "成型远处阵体接近，未见画内形成；P优先。"}
+  ],
+  "actual_review_coverage": {
+    "cache_frames_total": 709,
+    "cache_frames_actually_viewed_in_overviews": 709,
+    "cache_frame_index_range": [0, 708],
+    "cache_t_range_sec": [0, 1418.89],
+    "overview_pages_actually_viewed": 24,
+    "overview_layout": "5列×6行，单帧320×180，按全部缓存顺序排列；末页19帧。",
+    "cache_step_sec": "约2.0秒",
+    "additional_cache_ROI": {"frame_index_range": [0, 39], "cache_t_range_sec": [0, 78.15], "count": 40, "crop_xyxy_in_960x540": [260, 35, 720, 185], "pages_actually_viewed": 4},
+    "source_start_window": {"method": "原片从头无seek顺序解码201帧，只保留每10帧的21张上游ROI及3张全景；实际查看21张ROI序列、首帧全景及原尺寸ROI帧0/80/160。", "source_size": [3840, 2160], "source_decoded_indices_sampled": [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200], "osd_observed_range": ["11:22:49", "11:22:59"], "source_ROI_xyxy": [1040, 120, 2880, 800], "sampling_manifest": "source-start-sampling.json"},
+    "additional_fullframe_cache_times": [0, 36.05, 58.1, 240.49, 601.23, 801.62, 1202.45, 1418.89],
+    "existing_contact_sheets_actually_viewed": ["data/process/annotation-review/recheck-20261108-v3/remaining-a/v1_13/onset-upstream-36-70.jpg", "data/process/annotation-review/recheck-20261108-v3/remaining-a/v1_13/native-36.jpg"],
+    "time_policy": "开头源帧序号与OSD逐项保存；源seek值、OpenCV诊断位置、缓存秒不互相冒充。既有native-36图的OSD约11:23:10–27，与其seek名不同，本轮不据该文件名推定精确时间边界。",
+    "limitations": ["全片以约2秒缓存抽样检查，不能排除完全落在相邻缓存间的极短异常；不声称观看原片全部帧。", "只新解码原片最初201帧，实际观看的是其中21张顺序抽样ROI；没有从头解码1419秒或把抽样称作实时连续播放。", "片尾最后观察1418.89秒，标注终点1419秒沿用；最后0.11秒没有新补帧。", "没有新验证全片原始PTS或给远处来料计算地学流变参数。"]
+  },
+  "artifact_directory": "data/process/annotation-review/four-video-relabel-20261109-v1/v1_13",
+  "shared_csv_modified": false,
+  "rules_modified": false,
+  "other_videos_modified": false,
+  "training_started": false
+}

@@ -1,0 +1,11 @@
+{
+  "kind": "navigation-only",
+  "experiment_id": "EXP-006",
+  "card": "docs/process/experiments/EXP-006.md",
+  "implementations": [
+    "experiments/common/temporal/train_temporal.py"
+  ],
+  "results_root": "data/results/temporal",
+  "status": "历史实验；按卡片与报告解释结果",
+  "note": "本文件是复现索引，不是新增训练授权或历史超参数的替代。"
+}

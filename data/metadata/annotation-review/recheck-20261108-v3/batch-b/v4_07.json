@@ -1,0 +1,206 @@
+{
+  "schema_version": 3,
+  "unit_id": "v4_07",
+  "decision_status": "recommendation_only_no_events_written",
+  "summary": "撤销0–110全P覆盖，恢复用户N0–72/T72–110；110以后P继承。",
+  "source_video_id": "D12_20260818162743",
+  "raw_paths": [
+    "data/raw/video_dataset_3/2026年8月18日 蒋家沟泥石流发生前水流（洪水）视频/D12_20260818162743.mp4"
+  ],
+  "old_user_version": "data/metadata/annotation-revisions/npt-20261107-proposals-v3",
+  "disputed_version": "data/metadata/annotation-revisions/npt-20261108-review-v5",
+  "old_user_intervals": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 72.0,
+      "state": "N"
+    },
+    {
+      "start_sec": 72.0,
+      "end_sec": 110.0,
+      "state": "T"
+    },
+    {
+      "start_sec": 110.0,
+      "end_sec": 2776.0,
+      "state": "P"
+    }
+  ],
+  "disputed_intervals": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 72.0,
+      "state": "P"
+    },
+    {
+      "start_sec": 72.0,
+      "end_sec": 110.0,
+      "state": "P"
+    },
+    {
+      "start_sec": 110.0,
+      "end_sec": 2776.0,
+      "state": "P"
+    }
+  ],
+  "erroneous_or_unfounded_changes": [
+    "N0–72/T72–110一律改P缺少逐段目标证据，批次来源不能独自确定每秒P起点。"
+  ],
+  "recommended_intervals": [
+    {
+      "start_sec": 0,
+      "end_sec": 72,
+      "state": "N",
+      "reason": "恢复已认可用户N。0/20/40/60及0–14、66–70秒所见为既有分汊窄流；本次未找到足以推翻这一局部N锚的新目标组织，不能因黄色或后来有P直接向前延伸。",
+      "confidence": "medium"
+    },
+    {
+      "start_sec": 72,
+      "end_sec": 110,
+      "state": "T",
+      "reason": "恢复用户T。新不透明舌体在原流槽中连续扩展，前部与边缘出现不规则组织，向110附近更充分流态演进；早段无法与普通涨水完全区分。",
+      "confidence": "medium"
+    },
+    {
+      "start_sec": 110,
+      "end_sec": 2776,
+      "state": "P",
+      "reason": "沿用用户P；110附近出现更连续的不透明粗糙活动流组织，本次后部只看120/150/200/300/600抽帧，不认证其余全段。",
+      "confidence": "inherited"
+    }
+  ],
+  "evidence_actually_observed": [
+    {
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/batch-b/v4_07-boundary.jpg",
+      "frame_manifest": "data/process/annotation-review/recheck-20261108-v3/batch-b/v4_07-boundary.json",
+      "audit_times_actually_viewed": [
+        0.0,
+        2.0,
+        4.0,
+        6.0,
+        8.0,
+        10.0,
+        12.0,
+        14.0,
+        66.0,
+        68.0,
+        70.0,
+        72.0,
+        74.0,
+        76.0,
+        78.0,
+        80.0,
+        102.0,
+        104.0,
+        106.0,
+        108.0,
+        110.0,
+        112.0,
+        114.0,
+        116.0
+      ],
+      "time_basis": "frames_index.csv t_sec; not source seek/PTS",
+      "crop_fraction": [
+        0.0,
+        0.17,
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/batch-b/v4_07-overview.jpg",
+      "frame_manifest": "data/process/annotation-review/recheck-20261108-v3/batch-b/v4_07-overview.json",
+      "audit_times_actually_viewed": [
+        0.0,
+        20.0,
+        40.0,
+        60.0,
+        70.0,
+        74.0,
+        80.0,
+        90.0,
+        100.0,
+        108.0,
+        112.0,
+        120.0,
+        150.0,
+        200.0,
+        300.0,
+        600.0
+      ],
+      "time_basis": "frames_index.csv t_sec; not source seek/PTS",
+      "crop_fraction": null
+    },
+    {
+      "raw_manifest": "data/process/annotation-review/recheck-20261108-v3/batch-b/v4_07-raw-68.json",
+      "time_basis": "nominal source seek, not independently extracted source PTS",
+      "actual_inspection": "all displayed ordered samples; startup corruption excluded as decoding defect",
+      "raw_seek_start": 68,
+      "duration": 6,
+      "sample_fps": 4
+    }
+  ],
+  "all_audit_times_actually_viewed": [
+    0.0,
+    2.0,
+    4.0,
+    6.0,
+    8.0,
+    10.0,
+    12.0,
+    14.0,
+    20.0,
+    40.0,
+    60.0,
+    66.0,
+    68.0,
+    70.0,
+    72.0,
+    74.0,
+    76.0,
+    78.0,
+    80.0,
+    90.0,
+    100.0,
+    102.0,
+    104.0,
+    106.0,
+    108.0,
+    110.0,
+    112.0,
+    114.0,
+    116.0,
+    120.0,
+    150.0,
+    200.0,
+    300.0,
+    600.0
+  ],
+  "observation_scope": "Ordered cached frames around boundaries plus early/middle/late navigation; raw dense windows only where explicitly listed. No claim of uninterrupted full-video examination.",
+  "transition_target_signs": "72附近相对0–70认可N，原窄分汊中出现新的不透明来流舌体及不规则前部组织，并持续连通覆盖；不是单纯颜色变化。",
+  "transition_gap_before_P": "最早舌体尚缺清楚物料组织，普通洪水涨水也可扩张；保留T至110，不把运动/大小本身视为P。",
+  "inherited_not_continuously_reobserved": [
+    {
+      "start_sec": 600,
+      "end_sec": 2776,
+      "state": "P",
+      "limitation": "未重新观看"
+    }
+  ],
+  "pending_evidence": [
+    "原用户边界精度未作原片逐帧重定；当前建议恢复工作标签，低把握另记。"
+  ],
+  "prohibited_shortcuts_avoided": [
+    "未用来源目录、黄色、流量大小、阵流或有运动单独定P",
+    "未把固定岸石/床面代替实际流体观察",
+    "未新增U/A，未以大面积关闭监督代替审计",
+    "未用模型预测定义真值"
+  ],
+  "cut_policy": "Preserve proposals-v3 cut union exactly; decoder startup corruption is not a new user cut.",
+  "source_document_support": {
+    "verified_originals": "data/metadata/annotation-review/recheck-20261108-v3/batch-b/verified-source-evidence.json",
+    "old_statement_is_superseded": true,
+    "later_correction": "2026-08-18上游14:24已发生泥石流，前批到塔吊断面属小型泥石流；专家说明不能自动成为每秒标注。",
+    "scope_limit": "v4_17为塔吊上游；v4_19/v4_18是1号塔下游，后者跨视角对应强度低于直接塔吊断面。"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "scene_id": "camera-63af714136e7",
+  "camera": "九弯地沟下游",
+  "source_path": "data/process/synthetic-video/references-20261108-v2/f0559931c5f9.jpg",
+  "source_sha256": "86e0397ad1ef5f9ebab1ac1d99342b51a21d3d46b1286b5aaecb0bb3790a2739",
+  "generated_path": "data/process/synthetic-video/dry-scenes-20261108-v1/camera-63af714136e7/dry-reference.png",
+  "generated_sha256": "eb28d0fc4cfff0ea8ac90a7a0289ac5a2b936c9acfd564642af298dd450463b9",
+  "builtin_saved_path": "C:/Users/20443/.codex/generated_images/01a1ba71-be0d-7be3-91a8-2fc00ee71ef4/exec-177afbc6-85c2-4a1c-9a8e-47bf06011e8b.png",
+  "prompt": "Use case: precise-object-edit. Edit target: this single supplied misty CCTV image of 九弯地沟下游（塔）. Preserve the exact fixed steep downward camera view, 16:9 framing, deep ravine geometry, sheer gray eroded cliffs with pale vertical erosion marks, right foreground gravel slope and sparse plants, boulder positions, haze, diffuse rainy-gray lighting and all original objects. Change ONLY the visible liquid in the ravine channel: the brown muddy stream curves along the bottom center and continues to mid-right. Remove all brown or yellow flowing water, wet glossy surface, clear water, foam and slurry from the entire visible channel. Reconstruct a completely dry recessed ravine bed at the same location and contour, covered in realistic small angular gray rocks, cobbles and dull dry sediment, continuous with existing rocky slopes. Preserve a convincing distinction between steep cliff faces and the lower gully floor. Do not simply desaturate or paint the water surface gray; it must be rough dry rock texture with no fluid. Keep atmospheric mist and cliff staining, without inventing waterfalls or streams. Preserve original timestamp and camera-name overlay verbatim, identical content/position/size/glyph style; no extra text or watermark, no beautification or added objects. Preserve any original black borders. A synthetic dry-channel reference candidate based on this photograph.",
+  "tool": "image_gen.imagegen (built-in; model identifier not exposed)",
+  "generated_at_date": "2026-11-08",
+  "status": "synthetic_candidate_visual_reviewed",
+  "training_ready": false,
+  "fluid_suspected_in_channel": false,
+  "observations": [
+    "Viewed original and generated file with view_image.",
+    "Brown bend of ravine stream replaced by a continuous recessed bed of matte gray angular stones; no visible liquid or foam remains on channel floor.",
+    "Sheer eroded gray cliffs, pale vertical erosion marks, foreground gravel slope, sparse plants and gray mist retained in the same general camera arrangement.",
+    "Cliff texture and gravel geometry regenerated; original pale cliff streaks could remain visually ambiguous as surface staining but no distinct waterfall is observed.",
+    "Existing timestamp and camera-name content retained with regenerated glyph styling."
+  ],
+  "limitations": [
+    "Synthetic reference candidate only; training approval not granted.",
+    "No claim of pixel-level background identity.",
+    "Output raster is approximately 16:9 and copied without resampling; source had no black letterbox."
+  ],
+  "source_sha256_verified": true,
+  "generated_dimensions": {
+    "width": 1672,
+    "height": 941,
+    "requested_aspect_ratio": "16:9",
+    "actual_aspect_ratio": "1672:941",
+    "resampled": false
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "schema_version": 3,
+  "unit_id": "v1_63",
+  "decision_status": "recommendation_only_no_events_written",
+  "summary": "恢复用户N0–317、T317–497.34、P497.34–1406。",
+  "source_video_id": "塔吊下游  downstream of the tower crane 8：51",
+  "raw_paths": [
+    "data/raw/video_dataset_1/2025年7月24日泥石流视频Debris flow video on July 24, 2025/塔吊下游  downstream of the tower crane/塔吊下游  downstream of the tower crane 8：51.mp4"
+  ],
+  "old_user_version": "data/metadata/annotation-revisions/npt-20261107-proposals-v3",
+  "disputed_version": "data/metadata/annotation-revisions/npt-20261108-review-v5",
+  "old_user_intervals": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 317.0,
+      "state": "N"
+    },
+    {
+      "start_sec": 317.0,
+      "end_sec": 342.0,
+      "state": "T"
+    },
+    {
+      "start_sec": 342.0,
+      "end_sec": 497.34,
+      "state": "T"
+    },
+    {
+      "start_sec": 497.34,
+      "end_sec": 1406.0,
+      "state": "P"
+    }
+  ],
+  "disputed_intervals": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 317.0,
+      "state": "N"
+    },
+    {
+      "start_sec": 317.0,
+      "end_sec": 342.0,
+      "state": "U"
+    },
+    {
+      "start_sec": 342.0,
+      "end_sec": 497.34,
+      "state": "U"
+    },
+    {
+      "start_sec": 497.34,
+      "end_sec": 1406.0,
+      "state": "P"
+    }
+  ],
+  "erroneous_or_unfounded_changes": [
+    "用户T被改为U，缺乏足以推翻用户T的证据；以U关闭监督不构成完成类型复审。"
+  ],
+  "recommended_intervals": [
+    {
+      "start_sec": 0,
+      "end_sec": 317,
+      "state": "N",
+      "reason": "保留用户N，所见原有细流本身为允许N的状态。",
+      "confidence": "inherited"
+    },
+    {
+      "start_sec": 317,
+      "end_sec": 497.34,
+      "state": "T",
+      "reason": "保留用户T。左侧来流从细分汊逐步形成不透明连续流带，覆盖和包绕原可见床面，后部可见不规则暗纹随流更新；这些组合给出含料输运嫌疑，但早段目标证据较弱。",
+      "confidence": "low_to_medium"
+    },
+    {
+      "start_sec": 497.34,
+      "end_sec": 1406,
+      "state": "P",
+      "reason": "用户P边界沿用；已看497.34附近至519.85，后续未重新认证。",
+      "confidence": "inherited"
+    }
+  ],
+  "evidence_actually_observed": [
+    {
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/batch-b/v1_63-boundary.jpg",
+      "frame_manifest": "data/process/annotation-review/recheck-20261108-v3/batch-b/v1_63-boundary.json",
+      "audit_times_actually_viewed": [
+        307.0,
+        309.05,
+        311.09,
+        313.14,
+        315.19,
+        317.23,
+        319.28,
+        321.33,
+        323.37,
+        325.42,
+        327.47,
+        329.51,
+        485.06,
+        487.11,
+        489.15,
+        491.2,
+        493.25,
+        495.29,
+        497.34,
+        499.39,
+        501.43,
+        503.48,
+        505.53,
+        507.57
+      ],
+      "time_basis": "frames_index.csv t_sec; not source seek/PTS",
+      "crop_fraction": [
+        0.0,
+        0.18,
+        0.55,
+        1.0
+      ]
+    },
+    {
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/batch-b/v1_63-overview.jpg",
+      "frame_manifest": "data/process/annotation-review/recheck-20261108-v3/batch-b/v1_63-overview.json",
+      "audit_times_actually_viewed": [
+        280.39,
+        311.09,
+        315.19,
+        317.23,
+        321.33,
+        329.51,
+        341.79,
+        360.21,
+        390.91,
+        419.57,
+        450.27,
+        480.97,
+        493.25,
+        497.34,
+        501.43,
+        519.85
+      ],
+      "time_basis": "frames_index.csv t_sec; not source seek/PTS",
+      "crop_fraction": null
+    }
+  ],
+  "all_audit_times_actually_viewed": [
+    280.39,
+    307.0,
+    309.05,
+    311.09,
+    313.14,
+    315.19,
+    317.23,
+    319.28,
+    321.33,
+    323.37,
+    325.42,
+    327.47,
+    329.51,
+    341.79,
+    360.21,
+    390.91,
+    419.57,
+    450.27,
+    480.97,
+    485.06,
+    487.11,
+    489.15,
+    491.2,
+    493.25,
+    495.29,
+    497.34,
+    499.39,
+    501.43,
+    503.48,
+    505.53,
+    507.57,
+    519.85
+  ],
+  "observation_scope": "Ordered cached frames around boundaries plus early/middle/late navigation; raw dense windows only where explicitly listed. No claim of uninterrupted full-video examination.",
+  "transition_target_signs": "相对前段已认可N，原极细流后出现连续不透明来流及不规则表面组织，向画面近侧连通并包绕裸露区域；317附近变化很弱，后段更明显。",
+  "transition_gap_before_P": "加宽和运动也可属于普通水流；317附近没有独立可辨的物料前缘，部分暗纹可能是床面。不能据此独立证明整段T或泥石流类型。",
+  "inherited_not_continuously_reobserved": [
+    {
+      "start_sec": 0,
+      "end_sec": 280.39,
+      "state": "N",
+      "limitation": "未重新观看"
+    },
+    {
+      "start_sec": 519.85,
+      "end_sec": 1406,
+      "state": "P",
+      "limitation": "未重新观看"
+    }
+  ],
+  "pending_evidence": [
+    "原用户边界精度未作原片逐帧重定；当前建议恢复工作标签，低把握另记。"
+  ],
+  "prohibited_shortcuts_avoided": [
+    "未用来源目录、黄色、流量大小、阵流或有运动单独定P",
+    "未把固定岸石/床面代替实际流体观察",
+    "未新增U/A，未以大面积关闭监督代替审计",
+    "未用模型预测定义真值"
+  ],
+  "cut_policy": "Preserve proposals-v3 cut union exactly; decoder startup corruption is not a new user cut.",
+  "source_document_support": null
+}

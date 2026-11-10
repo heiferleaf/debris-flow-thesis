@@ -1,0 +1,3 @@
+﻿video_id,video_key,start_sec,end_sec,confidence,kind,note
+cam1,v3_01,0,240,real,pos,整段正样本（叶海峰 2026-09-17 定：DeFlow 两段均为正样本）
+cam2,v3_02,0,240,real,pos,整段正样本（叶海峰 2026-09-17 定：DeFlow 两段均为正样本）

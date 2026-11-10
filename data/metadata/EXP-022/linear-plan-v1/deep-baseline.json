@@ -1,0 +1,1336 @@
+{
+  "folds": [
+    {
+      "fold": 1,
+      "scores": [
+        {
+          "unit_id": "v1_07",
+          "group_id": "d|鸡冠山下游|2023-08-02",
+          "label": 1,
+          "score": 0.5111453533172607,
+          "windows": 705,
+          "fold": 1
+        },
+        {
+          "unit_id": "v1_08",
+          "group_id": "d|鸡冠山下游|2023-08-02",
+          "label": 1,
+          "score": 0.5109286904335022,
+          "windows": 705,
+          "fold": 1
+        },
+        {
+          "unit_id": "v1_09",
+          "group_id": "d|鸡冠山下游|2023-08-02",
+          "label": 1,
+          "score": 0.5113210678100586,
+          "windows": 531,
+          "fold": 1
+        },
+        {
+          "unit_id": "v1_10",
+          "group_id": "d|鸡冠山下游|2023-08-02",
+          "label": 1,
+          "score": 0.510932981967926,
+          "windows": 704,
+          "fold": 1
+        },
+        {
+          "unit_id": "v1_11",
+          "group_id": "d|鸡冠山下游|2023-08-02",
+          "label": 1,
+          "score": 0.510851263999939,
+          "windows": 744,
+          "fold": 1
+        },
+        {
+          "unit_id": "v1_12",
+          "group_id": "d|鸡冠山下游|2023-08-02",
+          "label": 1,
+          "score": 0.5105530619621277,
+          "windows": 1126,
+          "fold": 1
+        },
+        {
+          "unit_id": "v1_27",
+          "group_id": "d|塔吊下游|2025-07-19",
+          "label": 1,
+          "score": 0.5117985606193542,
+          "windows": 763,
+          "fold": 1
+        },
+        {
+          "unit_id": "v1_28",
+          "group_id": "d|塔吊下游|2025-07-19",
+          "label": 1,
+          "score": 0.5119603276252747,
+          "windows": 938,
+          "fold": 1
+        },
+        {
+          "unit_id": "v1_29",
+          "group_id": "d|塔吊下游|2025-07-19",
+          "label": 1,
+          "score": 0.5117988586425781,
+          "windows": 938,
+          "fold": 1
+        },
+        {
+          "unit_id": "v1_39",
+          "group_id": "d|鸡冠山上游|2025-07-19",
+          "label": 1,
+          "score": 0.5109139084815979,
+          "windows": 118,
+          "fold": 1
+        },
+        {
+          "unit_id": "v1_40",
+          "group_id": "d|鸡冠山上游|2025-07-19",
+          "label": 1,
+          "score": 0.5125252604484558,
+          "windows": 334,
+          "fold": 1
+        },
+        {
+          "unit_id": "v1_41",
+          "group_id": "d|鸡冠山上游|2025-07-19",
+          "label": 1,
+          "score": 0.5112733244895935,
+          "windows": 374,
+          "fold": 1
+        },
+        {
+          "unit_id": "v1_42",
+          "group_id": "d|鸡冠山上游|2025-07-19",
+          "label": 1,
+          "score": 0.511192798614502,
+          "windows": 350,
+          "fold": 1
+        },
+        {
+          "unit_id": "v1_43",
+          "group_id": "d|鸡冠山上游|2025-07-19",
+          "label": 1,
+          "score": 0.5112823247909546,
+          "windows": 335,
+          "fold": 1
+        },
+        {
+          "unit_id": "v1_44",
+          "group_id": "d|鸡冠山上游|2025-07-19",
+          "label": 1,
+          "score": 0.5111011266708374,
+          "windows": 225,
+          "fold": 1
+        },
+        {
+          "unit_id": "v1_45",
+          "group_id": "d|鸡冠山上游|2025-07-19",
+          "label": 1,
+          "score": 0.5109259486198425,
+          "windows": 26,
+          "fold": 1
+        },
+        {
+          "unit_id": "v1_46",
+          "group_id": "d|鸡冠山上游|2025-07-19",
+          "label": 1,
+          "score": 0.5108576416969299,
+          "windows": 35,
+          "fold": 1
+        },
+        {
+          "unit_id": "v1_47",
+          "group_id": "d|鸡冠山上游|2025-07-19",
+          "label": 1,
+          "score": 0.5107842683792114,
+          "windows": 14,
+          "fold": 1
+        },
+        {
+          "unit_id": "v1_48",
+          "group_id": "d|鸡冠山上游|2025-07-19",
+          "label": 1,
+          "score": 0.5108008980751038,
+          "windows": 26,
+          "fold": 1
+        },
+        {
+          "unit_id": "v1_49",
+          "group_id": "d|鸡冠山上游|2025-07-19",
+          "label": 1,
+          "score": 0.5107704401016235,
+          "windows": 31,
+          "fold": 1
+        },
+        {
+          "unit_id": "v1_69",
+          "group_id": "d|门前沟中游|2025-07-24",
+          "label": 1,
+          "score": 0.5121718049049377,
+          "windows": 577,
+          "fold": 1
+        },
+        {
+          "unit_id": "v1_70",
+          "group_id": "d|门前沟中游|2025-07-24",
+          "label": 1,
+          "score": 0.5118516683578491,
+          "windows": 120,
+          "fold": 1
+        },
+        {
+          "unit_id": "v1_72",
+          "group_id": "d|门前沟中游|2025-07-24",
+          "label": 1,
+          "score": 0.5115494132041931,
+          "windows": 529,
+          "fold": 1
+        },
+        {
+          "unit_id": "v4_01",
+          "group_id": "d|多照沟（门前多照汇口）|2026-08-18",
+          "label": 0,
+          "score": 0.5123571157455444,
+          "windows": 1222,
+          "fold": 1
+        },
+        {
+          "unit_id": "v4_02",
+          "group_id": "d|多照沟（门前多照汇口）|2026-08-18",
+          "label": 0,
+          "score": 0.5115802884101868,
+          "windows": 1203,
+          "fold": 1
+        },
+        {
+          "unit_id": "v4_03",
+          "group_id": "d|多照沟（门前多照汇口）|2026-08-18",
+          "label": 0,
+          "score": 0.511586606502533,
+          "windows": 1204,
+          "fold": 1
+        },
+        {
+          "unit_id": "v4_04",
+          "group_id": "d|多照沟（门前多照汇口）|2026-08-18",
+          "label": 0,
+          "score": 0.5114673376083374,
+          "windows": 1218,
+          "fold": 1
+        },
+        {
+          "unit_id": "v4_05",
+          "group_id": "d|多照沟（门前多照汇口）|2026-08-18",
+          "label": 0,
+          "score": 0.5114180445671082,
+          "windows": 1222,
+          "fold": 1
+        },
+        {
+          "unit_id": "v4_06",
+          "group_id": "d|多照沟（门前多照汇口）|2026-08-18",
+          "label": 0,
+          "score": 0.5114104151725769,
+          "windows": 1207,
+          "fold": 1
+        },
+        {
+          "unit_id": "v5_05",
+          "group_id": "d|多照沟（门前多照汇口）|2026-08-18",
+          "label": 0,
+          "score": 0.51185142993927,
+          "windows": 1281,
+          "fold": 1
+        },
+        {
+          "unit_id": "v5_06",
+          "group_id": "d|多照沟（门前多照汇口）|2026-08-18",
+          "label": 0,
+          "score": 0.511719822883606,
+          "windows": 1316,
+          "fold": 1
+        },
+        {
+          "unit_id": "v5_07",
+          "group_id": "d|多照沟（门前多照汇口）|2026-08-18",
+          "label": 0,
+          "score": 0.5115912556648254,
+          "windows": 1308,
+          "fold": 1
+        },
+        {
+          "unit_id": "v5_09",
+          "group_id": "d|多照沟（门前多照汇口）|2026-08-18",
+          "label": 0,
+          "score": 0.5120874643325806,
+          "windows": 1352,
+          "fold": 1
+        }
+      ],
+      "metrics": {
+        "status": "complete",
+        "P": 23,
+        "N": 10,
+        "TP": 23,
+        "FP": 10,
+        "FN": 0,
+        "TN": 0,
+        "Recall": 1.0,
+        "FPR": 1.0,
+        "Precision": 0.696969696969697,
+        "F1": 0.8214285714285714,
+        "AUC": 0.22608695652173913
+      },
+      "selected_epochs": 15,
+      "source_run_id": "cv-s7-20261102-v1",
+      "artifact_directory": "data/results/exp017/cv-s7-20261102-v1/fold-01",
+      "result_path": "data/results/exp017/cv-s7-20261102-v1/fold-01/dense/result.json",
+      "result_sha256": "6b73215c6f2ae8c7682b574285a265b10ab390137c8ea62c0e6528e74f8d3228",
+      "window_scores_sha256": "02377d0de8509768a7ff529420e23f001ec865f5017980e51df1cd7909d88e9b",
+      "source": "EXP017 audited original predictions, never rescored"
+    },
+    {
+      "fold": 2,
+      "scores": [
+        {
+          "unit_id": "v1_01",
+          "group_id": "d|鸡冠山上游|2023-08-02",
+          "label": 1,
+          "score": 0.5250030159950256,
+          "windows": 651,
+          "fold": 2
+        },
+        {
+          "unit_id": "v1_02",
+          "group_id": "d|鸡冠山上游|2023-08-02",
+          "label": 1,
+          "score": 0.5235142707824707,
+          "windows": 714,
+          "fold": 2
+        },
+        {
+          "unit_id": "v1_03",
+          "group_id": "d|鸡冠山上游|2023-08-02",
+          "label": 1,
+          "score": 0.5258509516716003,
+          "windows": 713,
+          "fold": 2
+        },
+        {
+          "unit_id": "v1_04",
+          "group_id": "d|鸡冠山上游|2023-08-02",
+          "label": 1,
+          "score": 0.5254322290420532,
+          "windows": 711,
+          "fold": 2
+        },
+        {
+          "unit_id": "v1_05",
+          "group_id": "d|鸡冠山上游|2023-08-02",
+          "label": 1,
+          "score": 0.526010274887085,
+          "windows": 710,
+          "fold": 2
+        },
+        {
+          "unit_id": "v1_100",
+          "group_id": "d|塔吊下游|2025-07-29",
+          "label": 1,
+          "score": 0.5256530046463013,
+          "windows": 932,
+          "fold": 2
+        },
+        {
+          "unit_id": "v1_31",
+          "group_id": "d|门前沟上游|2025-07-19",
+          "label": 1,
+          "score": 0.5251790285110474,
+          "windows": 872,
+          "fold": 2
+        },
+        {
+          "unit_id": "v1_32",
+          "group_id": "d|门前沟上游|2025-07-19",
+          "label": 1,
+          "score": 0.5175088047981262,
+          "windows": 965,
+          "fold": 2
+        },
+        {
+          "unit_id": "v1_33",
+          "group_id": "d|门前沟上游|2025-07-19",
+          "label": 1,
+          "score": 0.5137693285942078,
+          "windows": 1181,
+          "fold": 2
+        },
+        {
+          "unit_id": "v1_35",
+          "group_id": "d|门前沟中游|2025-07-19",
+          "label": 1,
+          "score": 0.5248115658760071,
+          "windows": 924,
+          "fold": 2
+        },
+        {
+          "unit_id": "v1_37",
+          "group_id": "d|门前沟中游|2025-07-19",
+          "label": 1,
+          "score": 0.5182812213897705,
+          "windows": 937,
+          "fold": 2
+        },
+        {
+          "unit_id": "v1_50",
+          "group_id": "d|鸡冠山下游|2025-07-19",
+          "label": 1,
+          "score": 0.5273848176002502,
+          "windows": 1097,
+          "fold": 2
+        },
+        {
+          "unit_id": "v1_51",
+          "group_id": "d|鸡冠山下游|2025-07-19",
+          "label": 1,
+          "score": 0.522982656955719,
+          "windows": 1128,
+          "fold": 2
+        },
+        {
+          "unit_id": "v1_52",
+          "group_id": "d|鸡冠山下游|2025-07-19",
+          "label": 1,
+          "score": 0.5229579210281372,
+          "windows": 1119,
+          "fold": 2
+        },
+        {
+          "unit_id": "v1_95",
+          "group_id": "d|塔吊下游|2025-07-29",
+          "label": 1,
+          "score": 0.5191144347190857,
+          "windows": 938,
+          "fold": 2
+        },
+        {
+          "unit_id": "v1_96",
+          "group_id": "d|塔吊下游|2025-07-29",
+          "label": 0,
+          "score": 0.518281102180481,
+          "windows": 938,
+          "fold": 2
+        },
+        {
+          "unit_id": "v1_97",
+          "group_id": "d|塔吊下游|2025-07-29",
+          "label": 0,
+          "score": 0.5183157920837402,
+          "windows": 306,
+          "fold": 2
+        },
+        {
+          "unit_id": "v1_98",
+          "group_id": "d|塔吊下游|2025-07-29",
+          "label": 1,
+          "score": 0.5201185941696167,
+          "windows": 938,
+          "fold": 2
+        },
+        {
+          "unit_id": "v1_99",
+          "group_id": "d|塔吊下游|2025-07-29",
+          "label": 1,
+          "score": 0.5198432803153992,
+          "windows": 941,
+          "fold": 2
+        },
+        {
+          "unit_id": "v4_12",
+          "group_id": "d|塔吊上游|2026-08-18",
+          "label": 1,
+          "score": 0.5189942717552185,
+          "windows": 1201,
+          "fold": 2
+        },
+        {
+          "unit_id": "v4_13",
+          "group_id": "d|塔吊上游|2026-08-18",
+          "label": 1,
+          "score": 0.520185112953186,
+          "windows": 1517,
+          "fold": 2
+        },
+        {
+          "unit_id": "v4_14",
+          "group_id": "d|塔吊上游|2026-08-18",
+          "label": 1,
+          "score": 0.5209905505180359,
+          "windows": 1525,
+          "fold": 2
+        },
+        {
+          "unit_id": "v4_15",
+          "group_id": "d|塔吊上游|2026-08-18",
+          "label": 1,
+          "score": 0.5180736780166626,
+          "windows": 1504,
+          "fold": 2
+        },
+        {
+          "unit_id": "v4_16",
+          "group_id": "d|塔吊上游|2026-08-18",
+          "label": 1,
+          "score": 0.5163818597793579,
+          "windows": 1467,
+          "fold": 2
+        },
+        {
+          "unit_id": "v4_17",
+          "group_id": "d|塔吊上游|2026-08-18",
+          "label": 1,
+          "score": 0.5152372717857361,
+          "windows": 1365,
+          "fold": 2
+        },
+        {
+          "unit_id": "v5_17",
+          "group_id": "d|塔吊上游|2026-08-18",
+          "label": 0,
+          "score": 0.5168053507804871,
+          "windows": 1366,
+          "fold": 2
+        },
+        {
+          "unit_id": "v5_18",
+          "group_id": "d|塔吊上游|2026-08-18",
+          "label": 0,
+          "score": 0.517559289932251,
+          "windows": 1379,
+          "fold": 2
+        },
+        {
+          "unit_id": "v5_19",
+          "group_id": "d|塔吊上游|2026-08-18",
+          "label": 0,
+          "score": 0.5175508260726929,
+          "windows": 1387,
+          "fold": 2
+        },
+        {
+          "unit_id": "v5_20",
+          "group_id": "d|塔吊上游|2026-08-18",
+          "label": 0,
+          "score": 0.518142819404602,
+          "windows": 1402,
+          "fold": 2
+        }
+      ],
+      "metrics": {
+        "status": "complete",
+        "P": 23,
+        "N": 6,
+        "TP": 23,
+        "FP": 6,
+        "FN": 0,
+        "TN": 0,
+        "Recall": 1.0,
+        "FPR": 1.0,
+        "Precision": 0.7931034482758621,
+        "F1": 0.8846153846153846,
+        "AUC": 0.8043478260869565
+      },
+      "selected_epochs": 15,
+      "source_run_id": "cv-s7-20261102-v2",
+      "artifact_directory": "data/results/exp017/cv-s7-20261102-v2/fold-02",
+      "result_path": "data/results/exp017/cv-s7-20261102-v2/fold-02/dense/result.json",
+      "result_sha256": "880df0db02a34bbbf071d59535f574b81d30dbec8b903feab7b96d6f84191e65",
+      "window_scores_sha256": "8c5bbd5ebd0dd23a686ab02c9217fe52e9da707ae20fd3107df8fd775d5ab77a",
+      "source": "EXP017 audited original predictions, never rescored"
+    },
+    {
+      "fold": 3,
+      "scores": [
+        {
+          "unit_id": "v1_13",
+          "group_id": "d|鸡冠山上游|2024-07-28",
+          "label": 1,
+          "score": 0.8885164260864258,
+          "windows": 921,
+          "fold": 3
+        },
+        {
+          "unit_id": "v1_14",
+          "group_id": "d|鸡冠山上游|2024-07-28",
+          "label": 1,
+          "score": 1.0,
+          "windows": 952,
+          "fold": 3
+        },
+        {
+          "unit_id": "v1_15",
+          "group_id": "d|鸡冠山上游|2024-07-28",
+          "label": 1,
+          "score": 0.9999843835830688,
+          "windows": 947,
+          "fold": 3
+        },
+        {
+          "unit_id": "v1_16",
+          "group_id": "d|鸡冠山下游|2024-07-28",
+          "label": 1,
+          "score": 0.9632261991500854,
+          "windows": 1178,
+          "fold": 3
+        },
+        {
+          "unit_id": "v1_17",
+          "group_id": "d|鸡冠山下游|2024-07-28",
+          "label": 1,
+          "score": 1.0,
+          "windows": 1270,
+          "fold": 3
+        },
+        {
+          "unit_id": "v1_18",
+          "group_id": "d|鸡冠山下游|2024-07-28",
+          "label": 1,
+          "score": 0.999996542930603,
+          "windows": 1216,
+          "fold": 3
+        },
+        {
+          "unit_id": "v1_67",
+          "group_id": "d|门前沟上游|2025-07-24",
+          "label": 1,
+          "score": 0.9938983917236328,
+          "windows": 701,
+          "fold": 3
+        },
+        {
+          "unit_id": "v1_68",
+          "group_id": "d|门前沟上游|2025-07-24",
+          "label": 1,
+          "score": 1.0,
+          "windows": 1145,
+          "fold": 3
+        },
+        {
+          "unit_id": "v1_73",
+          "group_id": "d|鸡冠山上游|2025-07-24",
+          "label": 1,
+          "score": 0.5022124648094177,
+          "windows": 29,
+          "fold": 3
+        },
+        {
+          "unit_id": "v1_76",
+          "group_id": "d|鸡冠山上游|2025-07-24",
+          "label": 1,
+          "score": 0.5463454127311707,
+          "windows": 32,
+          "fold": 3
+        },
+        {
+          "unit_id": "v1_77",
+          "group_id": "d|鸡冠山上游|2025-07-24",
+          "label": 1,
+          "score": 0.596951961517334,
+          "windows": 32,
+          "fold": 3
+        },
+        {
+          "unit_id": "v1_78",
+          "group_id": "d|鸡冠山上游|2025-07-24",
+          "label": 1,
+          "score": 0.6122567653656006,
+          "windows": 51,
+          "fold": 3
+        },
+        {
+          "unit_id": "v1_79",
+          "group_id": "d|鸡冠山上游|2025-07-24",
+          "label": 1,
+          "score": 0.5092101693153381,
+          "windows": 39,
+          "fold": 3
+        },
+        {
+          "unit_id": "v1_81",
+          "group_id": "d|鸡冠山下游|2025-07-24",
+          "label": 1,
+          "score": 0.5054897665977478,
+          "windows": 1099,
+          "fold": 3
+        },
+        {
+          "unit_id": "v1_82",
+          "group_id": "d|鸡冠山下游|2025-07-24",
+          "label": 1,
+          "score": 0.980012059211731,
+          "windows": 1060,
+          "fold": 3
+        },
+        {
+          "unit_id": "v1_83",
+          "group_id": "d|鸡冠山下游|2025-07-24",
+          "label": 1,
+          "score": 0.5083371996879578,
+          "windows": 1064,
+          "fold": 3
+        },
+        {
+          "unit_id": "v1_84",
+          "group_id": "d|鸡冠山下游|2025-07-24",
+          "label": 1,
+          "score": 0.5074403285980225,
+          "windows": 1070,
+          "fold": 3
+        },
+        {
+          "unit_id": "v4_18",
+          "group_id": "d|1号塔下游|2026-08-18",
+          "label": 1,
+          "score": 0.5041210651397705,
+          "windows": 1681,
+          "fold": 3
+        },
+        {
+          "unit_id": "v4_19",
+          "group_id": "d|1号塔下游|2026-08-18",
+          "label": 1,
+          "score": 0.5024860501289368,
+          "windows": 1866,
+          "fold": 3
+        },
+        {
+          "unit_id": "v4_20",
+          "group_id": "d|1号塔下游|2026-08-18",
+          "label": 1,
+          "score": 0.5026240944862366,
+          "windows": 1957,
+          "fold": 3
+        },
+        {
+          "unit_id": "v4_21",
+          "group_id": "d|1号塔下游|2026-08-18",
+          "label": 1,
+          "score": 0.5027973055839539,
+          "windows": 1917,
+          "fold": 3
+        },
+        {
+          "unit_id": "v4_22",
+          "group_id": "d|1号塔下游|2026-08-18",
+          "label": 1,
+          "score": 0.5029805898666382,
+          "windows": 1893,
+          "fold": 3
+        },
+        {
+          "unit_id": "v5_01",
+          "group_id": "d|1号塔广角|2026-08-18",
+          "label": 0,
+          "score": 0.5020508170127869,
+          "windows": 1487,
+          "fold": 3
+        },
+        {
+          "unit_id": "v5_02",
+          "group_id": "d|1号塔广角|2026-08-18",
+          "label": 0,
+          "score": 0.5022532939910889,
+          "windows": 1476,
+          "fold": 3
+        },
+        {
+          "unit_id": "v5_03",
+          "group_id": "d|1号塔广角|2026-08-18",
+          "label": 0,
+          "score": 0.5022236108779907,
+          "windows": 1383,
+          "fold": 3
+        },
+        {
+          "unit_id": "v5_04",
+          "group_id": "d|1号塔广角|2026-08-18",
+          "label": 0,
+          "score": 0.6776184439659119,
+          "windows": 1422,
+          "fold": 3
+        },
+        {
+          "unit_id": "v5_21",
+          "group_id": "d|1号塔下游|2026-08-18",
+          "label": 0,
+          "score": 0.5021026134490967,
+          "windows": 1800,
+          "fold": 3
+        },
+        {
+          "unit_id": "v5_22",
+          "group_id": "d|1号塔下游|2026-08-18",
+          "label": 0,
+          "score": 0.5024094581604004,
+          "windows": 1784,
+          "fold": 3
+        },
+        {
+          "unit_id": "v5_23",
+          "group_id": "d|1号塔下游|2026-08-18",
+          "label": 0,
+          "score": 0.5035707950592041,
+          "windows": 1848,
+          "fold": 3
+        }
+      ],
+      "metrics": {
+        "status": "complete",
+        "P": 22,
+        "N": 7,
+        "TP": 22,
+        "FP": 7,
+        "FN": 0,
+        "TN": 0,
+        "Recall": 1.0,
+        "FPR": 1.0,
+        "Precision": 0.7586206896551724,
+        "F1": 0.8627450980392157,
+        "AUC": 0.8636363636363636
+      },
+      "selected_epochs": 6,
+      "source_run_id": "cv-s7-20261102-v2",
+      "artifact_directory": "data/results/exp017/cv-s7-20261102-v2/fold-03",
+      "result_path": "data/results/exp017/cv-s7-20261102-v2/fold-03/dense/result.json",
+      "result_sha256": "7f3fb3547a134617ad359fef794a7a1130d06dbf0bffa222827ed57b6b828142",
+      "window_scores_sha256": "6a256e5357c66b01f90d9c0301167a4745f9998acc355f681c5fec57a0085624",
+      "source": "EXP017 audited original predictions, never rescored"
+    },
+    {
+      "fold": 4,
+      "scores": [
+        {
+          "unit_id": "v1_105",
+          "group_id": "d|门前沟中游|2025-07-29",
+          "label": 1,
+          "score": 0.9039945006370544,
+          "windows": 938,
+          "fold": 4
+        },
+        {
+          "unit_id": "v1_106",
+          "group_id": "d|门前沟中游|2025-07-29",
+          "label": 1,
+          "score": 0.9031561017036438,
+          "windows": 938,
+          "fold": 4
+        },
+        {
+          "unit_id": "v1_107",
+          "group_id": "d|门前沟中游|2025-07-29",
+          "label": 1,
+          "score": 0.8998873829841614,
+          "windows": 938,
+          "fold": 4
+        },
+        {
+          "unit_id": "v1_108",
+          "group_id": "d|门前沟中游|2025-07-29",
+          "label": 1,
+          "score": 0.8978142738342285,
+          "windows": 937,
+          "fold": 4
+        },
+        {
+          "unit_id": "v1_109",
+          "group_id": "d|门前沟中游|2025-07-29",
+          "label": 1,
+          "score": 0.8983835577964783,
+          "windows": 755,
+          "fold": 4
+        },
+        {
+          "unit_id": "v1_110",
+          "group_id": "d|鸡冠山上游|2025-07-29",
+          "label": 0,
+          "score": 0.8266640305519104,
+          "windows": 60,
+          "fold": 4
+        },
+        {
+          "unit_id": "v1_111",
+          "group_id": "d|鸡冠山上游|2025-07-29",
+          "label": 0,
+          "score": 0.8798828721046448,
+          "windows": 16,
+          "fold": 4
+        },
+        {
+          "unit_id": "v1_112",
+          "group_id": "d|鸡冠山上游|2025-07-29",
+          "label": 0,
+          "score": 0.8971235752105713,
+          "windows": 35,
+          "fold": 4
+        },
+        {
+          "unit_id": "v1_113",
+          "group_id": "d|鸡冠山上游|2025-07-29",
+          "label": 0,
+          "score": 0.8904018998146057,
+          "windows": 70,
+          "fold": 4
+        },
+        {
+          "unit_id": "v1_114",
+          "group_id": "d|鸡冠山上游|2025-07-29",
+          "label": 1,
+          "score": 0.9272444248199463,
+          "windows": 26,
+          "fold": 4
+        },
+        {
+          "unit_id": "v1_117",
+          "group_id": "d|鸡冠山上游|2025-07-29",
+          "label": 1,
+          "score": 0.9258387088775635,
+          "windows": 57,
+          "fold": 4
+        },
+        {
+          "unit_id": "v1_118",
+          "group_id": "d|鸡冠山上游|2025-07-29",
+          "label": 1,
+          "score": 0.9304075837135315,
+          "windows": 176,
+          "fold": 4
+        },
+        {
+          "unit_id": "v1_119",
+          "group_id": "d|鸡冠山上游|2025-07-29",
+          "label": 1,
+          "score": 0.9325107336044312,
+          "windows": 504,
+          "fold": 4
+        },
+        {
+          "unit_id": "v1_120",
+          "group_id": "d|鸡冠山下游|2025-07-29",
+          "label": 0,
+          "score": 0.8499260544776917,
+          "windows": 1080,
+          "fold": 4
+        },
+        {
+          "unit_id": "v1_121",
+          "group_id": "d|鸡冠山下游|2025-07-29",
+          "label": 0,
+          "score": 0.7400206327438354,
+          "windows": 1022,
+          "fold": 4
+        },
+        {
+          "unit_id": "v1_122",
+          "group_id": "d|鸡冠山下游|2025-07-29",
+          "label": 1,
+          "score": 0.8579598665237427,
+          "windows": 1075,
+          "fold": 4
+        },
+        {
+          "unit_id": "v1_123",
+          "group_id": "d|鸡冠山下游|2025-07-29",
+          "label": 1,
+          "score": 0.8725363612174988,
+          "windows": 1107,
+          "fold": 4
+        },
+        {
+          "unit_id": "v1_19",
+          "group_id": "d|九弯地沟下游|2025-07-19",
+          "label": 1,
+          "score": 0.9285301566123962,
+          "windows": 69,
+          "fold": 4
+        },
+        {
+          "unit_id": "v1_20",
+          "group_id": "d|九弯地沟下游|2025-07-19",
+          "label": 1,
+          "score": 0.9194685816764832,
+          "windows": 650,
+          "fold": 4
+        },
+        {
+          "unit_id": "v1_21",
+          "group_id": "d|九弯地沟下游|2025-07-19",
+          "label": 1,
+          "score": 0.9191752076148987,
+          "windows": 753,
+          "fold": 4
+        },
+        {
+          "unit_id": "v1_22",
+          "group_id": "d|九弯地沟下游|2025-07-19",
+          "label": 1,
+          "score": 0.8980340361595154,
+          "windows": 938,
+          "fold": 4
+        },
+        {
+          "unit_id": "v1_55",
+          "group_id": "d|九弯地沟下游|2025-07-24",
+          "label": 1,
+          "score": 0.9171869158744812,
+          "windows": 221,
+          "fold": 4
+        },
+        {
+          "unit_id": "v1_56",
+          "group_id": "d|九弯地沟下游|2025-07-24",
+          "label": 1,
+          "score": 0.9109501838684082,
+          "windows": 938,
+          "fold": 4
+        },
+        {
+          "unit_id": "v1_60",
+          "group_id": "d|塔吊下游|2025-07-24",
+          "label": 1,
+          "score": 0.8377509713172913,
+          "windows": 938,
+          "fold": 4
+        },
+        {
+          "unit_id": "v1_61",
+          "group_id": "d|塔吊下游|2025-07-24",
+          "label": 1,
+          "score": 0.8292386531829834,
+          "windows": 938,
+          "fold": 4
+        },
+        {
+          "unit_id": "v1_62",
+          "group_id": "d|塔吊下游|2025-07-24",
+          "label": 0,
+          "score": 0.8479951620101929,
+          "windows": 938,
+          "fold": 4
+        },
+        {
+          "unit_id": "v1_63",
+          "group_id": "d|塔吊下游|2025-07-24",
+          "label": 1,
+          "score": 0.8734692335128784,
+          "windows": 919,
+          "fold": 4
+        },
+        {
+          "unit_id": "v1_64",
+          "group_id": "d|塔吊下游|2025-07-24",
+          "label": 1,
+          "score": 0.885184645652771,
+          "windows": 938,
+          "fold": 4
+        },
+        {
+          "unit_id": "v1_65",
+          "group_id": "d|塔吊下游|2025-07-24",
+          "label": 1,
+          "score": 0.8802363872528076,
+          "windows": 938,
+          "fold": 4
+        }
+      ],
+      "metrics": {
+        "status": "complete",
+        "P": 22,
+        "N": 7,
+        "TP": 22,
+        "FP": 7,
+        "FN": 0,
+        "TN": 0,
+        "Recall": 1.0,
+        "FPR": 1.0,
+        "Precision": 0.7586206896551724,
+        "F1": 0.8627450980392157,
+        "AUC": 0.8506493506493507
+      },
+      "selected_epochs": 10,
+      "source_run_id": "cv-s7-20261102-v2",
+      "artifact_directory": "data/results/exp017/cv-s7-20261102-v2/fold-04",
+      "result_path": "data/results/exp017/cv-s7-20261102-v2/fold-04/dense/result.json",
+      "result_sha256": "ee0d2f2932ce502c943182d0d69ed87fe9432359eb5fb4f7d85f2839912970e2",
+      "window_scores_sha256": "a7eed1904464e6caa9b3bd4bc16290a0e7e24c403d040bd53c9e27f3dc83ca82",
+      "source": "EXP017 audited original predictions, never rescored"
+    },
+    {
+      "fold": 5,
+      "scores": [
+        {
+          "unit_id": "v1_101",
+          "group_id": "d|门前沟上游|2025-07-29",
+          "label": 1,
+          "score": 0.5214377045631409,
+          "windows": 1274,
+          "fold": 5
+        },
+        {
+          "unit_id": "v1_102",
+          "group_id": "d|门前沟上游|2025-07-29",
+          "label": 1,
+          "score": 0.5214646458625793,
+          "windows": 1266,
+          "fold": 5
+        },
+        {
+          "unit_id": "v1_103",
+          "group_id": "d|门前沟上游|2025-07-29",
+          "label": 1,
+          "score": 0.5213157534599304,
+          "windows": 1272,
+          "fold": 5
+        },
+        {
+          "unit_id": "v1_104",
+          "group_id": "d|门前沟上游|2025-07-29",
+          "label": 1,
+          "score": 0.52152419090271,
+          "windows": 1216,
+          "fold": 5
+        },
+        {
+          "unit_id": "v1_24",
+          "group_id": "d|塔吊上游|2025-07-19",
+          "label": 1,
+          "score": 0.5229419469833374,
+          "windows": 1068,
+          "fold": 5
+        },
+        {
+          "unit_id": "v1_25",
+          "group_id": "d|塔吊上游|2025-07-19",
+          "label": 1,
+          "score": 0.5227226614952087,
+          "windows": 1533,
+          "fold": 5
+        },
+        {
+          "unit_id": "v1_57",
+          "group_id": "d|塔吊上游|2025-07-24",
+          "label": 1,
+          "score": 0.5217298865318298,
+          "windows": 1527,
+          "fold": 5
+        },
+        {
+          "unit_id": "v1_58",
+          "group_id": "d|塔吊上游|2025-07-24",
+          "label": 1,
+          "score": 0.5217539668083191,
+          "windows": 1494,
+          "fold": 5
+        },
+        {
+          "unit_id": "v1_59",
+          "group_id": "d|塔吊上游|2025-07-24",
+          "label": 1,
+          "score": 0.52178955078125,
+          "windows": 1525,
+          "fold": 5
+        },
+        {
+          "unit_id": "v1_85",
+          "group_id": "d|九弯地沟下游|2025-07-29",
+          "label": 1,
+          "score": 0.5214473605155945,
+          "windows": 938,
+          "fold": 5
+        },
+        {
+          "unit_id": "v1_86",
+          "group_id": "d|九弯地沟下游|2025-07-29",
+          "label": 1,
+          "score": 0.5214644074440002,
+          "windows": 938,
+          "fold": 5
+        },
+        {
+          "unit_id": "v1_87",
+          "group_id": "d|九弯地沟下游|2025-07-29",
+          "label": 1,
+          "score": 0.5214114785194397,
+          "windows": 938,
+          "fold": 5
+        },
+        {
+          "unit_id": "v1_88",
+          "group_id": "d|九弯地沟下游|2025-07-29",
+          "label": 1,
+          "score": 0.5214650630950928,
+          "windows": 938,
+          "fold": 5
+        },
+        {
+          "unit_id": "v1_89",
+          "group_id": "d|九弯地沟下游|2025-07-29",
+          "label": 1,
+          "score": 0.5214515328407288,
+          "windows": 938,
+          "fold": 5
+        },
+        {
+          "unit_id": "v1_91",
+          "group_id": "d|塔吊上游|2025-07-29",
+          "label": 1,
+          "score": 0.5216845273971558,
+          "windows": 1245,
+          "fold": 5
+        },
+        {
+          "unit_id": "v1_92",
+          "group_id": "d|塔吊上游|2025-07-29",
+          "label": 1,
+          "score": 0.5218623280525208,
+          "windows": 1487,
+          "fold": 5
+        },
+        {
+          "unit_id": "v1_93",
+          "group_id": "d|塔吊上游|2025-07-29",
+          "label": 1,
+          "score": 0.5226330161094666,
+          "windows": 1181,
+          "fold": 5
+        },
+        {
+          "unit_id": "v1_94",
+          "group_id": "d|塔吊上游|2025-07-29",
+          "label": 1,
+          "score": 0.5218719244003296,
+          "windows": 1307,
+          "fold": 5
+        },
+        {
+          "unit_id": "v4_07",
+          "group_id": "d|塔吊下方|2026-08-18",
+          "label": 1,
+          "score": 0.5220094323158264,
+          "windows": 1807,
+          "fold": 5
+        },
+        {
+          "unit_id": "v4_08",
+          "group_id": "d|塔吊下方|2026-08-18",
+          "label": 1,
+          "score": 0.5217746496200562,
+          "windows": 1793,
+          "fold": 5
+        },
+        {
+          "unit_id": "v4_09",
+          "group_id": "d|塔吊下方|2026-08-18",
+          "label": 1,
+          "score": 0.5216969847679138,
+          "windows": 1849,
+          "fold": 5
+        },
+        {
+          "unit_id": "v4_10",
+          "group_id": "d|塔吊下方|2026-08-18",
+          "label": 1,
+          "score": 0.5215196013450623,
+          "windows": 1850,
+          "fold": 5
+        },
+        {
+          "unit_id": "v4_11",
+          "group_id": "d|塔吊下方|2026-08-18",
+          "label": 1,
+          "score": 0.5217997431755066,
+          "windows": 1682,
+          "fold": 5
+        },
+        {
+          "unit_id": "v5_10",
+          "group_id": "d|塔吊下游|2026-08-18",
+          "label": 0,
+          "score": 0.5213668942451477,
+          "windows": 938,
+          "fold": 5
+        },
+        {
+          "unit_id": "v5_11",
+          "group_id": "d|塔吊下游|2026-08-18",
+          "label": 0,
+          "score": 0.5213454961776733,
+          "windows": 938,
+          "fold": 5
+        },
+        {
+          "unit_id": "v5_12",
+          "group_id": "d|塔吊下游|2026-08-18",
+          "label": 0,
+          "score": 0.5213572382926941,
+          "windows": 938,
+          "fold": 5
+        },
+        {
+          "unit_id": "v5_13",
+          "group_id": "d|塔吊下游|2026-08-18",
+          "label": 0,
+          "score": 0.5214678645133972,
+          "windows": 935,
+          "fold": 5
+        },
+        {
+          "unit_id": "v5_14",
+          "group_id": "d|塔吊下游|2026-08-18",
+          "label": 0,
+          "score": 0.5213289260864258,
+          "windows": 938,
+          "fold": 5
+        },
+        {
+          "unit_id": "v5_15",
+          "group_id": "d|塔吊下游|2026-08-18",
+          "label": 0,
+          "score": 0.5212936401367188,
+          "windows": 938,
+          "fold": 5
+        },
+        {
+          "unit_id": "v5_16",
+          "group_id": "d|塔吊下游|2026-08-18",
+          "label": 0,
+          "score": 0.5212391018867493,
+          "windows": 938,
+          "fold": 5
+        }
+      ],
+      "metrics": {
+        "status": "complete",
+        "P": 23,
+        "N": 7,
+        "TP": 23,
+        "FP": 7,
+        "FN": 0,
+        "TN": 0,
+        "Recall": 1.0,
+        "FPR": 1.0,
+        "Precision": 0.7666666666666667,
+        "F1": 0.8679245283018868,
+        "AUC": 0.9254658385093167
+      },
+      "selected_epochs": 12,
+      "source_run_id": "cv-s7-20261102-v2",
+      "artifact_directory": "data/results/exp017/cv-s7-20261102-v2/fold-05",
+      "result_path": "data/results/exp017/cv-s7-20261102-v2/fold-05/dense/result.json",
+      "result_sha256": "1c9a45de6e78b74438b3c6a78bf3de835400f59a34183332e1cf740d3f4d8565",
+      "window_scores_sha256": "52be7e79289548d7d44f1eeedfa03f307ba289f7c8e923bcf12d1413ae3fa592",
+      "source": "EXP017 audited original predictions, never rescored"
+    }
+  ],
+  "audit_path": "data/results/exp017/audit-resume-cv-s7-20261102-v2-v2/audit.json",
+  "audit_sha256": "4b94b4094336c99bf35e675bd07a72420498fb97bd56f8ee366a75a2b2971c45"
+}

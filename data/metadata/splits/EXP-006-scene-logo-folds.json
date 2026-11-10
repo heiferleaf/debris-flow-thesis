@@ -1,0 +1,122 @@
+{
+ "name": "EXP-006-scene-logo-cv12",
+ "unit": "event_id",
+ "task": "A",
+ "meta": {
+  "seed": 42,
+  "group_column": "scene_group",
+  "group_meaning": "场景组(地址名)",
+  "manifest": "experiments\\repro\\temporal\\runs\\EXP-006-pilot\\segment-manifest-20260924-addrmap.csv",
+  "note": "event_id 字段存划分组 ID(组=防泄题原子,整组同侧);train_temporal.py 生成"
+ },
+ "folds": [
+  {
+   "fold": 1,
+   "val_groups": [
+    "s|1号塔下游"
+   ],
+   "val_segments": 9,
+   "val_windows": 63,
+   "val_frames": 576
+  },
+  {
+   "fold": 2,
+   "val_groups": [
+    "s|九弯地沟下游"
+   ],
+   "val_segments": 13,
+   "val_windows": 79,
+   "val_frames": 716
+  },
+  {
+   "fold": 3,
+   "val_groups": [
+    "s|塔吊上游"
+   ],
+   "val_segments": 22,
+   "val_windows": 146,
+   "val_frames": 1332
+  },
+  {
+   "fold": 4,
+   "val_groups": [
+    "s|塔吊下方"
+   ],
+   "val_segments": 6,
+   "val_windows": 38,
+   "val_frames": 355
+  },
+  {
+   "fold": 5,
+   "val_groups": [
+    "s|塔吊下游"
+   ],
+   "val_segments": 24,
+   "val_windows": 164,
+   "val_frames": 1510
+  },
+  {
+   "fold": 6,
+   "val_groups": [
+    "s|门前沟上游"
+   ],
+   "val_segments": 9,
+   "val_windows": 63,
+   "val_frames": 576
+  },
+  {
+   "fold": 7,
+   "val_groups": [
+    "s|门前沟中游"
+   ],
+   "val_segments": 14,
+   "val_windows": 77,
+   "val_frames": 730
+  },
+  {
+   "fold": 8,
+   "val_groups": [
+    "s|鸡冠山上游"
+   ],
+   "val_segments": 44,
+   "val_windows": 237,
+   "val_frames": 2205
+  },
+  {
+   "fold": 9,
+   "val_groups": [
+    "s|鸡冠山下游"
+   ],
+   "val_segments": 23,
+   "val_windows": 161,
+   "val_frames": 1472
+  },
+  {
+   "fold": 10,
+   "val_groups": [
+    "v2|hard-flood__BV1Xz421z7s1__|seg01"
+   ],
+   "val_segments": 1,
+   "val_windows": 5,
+   "val_frames": 49
+  },
+  {
+   "fold": 11,
+   "val_groups": [
+    "v3|cam1"
+   ],
+   "val_segments": 1,
+   "val_windows": 7,
+   "val_frames": 64
+  },
+  {
+   "fold": 12,
+   "val_groups": [
+    "v3|cam2"
+   ],
+   "val_segments": 1,
+   "val_windows": 7,
+   "val_frames": 64
+  }
+ ]
+}

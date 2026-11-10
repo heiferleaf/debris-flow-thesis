@@ -1,0 +1,261 @@
+{
+  "schema": "cached-interval-visual-adjudication-v1",
+  "reviewer": "a",
+  "unit_id": "v1_96",
+  "requested_interval_seconds": [
+    460,
+    560
+  ],
+  "actual_indexed_pts_range": [
+    460.5,
+    558.74
+  ],
+  "complete": true,
+  "training_ready": false,
+  "preparation_ref": "data/metadata/annotation-review/full-temporal-20261108-v1/reviews/reviewer-a-v196-460-560-preparation.json",
+  "evidence": {
+    "actual_contact_sheets_viewed": 4,
+    "actual_cached_frames_viewed": 49,
+    "actual_original_size_representatives_viewed": 11,
+    "missing_indexed_files": 0,
+    "PTS_backsteps": 0,
+    "index_spacing_seconds": "about 2.04–2.05",
+    "decode_count": 0,
+    "frame_refs": "preparation.frames: sequence_index, t_sec, index_csv_record and JPEG path; panels.page/panel map exact displayed evidence",
+    "panels": [
+      {
+        "path": ".codex/docs/.temp/full-temporal-20261108-v1/fine-reviewer-a-v196-460-560/sheet-01.jpg",
+        "sequence_first": 1,
+        "sequence_last": 16,
+        "time_range_sec": [
+          460.5,
+          491.2
+        ],
+        "actually_viewed": true
+      },
+      {
+        "path": ".codex/docs/.temp/full-temporal-20261108-v1/fine-reviewer-a-v196-460-560/sheet-02.jpg",
+        "sequence_first": 17,
+        "sequence_last": 32,
+        "time_range_sec": [
+          493.25,
+          523.95
+        ],
+        "actually_viewed": true
+      },
+      {
+        "path": ".codex/docs/.temp/full-temporal-20261108-v1/fine-reviewer-a-v196-460-560/sheet-03.jpg",
+        "sequence_first": 33,
+        "sequence_last": 48,
+        "time_range_sec": [
+          525.99,
+          556.69
+        ],
+        "actually_viewed": true
+      },
+      {
+        "path": ".codex/docs/.temp/full-temporal-20261108-v1/fine-reviewer-a-v196-460-560/sheet-04.jpg",
+        "sequence_first": 49,
+        "sequence_last": 49,
+        "time_range_sec": [
+          558.74,
+          558.74
+        ],
+        "actually_viewed": true
+      }
+    ],
+    "original_size_representatives": [
+      {
+        "t_sec": 493.25,
+        "path": "data/process/video_frames/video1_segment/frames/v1_96_frame_000241_t493s.jpg",
+        "index_csv_record": 58163
+      },
+      {
+        "t_sec": 499.39,
+        "path": "data/process/video_frames/video1_segment/frames/v1_96_frame_000244_t499s.jpg",
+        "index_csv_record": 58166
+      },
+      {
+        "t_sec": 501.43,
+        "path": "data/process/video_frames/video1_segment/frames/v1_96_frame_000245_t501s.jpg",
+        "index_csv_record": 58167
+      },
+      {
+        "t_sec": 503.48,
+        "path": "data/process/video_frames/video1_segment/frames/v1_96_frame_000246_t503s.jpg",
+        "index_csv_record": 58168
+      },
+      {
+        "t_sec": 505.53,
+        "path": "data/process/video_frames/video1_segment/frames/v1_96_frame_000247_t506s.jpg",
+        "index_csv_record": 58169
+      },
+      {
+        "t_sec": 507.57,
+        "path": "data/process/video_frames/video1_segment/frames/v1_96_frame_000248_t508s.jpg",
+        "index_csv_record": 58170
+      },
+      {
+        "t_sec": 509.62,
+        "path": "data/process/video_frames/video1_segment/frames/v1_96_frame_000249_t510s.jpg",
+        "index_csv_record": 58171
+      },
+      {
+        "t_sec": 513.71,
+        "path": "data/process/video_frames/video1_segment/frames/v1_96_frame_000251_t514s.jpg",
+        "index_csv_record": 58173
+      },
+      {
+        "t_sec": 523.95,
+        "path": "data/process/video_frames/video1_segment/frames/v1_96_frame_000256_t524s.jpg",
+        "index_csv_record": 58178
+      },
+      {
+        "t_sec": 540.32,
+        "path": "data/process/video_frames/video1_segment/frames/v1_96_frame_000264_t540s.jpg",
+        "index_csv_record": 58186
+      },
+      {
+        "t_sec": 558.74,
+        "path": "data/process/video_frames/video1_segment/frames/v1_96_frame_000273_t559s.jpg",
+        "index_csv_record": 58195
+      }
+    ]
+  },
+  "observations": [
+    {
+      "actual_pts": [
+        460.5,
+        501.43
+      ],
+      "finding": "左槽浅褐色细流/薄水围绕多处露石，中央高出水面的灰色砾床和右侧细水沟相对稳定。水面细纹变化，但未见后述厚实团块阵头；不能仅凭水色和细纹判目标。",
+      "label_assessment": "N相容；此证据不要求把这段改P。",
+      "confidence": "medium"
+    },
+    {
+      "actual_pts": [
+        503.48,
+        505.53
+      ],
+      "finding": "503.48秒左下角最边缘出现极小暗色粗糙入画部分；505.53秒已是可读的凸起弧形边和粗糙颗粒状浆体，主体继续连向左下画外。",
+      "label_assessment": "503.48秒单帧不足以稳健分N/T/P，边界待定U；505.53秒起有正向P证据。小面积不自动是T。",
+      "confidence": "medium_to_high"
+    },
+    {
+      "actual_pts": [
+        505.53,
+        519.85
+      ],
+      "finding": "弧形堆高边从左下向画面左上槽线逐帧推进；507.57/509.62/513.71秒见连续粗糙团块表面和与前缘相连的整体浆体，压过此前可见的浅水/部分细小床纹。固定白石及两岸砾床作为参照，团块与岸床的相对位置连续改变。不是只看到亮水纹或水面涨落；也不能解释成固定沉积边。",
+      "label_assessment": "至少这一短阵支持P，当前N有具体冲突。依据是厚实团块/颗粒浆体整体推进，不仅是运动或弧形外观。",
+      "confidence": "high_for_local_P_candidate"
+    },
+    {
+      "actual_pts": [
+        521.9,
+        558.74
+      ],
+      "finding": "厚实前缘已到更远槽段并消散到小图细纹中，左侧仍有浅褐色连续尾流/局部粗糙条纹，多处露石保留；大部分中央和右床面固定。尾流的目标物料身份比505–519秒弱。",
+      "label_assessment": "不能因阵头通过即补N，不能由同一次事件自动认证全尾段P；若需强监督，尾段列U/复用已有连续物料身份审定。不得制作逐分钟N岛。",
+      "confidence": "low_for_type_high_for_visibility"
+    }
+  ],
+  "decision": {
+    "current_catalog_label": "N throughout reviewed interval",
+    "N_to_P_conflict_confirmed_in_displayed_short_surge": true,
+    "positive_observation_interval_seconds": [
+      505.53,
+      519.85
+    ],
+    "first_clear_P_actual_pts": 505.53,
+    "last_pre_entry_N_compatible_actual_pts": 501.43,
+    "entry_readability_bracket_seconds": [
+      501.43,
+      505.53
+    ],
+    "entry_bracket_is_not_exact_physical_boundary": true,
+    "new_T_interval_confirmed": false,
+    "uncertain_entry_pts": [
+      503.48
+    ],
+    "tail_assessment": "type_unresolved_do_not_auto_N",
+    "recommended_action": "由主审以缓存证据将短阵505.53–519.85秒列为P修订候选；入画边界(501.43,505.53]留待定范围，尾段不自动补N、不外推全片。未直接改标签。"
+  },
+  "limitations": [
+    "已看全部49张约2秒缓存图，非逐原始帧视频，不能声称未展示间隙无短事件。",
+    "透水性/体积分数无法从监控JPEG定量测量；此处判断依赖可见颗粒浆体团块与整体推进形态。",
+    "不以来源、前后已是P、颜色、单纯运动或规模判定。"
+  ],
+  "label_changes": 0,
+  "shared_ledger_changes": 0,
+  "extent_recommendation": {
+    "source_release": "data/metadata/annotation-revisions/npt-20261108-evidence-working-v2/released-intervals.csv",
+    "source_interval_id": "64b3c72b2a7f:L178",
+    "source_explicit_label": "N",
+    "source_explicit_range_seconds": [
+      0,
+      1406
+    ],
+    "media_duration_seconds": 1407.7,
+    "proposed_half_open_intervals": [
+      {
+        "start": 0,
+        "end": 501.43,
+        "state": "N",
+        "evidence_level": "human_reused_with_full_coarse_scan_and_local_2s_cache",
+        "reason": "0–480秒每60秒三现存帧均见分汊浅细水/露石，460.5–501.43秒全部约2s缓存图进一步支持普通薄水，没有厚实团块前缘。保留原N而非认证全片每秒。"
+      },
+      {
+        "start": 501.43,
+        "end": 505.53,
+        "state": "U",
+        "evidence_level": "entry_boundary_uncertain",
+        "reason": "501.43无明确团块，503.48左下角极小入画，505.53可清楚辨认；不强造T。"
+      },
+      {
+        "start": 505.53,
+        "end": 519.85,
+        "state": "P",
+        "evidence_level": "local_cached_sequence_material_transport",
+        "reason": "粗糙颗粒浆体和厚实弧形前缘整体推进，连贯的正向物料输运证据；保守取已清楚正段，右端519.85本身仍为末个正向观察。"
+      },
+      {
+        "start": 519.85,
+        "end": 1406,
+        "state": "U",
+        "evidence_level": "local_tail_uncertainty_plus_full_remaining_coarse_scan",
+        "reason": "521.9–558.74全部2s缓存类型证据变弱，之后600–950及960–1404粗筛仍见连片浅褐色流带/细暗纹。未见明确恢复普通水的反证，也无足以认证整段P的同强度颗粒整体前缘。整段尾U避免将阵间波谷/露石制成N岛。"
+      }
+    ],
+    "onset_uncertainty_range_seconds": [
+      501.43,
+      505.53
+    ],
+    "right_edge_uncertainty_range_seconds": [
+      519.85,
+      521.9
+    ],
+    "right_edge_note": "519.85为最后清楚P样本而不是物理终点；半开区间右端取保守已审范围，边界不确定另存，不以该小数伪装逐原帧精确性。",
+    "unannotated_tail_seconds": [
+      1406,
+      1407.7
+    ],
+    "unannotated_tail_action": "保留未标，不补N或U进原显式范围之外。",
+    "coarse_support_refs": {
+      "report": "data/metadata/annotation-review/full-temporal-20261108-v1/reviews/reviewer-a-offset1620-2419.json",
+      "groups": [
+        "G024",
+        "G025",
+        "G026"
+      ],
+      "blocks": "v1_96-B0001..B0024",
+      "tail_actual_pts_range": [
+        550.55,
+        1404.01
+      ],
+      "scope": "全片72张coarse展示图；2s49张与之有重叠，不相加冒充独立帧数。"
+    },
+    "new_decode_or_extra_full_fine_required": false,
+    "label_changes_made": 0
+  }
+}

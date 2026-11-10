@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-11-08T12:04:31.716220+00:00",
+  "authority": "explicit_user_rejection",
+  "status": "rejected_by_user",
+  "scope": "All 11 dry reference images and the derived ordinary-water first frame. Original generation observations and hashes are retained as historical records, not user acceptance.",
+  "training_ready": false,
+  "items": [
+    {
+      "scene_id": "camera-c9c07aee7f28",
+      "camera": "鸡冠山下游",
+      "asset_role": "dry_reference",
+      "path": "data/process/synthetic-video/dry-scenes-20261108-v1/camera-c9c07aee7f28/dry-reference.png",
+      "sha256": "8c090467aaf05d2ca9a92cca1e2c9372b2ace5f92f802ee323c601a4bf2fb7c4",
+      "status": "rejected_by_user",
+      "reason": "background geometry/texture redrawn unnaturally",
+      "reason_zh": "用户指出背景几何和纹理被不自然地重绘，验收不通过。",
+      "training_ready": false
+    },
+    {
+      "scene_id": "camera-e3e5e0945cbc",
+      "camera": "1号塔下游",
+      "asset_role": "dry_reference",
+      "path": "data/process/synthetic-video/dry-scenes-20261108-v1/camera-e3e5e0945cbc/dry-reference.png",
+      "sha256": "d093abd00a2b5202140d9f84c388e7c2ec0df018e6f86394088b1354c6e92a92",
+      "status": "rejected_by_user",
+      "reason": "background geometry/texture redrawn unnaturally",
+      "reason_zh": "用户指出背景几何和纹理被不自然地重绘，验收不通过。",
+      "training_ready": false
+    },
+    {
+      "scene_id": "camera-7304b68c75dd",
+      "camera": "1号塔广角",
+      "asset_role": "dry_reference",
+      "path": "data/process/synthetic-video/dry-scenes-20261108-v1/camera-7304b68c75dd/dry-reference.png",
+      "sha256": "3e03468d95d664277275636b46b913787e0aeb5adb953a9358e54a6519a9eae7",
+      "status": "rejected_by_user",
+      "reason": "background geometry/texture redrawn unnaturally",
+      "reason_zh": "用户指出背景几何和纹理被不自然地重绘，验收不通过。",
+      "training_ready": false
+    },
+    {
+      "scene_id": "camera-63af714136e7",
+      "camera": "九弯地沟下游",
+      "asset_role": "dry_reference",
+      "path": "data/process/synthetic-video/dry-scenes-20261108-v1/camera-63af714136e7/dry-reference.png",
+      "sha256": "eb28d0fc4cfff0ea8ac90a7a0289ac5a2b936c9acfd564642af298dd450463b9",
+      "status": "rejected_by_user",
+      "reason": "background geometry/texture redrawn unnaturally",
+      "reason_zh": "用户指出背景几何和纹理被不自然地重绘，验收不通过。",
+      "training_ready": false
+    },
+    {
+      "scene_id": "camera-9cf177b418b6",
+      "camera": "塔吊上游",
+      "asset_role": "dry_reference",
+      "path": "data/process/synthetic-video/dry-scenes-20261108-v1/camera-9cf177b418b6/dry-reference.png",
+      "sha256": "de3c32729647452f8c265f10be9bed7602b0f55385706425d39640718834909e",
+      "status": "rejected_by_user",
+      "reason": "background geometry/texture redrawn unnaturally",
+      "reason_zh": "用户指出背景几何和纹理被不自然地重绘，验收不通过。",
+      "training_ready": false
+    },
+    {
+      "scene_id": "camera-a5beea032cb7",
+      "camera": "塔吊下方",
+      "asset_role": "dry_reference",
+      "path": "data/process/synthetic-video/dry-scenes-20261108-v1/camera-a5beea032cb7/dry-reference.png",
+      "sha256": "15836331fb795e7a38f0a52921247cd73506c7c0fe52409d6bcc8aeefaa854f7",
+      "status": "rejected_by_user",
+      "reason": "background geometry/texture redrawn unnaturally",
+      "reason_zh": "用户指出背景几何和纹理被不自然地重绘，验收不通过。",
+      "training_ready": false
+    },
+    {
+      "scene_id": "camera-0b5670be8629",
+      "camera": "塔吊下游",
+      "asset_role": "dry_reference",
+      "path": "data/process/synthetic-video/dry-scenes-20261108-v1/camera-0b5670be8629/dry-reference.png",
+      "sha256": "8113c9a06c528a943fb22681e684cebb93f62493bc4eeb41617efb7c083cf844",
+      "status": "rejected_by_user",
+      "reason": "background geometry/texture redrawn unnaturally",
+      "reason_zh": "用户指出背景几何和纹理被不自然地重绘，验收不通过。",
+      "training_ready": false
+    },
+    {
+      "scene_id": "camera-2332ccacd16e",
+      "camera": "多照沟（门前多照汇口）",
+      "asset_role": "dry_reference",
+      "path": "data/process/synthetic-video/dry-scenes-20261108-v1/camera-2332ccacd16e/dry-reference.png",
+      "sha256": "4dc860ce06044b6deb3b7c3dd76feb9c8a18cc985e7baddbae26c63af8498304",
+      "status": "rejected_by_user",
+      "reason": "background geometry/texture redrawn unnaturally",
+      "reason_zh": "用户指出背景几何和纹理被不自然地重绘，验收不通过。",
+      "training_ready": false
+    },
+    {
+      "scene_id": "camera-f117c6b2ead9",
+      "camera": "门前沟上游",
+      "asset_role": "dry_reference",
+      "path": "data/process/synthetic-video/dry-scenes-20261108-v1/camera-f117c6b2ead9/dry-reference.png",
+      "sha256": "17f0edd73b8bb65074d9226b637a8b586f75a484e3c3e493b693590c22248eff",
+      "status": "rejected_by_user",
+      "reason": "background geometry/texture redrawn unnaturally",
+      "reason_zh": "用户指出背景几何和纹理被不自然地重绘，验收不通过。",
+      "training_ready": false
+    },
+    {
+      "scene_id": "camera-24c4f38b2c77",
+      "camera": "门前沟中游",
+      "asset_role": "dry_reference",
+      "path": "data/process/synthetic-video/dry-scenes-20261108-v1/camera-24c4f38b2c77/dry-reference.png",
+      "sha256": "6102d3658cb012998bf3b983c4d48a9139593e18141b428492cff8cf01a20c5e",
+      "status": "rejected_by_user",
+      "reason": "background geometry/texture redrawn unnaturally",
+      "reason_zh": "用户指出背景几何和纹理被不自然地重绘，验收不通过。",
+      "training_ready": false
+    },
+    {
+      "scene_id": "camera-936ae8691cee",
+      "camera": "鸡冠山上游",
+      "asset_role": "dry_reference",
+      "path": "data/process/synthetic-video/dry-scenes-20261108-v1/camera-936ae8691cee/dry-reference.png",
+      "sha256": "3ad3e7e4ff83d73945bf57cba2eeed9ed7dcf725a5be17fde5ea40d932aded52",
+      "status": "rejected_by_user",
+      "reason": "background geometry/texture redrawn unnaturally",
+      "reason_zh": "用户指出背景几何和纹理被不自然地重绘，验收不通过。",
+      "training_ready": false
+    },
+    {
+      "scene_id": "camera-c9c07aee7f28",
+      "camera": "鸡冠山下游",
+      "asset_role": "ordinary_water_first_frame",
+      "path": "data/process/synthetic-video/dry-scenes-20261108-v1/camera-c9c07aee7f28/ordinary-water-first-frame.png",
+      "sha256": "4792ef3923127dce945cf68f5fb705e2c7cd2f20a66e5331426bae9cffbdc951",
+      "status": "rejected_by_user",
+      "reason": "background geometry/texture redrawn unnaturally",
+      "reason_zh": "用户拒绝本次干床图和派生有水首帧，背景几何和纹理被不自然地重绘。",
+      "training_ready": false
+    }
+  ]
+}

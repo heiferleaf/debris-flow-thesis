@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "status": "confirmed_scene_overlap; old_metrics_not_recomputed",
+  "current_unrun_roles": {
+    "1号塔下游": {
+      "role": "outer_evaluation",
+      "unit_count": 8
+    },
+    "1号塔广角": {
+      "role": "train",
+      "unit_count": 4
+    },
+    "鸡冠山下游": {
+      "role": "train",
+      "unit_count": 20
+    }
+  },
+  "current_outer_cross_physical_scene_claim_valid": false,
+  "historical_confirmed_pair": {
+    "cameras": [
+      "1号塔下游",
+      "鸡冠山下游"
+    ],
+    "unit_count": 28,
+    "units": [
+      "v1_07",
+      "v1_08",
+      "v1_09",
+      "v1_10",
+      "v1_11",
+      "v1_12",
+      "v1_120",
+      "v1_121",
+      "v1_122",
+      "v1_123",
+      "v1_16",
+      "v1_17",
+      "v1_18",
+      "v1_50",
+      "v1_51",
+      "v1_52",
+      "v1_81",
+      "v1_82",
+      "v1_83",
+      "v1_84",
+      "v4_18",
+      "v4_19",
+      "v4_20",
+      "v4_21",
+      "v4_22",
+      "v5_21",
+      "v5_22",
+      "v5_23"
+    ],
+    "folds": [
+      {
+        "fold": 1,
+        "counts": {
+          "inner_train": 10,
+          "inner_val": 12,
+          "outer_train": 22,
+          "outer_eval": 6
+        },
+        "scene_crosses_outer_train_eval": true,
+        "scene_crosses_inner_train_val": true
+      },
+      {
+        "fold": 2,
+        "counts": {
+          "inner_train": 21,
+          "inner_val": 4,
+          "outer_train": 25,
+          "outer_eval": 3
+        },
+        "scene_crosses_outer_train_eval": true,
+        "scene_crosses_inner_train_val": true
+      },
+      {
+        "fold": 3,
+        "counts": {
+          "inner_train": 13,
+          "inner_val": 0,
+          "outer_train": 13,
+          "outer_eval": 15
+        },
+        "scene_crosses_outer_train_eval": true,
+        "scene_crosses_inner_train_val": false
+      },
+      {
+        "fold": 4,
+        "counts": {
+          "inner_train": 24,
+          "inner_val": 0,
+          "outer_train": 24,
+          "outer_eval": 4
+        },
+        "scene_crosses_outer_train_eval": true,
+        "scene_crosses_inner_train_val": false
+      },
+      {
+        "fold": 5,
+        "counts": {
+          "inner_train": 28,
+          "inner_val": 0,
+          "outer_train": 28,
+          "outer_eval": 0
+        },
+        "scene_crosses_outer_train_eval": false,
+        "scene_crosses_inner_train_val": false
+      }
+    ]
+  },
+  "historical_three_view_sensitivity_only": {
+    "cameras": [
+      "1号塔下游",
+      "1号塔广角",
+      "鸡冠山下游"
+    ],
+    "unit_count": 32,
+    "units": [
+      "v1_07",
+      "v1_08",
+      "v1_09",
+      "v1_10",
+      "v1_11",
+      "v1_12",
+      "v1_120",
+      "v1_121",
+      "v1_122",
+      "v1_123",
+      "v1_16",
+      "v1_17",
+      "v1_18",
+      "v1_50",
+      "v1_51",
+      "v1_52",
+      "v1_81",
+      "v1_82",
+      "v1_83",
+      "v1_84",
+      "v4_18",
+      "v4_19",
+      "v4_20",
+      "v4_21",
+      "v4_22",
+      "v5_01",
+      "v5_02",
+      "v5_03",
+      "v5_04",
+      "v5_21",
+      "v5_22",
+      "v5_23"
+    ],
+    "folds": [
+      {
+        "fold": 1,
+        "counts": {
+          "inner_train": 14,
+          "inner_val": 12,
+          "outer_train": 26,
+          "outer_eval": 6
+        },
+        "scene_crosses_outer_train_eval": true,
+        "scene_crosses_inner_train_val": true
+      },
+      {
+        "fold": 2,
+        "counts": {
+          "inner_train": 21,
+          "inner_val": 8,
+          "outer_train": 29,
+          "outer_eval": 3
+        },
+        "scene_crosses_outer_train_eval": true,
+        "scene_crosses_inner_train_val": true
+      },
+      {
+        "fold": 3,
+        "counts": {
+          "inner_train": 13,
+          "inner_val": 0,
+          "outer_train": 13,
+          "outer_eval": 19
+        },
+        "scene_crosses_outer_train_eval": true,
+        "scene_crosses_inner_train_val": false
+      },
+      {
+        "fold": 4,
+        "counts": {
+          "inner_train": 24,
+          "inner_val": 4,
+          "outer_train": 28,
+          "outer_eval": 4
+        },
+        "scene_crosses_outer_train_eval": true,
+        "scene_crosses_inner_train_val": true
+      },
+      {
+        "fold": 5,
+        "counts": {
+          "inner_train": 28,
+          "inner_val": 4,
+          "outer_train": 32,
+          "outer_eval": 0
+        },
+        "scene_crosses_outer_train_eval": false,
+        "scene_crosses_inner_train_val": true
+      }
+    ]
+  },
+  "interpretation": "Old scores retain meaning under their frozen date-by-view grouping; they do not estimate strict unseen-physical-scene generalization. No exact duplicate frames, same-event identity, label leak or score inflation amount is inferred.",
+  "input_fingerprints": [
+    {
+      "path": "data/metadata/EXP-028/full-coverage-plan-20261108-v1/source-mapping.csv",
+      "sha256": "b9bad29be3a5a84998ea6afca01c73c04776150d32b09f48ad23e9bf9dd5c5de"
+    },
+    {
+      "path": "data/metadata/EXP-017/role-free-plan-v3/folds.json",
+      "sha256": "89651394eedcae673d7b797bf9662cd6b85728cc5ef3b8bb70bb152fdfae2edc"
+    },
+    {
+      "path": "data/metadata/EXP-028/cross-camera-initial-role-v1.json",
+      "sha256": "3c47e2b554bf8c7195c3d1de0bc736fb3e6e027a9fb60a172ee749ad775f2c11"
+    }
+  ],
+  "changes_to_old_metrics_folds_roles": false,
+  "new_training_started": false
+}

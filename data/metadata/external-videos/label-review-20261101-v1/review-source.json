@@ -1,0 +1,73 @@
+{
+  "status": "proposed_labels_not_frozen_not_scored",
+  "reviewer": "Sol视觉与来源复核(非用户签字)",
+  "source_media_hash_scope": "Inherited from catalog and prior completed decode/migration evidence; no original media opened/hashed/decoded in this round",
+  "input_sha256": {
+    "data/metadata/external-videos/catalog.csv": "e2ea5c065de22691e675d4eb8c819f7e8f0b584c99f8bb3ce6949cbf12de9e8e",
+    "data/metadata/external-videos/source-downloads.csv": "f39b189f8ee9a01e27a30c7769cf151931a47da628c8878e7a381e49ff23afe6",
+    "data/metadata/external-videos/segment-preparation-20261030.csv": "b74675f636d97fb0e26ad0ccf491bab44bb64e59d9881f05b74008960a8dde5d",
+    "data/metadata/external-videos/usu-content-review-20261101-v1.json": "3565d3c089160fad3abc0ad1e0db57e5ca24dd29f9500b95aae9f254102a1841",
+    "data/metadata/external-videos/usu-members-20261030.csv": "2bead833534d38601eb0b547b2ee829ca556e2f7fa00c8da20c7c5b274b1a5e5",
+    "data/metadata/external-videos/content-review-20261101-v1.json": "3ee9b7a0f94e7feda1ebde9d44c5d17f389a939e5a42a8243a2b63371d4ac2c7",
+    "data/metadata/external-videos/source-identity-review-20261101-v1.json": "618e93f80d75d395077a15ff976c5bedd3b50e84fc5c2d6594ae671e232d7414",
+    "data/metadata/external-videos/silverado-promotion-20261101-v1.json": "7e3231a547383e3c58cc2da99e26d39aa5ff8e2fc933a9b2e1b80d1b6890fb82",
+    "data/metadata/external-videos/silverado-segments-v1/summary.json": "946e244f9dcfcf49bc36cafeea34713333d2c11b964a6191a1e625f9726af083",
+    "data/metadata/external-videos/silverado-media-audit-v1/sparse-visual-review.json": "bb18159bf6c3eaf397cee011423098389e7aceb1b09f4970d073f8e9fdc99cda",
+    "data/metadata/external-videos/discovery-20261101-v2/source-evidence.json": "d37eab47f08dc08135673ee6ccf25c6ac1724f2c9f8f03d0897a478d211b1336"
+  },
+  "viewed_image_sha256": {
+    "data/metadata/external-videos/silverado-media-audit-v1/contact-sheet-01.png": "62ebd0a7a965e3b100c0a8acc63a9ac6485f905c3cc8afab38fdf75602cb7a06",
+    "data/metadata/external-videos/silverado-media-audit-v1/contact-sheet-02.png": "1930ca3883a49ea52f3864634979ea70fc886def919db7821022ec8c9a8dc104",
+    "data/metadata/external-videos/silverado-media-audit-v1/contact-sheet-03.png": "adc6a83c9df136a25b40e611f08eb803ed1cb545ace37a74fcad7d6907611a56",
+    "data/process/external-videos/review-20261101-v1/EIDC-SHEAF-202408-27K30W/uniform-contact-sheet.jpg": "cfb13cca458ea3a576c6659567bb702e685f62493cb69b542cc9337a35de40e8",
+    "data/process/external-videos/review-20261101-v1/USGS-ELK-2025-0715/uniform-contact-sheet.jpg": "31a36ce7dee31e4d6a67c1f8b732db041a2d6f5346abe48f6859561b11878c63",
+    "data/process/external-videos/usgs-chalkcliffs-20160818/qc/derived-contact-sheet.jpg": "f92e58bfd421a2cc33860f9c2849c1ed96aebe5e7c57964807866026da4b4ddf",
+    "data/process/external-videos/usgs-chalkcliffs-20170719/qc/derived-contact-sheet.jpg": "6f7d588241f64fba55dd5043b44e3eca1ea531b210ed78849874bc3c6e2c3d21",
+    "data/process/external-videos/usgs-hpcc-20220803/qc/derived-contact-sheet.jpg": "949b24400c13c60a878a4cf2e81e8b5141bcdf822db7d9ebdbdb8f98c0277d62",
+    "data/process/external-videos/usu-review-20261101-v1/USU-21047541-BSF-APRIL17-2025/contact-sheet.jpg": "505f27cafb75989072626cf77f8599b439b3df334f7c9f58defe205b2c36dc61",
+    "data/process/external-videos/usu-review-20261101-v1/USU-21047541-BSF-JUNE4-2025/contact-sheet.jpg": "1c353c2d0a1fffb5334edb6464214303b97a1eb08cd5f5412d34a6830440f628",
+    "data/process/external-videos/usu-review-20261101-v1/USU-21047541-BSF-OCT29-2025/contact-sheet.jpg": "bbdbef99e85a353b22dec90a43353f04c8e13675330755d9788f374c1c389c09",
+    "data/process/external-videos/usu-review-20261101-v1/USU-21047541-FIRST-DAM-JULY15-2025/contact-sheet.jpg": "083bd110b5a0ff444e0071560259d4575e1c3d3b40368af44cec586c302d4df2",
+    "data/process/external-videos/usu-review-20261101-v1/USU-21047541-FIRST-DAM-MAY14-2025/contact-sheet.jpg": "2746e5c37736a4560e1023c61e59def0fff1a36ecb6ca144014c2c198e9da58e",
+    "data/process/external-videos/usu-review-20261101-v1/USU-21047541-FIRST-DAM-OCT15-2025/contact-sheet.jpg": "3e5a0f3b038b2ff08f5cd0a0d61c0831558bdd88f11c1e3051bfcda7161a36e7",
+    "data/process/external-videos/usu-review-20261101-v1/USU-21047541-UWRL-JUNE20-2025/contact-sheet.jpg": "cae5dfcfc0907c4459d32d0f5f1b0516205878c55a50eea83c009d64ea8e4127",
+    "data/process/external-videos/usu-review-20261101-v1/USU-21047541-UWRL-LOW-LIGHT-1MARCH-2025-6PM/contact-sheet.jpg": "3112048c4a32d905913f03384d5c511c1af6fcafb0cc307b65067e54dc5150d1",
+    "data/process/external-videos/usu-review-20261101-v1/USU-21047541-UWRL-MAY13-2025/contact-sheet.jpg": "880c65ad4cdbe0d71b5b8be3353dd8e3d359506d6e5a2e26abc93954bb205f05",
+    "data/process/external-videos/usu-review-20261101-v1/USU-21047541-UWRL-NIGHT-1APRIL-1AM/contact-sheet.jpg": "8c2d6253d9cba80f58617337c7bd112b9f86f496d649ff2450cea84436568a36",
+    "data/process/external-videos/usu-review-20261101-v1/USU-21047541-UWRL-OCT14-2025/contact-sheet.jpg": "c91913d0779905858f99be13a83954bad02ff32dd4d075e34a5ff66933ae2df4",
+    "data/process/external-videos/usu-review-20261101-v1/USU-21047541-UWRL-SNOW-FEB20-2025-11AM/contact-sheet.jpg": "e592266d8c06a5c01790b2e56876cf510696c86ba56a46d87dbc41ac87284e78",
+    "data/process/external-videos/usu-review-20261101-v1/USU-21047541-UWRL-SUNGLARE-1MARCH-2025-730PM/contact-sheet.jpg": "1f62821967dc2c2f09ff1341645b90fa9e119097ab7163b95b09956656bef20c"
+  },
+  "source_readme_sha256": "4592b748f0e55064e70750715bcecbd10b6adf5477ecf75a996f2ce0098d9a52",
+  "proposed_counts": {
+    "pos": 8,
+    "neg": 11,
+    "uncertain": 3
+  },
+  "minimum_subset_ids": [
+    "EIDC-SHEAF-202408-27K30W",
+    "USGS-CC-2016-0818-CAM01-LEFT-PART01",
+    "USGS-CC-2017-0719-CAM01-ORIGINAL-RIGHT-PART02",
+    "USGS-HPCC-20220803-CAM01-PART01",
+    "USGS-SILVERADO-20150719-CAM01-PART02",
+    "USU-21047541-BSF-OCT29-2025",
+    "USU-21047541-FIRST-DAM-JULY15-2025",
+    "USU-21047541-UWRL-JUNE20-2025"
+  ],
+  "minimum_subset_clock_counts": {
+    "verified": 0,
+    "unknown": 8
+  },
+  "all22_clock_counts": {
+    "verified": 0,
+    "unknown": 22
+  },
+  "csv_sha256": "76d54c6315241775a4e269447b2dd5b4e56bf69c5c08c71bc5d0a391863e1ebb",
+  "raw_modified": false,
+  "catalog_modified": false,
+  "training_artifacts_accessed": false,
+  "media_decode_repeated": false,
+  "model_scores_used": false,
+  "readme_sha256": "c13297530b46f77baf785a27f14a132176c21ffea4c8442f5e756e91c262f920",
+  "timestamp_evidence": "USGS existing derived ffprobe full-frame PTS*time_base; USU exact sampled-source PTS from preview manifest; Sheaf/Elk full prior PTS CSV; Silverado exact preserved source-frame/30s publication clock. No nominal-fps seeking or new decode."
+}

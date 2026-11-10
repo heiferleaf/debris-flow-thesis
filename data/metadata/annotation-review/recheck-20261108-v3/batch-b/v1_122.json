@@ -1,0 +1,196 @@
+{
+  "schema_version": 3,
+  "unit_id": "v1_122",
+  "decision_status": "recommendation_only_no_events_written",
+  "summary": "恢复699.02–1080.62用户T；不以U替换。",
+  "source_video_id": "鸡冠山下游 Downstream of Jiguanshan 19：14",
+  "raw_paths": [
+    "data/raw/video_dataset_1/2025年7月29日泥石流视频Debris flow video on July 29, 2025/鸡冠山下游 Downstream of Jiguanshan/鸡冠山下游 Downstream of Jiguanshan 19：14.mp4"
+  ],
+  "old_user_version": "data/metadata/annotation-revisions/npt-20261107-proposals-v3",
+  "disputed_version": "data/metadata/annotation-revisions/npt-20261108-review-v5",
+  "old_user_intervals": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 699.02,
+      "state": "N"
+    },
+    {
+      "start_sec": 699.02,
+      "end_sec": 1080.62,
+      "state": "T"
+    },
+    {
+      "start_sec": 1080.62,
+      "end_sec": 1612.0,
+      "state": "P"
+    }
+  ],
+  "disputed_intervals": [
+    {
+      "start_sec": 0.0,
+      "end_sec": 699.02,
+      "state": "N"
+    },
+    {
+      "start_sec": 699.02,
+      "end_sec": 1080.62,
+      "state": "U"
+    },
+    {
+      "start_sec": 1080.62,
+      "end_sec": 1612.0,
+      "state": "P"
+    }
+  ],
+  "erroneous_or_unfounded_changes": [
+    "用户T被改为U，缺乏足以推翻用户T的证据；以U关闭监督不构成完成类型复审。"
+  ],
+  "recommended_intervals": [
+    {
+      "start_sec": 0,
+      "end_sec": 699.02,
+      "state": "N",
+      "reason": "沿用用户N，本次看599.43及688.63–696.94附近作对照。",
+      "confidence": "inherited"
+    },
+    {
+      "start_sec": 699.02,
+      "end_sec": 1080.62,
+      "state": "T",
+      "reason": "保留用户T。实际流槽内浑浊带逐步连续，局部表面组织更新，与后续状态接续；独立类型证据仍弱。",
+      "confidence": "low"
+    },
+    {
+      "start_sec": 1080.62,
+      "end_sec": 1612,
+      "state": "P",
+      "reason": "沿用用户P；本次只看边界附近及至1200.94的抽帧。",
+      "confidence": "inherited"
+    }
+  ],
+  "evidence_actually_observed": [
+    {
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/batch-b/v1_122-boundary.jpg",
+      "frame_manifest": "data/process/annotation-review/recheck-20261108-v3/batch-b/v1_122-boundary.json",
+      "audit_times_actually_viewed": [
+        688.63,
+        690.71,
+        692.78,
+        694.86,
+        696.94,
+        699.02,
+        701.05,
+        703.13,
+        705.21,
+        707.29,
+        709.36,
+        1070.28,
+        1072.35,
+        1074.43,
+        1076.51,
+        1078.54,
+        1080.62,
+        1082.7,
+        1084.78,
+        1086.85,
+        1088.93,
+        1091.01
+      ],
+      "time_basis": "frames_index.csv t_sec; not source seek/PTS",
+      "crop_fraction": [
+        0.0,
+        0.48,
+        0.78,
+        0.98
+      ]
+    },
+    {
+      "contact_sheet": "data/process/annotation-review/recheck-20261108-v3/batch-b/v1_122-overview.jpg",
+      "frame_manifest": "data/process/annotation-review/recheck-20261108-v3/batch-b/v1_122-overview.json",
+      "audit_times_actually_viewed": [
+        599.43,
+        694.86,
+        699.02,
+        709.36,
+        730.09,
+        779.91,
+        829.68,
+        879.45,
+        929.23,
+        979.0,
+        1030.85,
+        1078.54,
+        1082.7,
+        1099.32,
+        1159.43,
+        1200.94
+      ],
+      "time_basis": "frames_index.csv t_sec; not source seek/PTS",
+      "crop_fraction": null
+    }
+  ],
+  "all_audit_times_actually_viewed": [
+    599.43,
+    688.63,
+    690.71,
+    692.78,
+    694.86,
+    696.94,
+    699.02,
+    701.05,
+    703.13,
+    705.21,
+    707.29,
+    709.36,
+    730.09,
+    779.91,
+    829.68,
+    879.45,
+    929.23,
+    979.0,
+    1030.85,
+    1070.28,
+    1072.35,
+    1074.43,
+    1076.51,
+    1078.54,
+    1080.62,
+    1082.7,
+    1084.78,
+    1086.85,
+    1088.93,
+    1091.01,
+    1099.32,
+    1159.43,
+    1200.94
+  ],
+  "observation_scope": "Ordered cached frames around boundaries plus early/middle/late navigation; raw dense windows only where explicitly listed. No claim of uninterrupted full-video examination.",
+  "transition_target_signs": "实际流槽中浅褐浑浊流带及其表面组织逐渐连续，与下游流向相联系，而非固定岸石变化。",
+  "transition_gap_before_P": "远景未清楚分离薄浑水与细颗粒泥浆，699.02附近没有可靠单一前缘；保留用户T但不写独立证实。",
+  "inherited_not_continuously_reobserved": [
+    {
+      "start_sec": 0,
+      "end_sec": 599.43,
+      "state": "N",
+      "limitation": "未重新观看"
+    },
+    {
+      "start_sec": 1200.94,
+      "end_sec": 1612,
+      "state": "P",
+      "limitation": "未重新观看"
+    }
+  ],
+  "pending_evidence": [
+    "原用户边界精度未作原片逐帧重定；当前建议恢复工作标签，低把握另记。"
+  ],
+  "prohibited_shortcuts_avoided": [
+    "未用来源目录、黄色、流量大小、阵流或有运动单独定P",
+    "未把固定岸石/床面代替实际流体观察",
+    "未新增U/A，未以大面积关闭监督代替审计",
+    "未用模型预测定义真值"
+  ],
+  "cut_policy": "Preserve proposals-v3 cut union exactly; decoder startup corruption is not a new user cut.",
+  "source_document_support": null
+}
