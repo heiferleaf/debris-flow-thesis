@@ -21,7 +21,7 @@
 用法（仓库根，venv）：
   python experiments/tools/build_units_src256.py --only v1_07[,v1_08]   # 试转/补转
   python experiments/tools/build_units_src256.py                        # 全量 151 条
-产物：data/process/EXP-008-units-src256/{<unit_id>.mp4, coord/<unit_id>.csv,
+产物：data/process/frozen-video-inputs/units-src256/{<unit_id>.mp4, coord/<unit_id>.csv,
 log/<unit_id>.txt}，汇总 report.csv。幂等：已存在且帧数>0 的跳过（--force 重转）。
 """
 import argparse
@@ -42,7 +42,7 @@ FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()   # 独立 ffmpeg 二进制（venv 内�
 # 注：imageio-ffmpeg 不带 ffprobe，且本机网络到 GitHub 不通（static-ffmpeg 二进制
 # 下载超时）。逐帧坐标表改用 showinfo 滤镜（ffmpeg -vf showinfo -f null -，stderr
 # 每帧一行 n:/pts_time:），能力实测 4.2.2 具备（hevc 解码/libx264/showinfo）。
-SRC256 = Path(os.environ.get("DF_SRC256_ROOT") or REPO / "data/process/EXP-008-units-src256")
+SRC256 = Path(os.environ.get("DF_SRC256_ROOT") or REPO / "data/process/frozen-video-inputs/units-src256")
 
 
 def unit_video_rows():

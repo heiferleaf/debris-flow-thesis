@@ -3,6 +3,10 @@
 Reads every selected JPEG and the historical QC/coordinate tables. Findings are
 written separately; original frames, features, labels and metrics are untouched.
 """
+import sys
+from pathlib import Path as _ArchivePath
+sys.path.insert(0, str(_ArchivePath(__file__).resolve().parents[3]))
+from experiments.common.video.artifact_paths import recorded_path
 import argparse
 import csv
 import hashlib
@@ -16,9 +20,9 @@ import cv2
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[3]
-UNITS = ROOT / "data/process/EXP-008-units-v2"
-COORD = ROOT / "data/process/EXP-008-units-src256/coord"
-FEATURES = ROOT / "data/results/exp008/unitfeats-v2-150/unit-features.npz"
+UNITS = recorded_path(ROOT / "data/process/EXP-008-units-v2", repo=ROOT)
+COORD = recorded_path(ROOT / "data/process/EXP-008-units-src256/coord", repo=ROOT)
+FEATURES = recorded_path(ROOT / "data/results/exp008/unitfeats-v2-150/unit-features.npz", repo=ROOT)
 
 
 def digest(path):
@@ -130,7 +134,7 @@ def audit_unit(row):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--workers", type=int, default=4)
-    parser.add_argument("--output", type=Path, default=ROOT / "data/metadata/experiment-archive/exp008-input-quality-20261110.json")
+    parser.add_argument("--output", type=Path, default=recorded_path(ROOT / "data/metadata/experiment-archive/exp008-input-quality-20261110.json", repo=ROOT))
     args = parser.parse_args()
     cv2.setNumThreads(1)
     started = time.monotonic()

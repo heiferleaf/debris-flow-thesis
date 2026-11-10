@@ -29,9 +29,10 @@ from torchvision.models.video import r2plus1d_18, R2Plus1D_18_Weights
 
 REPO = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(REPO))
+from experiments.common.video.artifact_paths import recorded_path
 from experiments.paths import resolve_path  # noqa: E402
-RUNS_ROOT = resolve_path(os.environ.get("DF_RUNS_ROOT") or REPO / "data/results/exp008")
-UNITS_ROOT = Path(os.environ.get("DF_UNITS_ROOT") or REPO / "data/process/EXP-008-units")
+RUNS_ROOT = resolve_path(os.environ.get("DF_RUNS_ROOT") or recorded_path(REPO / "data/results/exp001", repo=REPO))
+UNITS_ROOT = Path(os.environ.get("DF_UNITS_ROOT") or recorded_path(REPO / "data/process/EXP-008-units", repo=REPO))
 MANIFEST = UNITS_ROOT / "unit-manifest.csv"
 
 # r2plus1d_18 输入变换（Kinetics400 口径）

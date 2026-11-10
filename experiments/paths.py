@@ -105,4 +105,5 @@ def resolve_path(value: str | os.PathLike, *, repo: Path | None = None,
             result = Path(raw)
     if must_exist and not result.exists():
         raise FileNotFoundError(f"找不到路径：{raw}；当前对应位置：{result}")
-    return result
+    from experiments.common.video.artifact_paths import recorded_path
+    return recorded_path(result, repo=root)

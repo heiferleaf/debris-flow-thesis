@@ -55,16 +55,18 @@ import cv2
 import numpy as np
 
 REPO = Path(__file__).resolve().parents[3]
+sys.path.insert(0, str(REPO))
 sys.path.insert(0, str(REPO / "experiments/common/video"))
+from experiments.common.video.artifact_paths import recorded_path
 from build_units import (CUT_MARGIN_S, N_CLIPS, CLIP_LEN, QC_STD_LOW,  # noqa: E402
                          RESIZE, VIDEO_KEY_OF_V1_109, V1_109_BAD_FROM_S,
                          build_video_index, clean_unit_dir, load_events,
                          merge_ranges, pick_slots, read_csv_rows)
 
 SRC256_ROOT = Path(os.environ.get("DF_SRC256_ROOT")
-                   or REPO / "data/process/EXP-008-units-src256")
+                   or recorded_path(REPO / "data/process/EXP-008-units-src256", repo=REPO))
 UNITS_ROOT = Path(os.environ.get("DF_UNITS_ROOT")
-                  or REPO / "data/process/EXP-008-units-v2")
+                  or recorded_path(REPO / "data/process/EXP-008-units-v2", repo=REPO))
 OUT_MANIFEST = UNITS_ROOT / "unit-manifest.csv"
 FRAMES_ROOT = UNITS_ROOT / "frames"
 QC_DIR = UNITS_ROOT / "qc"              # B3 全片逐帧 std（每单位一份 qc/{unit_id}.csv）

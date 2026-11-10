@@ -2,7 +2,7 @@
 
 本实验研究：仅用整条视频的正负标签，能否在未参与训练的拍摄地点识别泥石流视频。方法采用视频级多实例学习（MIL）：将一条视频看作若干片段的集合，为片段评分，再聚合成视频判定。
 
-**150条视频、跨场景五折、冻结R(2+1)D-18、四层分类网络、论文三项损失；五折平均AUC为0.9097。** 本报告对应已完成运行 `mil-v2-150-strict-scene`，提供五折权重、原始预测及复现步骤。结果属于开发实验，默认阈值表现仍较差。
+**150条视频、跨场景五折、冻结R(2+1)D-18、四层分类网络、论文三项损失；五折平均AUC为0.9097。** 当前编号EXP-001对应原EXP-008；原run_id及冻结结果保持历史身份。本报告对应已完成运行 `mil-v2-150-strict-scene`，提供五折权重、原始预测及复现步骤。结果属于开发实验，默认阈值表现仍较差。
 
 ## 1. 数据及监督
 
@@ -41,7 +41,7 @@ strict掩码是一张与150 × 48个片段对应的布尔表。合法片段为Tr
 | 4 | 88 | 33 | 25 | 4 |
 | 5 | 97 | 24 | 16 | 13 |
 
-划分共有11个地点组，完整成员冻结在[跨场景划分文件](data/metadata/splits/EXP-008-units-scene-folds.json)。它评价旧地点分组下的跨场景表现，不同时保证跨事件；同一天不同地点可能记录同一次事件。本次整理按用户要求保留原场景映射，不重新划分或训练。
+划分共有11个地点组，完整成员冻结在[跨场景划分文件](data/metadata/splits/EXP-001-units-scene-folds.json)。它评价旧地点分组下的跨场景表现，不同时保证跨事件；同一天不同地点可能记录同一次事件。本次整理按用户要求保留原场景映射，不重新划分或训练。
 
 ## 3. 模型架构
 
@@ -181,14 +181,15 @@ $$
 
 ## 9. 与参考论文的关系
 
-参考：[Wu等，2025，Deep learning-based debris flow hazard detection and recognition system: a case study](https://doi.org/10.1038/s41598-025-86471-4)。本实验保留视频级MIL及三项损失，做了以下调整：
+参考：[Wu等，2025，Deep learning-based debris flow hazard detection and recognition system: a case study](https://doi.org/10.1038/s41598-025-86471-4)。论文对48个片段输出分数，并采用frame-based ROC/AUC；本仓库将合法片段分数取最大值，报告视频级AUC，是评价单位的适配。三项MIL损失保留，具体差异如下：
 
 | 部分 | 参考论文 | 本实验 |
 | --- | --- | --- |
 | 特征骨干 | 微调C3D，FC6输出4096维 | 冻结Kinetics400预训练R(2+1)D-18，输出512维 |
 | 分类网络 | 4096 → 1024 → 512 → 32 → 1 | 512 → 128 → 64 → 32 → 1 |
-| 片段组织 | 连续特征提取后重新组合 | 先选择48个片段，再提取特征和按区间筛选 |
-| 完整系统 | 视频检测后另接图像复核 | 评价视频检测阶段 |
+| 片段组织与监督 | 连续特征提取后重新组合，视频级弱标签训练 | 先选择48个片段，再利用强区间标注作strict输入过滤；损失目标仍为视频标签 |
+| 评价单位 | 48个片段分数，frame-based ROC/AUC | 合法片段分数取最大值后计算video-level ROC/AUC |
+| 完整系统 | 视频检测后接自定义五层卷积的2D图像核验支路 | 未实现该支路，仅评价本仓库适配的视频检测阶段 |
 
 这是该方法在本数据上的重新实现，不是与原论文完全同设置的数值复现。
 
@@ -199,10 +200,10 @@ $$
 ### ① 获取代码及环境
 
 ```powershell
-git clone --single-branch --branch codex/EXP-008 https://github.com/heiferleaf/debris-flow-thesis.git
+git clone --single-branch --branch codex/EXP-001 https://github.com/heiferleaf/debris-flow-thesis.git
 cd debris-flow-thesis
 py -3.8 -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r experiments/runspecs/EXP-008/requirements-reproduction.txt
+.\.venv\Scripts\python.exe -m pip install -r experiments/runspecs/EXP-001/requirements-reproduction.txt
 ```
 
 ### ② 准备对应版本的数据
@@ -210,7 +211,7 @@ py -3.8 -m venv .venv
 复现者须已获得本实验的冻结特征。原视频、像素和特征不随公有代码上传。将文件放到：
 
 ```text
-data/results/exp008/unitfeats-v2-150/unit-features.npz
+data/results/frozen-video-features/unitfeats-v2-150/unit-features.npz
 ```
 
 | 数据项 | 内容 |
@@ -230,7 +231,7 @@ data/results/exp008/unitfeats-v2-150/unit-features.npz
 仓库提供冻结片段标注CSV和场景划分。下面把CSV转换为训练程序需要的掩码文件，不重新标注、不抽帧：
 
 ```powershell
-.\.venv\Scripts\python.exe experiments/runspecs/EXP-008/prepare_clip_mask.py
+.\.venv\Scripts\python.exe experiments/runspecs/EXP-001/prepare_clip_mask.py
 ```
 
 预期显示保留6,979 / 7,200个片段。生成的`clip-labels-rebuilt.npz`只是标注元数据；0和1都表示该片段可用，-1表示排除。
@@ -238,11 +239,11 @@ data/results/exp008/unitfeats-v2-150/unit-features.npz
 <details>
 <summary>已有固定片段图像时，如何生成特征？</summary>
 
-准备`data/process/EXP-008-units-v2/unit-manifest.csv`和`frames/<video_id>/clip00_f00.jpg`至`clip47_f15.jpg`。另外安装与原制作环境对应的torchvision、OpenCV、Pillow及预训练权重。
+准备`data/process/frozen-video-inputs/units-v2/unit-manifest.csv`和`frames/<video_id>/clip00_f00.jpg`至`clip47_f15.jpg`。另外安装与原制作环境对应的torchvision、OpenCV、Pillow及预训练权重。
 
 ```powershell
-$env:DF_UNITS_ROOT = (Resolve-Path data/process/EXP-008-units-v2).Path
-$env:DF_RUNS_ROOT = Join-Path (Get-Location) data/results/exp008
+$env:DF_UNITS_ROOT = (Resolve-Path data/process/frozen-video-inputs/units-v2).Path
+$env:DF_RUNS_ROOT = Join-Path (Get-Location) data/results/exp001
 .\.venv\Scripts\python.exe experiments/common/video/extract_feats.py --tag unitfeats-regenerated
 ```
 
@@ -253,21 +254,21 @@ $env:DF_RUNS_ROOT = Join-Path (Get-Location) data/results/exp008
 ### ③ 运行跨场景五折
 
 ```powershell
-$env:DF_RUNS_ROOT = Join-Path (Get-Location) data/results/exp008
+$env:DF_RUNS_ROOT = Join-Path (Get-Location) data/results/exp001
 .\.venv\Scripts\python.exe experiments/common/video/train_mil.py `
-  --feats data/results/exp008/unitfeats-v2-150/unit-features.npz `
-  --clip-labels data/process/EXP-008-units-v2/clip-labels-rebuilt.npz `
+  --feats data/results/frozen-video-features/unitfeats-v2-150/unit-features.npz `
+  --clip-labels data/process/frozen-video-inputs/units-v2/clip-labels-rebuilt.npz `
   --caliber strict `
-  --folds-json data/metadata/splits/EXP-008-units-scene-folds.json `
+  --folds-json data/metadata/splits/EXP-001-units-scene-folds.json `
   --epochs 20 --lr 0.001 --seed 7 `
   --tag mil-scene-reproduction
 ```
 
-`--folds-json`不可省略，否则会使用特征文件内的场次折。新结果写入`data/results/exp008/mil-scene-reproduction/`，不覆盖参考运行。
+`--folds-json`不可省略，否则会使用特征文件内的场次折。新结果写入`data/results/exp001/mil-scene-reproduction/`，不覆盖参考运行。
 
 ### ④ 核对原始结果
 
-参考运行位于`data/results/exp008/mil-v2-150-strict-scene/`，包含五个`mil_f*.pt`、`metrics.json`和`predictions.csv`。预期选中轮次为4、7、14、9、18；逐折AUC见第6节，混淆矩阵为TP55 / FP15 / FN58 / TN22。
+参考运行位于`data/results/exp001/mil-v2-150-strict-scene/`，包含五个`mil_f*.pt`、`metrics.json`和`predictions.csv`。预期选中轮次为4、7、14、9、18；逐折AUC见第6节，混淆矩阵为TP55 / FP15 / FN58 / TN22。
 
 以下命令按原文件六位小数的精度逐视频核对，不只比较平均AUC：
 
@@ -282,7 +283,7 @@ def read(path):
                 (int(r["label"]), round(float(r["score"]), 6))
                 for r in csv.DictReader(file)}
 
-root = Path("data/results/exp008")
+root = Path("data/results/exp001")
 assert read(root / "mil-v2-150-strict-scene/predictions.csv") == read(
     root / "mil-scene-reproduction/predictions.csv")
 print("All 150 video predictions match at the stated precision.")
@@ -303,8 +304,8 @@ print("All 150 video predictions match at the stated precision.")
 | `experiments/tools/build_units_src256.py` | `run_ffmpeg`、`probe_frames` | 原视频转为256 × 256中间件，保存转码日志和时间坐标 |
 | `experiments/common/video/build_units_v2.py` | `scan_middleware`、`extract_unit_mw` | 全片质量扫描、合法槽选择、顺序解码及片段JPEG落盘 |
 | `experiments/common/video/build_units.py` | 视频索引、区间合并、`pick_slots`等 | 上述两个取材脚本的共用依赖；公开版只提取所需辅助函数，不保留旧取材main |
-| `experiments/runspecs/EXP-008/prepare_clip_mask.py` | `load_clip_arrays` | 把冻结片段CSV转成strict掩码 |
-| `experiments/runspecs/EXP-008/audit_frozen_inputs.py` | `audit_unit` | 第8节的输入核查，不执行训练 |
+| `experiments/runspecs/EXP-001/prepare_clip_mask.py` | `load_clip_arrays` | 把冻结片段CSV转成strict掩码 |
+| `experiments/runspecs/EXP-001/audit_frozen_inputs.py` | `audit_unit` | 第8节的输入核查，不执行训练 |
 
 原视频取材代码已随分支提供，但原片重建与第10节的固定数据复现是两种输入条件。取材脚本还需要原视频以及对应的三源`events.csv`区间表。本实验执行时的完整区间快照尚未找回，不用当前修改后的标注冒充。
 
@@ -313,7 +314,7 @@ print("All 150 video predictions match at the stated precision.")
 <details>
 <summary>如需要从原视频重新制作数据</summary>
 
-另行安装`experiments/runspecs/EXP-008/requirements-media.txt`中的媒体依赖。这份文件记录本地版本，不表示本次已重新安装或完成原片重建验证。
+另行安装`experiments/runspecs/EXP-001/requirements-media.txt`中的媒体依赖。这份文件记录本地版本，不表示本次已重新安装或完成原片重建验证。
 
 准备原视频于`data/raw/`，并提供对应标注文件：
 
@@ -327,8 +328,8 @@ data/process/video_frames/
 取材脚本根据索引中的`video_id`匹配原视频文件名；区间表须含`video_id, video_key, kind, start_sec, end_sec`字段。重建使用新输出目录，保留旧输入：
 
 ```powershell
-$env:DF_SRC256_ROOT = Join-Path (Get-Location) data/process/EXP-008-rebuilt-src256
-$env:DF_UNITS_ROOT = Join-Path (Get-Location) data/process/EXP-008-rebuilt-units
+$env:DF_SRC256_ROOT = Join-Path (Get-Location) data/process/EXP-001-rebuilt-src256
+$env:DF_UNITS_ROOT = Join-Path (Get-Location) data/process/EXP-001-rebuilt-units
 .\.venv\Scripts\python.exe experiments/tools/build_units_src256.py
 .\.venv\Scripts\python.exe experiments/common/video/build_units_v2.py
 ```
@@ -341,10 +342,10 @@ $env:DF_UNITS_ROOT = Join-Path (Get-Location) data/process/EXP-008-rebuilt-units
 | --- | --- |
 | [训练和损失](experiments/common/video/train_mil.py) | 原三项MIL及掩码规则 |
 | [特征提取](experiments/common/video/extract_feats.py) | 16帧到512维特征 |
-| [取样清单](data/process/EXP-008-units-v2/unit-manifest.csv) | 视频身份及48个片段的位置 |
-| [片段标注](data/process/EXP-008-units-v2/clip-labels.csv) | 冻结strict筛选元数据 |
-| [场景划分](data/metadata/splits/EXP-008-units-scene-folds.json) | 五折留出成员 |
-| [原指标](data/results/exp008/mil-v2-150-strict-scene/metrics.json) | 原运行记录 |
-| [逐视频预测](data/results/exp008/mil-v2-150-strict-scene/predictions.csv) | 指标和混淆矩阵依据 |
+| [取样清单](data/process/frozen-video-inputs/units-v2/unit-manifest.csv) | 视频身份及48个片段的位置 |
+| [片段标注](data/process/frozen-video-inputs/units-v2/clip-labels.csv) | 冻结strict筛选元数据 |
+| [场景划分](data/metadata/splits/EXP-001-units-scene-folds.json) | 五折留出成员 |
+| [原指标](data/results/exp001/mil-v2-150-strict-scene/metrics.json) | 原运行记录 |
+| [逐视频预测](data/results/exp001/mil-v2-150-strict-scene/predictions.csv) | 指标和混淆矩阵依据 |
 
 权重推理复算、单组特征重算、原视频重建和完整重新训练是不同核查范围。本次完成前两项及全部固定输入图像的技术检查，没有重新训练或改写历史输入。

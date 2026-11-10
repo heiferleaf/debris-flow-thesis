@@ -1,4 +1,4 @@
-"""Shared EXP-008 v2 input helpers; the retired v1 extraction entry is omitted.
+"""Shared EXP-001 v2 input helpers; the retired v1 extraction entry is omitted.
 The input index is adapted to this branch's frozen 150-member manifest.
 """
 
@@ -11,7 +11,7 @@ import numpy as np
 
 REPO = Path(__file__).resolve().parents[3]
 
-UNITS_ROOT = Path(os.environ.get("DF_UNITS_ROOT") or REPO / "data/process/EXP-008-units")
+UNITS_ROOT = Path(os.environ.get("DF_UNITS_ROOT") or REPO / "data/process/frozen-video-inputs/units-v2")
 
 FRAMES_ROOT = UNITS_ROOT / "frames"
 
@@ -130,7 +130,7 @@ def clean_unit_dir(unit_dir: Path):
 
 def build_video_index():
     """Read the frozen experiment membership without other experiment folders."""
-    manifest = REPO / "data/process/EXP-008-units-v2/unit-manifest.csv"
+    manifest = REPO / "data/process/frozen-video-inputs/units-v2/unit-manifest.csv"
     return {(r["source"], r["video_id"]):
             {"group_id": r["group_id"], "fold": int(r["fold"]),
              "label": int(r["label"] == "pos")}

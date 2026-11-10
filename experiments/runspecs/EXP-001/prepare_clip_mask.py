@@ -1,4 +1,8 @@
 """Rebuild the frozen, metadata-only clip mask from its published CSV."""
+import sys
+from pathlib import Path as _ArchivePath
+sys.path.insert(0, str(_ArchivePath(__file__).resolve().parents[3]))
+from experiments.common.video.artifact_paths import recorded_path
 import argparse
 import csv
 from pathlib import Path
@@ -30,9 +34,9 @@ def main():
     root = Path(__file__).resolve().parents[3]
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--output", type=Path,
-                        default=root / "data/process/EXP-008-units-v2/clip-labels-rebuilt.npz")
+                        default=recorded_path(root / "data/process/EXP-008-units-v2/clip-labels-rebuilt.npz", repo=root))
     args = parser.parse_args()
-    arrays = load_clip_arrays(root / "data/process/EXP-008-units-v2")
+    arrays = load_clip_arrays(recorded_path(root / "data/process/EXP-008-units-v2", repo=root))
     args.output.parent.mkdir(parents=True, exist_ok=True)
     with args.output.open("xb") as file:
         np.savez_compressed(file, **arrays)

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-10",
+  "entries": [
+    {
+      "legacy_id": "EXP-008",
+      "current_id": "EXP-001"
+    }
+  ],
+  "artifact_aliases": {
+    "data/process/EXP-008-units-src256": "data/process/frozen-video-inputs/units-src256",
+    "data/process/EXP-008-units-src256-hw": "data/process/frozen-video-inputs/units-src256-hw",
+    "data/process/EXP-008-units-v2": "data/process/frozen-video-inputs/units-v2",
+    "data/results/exp008/mil-v2-150-strict-scene": "data/results/exp001/mil-v2-150-strict-scene",
+    "data/results/exp008/unitfeats-v2-150": "data/results/frozen-video-features/unitfeats-v2-150",
+    "data/metadata/splits/EXP-008-units-scene-folds.json": "data/metadata/splits/EXP-001-units-scene-folds.json"
+  },
+  "scope": "EXP-001 strict-scene MIL and its input reconstruction only"
+}

@@ -40,8 +40,9 @@ from sklearn.metrics import roc_auc_score, f1_score, precision_score, recall_sco
 
 REPO = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(REPO))
+from experiments.common.video.artifact_paths import recorded_path
 from experiments.paths import resolve_path  # noqa: E402
-RUNS_ROOT = resolve_path(os.environ.get("DF_RUNS_ROOT") or REPO / "data/results/exp008")
+RUNS_ROOT = resolve_path(os.environ.get("DF_RUNS_ROOT") or recorded_path(REPO / "data/results/exp001", repo=REPO))
 SEED = 7
 LAM_T = 8e-5
 LAM_S = 8e-5

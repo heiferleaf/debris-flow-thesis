@@ -1,4 +1,4 @@
-# EXP-008
+# EXP-001 (legacy EXP-008)
 
 [Complete experiment report](../../../README.md)
 
