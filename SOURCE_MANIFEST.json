@@ -3503,9 +3503,9 @@
   },
   {
     "path": ".codex/docs/experiment-git-archive.md",
-    "source_sha256": "e084a38cfa4165a1879ce2efee6c155f829cd2688edbd3902b042ed7acf61024",
-    "export_sha256": "e084a38cfa4165a1879ce2efee6c155f829cd2688edbd3902b042ed7acf61024",
-    "bytes": 3173,
+    "source_sha256": "3214f3f17a7e136147692029181197d6cbdff55e9e99597dbcaa430a509e14bd",
+    "export_sha256": "3214f3f17a7e136147692029181197d6cbdff55e9e99597dbcaa430a509e14bd",
+    "bytes": 3466,
     "scope": "final MIL report and interval audit"
   },
   {
