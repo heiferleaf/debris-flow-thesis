@@ -1,7 +1,7 @@
 {
   "branch": "main",
   "experiment_id": null,
-  "scope": "Index and publishing conventions; no data tree",
+  "legacy_experiment_id": null,
   "allowed_paths": [
     ".codex/docs/experiment-git-archive.md",
     ".codex/docs/experiment-readme-standard.md",
@@ -16,5 +16,5 @@
     "experiments/tools/publish_archive_objects.py"
   ],
   "tree_construction": "empty Git index + complete file allowlist",
-  "local_media_or_results_modified": false
+  "scope": "index and publication rules; no experiment data"
 }

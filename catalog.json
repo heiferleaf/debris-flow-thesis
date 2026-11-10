@@ -1,7 +1,7 @@
 [
   {
-    "experiment_id": "EXP-008",
-    "branch": "codex/EXP-008",
+    "experiment_id": "EXP-001",
+    "branch": "codex/EXP-001",
     "title": "泥石流视频识别：跨场景三项MIL实验",
     "status": "Completed historical development experiment; checkpoint replay verified",
     "primary_run": "mil-v2-150-strict-scene",
@@ -15,7 +15,7 @@
       "TN": 22
     },
     "final_run_directories": [
-      "data/results/exp008/mil-v2-150-strict-scene"
+      "data/results/exp001/mil-v2-150-strict-scene"
     ],
     "checkpoint_replay_verified_runs": [
       "mil-v2-150-strict-scene"
@@ -24,6 +24,8 @@
       "validation fold selects epoch and supplies reported score",
       "one strict-retained clip has an internal PTS gap; historical input left unchanged",
       "same-scene multi-view remapping deferred at user request"
-    ]
+    ],
+    "legacy_experiment_id": "EXP-008",
+    "evaluation_adaptation": "video-max AUC; paper uses frame-based ROC/AUC"
   }
 ]

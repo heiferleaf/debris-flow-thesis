@@ -1,72 +1,92 @@
 [
   {
     "path": ".codex/docs/experiment-git-archive.md",
-    "bytes": 4886,
-    "source_sha256": "3297534d98ee1fd9e55852d2a3f683292e1a36905e7fdab446d4024515533064",
-    "export_sha256": "3297534d98ee1fd9e55852d2a3f683292e1a36905e7fdab446d4024515533064",
-    "scope": "archive-index"
+    "bytes": 4916,
+    "export_sha256": "732ecf189fa33caef76ce4d77382045025ebf52fea1c29355475a30166c1f1fe",
+    "scope": "public-index-only",
+    "adaptation": null,
+    "source_path": ".codex/docs/experiment-git-archive.md",
+    "source_sha256": "732ecf189fa33caef76ce4d77382045025ebf52fea1c29355475a30166c1f1fe"
   },
   {
     "path": ".codex/docs/experiment-readme-standard.md",
     "bytes": 3230,
-    "source_sha256": "816b05a2bfa60286edc7fe364cc014533af1a5e8f9f8c611da8165fd303fd02e",
     "export_sha256": "816b05a2bfa60286edc7fe364cc014533af1a5e8f9f8c611da8165fd303fd02e",
-    "scope": "archive-index"
+    "scope": "public-index-only",
+    "adaptation": null,
+    "source_path": ".codex/docs/experiment-readme-standard.md",
+    "source_sha256": "816b05a2bfa60286edc7fe364cc014533af1a5e8f9f8c611da8165fd303fd02e"
   },
   {
     "path": ".codex/docs/workspace-layout.md",
-    "bytes": 4259,
-    "source_sha256": "fb0f436f080223c535b7d076e9b7664e099eb7db9015ee53d994bbf9ff6fa0b5",
-    "export_sha256": "921b1f61168b6b9ed2b95d00f99cac44a20e41b5143310219d5667a0cf2c2483",
-    "scope": "archive-index"
+    "bytes": 5263,
+    "export_sha256": "120c8d655b57f167560c7c1c51098f610ecafb54fc749468d19c0df48269e6fc",
+    "scope": "public-index-only",
+    "adaptation": null,
+    "source_path": ".codex/docs/workspace-layout.md",
+    "source_sha256": "120c8d655b57f167560c7c1c51098f610ecafb54fc749468d19c0df48269e6fc"
   },
   {
     "path": ".gitattributes",
     "bytes": 9,
-    "source_sha256": null,
     "export_sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992",
-    "scope": "archive-index"
+    "scope": "public-index-only",
+    "adaptation": null,
+    "source_path": null,
+    "source_sha256": null
   },
   {
     "path": ".gitignore",
     "bytes": 99,
-    "source_sha256": null,
     "export_sha256": "bf206872718f84a5a59df974a034c18d534ffd93bf9f8c4a191101a8473f1376",
-    "scope": "archive-index"
+    "scope": "public-index-only",
+    "adaptation": null,
+    "source_path": null,
+    "source_sha256": null
   },
   {
     "path": "AGENTS.md",
     "bytes": 665,
-    "source_sha256": null,
     "export_sha256": "7674561dcd7116d8b188eccae08c58b3a491dbe599edd94ea6d731feabc584d5",
-    "scope": "archive-index"
+    "scope": "public-index-only",
+    "adaptation": null,
+    "source_path": null,
+    "source_sha256": null
   },
   {
     "path": "ARCHIVE_SCOPE.json",
-    "bytes": 579,
-    "source_sha256": null,
-    "export_sha256": "0210f27c6ad591d0cdad3f45b77a33682a7d36003f7bdf86a9b6673ad186568e",
-    "scope": "archive-index"
+    "bytes": 568,
+    "export_sha256": "baeff5b53aedd546dceb8bfcc444ab55881c4a0445b51a8cec196372affd1594",
+    "scope": "public-index-only",
+    "adaptation": null,
+    "source_path": null,
+    "source_sha256": null
   },
   {
     "path": "README.md",
-    "bytes": 426,
-    "source_sha256": null,
-    "export_sha256": "97d9fb2918cda722e0421c4e6cf617a4d1ae752c97cd397ac08c5003221606a8",
-    "scope": "archive-index"
+    "bytes": 705,
+    "export_sha256": "5b156bc531eb5bd6a7104b92bbe5dbd744bdc27a4d879e040d606323f6111c46",
+    "scope": "public-index-only",
+    "adaptation": null,
+    "source_path": null,
+    "source_sha256": null
   },
   {
     "path": "catalog.json",
-    "bytes": 1014,
-    "source_sha256": null,
-    "export_sha256": "ac731f69d337916bb879391250f0585c0a365bc2086111e9a39ed1ae211a1b92",
-    "scope": "archive-index"
+    "bytes": 1131,
+    "export_sha256": "bbc91cb69c54724ee290f8b80f19cbb577a6f78919d954bc52e89647c6b6f975",
+    "scope": "public-index-only",
+    "adaptation": null,
+    "source_path": null,
+    "source_sha256": null
   },
   {
     "path": "experiments/tools/publish_archive_objects.py",
-    "bytes": 4915,
-    "source_sha256": "565005c1c728260539439773dfe85f677301a1a02f1c89672b052f44cee3bc35",
-    "export_sha256": "565005c1c728260539439773dfe85f677301a1a02f1c89672b052f44cee3bc35",
-    "scope": "archive-index"
+    "bytes": 5012,
+    "export_sha256": "49dabba68cf147fcc96977f1abed6c0234d8ea764a4cdfad9f637b7948544509",
+    "scope": "public-index-only",
+    "adaptation": null,
+    "source_path": "experiments/tools/publish_archive_objects.py",
+    "source_sha256": "49dabba68cf147fcc96977f1abed6c0234d8ea764a4cdfad9f637b7948544509"
   }
 ]
